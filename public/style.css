@@ -1,0 +1,634 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+  --blue-color: #0264bb;
+  --red-color: #c5343a;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  font-size: 16px;
+  color: var(--blue-color);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+small {
+  font-size: 12px;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+/* Change link custom default color to inherit */
+.link-custom {
+  text-decoration: none;
+  color: inherit;
+  font-size: 20px;
+}
+/* added blue color on active state on 3 tabs items index header */
+[type="button"]:not(:disabled):hover .link-custom,
+.active .link-custom {
+  color: var(--blue-color);
+}
+
+.form-select {
+  color: #6c757d;
+  font-size: 25px;
+}
+
+.form-control {
+  color: #6c757d;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image-responsive {
+  width: 50px;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--blue-color);
+}
+
+section.bg-body-tertiary .card {
+  width: 90px;
+  height: 90px;
+}
+/* added blue 3 tabs items border color on active state */
+.card-hover-round:hover,
+.active .card-hover-round {
+  border-color: var(--blue-color);
+  color: var(--blue-color);
+  border-width: 2px;
+}
+
+.card-hover-square:hover {
+  border-color: var(--blue-color);
+  color: #0d6efd;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+} */
+
+.text-blue {
+  color: var(--blue-color);
+}
+
+.bg-blue {
+  background-color: var(--blue-color);
+}
+
+.border-blue {
+  border: 2px solid var(--blue-color);
+}
+
+.text-red {
+  color: var(--red-color);
+}
+
+.bg-red {
+  background-color: var(--red-color);
+}
+
+.border-red {
+  border: 3px solid var(--red-color);
+}
+
+.btn-danger,
+.btn-danger:focus,
+.btn-danger:active {
+  background-color: var(--red-color);
+  border-color: var(--red-color);
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--blue-color) !important;
+  border-color: var(--blue-color) !important;
+}
+
+.text-primary {
+  color: var(--blue-color) !important;
+}
+
+.fs-7 {
+  font-size: 18px;
+}
+
+.fs-8 {
+  font-size: 16px;
+}
+
+.fs-9 {
+  font-size: 14px;
+}
+
+.transition {
+  transition: all 0.1s ease-in-out;
+}
+
+.navbar-nav li.nav-item a.nav-link:hover {
+  color: var(--blue-color);
+}
+
+.logo-responsive {
+  width: 225px;
+}
+
+.badge-lg {
+  margin-left: 90px;
+}
+
+.social-icons svg {
+  margin-right: 20px;
+}
+
+.text-white.fs-7.social-icons a {
+  text-decoration: none;
+}
+/* Overwrite border on the quote section */
+@media (max-width: 991.98px) {
+  .xs-border-end-1 {
+    border-right: 1px solid #dee2e6 !important;
+  }
+  .xs-border-end-0 {
+    border-width: 0 !important;
+  }
+  .xs-border-0 {
+    border: 0 !important;
+  }
+}
+
+/* CSS Tooltip style for comming soon tab */
+.css-tooltip .tooltiptext {
+  width: 103px;
+  background-color: #1a73c1;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+}
+
+.css-tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1a73c1 transparent transparent transparent;
+}
+
+.mt-n4 {
+    margin-top: -4rem !important;
+  }
+  .mt-n3 {
+    margin-top: -3rem !important;
+  }
+  .section-providers {
+    margin-top: 40px;
+  }
+  .providers-i {
+    font-size: 25px;
+  }
+  .image-width {
+    width: 50px;
+  }
+
+/* === Responsive Designs === */
+
+@media (max-width: 768px) {
+  .insurance-responsive {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .card-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+  }
+  .card {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .fs-7 {
+    font-size: 16px;
+  }
+  .fs-8 {
+    font-size: 14px;
+  }
+  .fs-9 {
+    font-size: 12px;
+  }
+  .gap-3 {
+    gap: 10px;
+  }
+  .gap-lg-5 {
+    gap: 20px;
+  }
+  .link-custom {
+    font-size: 18px;
+  }
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+  .image-responsive {
+    width: 40px;
+  }
+  .d-flex.flex-wrap {
+    flex-wrap: wrap;
+  }
+  .text-lg-end {
+    text-align: right;
+  }
+  .copy-padding {
+    margin-right: 50px;
+  }
+  .form-select {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  .form-control::placeholder {
+    color: #6c757d;
+    font-size: 18px;
+  }
+  .row-medium-responsive {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .badge-md {
+    margin-left: 77px;
+  }
+  .svg-medium {
+    width: 34px;
+    height: 34px;
+  }
+  .medium-text {
+    font-size: 9px;
+  }
+  .button-medium-red {
+    font-size: 16px;
+    background-color: #c5343a;
+    padding: 8px 16px;
+  }
+  .button-medium-green {
+    font-size: 16px;
+    background-color: #198754;
+    padding: 8px 16px;
+  }
+  .button-medium-blue {
+    font-size: 20px;
+    background-color: #0264BB;
+    padding: 7.5px 15px;
+    margin-left: 0px !important;
+  }
+  .mt-n3 {
+    margin-top: 0rem !important;
+  }
+  .mt-n4 {
+    margin-top: 0rem !important;
+  }
+  .providers-i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-responsive {
+    width: 200px;
+  }
+  .insurance-responsive {
+    text-align: center;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 12px;
+  }
+  .link-custom {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .fs-7 {
+    font-size: 14px;
+  }
+  .fs-8 {
+    font-size: 12px;
+  }
+  .fs-9 {
+    font-size: 10px;
+  }
+  .responsive-footer-small {
+    width: 197px;
+  }
+  .responsive-width {
+    width: 197px;
+  }
+  .text-center-small {
+    text-align: center;
+  }
+  .copy {
+    display: inline-flex;
+  }
+  .copy-padding {
+    margin-right: 50px;
+  }
+  .padding-small {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+  }
+  .card-width-small {
+    width: 2rem;
+    height: 2rem;
+  }
+  .card {
+    width: 75px;
+    height: 75px;
+  }
+  .image-responsive {
+    width: 35px;
+  }
+  .form-select {
+    color: #6c757d;
+    font-size: 16px;
+  }
+  .form-control::placeholder {
+    color: #6c757d;
+    font-size: 16px;
+  }
+  .button-small-red {
+    font-size: 14px;
+    background-color: #c5343a;
+    padding: 6px 14px;
+  }
+  .button-small-green {
+    font-size: 14px;
+    background-color: #198754;
+    padding: 6px 14px;
+  }
+  .responsive-icons-small {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+  }
+  .badge-sm {
+    margin-left: 70.5px;
+  }
+  .small-text {
+    font-size: 8px;
+  }
+  .svg-small {
+    width: 30px;
+    height: 30px;
+  }
+  .social-icons svg {
+    margin-right: 20px;
+  }
+  .text-white.fs-7.social-icons a {
+    text-decoration: none;
+  }
+  .container-small-responsive {
+    margin-right: 20px;
+  }
+  .card-width-small {
+    width: 110px;
+  }
+  .image-width-small {
+    width: 50px;
+  }
+  .providers-i {
+    font-size: 18px;
+  }
+  .mb-sm-50 {
+    margin-bottom: 35px;
+    margin-top: -30px;
+  }
+  .py-sm-20 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .responsive-links {
+    margin-left: 20px;
+  }
+  .responsive-footer {
+    padding-left: 20px;
+  }
+  .responsive-card {
+    margin-top: 50px;
+  }
+  .button-hidden {
+    display: none;
+  }
+  .border-end-hide {
+    border: 0px solid !important;
+  }
+}
+
+@media (max-width: 1397px) {
+  .border-end-hide {
+    border: 0px solid !important;
+  }
+}
+
+/* added smooth animation on toggle dropdown header menu */
+.navbar .dropdown-menu {
+  padding: 1rem;
+  animation: fade-in 0.3s ease forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .has-megamenu {
+    position: static !important;
+    padding-bottom: 6px;
+  }
+  .navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 100%;
+  }
+  .dropdown-menu.dropdown-menu-lg-end {
+        margin-left: -15px;
+    }
+}
+/* ============ desktop view ========== */
+
+/* ============ mobile view ============ */
+@media (max-width: 991px) {
+  .navbar.fixed-top .navbar-collapse,
+  .navbar.sticky-top .navbar-collapse {
+    overflow-y: auto;
+    max-height: 90vh;
+    margin-top: 10px;
+  }
+  .navbar .has-megamenu {
+    position: static !important;
+  }
+  .xs-bg-transparent{
+    background: transparent!important;
+  }
+}
+/* =========== mobile view end ========= */
+
+@media (max-width: 320px) {
+    .testimonials-card-small {
+      width: 14rem;
+    }
+    .logo-responsive {
+      width: 165px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 14px;
+    }
+    h6 {
+      font-size: 12px;
+    }
+    .fs-8 {
+      font-size: 9px;
+    }
+    .fs-4 {
+      font-size: 16px !important;
+    }
+    p {
+      font-size: 9px;
+    }
+    a {
+      font-size: 9px;
+    }
+    small {
+      font-size: 8px;
+    }
+    .responsive-width-smaller {
+      width: 145px;
+      }
+    .responsive-footer-smaller {
+      width: 140px;
+      }
+    .social-icons svg {
+      width: 22px;
+      height: 22px;
+      font-size: 9px;
+    }
+    .card-width-smaller {
+      width: 125px;
+      height: 125px;
+    }
+    .card-res-smaller {
+      width: 3rem !important;
+      height: 3rem !important;
+      margin-right: 8px;
+    }
+  }
