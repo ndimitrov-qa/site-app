@@ -98,6 +98,12 @@ section.bg-body-tertiary .card {
   width: 90px;
   height: 90px;
 }
+
+.card-width {
+    width: 7rem;
+    height: 7rem;
+  }
+
 /* added blue 3 tabs items border color on active state */
 .card-hover-round:hover,
 .active .card-hover-round {
@@ -205,7 +211,7 @@ section.bg-body-tertiary .card {
   }
 }
 
-/* CSS Tooltip style for comming soon tab */
+/* CSS Tooltip style for coming soon tab */
 .css-tooltip .tooltiptext {
   width: 103px;
   background-color: #1a73c1;
@@ -232,7 +238,10 @@ section.bg-body-tertiary .card {
   border-color: #1a73c1 transparent transparent transparent;
 }
 
-.mt-n4 {
+  .testimonials-card {
+   width: 20rem;
+  }
+  .mt-n4 {
     margin-top: -4rem !important;
   }
   .mt-n3 {
@@ -263,8 +272,8 @@ section.bg-body-tertiary .card {
     justify-items: center;
   }
   .card {
-    width: 7rem;
-    height: 7rem;
+    width: 7;
+    height: 7;
   }
 
   h1 {
@@ -304,8 +313,8 @@ section.bg-body-tertiary .card {
     font-size: 18px;
   }
   .card {
-    width: 80px;
-    height: 80px;
+    width: 80;
+    height: 80;
   }
   .image-responsive {
     width: 40px;
@@ -369,6 +378,12 @@ section.bg-body-tertiary .card {
 }
 
 @media (max-width: 576px) {
+  .testimonials-card-small {
+    width: 18rem;
+  }
+  .custom-card-small {
+    width: 6rem;
+  }
   .logo-responsive {
     width: 200px;
   }
@@ -433,12 +448,16 @@ section.bg-body-tertiary .card {
     margin-bottom: 2.5px;
   }
   .card-width-small {
-    width: 2rem;
-    height: 2rem;
+    width: 6rem;
+    height: 6rem;
   }
-  .card {
-    width: 75px;
-    height: 75px;
+  .image-width-small {
+    width: 25px;
+  }
+  .card-res-small {
+    width: 4rem !important;
+    height: 4rem !important;
+    margin-right: 6px;
   }
   .image-responsive {
     width: 35px;
@@ -492,6 +511,11 @@ section.bg-body-tertiary .card {
   .image-width-small {
     width: 50px;
   }
+  .card-res-small {
+    width: 4rem !important;
+    height: 4rem !important;
+    margin-right: 6px;
+  }
   .providers-i {
     font-size: 18px;
   }
@@ -502,6 +526,9 @@ section.bg-body-tertiary .card {
   .py-sm-20 {
     padding-top: 25px;
     padding-bottom: 20px;
+  }
+  .h2-sm-22 {
+    font-size: 22px !important;
   }
 }
 
@@ -520,6 +547,9 @@ section.bg-body-tertiary .card {
   }
   .border-end-hide {
     border: 0px solid !important;
+  }
+  .h2-md-24 {
+    font-size: 24px !important;
   }
 }
 
@@ -630,5 +660,8 @@ section.bg-body-tertiary .card {
       width: 3rem !important;
       height: 3rem !important;
       margin-right: 8px;
+    }
+    .h2-smaller-14 {
+      font-size: 14px !important;
     }
   }

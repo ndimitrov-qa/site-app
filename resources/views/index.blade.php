@@ -16,7 +16,7 @@
   <div class="container-lg">
     <nav class="navbar navbar-expand-lg pb-md-0">
       <div class="container-fluid ps-0 ms-0">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
           <img src="img/btq-web-logo.png" alt="Logo of Beat That Quotes" class="logo-responsive">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -27,19 +27,19 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
-              <div class="dropdown-menu megamenu transition rounded-0" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li><a href="fleet.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
+                        <li><a href="/fleet-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
                             Insurance</a></li>
-                        <li class="py-2"><a href="hgv.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="truck.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -49,15 +49,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -66,15 +66,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
                             Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2 link-offset-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i
+                        <li><a href="/van-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2 link-offset-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -83,15 +83,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="business.html" class="link-offset-2"><i
+                        <li><a href="/business-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="public.html" class="link-offset-2"><i
+                        <li class="py-2 link-offset-2"><a href="/public-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="tradesman.html" class="link-offset-2"><i
+                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="shop.html" class="link-offset-2"><i
+                        <li class="py-2 link-offset-2"><a href="/shop-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="business.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -100,15 +100,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="gadjet.html" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadjet Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="pet.html" class="link-offset-2"><i
+                        <li><a href="/gadget-insurance" class="link-offset-2"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
+                        <li class="py-2 link-offset-2"><a href="/pet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="health.html" class="link-offset-2"><i
+                        <li><a href="/health-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2 link-offset-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="lifestyle.html"><i
+                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -121,19 +121,19 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
-              <div class="dropdown-menu megamenu transition rounded-0" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="hgv.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="truck.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -143,15 +143,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -160,15 +160,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li class="fs-9"><a href="car.html" class="link-offset-2"><i
+                        <li class="fs-9"><a href="/car-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Home Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i
+                        <li><a href="/van-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -177,15 +177,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="business.html" class="link-offset-2"><i
+                        <li><a href="/business-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="public.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="tradesman.html" class="link-offset-2"><i
+                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="shop.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="business.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -194,15 +194,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="gadjet.html" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadjet Insurance</a></li>
-                        <li class="py-2"><a href="pet.html" class="link-offset-2"><i
+                        <li><a href="/gadget-insurance" class="link-offset-2"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
+                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="health.html" class="link-offset-2"><i
+                        <li><a href="/health-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="lifestyle.html"><i
+                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -215,19 +215,19 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
-              <div class="dropdown-menu megamenu transition rounded-0" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="hgv.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="truck.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -237,15 +237,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -254,15 +254,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i
+                        <li><a href="/van-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -271,15 +271,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="business.html" class="link-offset-2"><i
+                        <li><a href="/business-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="public.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="tradesman.html" class="link-offset-2"><i
+                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="shop.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="business.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -288,15 +288,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="gadjet.html" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadjet Insurance</a></li>
-                        <li class="py-2"><a href="pet.html" class="link-offset-2"><i
+                        <li><a href="/gadget-insurance" class="link-offset-2"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
+                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="health.html" class="link-offset-2"><i
+                        <li><a href="/health-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="lifestyle.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -309,19 +309,19 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
-              <div class="dropdown-menu megamenu transition rounded-0" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="hgv.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="truck.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -331,15 +331,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -348,15 +348,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="car.html" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
+                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
                             Insurance</a></li>
-                        <li class="py-2"><a href="fleet.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="van.html" class="link-offset-2"><i
+                        <li><a href="/van-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="motorbike.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="motoring.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -365,15 +365,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="business.html" class="link-offset-2"><i
+                        <li><a href="/business-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="public.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="tradesman.html" class="link-offset-2"><i
+                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="shop.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="business.html"><i
+                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -382,15 +382,15 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="gadjet.html" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadjet Insurance</a></li>
-                        <li class="py-2"><a href="pet.html" class="link-offset-2"><i
+                        <li><a href="/gadget-insurance" class="link-offset-2"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
+                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="health.html" class="link-offset-2"><i
+                        <li><a href="/health-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="travel.html" class="link-offset-2"><i
+                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="lifestyle.html"><i
+                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -410,7 +410,7 @@
                   style="width: 40px;"><!-- change width 45px to 40px -->
               </a>
 
-              <div class="dropdown-menu dropdown-menu-lg-end rounded-0" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
+              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   We're working on <br>translating the site<br>into more languages.</a>
                 </div>
@@ -423,7 +423,7 @@
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle border border-1 border-tertiary fw-bolder ps-lg-3 fs-8 border-end-hide"
                 href="#"><span class="pe-lg-3">Questions?</span></a>
-              <div class="dropdown-menu rounded-0" role="menu" style="top: 100%; min-width: 190px;">
+              <div class="dropdown-menu rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   <ul class="list-unstyled">
                     <li class="fw-bold">
@@ -460,11 +460,11 @@
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
       <!-- tab list start -->
-      <div class="d-flex gap-3" style="margin-top: 40px;" role="tablist">
+      <div class="d-flex gap-sm-3" style="margin-top: 40px;" role="tablist">
         <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
           type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round">
+            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
 
             <img src="BTQ - Type Icons/icon-type-fleet.png" alt="Fleet icon" class="img-fluid image-responsive">
 
@@ -474,7 +474,7 @@
         <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
           role="tab" aria-controls="pills-hgv" aria-selected="false">
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round">
+            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
 
             <img src="BTQ - Type Icons/icon-type-lorry.png" alt="HGV icon" class="img-fluid image-responsive">
 
@@ -483,7 +483,7 @@
         </div>
         <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
           role="tab" aria-controls="pills-truck" aria-selected="false">
-          <div class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round">
+          <div class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
 
             <img src="BTQ - Type Icons/icon-type-truck.png" alt="Truck icon" class="img-fluid image-responsive">
 
@@ -494,7 +494,7 @@
         <div class="text-center">
           <!-- Add custom css tooltip -->
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip">
+            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller">
             <img src="BTQ - Type Icons/icon-type-more.png" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
@@ -544,7 +544,6 @@
                   </div>
                 </div>
 
-                <!-- <div class="vr text-end"></div> -->
 
                 <div class="col-lg-auto text-end button-hidden">
                   <button class="btn btn-danger btn" type="submit" style="font-size: 25px;">Quote
@@ -559,7 +558,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="img/icon-greenshield.png" alt="image of a greenshield">
-                <small>
+                <small class="fs-7">
                   Your data is 100% safe
                 </small>
               </div>
@@ -567,8 +566,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small>I agree to the <span class="text-blue">Privacy Policy</span> and <span class="text-blue">Terms
-                      & Conditions</span></small>
+                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
                 <div>
@@ -596,7 +594,7 @@
               <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
                 Fleet</label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
-                <option selected disabled value="" class="form-custom">Type of vehicles</option>
+                <option selected disabled value="" class="form-custom">Type Of HGV</option>
                 <option>Breakdown</option>
                 <option>Recovery</option>
               </select>
@@ -636,7 +634,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="img/icon-greenshield.png" alt="image of a greenshield">
-                <small>
+                <small class="fs-7">
                   Your data is 100% safe
                 </small>
               </div>
@@ -644,8 +642,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small>I agree to the <span class="text-blue">Privacy Policy</span> and <span class="text-blue">Terms
-                      & Conditions</span></small>
+                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
                 <div>
@@ -673,7 +670,7 @@
               <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
                 Fleet</label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
-                <option selected disabled value="" class="form-custom">Type of vehicles</option>
+                <option selected disabled value="" class="form-custom">Type Of Truck</option>
                 <option>Horsebox</option>
                 <option>Horse Lorry</option>
               </select>
@@ -698,7 +695,6 @@
                   </div>
                 </div>
 
-                <!-- <div class="vr text-end"></div> -->
 
                 <div class="col-lg-auto text-end button-hidden">
                   <button class="btn btn-danger btn" type="submit" style="font-size: 25px;">Quote
@@ -713,7 +709,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="img/icon-greenshield.png" alt="image of a greenshield">
-                <small>
+                <small class="fs-7">
                   Your data is 100% safe
                 </small>
               </div>
@@ -721,8 +717,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small>I agree to the <span class="text-blue">Privacy Policy</span> and <span class="text-blue">Terms
-                      & Conditions</span></small>
+                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
                 <div>
@@ -762,7 +757,7 @@
   <!-- Cards Icons Starts -->
   <section class="my-5">
     <div class="container-lg">
-      <h2 class="text-lg-center mb-5">
+      <h2 class="text-lg-center mb-sm-5 mb-sm-50 h2-md-24 h2-sm-22 h2-smaller-14" style="font-size: 36px;">
         Lets help you <span class="text-red">Beat</span> <span class="text-blue">That Quotes</span>
       </h2>
       <ul class="nav nav-tabs mb-2" id="myTab" role="tablist">
@@ -785,46 +780,46 @@
 
           <div class="card-body d-flex flex-wrap justify-content-sm-between">
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="fleet.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-fleet.png" alt="Fleet icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/fleet-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-fleet.png" alt="Fleet icon" class="img-fluid mx-auto d-block image-width"
+                  >
                 <div class="mt-2">
                   Fleet
                 </div>
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
                 style="margin-left:34px;">POPULAR</span>
-              <a href="hgv.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-lorry.png" alt="HGV icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              <a href="/hgv-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-lorry.png" alt="HGV icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   HGV
                 </div>
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="truck.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-truck.png" alt="Truck icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/truck-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-truck.png" alt="Truck icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Truck
                 </div>
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="car.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-car.png" alt="Car icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/car-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-car.png" alt="Car icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Car
                 </div>
@@ -832,33 +827,33 @@
             </div>
 
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="van.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-van.png" alt="Van icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/van-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-van.png" alt="Van icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Van
                 </div>
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
               <span
                 class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9">NEW</span>
-              <a href="breakdown.html" class="link">
+              <a href="/breakdown-insurance" class="link">
                 <img src="BTQ - Type Icons/icon-type-breakdown.png" alt="Breakdown icon"
-                  class="img-fluid mx-auto d-block" style="width: 50px;">
+                  class="img-fluid mx-auto d-block image-width">
                 <div class="mt-2">
                   Breakdown
                 </div>
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="motorbike.html" class="link">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/motorbike-insurance" class="link">
                 <img src="BTQ - Type Icons/icon-type-motorbike.png" alt="Motorbike icon"
                   class="img-fluid mx-auto d-block" style="width: 50px;">
                 <div class="mt-2">
@@ -867,9 +862,9 @@
               </a>
             </div>
             <div
-              class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small card-width-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="car.html" class="link">
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/car-insurance" class="link">
                 <img src="BTQ - Type Icons/icon-type-car.png" alt="Car icon" class="img-fluid mx-auto d-block"
                   style="width: 50px;">
                 <div class="mt-2">
@@ -901,83 +896,83 @@
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
           tabindex="0">
           <div class="card-body d-flex flex-wrap justify-content-sm-between">
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="gadjet.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="Gadjet icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/gadget-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
-                  Gadjet
+                  Gadget
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="pet.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-pet.png" alt="Pet icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/pet-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-pet.png" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Pet
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="caravan.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-caravan.png" alt="Caravan icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/caravan-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-caravan.png" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Caravan
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
                 style="margin-left: 34px;">POPULAR</span>
-              <a href="plane.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-plane.png" alt="Plane icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+              <a href="/travel-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-plane.png" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Travel
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="health.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-health.png" alt="Health icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/health-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-health.png" alt="Health icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Health
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="bicycle.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-bicycle.png" alt="Bicycle icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/bicycle-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-bicycle.png" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Bicycle
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="golf.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-golf.png" alt="Golf icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/golf-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-golf.png" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
+                >
                 <div class="mt-2">
                   Golf
                 </div>
               </a>
             </div>
-            <div class="card shadow mt-sm-3 text-center pt-4 card-hover-square transition padding-small"
-              style="width: 7rem; height: 7rem;">
-              <a href="over-50.html" class="link">
-                <img src="BTQ - Type Icons/icon-type-car.png" alt="Over 50 icon"
-                  class="img-fluid mx-auto d-block card-hover-square" style="width: 50px;">
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/over-50s-insurance" class="link">
+                <img src="BTQ - Type Icons/icon-type-car.png" alt="Over 50s icon"
+                  class="img-fluid mx-auto d-block card-hover-square image-width">
                 <div class="mt-2">
                   Over 50's
                 </div>
@@ -991,9 +986,9 @@
   <!-- Cards Icons Ends -->
 
   <!-- Testimonials Starts -->
-  <section class="bg-body-secondary py-5 mb-lg-5">
+  <section class="bg-body-secondary py-sm-5 py-sm-20 mb-lg-5">
     <div class="container-lg">
-      <div class="text-sm-center">
+      <div class="text-sm-center text-res-smaller">
         <h2 class="fw-bold fs-4" style="font-size:px;">Don't take our word for it</h2>
         <p class="mb-xl-0">
           Here's what people are saying about us
@@ -1001,8 +996,7 @@
       </div>
     </div>
     <div class="container-lg d-sm-flex justify-content-center justify-content-sm-between position-relative open-sans">
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3"
-        style="width: 20rem;">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-2 border-secondary-subtle mb-3 testimonials-card testimonials-card-small">
         <div class="d-sm-flex flex-wrap text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -1018,7 +1012,7 @@
         </div>
       </div>
       <div
-        class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-1 border-secondary-subtle d-none d-xl-block responsive-padding"
+        class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-1 border-secondary-subtle d-none d-xl-block responsive-padding testimonials-card"
         style="width: 20rem;">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
@@ -1034,8 +1028,7 @@
           <p class="fw-bold fs-8 responsive-text-small">Glen Hughes</p>
         </div>
       </div>
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3"
-        style="width: 20rem;">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3 testimonials-card testimonials-card-small">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -1109,36 +1102,36 @@
 
     <div class="container-lg ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="fleet.html" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="hgv.html" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="truck.html" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="lorry.html" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
+            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="car.html" class="link-offset-2">Cheap Car Insurance</a></li>
-            <li class="py-2"><a href="home.html" class="link-offset-2">Cheap Home Insurance</a></li>
-            <li><a href="van.html" class="link-offset-2">Cheap Van Insurance</a></li>
-            <li class="py-2"><a href="motorbike.html" class="link-offset-2">Cheap Motorbike Insurance</a></li>
+            <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
+            <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
+            <li><a href="/van-insurance" class="link-offset-2">Cheap Van Insurance</a></li>
+            <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="breakdown.html" class="link-offset-2">Cheap Breakdown Insurance</a></li>
-            <li class="py-2"><a href="gadjet.html" class="link-offset-2">Cheap Gadjet Insurance</a></li>
-            <li><a href="pet.html" class="link-offset-2">Cheap Pet Insurance</a></li>
-            <li class="py-2"><a href="caravan.html" class="link-offset-2">Cheap Caravan Insurance</a></li>
+            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
+            <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="travel.html" class="link-offset-2">Cheap Travel Insurance</a></li>
-            <li class="py-2"><a href="health.html" class="link-offset-2">Cheap Health Insurance</a></li>
-            <li><a href="golf.html" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2 &nbsp"><a href="over-50.html" class="link-offset-2">Cheap Over 50's Insurance</a></li>
+            <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
+            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
         </div>
       </div>
@@ -1156,20 +1149,20 @@
           <p class="text-secondary fs-8">Beat The Quotes is a trading name of Nova Connect (UK) Limited. Registered
             office: 3 Redwing Court Business Centre, Ashton Road, Romford, Essex, RM3 8QQ. </p>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small">
+        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small responsive-footer-smaller">
           <ul class="list-unstyled">
-            <p><a href="useful-links.html" class="link text-secondary fw-medium">Useful Links</a></p>
-            <li><a href="about-us.html" class="link">About Us</a></li>
-            <li class="py-2"><a href="affiliate-program.html" class="link">Affiliate Program</a></li>
-            <li><a href="contact-us.html" class="link">Contact Us</a></li>
+            <p><a href="#" class="link text-secondary fw-medium pe-none">Useful Links</a></p>
+            <li><a href="/about-us" class="link">About Us</a></li>
+            <li class="py-2"><a href="/affiliate-program" class="link">Affiliate Program</a></li>
+            <li><a href="/contact-us" class="link">Contact Us</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small">
+        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small responsive-footer-smaller">
           <ul class="list-unstyled">
-            <p><a href="terms-legals.html" class="link text-secondary fw-medium">Terms & Legals</a></p>
-            <li><a href="terms-onditions.html" class="link">Terms & Conditions</a></li>
-            <li class="py-2"><a href="privacy-policy.html" class="link">Privacy Policy</a></li>
-            <li><a href="marketing-preferences.html" class="link">Marketing Preferences</a></li>
+            <p><a href="#" class="link text-secondary fw-medium pe-none">Terms & Legals</a></p>
+            <li><a href="/terms-and-conditions" class="link">Terms & Conditions</a></li>
+            <li class="py-2"><a href="/privacy-policy" class="link">Privacy Policy</a></li>
+            <li><a href="/marketing-preferences" class="link">Marketing Preferences</a></li>
           </ul>
         </div>
       </div>
@@ -1182,7 +1175,7 @@
 
     <div class="container-lg d-md-flex justify-content-between align-items-end pt-sm-4 ps-0">
       <div class="text-center-small">
-        <a href="index.html">
+        <a href="/">
           <img src="img/btq-web-logo.png" alt="Logo of Beat That Quotes" class="img-fluid pb-3 logo-responsive">
         </a>
       </div>
