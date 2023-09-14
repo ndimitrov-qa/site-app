@@ -19,7 +19,7 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li><a href="/fleet-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
+                        <li><a href="/" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
                             Insurance</a></li>
                         <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>

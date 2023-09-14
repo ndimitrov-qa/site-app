@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/live', function () {
-    return view('index');
+    return view('home');
 });
 
 Route::get('/content', function () {
@@ -27,4 +27,8 @@ Route::get('/content', function () {
 
 Route::get('/panel-provider', function () {
     return view('pages/panel-provider');
+});
+
+Route::get('/hgv-insurance', function () {
+    return view('pages/hgv-insurance');
 });

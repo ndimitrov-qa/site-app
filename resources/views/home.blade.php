@@ -1,473 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.default')
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Beat That Quotes</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="{{ asset('BTQ - Type icons/icon-type-car.png') }}" type="image/x-icon">
-  <link rel="shortcut icon" href="{{ asset('BTQ - Type icons/icon-type-car.png') }}" type="image/x-icon">
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <!-- Styles -->
-  <link rel="stylesheet" href="{{ ('style.css') }}">
-</head>
-
-<body>
-  <!-- Navbar Starts -->
-  <div class="container-lg">
-    <nav class="navbar navbar-expand-lg pb-md-0">
-      <div class="container-fluid ps-0 ms-0">
-        <a class="navbar-brand" href="/">
-          <img src="{{ asset('img/btq-web-logo.png') }}" alt="Logo of Beat That Quotes" class="logo-responsive">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-md-end gap-xxl-3" id="main_nav">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
-                <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
-                      <h6 class="title fw-bold pb-2">What's popular</h6>
-                      <ul class="list-unstyled transition">
-                        <li><a href="/fleet-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Motoring</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Property</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
-                            Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Business</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/public-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/shop-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Lifestyle</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/pet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2 link-offset-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
-                <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
-                      <h6 class="title fw-bold pb-2">What's popular</h6>
-                      <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Motoring</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Property</h6>
-                      <ul class="list-unstyled">
-                        <li class="fs-9"><a href="/car-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Home Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Business</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Lifestyle</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
-                <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
-                      <h6 class="title fw-bold pb-2">What's popular</h6>
-                      <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Motoring</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Property</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Business</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Lifestyle</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
-                <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
-                      <h6 class="title fw-bold pb-2">What's popular</h6>
-                      <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li class="py-2"><a href="/hgv-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Truck
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Motoring</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Car
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Van
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Property</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="link-offset-2"><i class="bi bi-caret-right-fill pe-2"></i>Home
-                            Insurance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 border-end border-end-hide border-lg-0">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Business</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li class="py-2"><a href="/public-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li class="py-2"><a href="/shop-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold link-offset-2" href="/business-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                    <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Lifestyle</h6>
-                      <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li class="py-2"><a href="/pet-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="link-offset-2"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold link-offset-2" href="/lifestyle-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <div class="vr d-none d-lg-block" style="margin-bottom:6px;"></div>
-          <!-- remove margin-top value or vr -->
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu" style="padding-bottom: 6px;">
-              <a class="nav-link dropdown-toggle text-body-tertiary me-3 fs-8 transition" href="#">English
-                <img src="{{ asset ('img/uk.png') }}" alt="uk flag" class="img-fluid ps-xl-2 pe-xl-1 d-none d-xl-inline"
-                  style="width: 40px;"><!-- change width 45px to 40px -->
-              </a>
-
-              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
-                <div class="fs-9 d-flex justify-content-center align-content-center py-2">
-                  We're working on <br>translating the site<br>into more languages.</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle border border-1 border-tertiary fw-bolder ps-lg-3 fs-8 border-end-hide"
-                href="#"><span class="pe-lg-3">Questions?</span></a>
-              <div class="dropdown-menu rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;">
-                <div class="fs-9 d-flex justify-content-center align-content-center py-2">
-                  <ul class="list-unstyled">
-                    <li class="fw-bold">
-                      Contact number:
-                    </li>
-                    <li>
-                      00 11 22 33 44
-                    </li>
-                    <li class="fw-bold">
-                      Email:
-                    </li>
-                    <li>
-                      sample@email.com
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-
-        </div>
-      </div>
-    </nav>
-  </div>
-  <!-- Navbar Ends -->
-
+  @section('content')
   <!-- Hero Section -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg pt-4">
+    <div class="container-lg" style="padding-top: 3.5em;">
       <div>
-        <h1 class="fw-bolder">Let's beat your insurance quote</h1>
+        <h1 style="font-size: 38px;">Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
       <!-- tab list start -->
-      <div class="d-flex gap-sm-3" style="margin-top: 40px;" role="tablist">
+      <div class="d-flex gap-sm-4" style="margin-top: 50px;" role="tablist">
         <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
           type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
           <div
@@ -562,7 +105,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -638,7 +181,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -713,7 +256,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-2 bg-white xs-bg-transparent">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset ('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -750,8 +293,8 @@
     </div>
 
     </div>
-    <div class="">
-      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block">
+    <div class="mt-n4">
+      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="height: 165px;">
     </div>
     <div class="position-relative z-1">
       <img src="{{ asset ('img/hero.png') }}" alt="image of a woman"
@@ -1053,9 +596,8 @@
     </div>
   </section>
   <!-- Testimonials Ends -->
-
   <!-- Compare Paragraph Starts -->
-  <section class="pt-lg-5 pb-lg-4">
+<section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
       <h2 class="text-blue">Compare Insurance Heading</h2>
       <h6>Sub heading for content example</h6>
@@ -1145,64 +687,4 @@
   </section>
   <!-- Compare Paragraph Ends-->
 
-  <!-- Footer Starts -->
-  <section class="bg-body-tertiary pt-4 responsive-footer">
-    <div class="container-lg">
-      <div class="row d-flex-row">
-        <div class="col-lg-6 col-md-12 col-sm-12 open-sans pe-lg-5 ps-0">
-          <p class="text-secondary fs-8">Beat That Quotes offers a range of business focused insurances, products and
-            services related comparison services. From car insurance to merchant accounts, from home emergency cover to
-            water coolers. </p>
-          <p class="text-secondary fs-8">Beat The Quotes is a trading name of Nova Connect (UK) Limited. Registered
-            office: 3 Redwing Court Business Centre, Ashton Road, Romford, Essex, RM3 8QQ. </p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small responsive-footer-smaller">
-          <ul class="list-unstyled">
-            <p><a href="#" class="link text-secondary fw-medium pe-none">Useful Links</a></p>
-            <li><a href="/about-us" class="link">About Us</a></li>
-            <li class="py-2"><a href="/affiliate-program" class="link">Affiliate Program</a></li>
-            <li><a href="/contact-us" class="link">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small responsive-footer-smaller">
-          <ul class="list-unstyled">
-            <p><a href="#" class="link text-secondary fw-medium pe-none">Terms & Legals</a></p>
-            <li><a href="/terms-and-conditions" class="link">Terms & Conditions</a></li>
-            <li class="py-2"><a href="/privacy-policy" class="link">Privacy Policy</a></li>
-            <li><a href="/marketing-preferences" class="link">Marketing Preferences</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container-lg ps-0">
-      <hr>
-    </div>
-
-    <div class="container-lg d-md-flex justify-content-between align-items-end pt-sm-4 ps-0">
-      <div class="text-center-small">
-        <a href="/">
-          <img src="{{ asset ('img/btq-web-logo.png') }}" alt="Logo of Beat That Quotes" class="img-fluid pb-3 logo-responsive">
-        </a>
-      </div>
-      <div class="text-center-small">
-        <p class="text-secondary fs-8">Copyright {{ date('Y') }}. All rights reserved</p>
-      </div>
-    </div>
-
-  </section>
-  <!-- Footer Ends -->
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
-    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
-    crossorigin="anonymous"></script>
-  <!-- Custom JavaScript -->
-    <script src="{{ asset ('script.js') }}"></script>
-</body>
-
-</html>
+  @endsection
