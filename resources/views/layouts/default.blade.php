@@ -22,6 +22,7 @@
    @include('components.header')
    @yield('content')
    @include('components.footer')
+   @include('components.cookie-consent-banner')
 
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
