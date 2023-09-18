@@ -71,6 +71,21 @@ header h2 {
   background-color: #4070f4;
   color: #fff;
 }
+
+@media (max-width: 576px) {
+  .wrapper {
+  bottom: 0px;
+  left: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .wrapper {
+  bottom: 0px;
+  left: 0px;
+  }
+}
+
 </style>
 
 <div class="wrapper">

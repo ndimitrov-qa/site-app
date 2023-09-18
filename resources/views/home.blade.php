@@ -52,16 +52,22 @@
           <!-- Add custom css tooltip end -->
         </div>
       </div>
+      @if(session('success'))
+        <div class="alert alert-success bg-success text-white" style="width: 430px;" role="alert">
+            {{ session('success') }}
+        </div>
+      @endif
       <!-- tab list end -->
       <div class="container-lg mt-4 position-relative z-2 tab-content" id="pills-tabContent">
         <!-- tab content for feet start -->
         <div class="tab-pane fade show active" id="pills-feet" role="tabpanel" aria-labelledby="pills-feet-tab"
           tabindex="0">
-          <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
+          <form class="row needs-validation mt-1" action="{{ route('save.quote') }}" method="POST" style="max-width: 955px;width: 100%;">
+          @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
               <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
                 Fleet</label>
-              <select class="form-select border-0 ps-0" id="validationDefault04" required>
+              <select name="number_of_vehicles" class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Number of vehicles</option>
                 <option>2</option>
                 <option>3</option>
@@ -87,7 +93,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="text" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="text" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>

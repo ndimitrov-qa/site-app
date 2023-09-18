@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\QuoteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,3 +32,5 @@ Route::get('/panel-provider', function () {
 Route::get('/hgv-insurance', function () {
     return view('pages/hgv-insurance');
 });
+
+Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');
