@@ -22,7 +22,7 @@ Route::get('/live', function () {
 });
 
 Route::get('/content', function () {
-    return view('components/content');
+    return view('pages/content');
 });
 
 Route::get('/panel-provider', function () {

@@ -7,12 +7,15 @@
       <div class="row">
         <div class="col-lg-10">
           <h1>Let's compare <span class="fw-bold">gadget insurance</span></h1>
-          <p class="text-primary py-2">
-            <i class="bi bi-arrow-down-circle pe-1"></i>
-            Check out our
-            <span class="fw-bold">gadget insurance</span> providers
+            <p class="text-primary py-2">
+            <a class="link" href="#love-it-cover-it">
+              <i class="bi bi-arrow-down-circle pe-1"></i>
+              Check out our
+              <span class="fw-bold">gadget insurance</span>
+              providers
+            </a>
           </p>
-          <p>
+          <p class="open-sans">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
           </p>
         </div>
@@ -21,14 +24,14 @@
         </div>
       </div>
     </div>
-      <div class="mt-n4">
-        <img src="img/city-skyline.png" alt="city skyline image" class="d-none d-lg-block">
-      </div>
+    <div class="mt-n4">
+      <img src="img/city-skyline.png" alt="city skyline image" class="d-none d-lg-block">
+    </div>
   </section>
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-  <section class="pt-lg-5 bg-body-tertiary">
+  <section class="pt-lg-5 bg-body-tertiary" id="love-it-cover-it">
     <div class="container-lg">
       <div class="border-body-secondary">
         <div class="shadow border-red">
@@ -41,12 +44,12 @@
               <h4 class="text-primary">
                 Love It Cover It Gadget Insurance
               </h4>
-              <p class="mb-lg-0 fs-8">
+              <p class="mb-lg-0 open-sans fs-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
               </p>
             </div>
-            <div class="col-lg-3 col-md-12 mt-2">
-              <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium" type="submit">Get Quote
+            <div class="col-lg-3 col-md-12 mt-2 d-flex align-items-center">
+              <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
                 <i class="bi bi-arrow-right-circle ps-xl-4 providers-i"></i>
               </button>
             </div>
@@ -100,7 +103,7 @@
       </div>
     </div>
 
-    <div class="my-4 bg-body-tertiary">
+    <div class="my-5 bg-body-tertiary">
       <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">
@@ -112,12 +115,12 @@
                 <h4 class="text-primary">
                   Amara Karma Gadget Insurance
                 </h4>
-                <p class="mb-0">
+                <p class="mb-0 open-sans fs-9">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
-                <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium" type="submit">Get Quote
+                <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
                   <i class="bi bi-arrow-right-circle ps-xl-4 providers-i"></i>
                 </button>
               </div>
@@ -161,7 +164,7 @@
       </div>
     </div>
 
-    <div class="my-4 bg-body-tertiary">
+    <div class="my-5 bg-body-tertiary">
       <div class="container-lg fs-7">
         <div class="border-body-secondary">
           <div class="shadow border border-1 border-body-secondary">
@@ -173,12 +176,12 @@
                 <h4 class="text-primary">
                   Nova Direct Gadget Insurance
                 </h4>
-                <p class="mb-0">
+                <p class="mb-0 open-sans fs-9">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
-                <button type="button" class="btn btn-primary btn button-medium-blue button-small-blue ps-3 py-2 fw-medium" type="submit">Get Quote
+                <button type="button" class="btn btn-primary btn button-medium-blue button-small-blue ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
                   <i class="bi bi-arrow-right-circle ps-xl-4 providers-i"></i>
                 </button>
               </div>
@@ -224,10 +227,10 @@
     <!-- Providers Section Ends-->
 
     <!-- Important to Know Starts-->
-    <div class="pt-3 pb-3">
+    <div class="pb-3">
       <div class="container-lg">
-        <h5>It's important to know</h5>
-        <p class="text-secondary fs-8">
+        <h6>It's important to know</h6>
+        <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
           The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of fate.
@@ -265,7 +268,56 @@
         quod!
       </p>
     </div>
-    <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between" style="margin-top: 40px;">
+
+  <!-- Accordion Starts -->
+  <section class="mt-5 ps-2">
+    <div class="accordion-custom-width">
+      <h2 class="p-0 text-primary" >
+        Frequently Asked Questions
+      </h2>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <p>Accordion Item #1</p>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ps-0 open-sans fs-8">
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <p>Accordion Item #2</p>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ps-0 open-sans fs-8">
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <p>Accordion Item #3</p>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body ps-0 open-sans fs-8">
+              Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Accordion Ends -->
+
+  <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
@@ -294,39 +346,40 @@
 
     <div class="container-lg ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="fleet.html" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="hgv.html" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="truck.html" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="lorry.html" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
+            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="car.html" class="link-offset-2">Cheap Car Insurance</a></li>
-            <li class="py-2"><a href="home.html" class="link-offset-2">Cheap Home Insurance</a></li>
-            <li><a href="van.html" class="link-offset-2">Cheap Van Insurance</a></li>
-            <li class="py-2"><a href="motorbike.html" class="link-offset-2">Cheap Motorbike Insurance</a></li>
+            <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
+            <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
+            <li><a href="/van-insurance" class="link-offset-2">Cheap Van Insurance</a></li>
+            <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="breakdown.html" class="link-offset-2">Cheap Breakdown Insurance</a></li>
-            <li class="py-2"><a href="gadjet.html" class="link-offset-2">Cheap Gadjet Insurance</a></li>
-            <li><a href="pet.html" class="link-offset-2">Cheap Pet Insurance</a></li>
-            <li class="py-2"><a href="caravan.html" class="link-offset-2">Cheap Caravan Insurance</a></li>
+            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
+            <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="travel.html" class="link-offset-2">Cheap Travel Insurance</a></li>
-            <li class="py-2"><a href="health.html" class="link-offset-2">Cheap Health Insurance</a></li>
-            <li><a href="golf.html" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2 &nbsp"><a href="over-50.html" class="link-offset-2">Cheap Over 50's Insurance</a></li>
+            <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
+            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
         </div>
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
-  @endsection
+
+   @endsection

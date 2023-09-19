@@ -72,17 +72,35 @@ header h2 {
   color: #fff;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .wrapper {
-  bottom: 0px;
+  position: fixed;
+  bottom: 20px;
   left: 20px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
   }
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .wrapper {
-  bottom: 0px;
+  position: fixed;
+  bottom: 20px;
   left: 0px;
+  max-width: 345px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px 25px 22px;
+  transition: right 0.3s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100; */
   }
 }
 

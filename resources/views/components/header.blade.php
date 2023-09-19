@@ -1,5 +1,5 @@
   <!-- Navbar Starts -->
-  <div class="container-lg">
+  <div class="container-lg pb-2 pt-1">
     <nav class="navbar navbar-expand-lg pb-md-0">
       <div class="container-fluid ps-0 ms-0">
         <a class="navbar-brand" href="/">
@@ -13,7 +13,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -107,7 +107,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -201,7 +201,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -295,7 +295,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -396,7 +396,7 @@
                   style="width: 40px;"><!-- change width 45px to 40px -->
               </a>
 
-              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
+              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   We're working on <br>translating the site<br>into more languages.</a>
                 </div>
@@ -409,7 +409,7 @@
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle border border-1 border-tertiary fw-bolder ps-lg-3 fs-8 border-end-hide"
                 href="#"><span class="pe-lg-3">Questions?</span></a>
-              <div class="dropdown-menu rounded-0 rounded-bottom" role="menu" style="top: 100%; min-width: 190px;">
+              <div class="dropdown-menu rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 190px;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   <ul class="list-unstyled">
                     <li class="fw-bold">

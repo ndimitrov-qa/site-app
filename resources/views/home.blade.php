@@ -59,16 +59,17 @@
       @endif
       <!-- tab list end -->
       <div class="container-lg mt-4 position-relative z-2 tab-content" id="pills-tabContent">
-        <!-- tab content for feet start -->
+        <!-- tab content for fleet start -->
         <div class="tab-pane fade show active" id="pills-feet" role="tabpanel" aria-labelledby="pills-feet-tab"
           tabindex="0">
           <form class="row needs-validation mt-1" action="{{ route('save.quote') }}" method="POST" style="max-width: 955px;width: 100%;">
           @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
-                Fleet</label>
+              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+               Number Of Vehicles
+              </label>
               <select name="number_of_vehicles" class="form-select border-0 ps-0" id="validationDefault04" required>
-                <option selected disabled value="" class="form-custom">Number of vehicles</option>
+                <option selected disabled value="" class="form-custom">Number Of vehicles</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
@@ -93,7 +94,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="text" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="number" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>
@@ -147,8 +148,9 @@
         <div class="tab-pane fade" id="pills-hgv" role="tabpanel" aria-labelledby="pills-hgv-tab" tabindex="0">
           <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
-                Fleet</label>
+              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+               Type Of Vehicle
+              </label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of HGV</option>
                 <option>Breakdown</option>
@@ -223,8 +225,9 @@
         <div class="tab-pane fade" id="pills-truck" role="tabpanel" aria-labelledby="pills-truck-tab" tabindex="0">
           <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">Vehicles In
-                Fleet</label>
+              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+               Type Of Vehicle
+              </label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of Truck</option>
                 <option>Horsebox</option>
@@ -567,9 +570,7 @@
           <p class="fw-bold fs-8">Emily Tout</p>
         </div>
       </div>
-      <div
-        class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-1 border-secondary-subtle d-none d-xl-block responsive-padding testimonials-card"
-        style="width: 20rem;">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-2 border-secondary-subtle d-none d-xl-block responsive-padding testimonials-card">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>

@@ -175,6 +175,10 @@ section.bg-body-tertiary .card {
   font-size: 14px;
 }
 
+.fs-10 {
+  font-size: 12px;
+}
+
 .transition {
   transition: all 0.1s ease-in-out;
 }
@@ -241,6 +245,9 @@ section.bg-body-tertiary .card {
   .testimonials-card {
    width: 20rem;
   }
+  .testimonials-card-22 {
+    width: 22rem;
+   }
   .mt-n4 {
     margin-top: -4rem !important;
   }
@@ -256,7 +263,10 @@ section.bg-body-tertiary .card {
   .image-width {
     width: 50px;
   }
-
+  .accordion-custom-width {
+    margin-left: 105px;
+    margin-right: 115px;
+  }
 /* === Responsive Designs === */
 
 @media (max-width: 768px) {
@@ -361,7 +371,7 @@ section.bg-body-tertiary .card {
     padding: 8px 16px;
   }
   .button-medium-blue {
-    font-size: 20px;
+    font-size: 16px;
     background-color: #0264BB;
     padding: 7.5px 15px;
     margin-left: 0px !important;
@@ -374,6 +384,10 @@ section.bg-body-tertiary .card {
   }
   .providers-i {
     font-size: 20px;
+  }
+  .accordion-custom-width {
+    margin-left: 5px;
+    margin-right: 0px;
   }
 }
 
