@@ -33,4 +33,8 @@ Route::get('/hgv-insurance', function () {
     return view('pages/hgv-insurance');
 });
 
+Route::get('/ttq5pz2x', function () {
+    return view('ttq5pz2x');
+});
+
 Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');

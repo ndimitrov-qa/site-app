@@ -202,6 +202,16 @@ section.bg-body-tertiary .card {
 .text-white.fs-7.social-icons a {
   text-decoration: none;
 }
+
+.navbar-expand-lg .navbar-nav .nav-link:before {
+    content: "";
+    position: absolute;
+    background: transparent;
+    width: 100px;
+    height: 10px;
+    bottom: -17px;
+    }
+
 /* Overwrite border on the quote section */
 @media (max-width: 991.98px) {
   .xs-border-end-1 {

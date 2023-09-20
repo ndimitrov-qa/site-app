@@ -94,7 +94,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="number" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="text" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>
@@ -111,8 +111,8 @@
             </div>
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
-            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
+            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -188,8 +188,8 @@
             </div>
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
-            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
+            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -264,8 +264,8 @@
             </div>
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
-            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 xs-border-0">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3 bg-white xs-bg-transparent">
+            <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset ('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -306,8 +306,10 @@
       <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="height: 165px;">
     </div>
     <div class="position-relative z-1">
-      <img src="{{ asset ('img/hero.png') }}" alt="image of a woman"
+        <picture>
+      <img src="{{ asset ('img/hero1.png') }}" alt="image of a woman"
         class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 920px;">
+        </picture>
     </div>
   </section>
   <!-- Hero Section Ends-->
