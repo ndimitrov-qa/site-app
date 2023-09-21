@@ -209,11 +209,21 @@ section.bg-body-tertiary .card {
     background: transparent;
     width: 100px;
     height: 10px;
-    bottom: -17px;
-    }
+    bottom: -10px;
+}
+
+
 
 /* Overwrite border on the quote section */
 @media (max-width: 991.98px) {
+    .quote-btn-xs{
+        border-top: 1px solid #ddd;
+        padding-top: 8px;
+        margin-top: 20px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 8px 15px 0;
+    }
   .xs-border-end-1 {
     border-right: 1px solid #dee2e6 !important;
   }

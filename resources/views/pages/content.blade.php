@@ -59,8 +59,8 @@
       @endif
 
     </div>
-    <div class="mt-n4">
-      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="height: 165px;">
+    <div class="mt-2">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="image of city-skyline" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends-->

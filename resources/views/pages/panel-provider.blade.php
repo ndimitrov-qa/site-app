@@ -4,10 +4,10 @@
   <!-- Hero Section Starts -->
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-lg pt-4">
-      <div class="row">
-        <div class="col-lg-10">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">gadget insurance</span></h1>
-            <p class="text-primary py-2">
+            <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
@@ -15,17 +15,17 @@
               providers
             </a>
           </p>
-          <p class="open-sans">
+          <p class="open-sans fs-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
           </p>
         </div>
-        <div class="col-2 mt-1">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block">
+        <div class="col-lg-auto">
+          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block" style="width: 13rem; height: 13rem; margin-left: 115px;">
         </div>
       </div>
     </div>
-    <div class="mt-n4">
-      <img src="img/city-skyline.png" alt="city skyline image" class="d-none d-lg-block">
+    <div>
+      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->

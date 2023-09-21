@@ -126,7 +126,7 @@
                   <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
-                <div>
+                <div class="quote-btn-xs">
                   <div class="invalid-feedback">
                     You must agree before submitting.
                   </div>
@@ -203,7 +203,7 @@
                   <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
-                <div>
+                <div class="quote-btn-xs">
                   <div class="invalid-feedback">
                     You must agree before submitting.
                   </div>
@@ -279,7 +279,7 @@
                   <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
-                <div>
+                <div class="quote-btn-xs">
                   <div class="invalid-feedback">
                     You must agree before submitting.
                   </div>
