@@ -37,4 +37,12 @@ Route::get('/ttq5pz2x', function () {
     return view('ttq5pz2x');
 });
 
+Route::get('/quote/fleet', function () {
+    return view('pages/fleet');
+});
+
+Route::get('/quote/hgv', function () {
+    return view('pages/hgv/index');
+});
+
 Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');

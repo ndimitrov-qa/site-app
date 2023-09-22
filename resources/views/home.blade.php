@@ -572,7 +572,7 @@
           <p class="fw-bold fs-8">Emily Tout</p>
         </div>
       </div>
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-2 border-secondary-subtle d-none d-xl-block responsive-padding testimonials-card">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 mb-3 shadow top-100 position-absolute start-50 translate-middle border border-2 border-secondary-subtle d-none d-xl-block responsive-padding testimonials-card-22">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -605,6 +605,7 @@
     </div>
   </section>
   <!-- Testimonials Ends -->
+  
   <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
