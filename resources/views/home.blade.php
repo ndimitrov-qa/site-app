@@ -3,7 +3,7 @@
   @section('content')
   <!-- Hero Section -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg" style="padding-top: 3.5em;">
+    <div class="container-lg" style="padding-top: 30px;">
       <div>
         <h1 style="font-size: 38px;">Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
@@ -316,7 +316,7 @@
 
 
   <!-- Cards Icons Starts -->
-  <section class="my-5">
+  <section class="my-4">
     <div class="container-lg">
       <h2 class="text-lg-center mb-sm-5 mb-sm-50 h2-md-24 h2-sm-22 h2-smaller-14" style="font-size: 36px;">
         Lets help you <span class="text-red">Beat</span> <span class="text-blue">That Quotes</span>
@@ -605,7 +605,7 @@
     </div>
   </section>
   <!-- Testimonials Ends -->
-  
+
   <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">

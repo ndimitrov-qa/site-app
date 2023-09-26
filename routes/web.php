@@ -22,11 +22,15 @@ Route::get('/live', function () {
 });
 
 Route::get('/content', function () {
-    return view('pages/content');
+    return view('layouts/content');
 });
 
 Route::get('/panel-provider', function () {
     return view('pages/panel-provider');
+});
+
+Route::get('/gadget-insurance', function () {
+    return view('pages/gadget-insurance');
 });
 
 Route::get('/hgv-insurance', function () {
