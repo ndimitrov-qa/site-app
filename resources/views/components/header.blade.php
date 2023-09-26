@@ -410,13 +410,13 @@
           </ul>
 
           <div class="vr d-none d-lg-block" style="margin-bottom:6px;"></div>
-          <!-- remove margin-top value or vr -->
+          <!-- removed margin-top value or vr -->
 
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu" style="padding-bottom: 6px;">
               <a class="nav-link dropdown-toggle text-body-tertiary me-3 fs-8 transition" href="#">English
                 <img src="{{ asset ('img/uk.png') }}" alt="uk flag" class="img-fluid ps-xl-2 pe-xl-1 d-none d-xl-inline"
-                  style="width: 40px;"><!-- change width 45px to 40px -->
+                  style="width: 40px;"><!-- changed width 45px to 40px -->
               </a>
 
               <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">

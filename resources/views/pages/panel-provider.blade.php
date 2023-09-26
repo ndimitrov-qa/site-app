@@ -48,9 +48,9 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
               </p>
             </div>
-            <div class="col-lg-3 col-md-12 mt-2 d-flex align-items-center">
-              <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
-                <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 providers-i"></i>
+            <div class="col-lg-3 col-md-12 col-sm-12 mt-2 align-items-center">
+              <button type="button" class="btn btn-success btn button-medium-green button-small-green button-smaller-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
+                <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 ps-smaller-100 ps-small-100 providers-i"></i>
               </button>
             </div>
           </div>
@@ -120,8 +120,8 @@
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
-                <button type="button" class="btn btn-success btn button-medium-green button-small-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
-                  <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 providers-i"></i>
+                <button type="button" class="btn btn-success btn button-medium-green button-small-green button-smaller-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
+                  <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 ps-smaller-100 ps-small-100 providers-i"></i>
                 </button>
               </div>
             </div>
@@ -181,8 +181,8 @@
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
-                <button type="button" class="btn btn-primary btn button-medium-blue button-small-blue ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
-                  <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 providers-i"></i>
+                <button type="button" class="btn btn-primary btn button-medium-blue button-small-blue button-smaller-blue ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
+                  <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 ps-smaller-100 ps-small-100 providers-i"></i>
                 </button>
               </div>
             </div>

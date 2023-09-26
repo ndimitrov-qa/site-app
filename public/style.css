@@ -465,10 +465,10 @@ section.bg-body-tertiary .card {
     font-size: 22px;
   }
   h2 {
-    font-size: 22px;
+    font-size: 20px;
   }
   h4 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h6 {
     font-size: 14px;
@@ -547,11 +547,13 @@ section.bg-body-tertiary .card {
     font-size: 14px;
     background-color: #198754;
     padding: 6px 14px;
+    width: 329px;
   }
   .button-small-blue {
     font-size: 14px;
     background-color: #0264bb;
     padding: 6px 14px;
+    width: 329px;
   }
   .responsive-icons-small {
     display: grid;
@@ -609,6 +611,9 @@ section.bg-body-tertiary .card {
   }
   .h2-sm-22 {
     font-size: 22px !important;
+  }
+  .ps-small-100 {
+    padding-left: 200px;
   }
 }
 
@@ -701,8 +706,11 @@ section.bg-body-tertiary .card {
       font-size: 16px;
     }
     h2 {
-      font-size: 14px;
+      font-size: 16px;
     }
+    h4 {
+        font-size: 14px;
+      }
     h6 {
       font-size: 12px;
     }
@@ -747,4 +755,19 @@ section.bg-body-tertiary .card {
     .smaller-margin-0 {
         margin: 0px;
     }
+    .button-smaller-green {
+        font-size: 14px;
+        background-color: #198754;
+        padding: 6px 14px;
+        width: 229px;
+      }
+      .button-smaller-blue {
+        font-size: 14px;
+        background-color: var(--blue-color);
+        padding: 6px 14px;
+        width: 229px;
+      }
+      .ps-smaller-100 {
+        padding-left: 100px;
+      }
   }
