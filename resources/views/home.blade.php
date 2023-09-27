@@ -548,9 +548,9 @@
 
   <!-- Testimonials Starts -->
   <section class="bg-body-secondary py-sm-5 py-sm-20 mb-lg-5">
-    <div class="container-lg">
+    <div class="container">
       <div class="text-sm-center text-res-smaller">
-        <h2 class="fw-bold fs-4" style="font-size:px;">Don't take our word for it</h2>
+        <h2 class="fw-bold fs-4">Don't take our word for it</h2>
         <p class="mb-xl-0">
           Here's what people are saying about us
         </p>

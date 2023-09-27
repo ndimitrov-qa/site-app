@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- Styles -->
   <link rel="stylesheet" href="{{ ('style.css') }}">
-  <link rel="stylesheet" href="{{ ('responsive-style.css') }}">
 </head>
 
 <body>
