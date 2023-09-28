@@ -124,8 +124,8 @@ section.bg-body-tertiary .card {
 }
 
 .card-width {
-    width: 7rem;
-    height: 7rem;
+    width: 140px;
+    height: 140px;
   }
 
 /* added blue 3 tabs items border color on active state */
@@ -324,7 +324,7 @@ section.bg-body-tertiary .card {
   .card-body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.5rem;
+    gap: 16px;
     justify-items: center;
   }
   .card {
@@ -343,15 +343,15 @@ section.bg-body-tertiary .card {
   h6 {
     font-size: 16px;
   }
-  p {
-    font-size: 16px;
-  }
   a {
     font-size: 14px;
   }
-  .fs-7 {
-    font-size: 16px;
+  p {
+    margin-bottom: 20px;
   }
+  /* .fs-7 {
+    font-size: 16px;
+  } */
   .fs-8 {
     font-size: 14px;
   }
@@ -383,14 +383,14 @@ section.bg-body-tertiary .card {
   .copy-padding {
     margin-right: 50px;
   }
-  .form-select {
+  /* .form-select {
     color: #6c757d;
     font-size: 18px;
-  }
-  .form-control::placeholder {
+  } */
+  /* .form-control::placeholder {
     color: #6c757d;
     font-size: 18px;
-  }
+  } */
   .row-medium-responsive {
     margin-left: 10px;
     margin-right: 10px;
@@ -434,11 +434,18 @@ section.bg-body-tertiary .card {
     margin-left: 5px;
     margin-right: 0px;
   }
+  .h2-md-24 {
+    margin-bottom: 80px !important;
+    margin-top: 80px !important;
+  }
 }
 
 @media (max-width: 576px) {
   .testimonials-card-small {
-    width: 18rem;
+    width: 385px;
+  }
+  .p-res-small {
+    width: 340px;
   }
   .custom-card-small {
     width: 6rem;
@@ -453,7 +460,7 @@ section.bg-body-tertiary .card {
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 23px !important;
   }
   h2 {
     font-size: 20px;
@@ -475,6 +482,9 @@ section.bg-body-tertiary .card {
   }
   .btn {
     font-size: 16px;
+  }
+  .fs-4 {
+    font-size: 26px !important;
   }
   .fs-7 {
     font-size: 14px;
@@ -506,17 +516,17 @@ section.bg-body-tertiary .card {
     margin-top: 2.5px;
     margin-bottom: 2.5px;
   }
-  .card-width-small {
-    width: 6rem;
-    height: 6rem;
-  }
+  /* .card-width-small {
+    width: 124px;
+    height: 124px;
+  } */
   .image-width-small {
     width: 25px;
   }
   .card-res-small {
-    width: 4rem !important;
-    height: 4rem !important;
-    margin-right: 6px;
+    width: 80px !important;
+    height: 80px !important;
+    margin-right: 12px;
   }
   .image-responsive {
     width: 35px;
@@ -545,6 +555,12 @@ section.bg-body-tertiary .card {
     background-color: #0264bb;
     padding: 6px 14px;
     width: 329px;
+  }
+  .btn-danger {
+    font-size: 14px;
+    padding: 14px 10px;
+    text-align: left;
+    width: 350px;
   }
   .responsive-icons-small {
     display: grid;
@@ -579,14 +595,10 @@ section.bg-body-tertiary .card {
   }
   .card-width-small {
     width: 110px;
+    height: 110px;
   }
   .image-width-small {
     width: 50px;
-  }
-  .card-res-small {
-    width: 4rem !important;
-    height: 4rem !important;
-    margin-right: 6px;
   }
   .providers-i {
     font-size: 18px;
@@ -601,10 +613,24 @@ section.bg-body-tertiary .card {
     padding-bottom: 20px;
   }
   .h2-sm-22 {
-    font-size: 22px !important;
+    font-size: 24px !important;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
   }
   .ps-small-100 {
     padding-left: 200px;
+  }
+  .ps-small-235 {
+    padding-left: 235px;
+  }
+  .w-sm-res {
+    width: 411px !important;
+  }
+  .card-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19.5px;
+    justify-items: center;
   }
 }
 
@@ -623,9 +649,6 @@ section.bg-body-tertiary .card {
   }
   .border-end-hide {
     border: 0px solid !important;
-  }
-  .h2-md-24 {
-    font-size: 24px !important;
   }
 }
 
@@ -687,14 +710,17 @@ section.bg-body-tertiary .card {
 /* =========== mobile view end ========= */
 
 @media (max-width: 320px) {
-    .testimonials-card-small {
-      width: 14rem;
-    }
+    .testimonials-card-smaller {
+        width: 292px;
+      }
+      .p-res-small {
+        width: 255px;
+      }
     .logo-responsive {
       width: 165px;
     }
     h1 {
-      font-size: 16px;
+      font-size: 17px !important;
     }
     h2 {
       font-size: 16px;
@@ -731,17 +757,14 @@ section.bg-body-tertiary .card {
       height: 22px;
       font-size: 9px;
     }
-    .card-width-smaller {
-      width: 125px;
-      height: 125px;
-    }
     .card-res-smaller {
-      width: 3rem !important;
-      height: 3rem !important;
-      margin-right: 8px;
+      width: 60px !important;
+      height: 60px !important;
+      margin-right: 6px;
     }
     .h2-smaller-14 {
-      font-size: 14px !important;
+      font-size: 18px !important;
+      padding-bottom: 6px;
     }
     .smaller-margin-0 {
         margin: 0px;
@@ -760,5 +783,30 @@ section.bg-body-tertiary .card {
       }
       .ps-smaller-100 {
         padding-left: 100px;
+      }
+      .btn-danger {
+        font-size: 14px;
+        padding: 14px 10px;
+        text-align: left;
+        width: 260px;
+      }
+      .ps-smaller-200 {
+        padding-left: 170px;
+      }
+      .w-smaller-res {
+        width: 320px !important;
+      }
+      .card-body {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px;
+        justify-items: center;
+      }
+      .card-width-smaller {
+        width: 90px;
+        height: 90px;
+      }
+      .mt-small-0 {
+        margin-top: 0px !important;
       }
   }

@@ -14,7 +14,7 @@
         <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
           type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
             <img src="{{ asset('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
 
@@ -24,7 +24,7 @@
         <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
           role="tab" aria-controls="pills-hgv" aria-selected="false">
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
             <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
 
@@ -33,7 +33,7 @@
         </div>
         <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
           role="tab" aria-controls="pills-truck" aria-selected="false">
-          <div class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller">
+          <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
             <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive">
 
@@ -44,7 +44,7 @@
         <div class="text-center">
           <!-- Add custom css tooltip -->
           <div
-            class="mb-2 card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller" style="margin-bottom: 10px;">
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more.png') }}" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
@@ -58,14 +58,14 @@
         </div>
       @endif
       <!-- tab list end -->
-      <div class="container-lg mt-4 position-relative z-2 tab-content" id="pills-tabContent">
+      <div class="container-lg mt-4 position-relative z-2 tab-content w-sm-res w-smaller-res" id="pills-tabContent">
         <!-- tab content for fleet start -->
         <div class="tab-pane fade show active" id="pills-feet" role="tabpanel" aria-labelledby="pills-feet-tab"
           tabindex="0">
           <form class="row needs-validation mt-1" action="{{ route('save.quote') }}" method="POST" style="max-width: 955px;width: 100%;">
           @csrf
-            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
+              <label for="validationDefault04" class="form-label fw-bold fs-7 text-responsive-medium" style="padding-top: 20px;">
                Number Of Vehicles
               </label>
               <select name="number_of_vehicles" class="form-select border-0 ps-0" id="validationDefault04" required>
@@ -112,7 +112,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 20px; padding-bottom: 20px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -133,7 +133,7 @@
                   <div class="row d-lg-none mt-2">
                     <div class="col-sm-5">
                       <button class="btn btn-danger" type="submit">Quote
-                        <i class="bi bi-arrow-right-circle ps-sm-4"></i>
+                        <i class="bi bi-arrow-right-circle ps-sm-4 ps-small-235 ps-smaller-200"></i>
                       </button>
                     </div>
                   </div>
@@ -146,7 +146,7 @@
         <!-- tab content for feet End -->
         <!-- tab content for hgv start -->
         <div class="tab-pane fade" id="pills-hgv" role="tabpanel" aria-labelledby="pills-hgv-tab" tabindex="0">
-          <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
+          <form class="row needs-validation mt-1" style="max-width: 955px; width: 100%;">
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
               <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
                Type Of Vehicle
@@ -308,7 +308,7 @@
     <div class="position-relative z-1">
         <picture>
       <img src="{{ asset ('img/hero1.png') }}" alt="image of a woman"
-        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 920px;">
+        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 885px;">
         </picture>
     </div>
   </section>
@@ -316,9 +316,9 @@
 
 
   <!-- Cards Icons Starts -->
-  <section class="my-4">
+  <section style="margin-top: 40px; margin-bottom: 20px">
     <div class="container-lg">
-      <h2 class="text-lg-center mb-sm-5 mb-sm-50 h2-md-24 h2-sm-22 h2-smaller-14" style="font-size: 36px;">
+      <h2 class="text-lg-center h2-md-24 h2-sm-22 h2-smaller-14" style="font-size: 36px; margin-bottom: 30px">
         Lets help you <span class="text-red">Beat</span> <span class="text-blue">That Quotes</span>
       </h2>
       <ul class="nav nav-tabs mb-2" id="myTab" role="tablist">
@@ -346,7 +346,7 @@
               <a href="/fleet-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid mx-auto d-block image-width"
                   >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0 mt-small-0">
                   Fleet
                 </div>
               </a>
@@ -359,7 +359,7 @@
               <a href="/hgv-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   HGV
                 </div>
               </a>
@@ -370,7 +370,7 @@
               <a href="/truck-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Truck
                 </div>
               </a>
@@ -381,7 +381,7 @@
               <a href="/car-insurance" class="link">
                 <img src="{{ asset('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Car
                 </div>
               </a>
@@ -393,7 +393,7 @@
               <a href="/van-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-van.png') }}" alt="Van icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Van
                 </div>
               </a>
@@ -406,7 +406,7 @@
               <a href="/breakdown-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Breakdown
                 </div>
               </a>
@@ -417,7 +417,7 @@
               <a href="/motorbike-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-motorbike.png') }}" alt="Motorbike icon"
                   class="img-fluid mx-auto d-block" style="width: 50px;">
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Motorbike
                 </div>
               </a>
@@ -428,7 +428,7 @@
               <a href="/car-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block"
                   style="width: 50px;">
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Learner
                 </div>
               </a>
@@ -462,7 +462,7 @@
               <a href="/gadget-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-gadgets.png') }}" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Gadget
                 </div>
               </a>
@@ -472,7 +472,7 @@
               <a href="/pet-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-pet.png') }}" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Pet
                 </div>
               </a>
@@ -482,7 +482,7 @@
               <a href="/caravan-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan.png') }}" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Caravan
                 </div>
               </a>
@@ -494,7 +494,7 @@
               <a href="/travel-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-plane.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Travel
                 </div>
               </a>
@@ -504,7 +504,7 @@
               <a href="/health-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-health.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Health
                 </div>
               </a>
@@ -514,7 +514,7 @@
               <a href="/bicycle-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Bicycle
                 </div>
               </a>
@@ -524,7 +524,7 @@
               <a href="/golf-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-golf.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
                 >
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Golf
                 </div>
               </a>
@@ -534,7 +534,7 @@
               <a href="/over-50s-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Over 50s icon"
                   class="img-fluid mx-auto d-block card-hover-square image-width">
-                <div class="mt-2">
+                <div class="mt-2 mt-small-0">
                   Over 50's
                 </div>
               </a>
@@ -557,7 +557,7 @@
       </div>
     </div>
     <div class="container-lg d-sm-flex justify-content-center justify-content-sm-between position-relative open-sans">
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-2 border-secondary-subtle mb-3 testimonials-card testimonials-card-small">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-2 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller">
         <div class="d-sm-flex flex-wrap text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -565,7 +565,7 @@
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
         </div>
-        <p class="mb-1 open-sans fs-8">
+        <p class="mb-1 open-sans fs-8 p-res-small">
           Simple to use. Just waiting for more products to be added.
         </p>
         <div>
@@ -580,14 +580,14 @@
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
         </div>
-        <p class="mb-1 open-sans fs-8">
+        <p class="mb-1 open-sans fs-8 p-res-small">
           Insurances that other price comparison sites don't offer. Will use again.
         </p>
         <div>
           <p class="fw-bold fs-8 responsive-text-small">Glen Hughes</p>
         </div>
       </div>
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3 testimonials-card testimonials-card-small">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -595,7 +595,7 @@
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
         </div>
-        <p class="mb-1 open-sans fs-8">
+        <p class="mb-1 open-sans fs-8 p-res-small">
           Easy and straightforward. Hopefully save myself some money too!
         </p>
         <div>
@@ -632,7 +632,7 @@
         quod!
       </p>
     </div>
-    <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between" style="margin-top: 40px;">
+    <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">

@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/live', function () {
-    return view('home');
+    return view('/home');
 });
 
 Route::get('/content', function () {

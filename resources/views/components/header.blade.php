@@ -13,7 +13,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -124,7 +124,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -220,7 +220,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
@@ -316,7 +316,7 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1275px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
