@@ -17,6 +17,8 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
+  /* height: 100% !important;
+  font-size: 100% !important; */
 }
 
 a {
@@ -202,6 +204,9 @@ section.bg-body-tertiary .card {
 .fs-10 {
   font-size: 12px;
 }
+.pt-60 {
+  padding-top: 60px;
+}
 
 .transition {
   transition: all 0.1s ease-in-out;
@@ -235,6 +240,11 @@ section.bg-body-tertiary .card {
     height: 10px;
     bottom: -10px;
 }
+
+.my-custom-2 {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+  }
 
 /* Overwrite border on the quote section */
 @media (max-width: 991.98px) {
@@ -297,8 +307,8 @@ section.bg-body-tertiary .card {
     margin-top: -3rem !important;
   }
   .my-custom-2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
   .section-providers {
     margin-top: 40px;
@@ -357,6 +367,16 @@ section.bg-body-tertiary .card {
   }
   .fs-9 {
     font-size: 12px;
+  }
+  .pt-60 {
+    padding-top: 10px;
+  }
+  .my-custom-2 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .pb-medium {
+    padding-bottom: 20px;
   }
   .gap-3 {
     gap: 10px;
@@ -421,6 +441,12 @@ section.bg-body-tertiary .card {
     padding: 8px 16px;
     margin-left: 0px !important;
   }
+  .btn-danger {
+    font-size: 25px;
+    padding: 8px 16px;
+    text-align: left;
+    width: px;
+  }
   .mt-n3 {
     margin-top: 0rem !important;
   }
@@ -435,9 +461,21 @@ section.bg-body-tertiary .card {
     margin-right: 0px;
   }
   .h2-md-24 {
-    margin-bottom: 80px !important;
-    margin-top: 80px !important;
+    margin-bottom: 100px !important;
+    margin-top: 90px !important;
   }
+  .bi-phone {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+  .bordered-menu-item {
+    border-bottom: 1px solid #6c757d; /* Add your desired border styles here */
+    border-radius: px; /* Add border-radius for rounded borders */
+    margin-bottom: px; /* Add spacing between menu items */
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -460,7 +498,7 @@ section.bg-body-tertiary .card {
   }
 
   h1 {
-    font-size: 23px !important;
+    font-size: 22.9px !important;
   }
   h2 {
     font-size: 20px;
@@ -494,6 +532,16 @@ section.bg-body-tertiary .card {
   }
   .fs-9 {
     font-size: 10px;
+  }
+  .pt-60 {
+    padding-top: 25px;
+  }
+  .ps-small {
+    padding-left: 25px;
+  }
+  .my-custom-2 {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
   }
   .responsive-footer-small {
     width: 197px;
@@ -560,7 +608,7 @@ section.bg-body-tertiary .card {
     font-size: 14px;
     padding: 14px 10px;
     text-align: left;
-    width: 350px;
+    width: 362px;
   }
   .responsive-icons-small {
     display: grid;
@@ -586,6 +634,9 @@ section.bg-body-tertiary .card {
   }
   .social-icons svg {
     margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 9px;
   }
   .text-white.fs-7.social-icons a {
     text-decoration: none;
@@ -621,7 +672,7 @@ section.bg-body-tertiary .card {
     padding-left: 200px;
   }
   .ps-small-235 {
-    padding-left: 235px;
+    padding-left: 278px;
   }
   .w-sm-res {
     width: 411px !important;
@@ -631,6 +682,9 @@ section.bg-body-tertiary .card {
     grid-template-columns: repeat(4, 1fr);
     gap: 19.5px;
     justify-items: center;
+  }
+  .hide-md {
+    display: none !important;
   }
 }
 
@@ -753,8 +807,8 @@ section.bg-body-tertiary .card {
       width: 140px;
       }
     .social-icons svg {
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
       font-size: 9px;
     }
     .card-res-smaller {
@@ -808,5 +862,24 @@ section.bg-body-tertiary .card {
       }
       .mt-small-0 {
         margin-top: 0px !important;
+      }
+      .badge {
+        display: none;
+      }
+      .pt-smaller {
+        padding-top: 25px;
+      }
+      .pt-60 {
+        padding-top: 0px;
+      }
+      .my-custom-2 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+      }
+      .social-icons svg {
+        margin-right: 14px;
+        width: 20px;
+        height: 20px;
+        font-size: 9px;
       }
   }

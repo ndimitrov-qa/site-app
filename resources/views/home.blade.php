@@ -77,7 +77,7 @@
                 <option>6</option>
                 <option>7</option>
                 <option>8</option>
-                <option>9</option>
+                <option>9+</option>
                 <option>10+</option>
               </select>
               <div class="invalid-feedback">
@@ -634,7 +634,7 @@
     </div>
     <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
-      <div class="text-white fs-7 social-icons">
+      <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-facebook"
             viewBox="0 0 16 16">

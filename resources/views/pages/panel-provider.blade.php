@@ -31,7 +31,7 @@
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-  <section class="pt-lg-4 bg-body-tertiary" id="love-it-cover-it">
+  <section class="bg-body-tertiary pt-60" id="love-it-cover-it">
     <div class="container-lg">
       <div class="border-body-secondary">
         <div class="shadow border-red">
@@ -41,7 +41,7 @@
               <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="" class="img-fluid pt-4 ps-4 d-none d-lg-block" style="width: 7rem; height: 7rem;">
             </div>
             <div class="col-lg-7 col-md-12">
-              <h4 class="text-primary">
+              <h4 class="text-primary pt-smaller">
                 Love It Cover It Gadget Insurance
               </h4>
               <p class="mb-0 open-sans fs-9">
@@ -57,7 +57,7 @@
 
           <hr class="mx-4">
 
-          <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap">
+          <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
             <div class="medium-text small-text mb-1 fs-9">
               <svg xmlns="http://www.w3.org/2000/svg"
                width="36"
@@ -128,7 +128,7 @@
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap">
+            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -164,7 +164,7 @@
       </div>
     </div>
 
-    <div class="my-custom-2 bg-body-tertiary">
+    <div class="my-custom-2 bg-body-tertiary pb-medium pb-small">
       <div class="container-lg fs-7">
         <div class="border-body-secondary">
           <div class="shadow border border-1 border-body-secondary">
@@ -189,7 +189,7 @@
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 flex-wrap">
+            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -318,9 +318,9 @@
   </section>
   <!-- Accordion Ends -->
 
-  <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between" style="margin-top: 40px;">
+  <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
-      <div class="text-white fs-7 social-icons">
+      <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-facebook"
             viewBox="0 0 16 16">

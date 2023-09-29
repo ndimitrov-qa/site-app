@@ -9,9 +9,9 @@
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-md-end gap-xxl-3" id="main_nav">
+        <div class="collapse navbar-collapse justify-content-md-end gap-xxl-4" id="main_nav">
           <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
+            <li class="nav-item dropdown has-megamenu bordered-menu-item">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
@@ -122,7 +122,7 @@
           </ul>
 
           <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
+            <li class="nav-item dropdown has-megamenu bordered-menu-item">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
@@ -218,7 +218,7 @@
           </ul>
 
           <ul class="navbar-nav">
-            <li class="nav-item dropdown has-megamenu">
+            <li class="nav-item dropdown has-megamenu bordered-menu-item">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
@@ -412,14 +412,14 @@
           <div class="vr d-none d-lg-block" style="margin-bottom:6px;"></div>
           <!-- removed margin-top value or vr -->
 
-          <ul class="navbar-nav">
+          <ul class="navbar-nav hide">
             <li class="nav-item dropdown has-megamenu" style="padding-bottom: 6px;">
               <a class="nav-link dropdown-toggle text-body-tertiary me-3 fs-8 transition" href="#">English
                 <img src="{{ asset ('img/uk.png') }}" alt="uk flag" class="img-fluid ps-xl-2 pe-xl-1 d-none d-xl-inline"
                   style="width: 40px;"><!-- changed width 45px to 40px -->
               </a>
 
-              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 190px;margin-top: 0;">
+              <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 194px;margin-top: 0;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   We're working on <br>translating the site<br>into more languages.</a>
                 </div>
@@ -428,11 +428,11 @@
           </ul>
 
 
-          <ul class="navbar-nav">
+          <ul class="navbar-nav hide">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle border border-1 border-tertiary fw-bolder ps-lg-3 fs-8 border-end-hide"
                 href="#"><span class="pe-lg-3">Questions?</span></a>
-              <div class="dropdown-menu rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 190px;">
+              <div class="dropdown-menu rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 194px;">
                 <div class="fs-9 d-flex justify-content-center align-content-center py-2">
                   <ul class="list-unstyled">
                     <li class="fw-bold">
