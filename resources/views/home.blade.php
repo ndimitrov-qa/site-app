@@ -65,7 +65,7 @@
           <form class="row needs-validation mt-1" action="{{ route('save.quote') }}" method="POST" style="max-width: 955px;width: 100%;">
           @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 text-responsive-medium" style="padding-top: 20px;">
+              <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Number Of Vehicles
               </label>
               <select name="number_of_vehicles" class="form-select border-0 ps-0" id="validationDefault04" required>
@@ -88,7 +88,7 @@
               <div class="row h-100 align-items-center">
                 <div class="col-lg border-end xs-border-end-0 h-100">
                   <div>
-                    <label for="validationDefault05" class="form-label fw-bold fs-7 pt-3">Mobile Number</label>
+                    <label for="validationDefault05" class="form-label fw-bold fs-9" style="padding-top: 10px;">Mobile Number</label>
                     <div class="d-flex align-items-center">
                       <div>
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
@@ -112,7 +112,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 20px; padding-bottom: 20px;">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -143,18 +143,21 @@
             </div>
           </form>
         </div>
-        <!-- tab content for feet End -->
+        <!-- tab content for fleet End -->
         <!-- tab content for hgv start -->
         <div class="tab-pane fade" id="pills-hgv" role="tabpanel" aria-labelledby="pills-hgv-tab" tabindex="0">
           <form class="row needs-validation mt-1" style="max-width: 955px; width: 100%;">
-            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
+              <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Type Of Vehicle
               </label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of HGV</option>
-                <option>Breakdown</option>
-                <option>Recovery</option>
+                <option>Articulated (2 separate sections)</option>
+                <option>Rigid (Vehicle in 1 unit)</option>
+                <option>Specialist Vehicle</option>
+                <option>Tanker</option>
+                <option>Van</option>
               </select>
               <div class="invalid-feedback">
                 Please select a number.
@@ -164,7 +167,7 @@
               <div class="row h-100 align-items-center">
                 <div class="col-lg border-end xs-border-end-0 h-100">
                   <div>
-                    <label for="validationDefault05" class="form-label fw-bold fs-7 pt-3">Mobile Number</label>
+                    <label for="validationDefault05" class="form-label fw-bold fs-9" style="padding-top: 10px;">Mobile Number</label>
                     <div class="d-flex align-items-center">
                       <div>
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
@@ -189,7 +192,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -224,14 +227,18 @@
         <!-- tab content for truck start -->
         <div class="tab-pane fade" id="pills-truck" role="tabpanel" aria-labelledby="pills-truck-tab" tabindex="0">
           <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
-            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white pb-2">
-              <label for="validationDefault04" class="form-label fw-bold fs-7 pt-3 text-responsive-medium">
+            <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
+              <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Type Of Vehicle
               </label>
               <select class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of Truck</option>
-                <option>Horsebox</option>
-                <option>Horse Lorry</option>
+                <option>Pick Up Truck</option>
+                <option>Recycling</option>
+                <option>Roads Services</option>
+                <option>Tractor</option>
+                <option>Transporter</option>
+                <option>Disposal</option>
               </select>
               <div class="invalid-feedback">
                 Please select a number.
@@ -241,7 +248,7 @@
               <div class="row h-100 align-items-center">
                 <div class="col-lg border-end xs-border-end-0 h-100">
                   <div>
-                    <label for="validationDefault05" class="form-label fw-bold fs-7 pt-3">Mobile Number</label>
+                    <label for="validationDefault05" class="form-label fw-bold fs-9" style="padding-top: 10px;">Mobile Number</label>
                     <div class="d-flex align-items-center">
                       <div>
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
@@ -265,7 +272,7 @@
             <div class="w-100"></div>
             <div class="col-lg-5"></div>
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
-              <div class="d-lg-flex gap-lg-3 px-xl-3 py-3">
+              <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset ('img/icon-greenshield.png') }}" alt="image of a greenshield">
                 <small class="fs-7">
@@ -308,7 +315,7 @@
     <div class="position-relative z-1">
         <picture>
       <img src="{{ asset ('img/hero1.png') }}" alt="image of a woman"
-        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 885px;">
+        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 840px">
         </picture>
     </div>
   </section>

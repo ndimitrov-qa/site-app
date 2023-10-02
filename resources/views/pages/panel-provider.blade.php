@@ -3,7 +3,7 @@
   @section('content')
   <!-- Hero Section Starts -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg pt-4">
+    <div class="container-lg" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">gadget insurance</span></h1>

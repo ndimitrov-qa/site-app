@@ -103,12 +103,12 @@ small {
 
 .form-select {
   color: #6c757d;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .form-control {
   color: #6c757d;
-  font-size: 25px;
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -121,8 +121,8 @@ small {
 }
 
 section.bg-body-tertiary .card {
-  width: 90px;
-  height: 90px;
+  width: 75px;
+  height: 75px;
 }
 
 .card-width {
@@ -366,7 +366,7 @@ section.bg-body-tertiary .card {
     font-size: 14px;
   }
   .fs-9 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .pt-60 {
     padding-top: 10px;
@@ -572,8 +572,8 @@ section.bg-body-tertiary .card {
     width: 25px;
   }
   .card-res-small {
-    width: 80px !important;
-    height: 80px !important;
+    width: 60px !important;
+    height: 60px !important;
     margin-right: 12px;
   }
   .image-responsive {
@@ -812,8 +812,8 @@ section.bg-body-tertiary .card {
       font-size: 9px;
     }
     .card-res-smaller {
-      width: 60px !important;
-      height: 60px !important;
+      width: 50px !important;
+      height: 50px !important;
       margin-right: 6px;
     }
     .h2-smaller-14 {
