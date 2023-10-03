@@ -22,7 +22,7 @@ Route::get('/live', function () {
 });
 
 Route::get('/content', function () {
-    return view('layouts/content');
+    return view('pages/content');
 });
 
 Route::get('/panel-provider', function () {
@@ -31,6 +31,14 @@ Route::get('/panel-provider', function () {
 
 Route::get('/gadget-insurance', function () {
     return view('pages/gadget-insurance');
+});
+
+Route::get('/home-emergency', function () {
+    return view('pages/home-emergency');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('pages/privacy-policy');
 });
 
 Route::get('/hgv-insurance', function () {

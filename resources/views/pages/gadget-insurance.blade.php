@@ -37,7 +37,7 @@
         <div class="shadow border-blue">
           <div class="row justify-content-center align-items-center row-medium-responsive pt-4">
             <div class="col-2">
-              <img src="img/oops.png" alt="" class="img-fluid pt-4 ps-4 d-none d-lg-block">
+              <img src="img/logos/oops.png" alt="" class="img-fluid pt-4 d-none d-lg-block">
             </div>
             <div class="col-lg-7 col-md-12">
               <h4 class="text-primary pt-smaller">
@@ -47,9 +47,15 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
               </p>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 mt-2 align-items-center">
-              <a href="https://www.paidonresults.net/c/57719/1/2069/0" type="button" class="btn btn-success btn button-medium-green button-small-green button-smaller-green ps-3 py-2 fw-medium d-flex align-items-center" type="submit">Get Quote
-                <i class="bi bi-arrow-right-circle ps-xl-4 ps-md-2 ps-smaller-100 ps-small-100 providers-i"></i>
+            <div class="col-lg-2 col-md-12 col-sm-12 mt-2 align-items-center">
+              <a href="https://www.paidonresults.net/c/57719/1/2069/0"
+                type="button"
+                target="_blank"
+                class="btn btn-success btn button-medium-green button-small-green button-smaller-green ps-3 py-2 fw-medium d-flex align-items-center"
+                type="submit"
+               >
+                Get Quote
+                <i class="bi bi-arrow-right-circle ps-xl-5 ps-md-2 ps-smaller-100 ps-small-100 providers-i"></i>
               </a>
             </div>
           </div>
