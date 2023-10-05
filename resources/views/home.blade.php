@@ -123,7 +123,13 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
+                  <small class="fs-7">I agree to the
+                    <span class="text-blue">
+                    <a href="/privacy-policy" target="_blank" style="text-decoration: none;font-size: 18px;">
+                        Privacy Policy
+                    </a>
+                    </span>
+                  </small>
                 </label>
                 </div>
                 <div class="quote-btn-xs">

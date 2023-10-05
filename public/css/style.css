@@ -564,10 +564,6 @@ section.bg-body-tertiary .card {
     margin-top: 2.5px;
     margin-bottom: 2.5px;
   }
-  /* .card-width-small {
-    width: 124px;
-    height: 124px;
-  } */
   .image-width-small {
     width: 25px;
   }
@@ -685,6 +681,9 @@ section.bg-body-tertiary .card {
   }
   .hide-md {
     display: none !important;
+  }
+  .mt-custom {
+    margin-top: 20px;
   }
 }
 

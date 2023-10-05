@@ -18,7 +18,6 @@
   <!-- Styles -->
   <link rel="stylesheet" href="{{ ('css/style.css') }}">
   <link rel="stylesheet" href="{{ ('css/panel-provider.css') }}">
-  <link rel="stylesheet" href="{{ ('css/insurances.css') }}">
 </head>
 
 <body>

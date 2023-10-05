@@ -1,0 +1,59 @@
+.my-custom {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+@media (max-width: 768px) {
+    .my-custom {
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+}
+
+@media (max-width: 576px) {
+
+    .h1-he-17 {
+        font-size: 17px !important;
+    }
+
+    .h4-he-16 {
+        font-size: 16px !important;
+    }
+
+    .my-custom {
+        padding-top: 25px;
+        padding-bottom: 40px;
+      }
+
+    .small-margin-30 {
+        margin-left: 45px;
+    }
+    .small-margin-28 {
+        margin-left: 28px;
+    }
+    .h1-small-18 {
+        font-size: 18px !important;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .h1-he-17 {
+        font-size: 13px !important;
+    }
+
+    .h4-he-16 {
+        font-size: 11px !important;
+    }
+    .my-custom {
+        padding-top: 0px;
+        padding-bottom: 20px;
+      }
+      .smaller-margin {
+        margin-left: 0px;
+      }
+      .h1-smaller-13 {
+        font-size: 13.8px !important;
+    }
+}
