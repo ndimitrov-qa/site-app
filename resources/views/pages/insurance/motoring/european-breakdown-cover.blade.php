@@ -39,7 +39,7 @@
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-    <section class="bg-body-tertiary pt-2" id="love-it-cover-it">
+    <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it">
     <!-- Blue Panel -->
     <div class="my-custom-2 bg-body-tertiary pb-medium pb-small" id="love-it-cover-it">
       <div class="container-lg fs-7">

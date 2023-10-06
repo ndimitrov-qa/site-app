@@ -39,7 +39,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/rme.jpg" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="img/logos/rme.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7">
                 <h4 class="text-primary">
@@ -102,7 +102,7 @@
     <!-- Blue Panel -->
 
     <!-- Blue Panel -->
-    <div class="my-custom-2 bg-body-tertiary">
+    <div class="my-custom-2 bg-body-tertiary pb-medium">
       <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">

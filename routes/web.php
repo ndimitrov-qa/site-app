@@ -30,7 +30,7 @@ Route::get('/panel-provider', function () {
 });
 
 Route::get('/gadget-insurance', function () {
-    return view('pages/gadget-insurance');
+    return view('pages/insurance/lifestyle/gadget-insurance');
 });
 
 Route::get('/home-emergency', function () {
@@ -38,11 +38,11 @@ Route::get('/home-emergency', function () {
 });
 
 Route::get('/breakdown-cover', function () {
-    return view('pages/breakdown-cover');
+    return view('pages/insurance/motoring/breakdown-cover');
 });
 
 Route::get('/european-breakdown-cover', function () {
-    return view('pages/european-breakdown-cover');
+    return view('pages/insurance/motoring/european-breakdown-cover');
 });
 
 Route::get('/car-finance', function () {
@@ -55,10 +55,6 @@ Route::get('/car-hire-excess-insurance', function () {
 
 Route::get('/privacy-policy', function () {
     return view('pages/privacy-policy');
-});
-
-Route::get('/hgv-insurance', function () {
-    return view('pages/hgv-insurance');
 });
 
 Route::get('/ttq5pz2x', function () {
