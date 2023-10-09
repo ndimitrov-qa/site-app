@@ -247,7 +247,7 @@
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
             <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>

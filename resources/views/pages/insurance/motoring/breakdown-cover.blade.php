@@ -31,7 +31,7 @@
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-  <section class="bg-body-tertiary pt-2" id="love-it-cover-it">
+  <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it">
     <!-- Blue Panel -->
     <div class="pt-60 bg-body-tertiary pb-small" id="love-it-cover-it">
       <div class="container-lg fs-7">
@@ -88,7 +88,7 @@
                 pay <span class="fw-bold">Annually</span> or <span class="fw-bold">Monthly</span>
               </div>
               <div class="vr d-none d-lg-block"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-12 smaller-margin-0">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
                 </svg>
@@ -157,7 +157,7 @@
                 pay <span class="fw-bold">Annually</span> or <span class="fw-bold">Monthly</span>
               </div>
               <div class="vr d-none d-lg-block"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-12 smaller-margin-0">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
                 </svg>
@@ -226,7 +226,7 @@
                 pay <span class="fw-bold">Annually</span> or <span class="fw-bold">Monthly</span>
               </div>
               <div class="vr d-none d-lg-block"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-12 smaller-margin-0">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
                 </svg>
@@ -380,7 +380,7 @@
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
             <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>

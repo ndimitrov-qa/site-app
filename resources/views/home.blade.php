@@ -416,7 +416,7 @@
               >
               <span
                 class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9">NEW</span>
-              <a href="/breakdown-insurance" class="link">
+              <a href="/breakdown-cover" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
                 <div class="mt-2 mt-small-0">
@@ -692,7 +692,7 @@
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
             <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>

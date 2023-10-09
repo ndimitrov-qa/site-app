@@ -685,6 +685,9 @@ section.bg-body-tertiary .card {
   .mt-custom {
     margin-top: 20px;
   }
+  .pb-medium {
+    padding-bottom: 0px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -820,7 +823,7 @@ section.bg-body-tertiary .card {
       padding-bottom: 6px;
     }
     .smaller-margin-0 {
-        margin: 0px;
+        margin-left: 0px !important;
     }
     .button-smaller-green {
         font-size: 14px;

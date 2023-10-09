@@ -31,6 +31,12 @@
     .small-margin-28 {
         margin-left: 28px;
     }
+    .small-margin-27 {
+        margin-left: 27px;
+    }
+    .small-margin-25 {
+        margin-left: 25px;
+    }
     .h1-small-18 {
         font-size: 18px !important;
     }
@@ -51,7 +57,7 @@
         padding-bottom: 20px;
       }
       .smaller-margin {
-        margin-left: 0px;
+        margin-left: 0px !important;
       }
       .h1-smaller-13 {
         font-size: 13.8px !important;

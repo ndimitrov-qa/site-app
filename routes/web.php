@@ -29,30 +29,6 @@ Route::get('/panel-provider', function () {
     return view('pages/panel-provider');
 });
 
-Route::get('/gadget-insurance', function () {
-    return view('pages/insurance/lifestyle/gadget-insurance');
-});
-
-Route::get('/home-emergency', function () {
-    return view('pages/home-emergency');
-});
-
-Route::get('/breakdown-cover', function () {
-    return view('pages/insurance/motoring/breakdown-cover');
-});
-
-Route::get('/european-breakdown-cover', function () {
-    return view('pages/insurance/motoring/european-breakdown-cover');
-});
-
-Route::get('/car-finance', function () {
-    return view('pages/money/car-finance');
-});
-
-Route::get('/car-hire-excess-insurance', function () {
-    return view('pages/insurance/motoring/car-hire-excess-insurance');
-});
-
 Route::get('/privacy-policy', function () {
     return view('pages/privacy-policy');
 });
@@ -65,7 +41,123 @@ Route::get('/quote/fleet', function () {
     return view('pages/fleet');
 });
 
-// HGV //
+                // MENU/INSURANCE //
+//----------- Insurance/What's Popular ------------------------//
+//------------------------------------------------------------//
+
+//----------- Insurance/Motoring ------------------------------//
+Route::get('/breakdown-cover', function () {
+    return view('pages/insurance/motoring/breakdown-cover');
+});
+Route::get('/european-breakdown-cover', function () {
+    return view('pages/insurance/motoring/european-breakdown-cover');
+});
+Route::get('/car-hire-excess-insurance', function () {
+    return view('pages/insurance/motoring/car-hire-excess-insurance');
+});
+//------------------------------------------------------------//
+
+//----------- Insurance/Property -----------------------------//
+Route::get('/home-appliance-cover', function () {
+    return view('pages/insurance/property/home-appliance-cover');
+});
+Route::get('/home-emergency-cover', function () {
+    return view('pages/insurance/property/home-emergency-cover');
+});
+Route::get('/home-emergency-cover', function () {
+    return view('pages/insurance/property/home-emergency-cover');
+});
+Route::get('/home-emergency', function () {
+    return view('pages/motoring/home-emergency');
+});
+//------------------------------------------------------------//
+
+//----------- Insurance/Leisure -----------------------------//
+Route::get('/bicycle-insurance', function () {
+    return view('pages/insurance/leisure/bicycle-insurance');
+});
+Route::get('/static-caravan-insurance', function () {
+    return view('pages/insurance/leisure/static-caravan-insurance');
+});
+Route::get('/touring-caravan-insurance', function () {
+    return view('pages/insurance/leisure/touring-caravan-insurance');
+});
+
+//----------- Insurance/Lifestyle -----------------------------//
+Route::get('/drone-insurance', function () {
+    return view('pages/insurance/lifestyle/drone-insurance');
+});
+Route::get('/camera-insurance', function () {
+    return view('pages/insurance/lifestyle/camera-insurance');
+});
+Route::get('/gadget-insurance', function () {
+    return view('pages/insurance/lifestyle/gadget-insurance');
+});
+//------------------------------------------------------------//
+
+                // MENU/BUSINESS //
+//----------- Insurance/What's Popular ------------------------//
+//------------------------------------------------------------//
+
+//-------------- Business/Motoring ----------------------------//
+//------------------------------------------------------------//
+
+//------------- Business/Property ----------------------------//
+//-----------------------------------------------------------//
+
+//-------------- Business/Leisure ----------------------------//
+//-----------------------------------------------------------//
+
+//------------- Business/Business ----------------------------//
+//-----------------------------------------------------------//
+
+//------------ Business/Lifestyle ----------------------------//
+//-----------------------------------------------------------//
+
+
+                // MENU/MONEY //
+//----------- Insurance/What's Popular ------------------------//
+//------------------------------------------------------------//
+
+//-------------- Business/Motoring ----------------------------//
+Route::get('/car-finance', function () {
+    return view('pages/money/motoring/car-finance');
+});
+//------------------------------------------------------------//
+
+//------------- Business/Property ----------------------------//
+//-----------------------------------------------------------//
+
+//-------------- Business/Leisure ----------------------------//
+//-----------------------------------------------------------//
+
+//------------- Business/Business ----------------------------//
+//-----------------------------------------------------------//
+
+//------------ Business/Lifestyle ----------------------------//
+//-----------------------------------------------------------//
+
+                // MENU/SERVICES //
+//----------- Insurance/What's Popular ------------------------//
+//------------------------------------------------------------//
+
+//-------------- Business/Motoring ----------------------------//
+//------------------------------------------------------------//
+
+//------------- Business/Property ----------------------------//
+//-----------------------------------------------------------//
+
+//-------------- Business/Leisure ----------------------------//
+//-----------------------------------------------------------//
+
+//------------- Business/Business ----------------------------//
+//-----------------------------------------------------------//
+
+//------------ Business/Lifestyle ----------------------------//
+//-----------------------------------------------------------//
+
+
+// HGV QUOTE//
 Route::get('/quote/hgv', function () {
     return view('pages/hgv/index');
 });
@@ -100,7 +192,7 @@ Route::get('/quote/hgv/thank-you', function () {
     return view('pages/hgv/thank-you');
 });
 
-// FLEET //
+// FLEET QUOTE //
 Route::get('/quote/fleet', function () {
     return view('pages/fleet/index');
 });
