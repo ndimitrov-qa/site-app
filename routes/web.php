@@ -64,12 +64,6 @@ Route::get('/home-appliance-cover', function () {
 Route::get('/home-emergency-cover', function () {
     return view('pages/insurance/property/home-emergency-cover');
 });
-Route::get('/home-emergency-cover', function () {
-    return view('pages/insurance/property/home-emergency-cover');
-});
-Route::get('/home-emergency', function () {
-    return view('pages/motoring/home-emergency');
-});
 //------------------------------------------------------------//
 
 //----------- Insurance/Leisure -----------------------------//

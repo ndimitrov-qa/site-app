@@ -32,9 +32,9 @@
 
   <!-- Providers Section Starts -->
     <!-- Blue Panel -->
-    <section class="bg-body-tertiary pt-2 pt-sm-0" id="love-it-cover-it">
+    <section class="bg-body-tertiary pt-2" id="love-it-cover-it">
     <!-- Blue Panel -->
-    <div class="my-custom-2 bg-body-tertiary pb-medium pb-small" id="love-it-cover-it">
+    <div class="my-custom-2 my-custom-3 bg-body-tertiary pb-medium pb-small" id="love-it-cover-it">
       <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">
@@ -44,7 +44,7 @@
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7">
                 <h4 class="text-primary">
-                    Eversure
+                    Eversure Camera Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
@@ -111,7 +111,7 @@
         <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
-          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of fate.
+          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
           Please contact the gadget insurance provider directly for discount related issues.
         </p>
       </div>

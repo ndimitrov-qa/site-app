@@ -114,7 +114,7 @@
         <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
-          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of fate.
+          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
           Please contact the gadget insurance provider directly for discount related issues.
         </p>
       </div>

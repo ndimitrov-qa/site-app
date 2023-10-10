@@ -6,7 +6,7 @@
     <div class="container-lg" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <h1 class="h1-small-18 h1-smaller-13" >Let's compare <span class="fw-bold">drone insurance</span></h1>
+          <h1 class="h1-smaller-13" >Let's compare <span class="fw-bold">drone insurance</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>
@@ -44,7 +44,7 @@
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7">
                 <h4 class="text-primary">
-                    Eversure
+                    Eversure Drone Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
@@ -111,7 +111,7 @@
         <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
-          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of fate.
+          The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
           Please contact the gadget insurance provider directly for discount related issues.
         </p>
       </div>

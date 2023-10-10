@@ -24,7 +24,9 @@
         padding-top: 25px;
         padding-bottom: 40px;
       }
-
+    .small-margin-60 {
+        margin-left: 60px;
+    }
     .small-margin-30 {
         margin-left: 45px;
     }
@@ -39,6 +41,16 @@
     }
     .h1-small-18 {
         font-size: 18px !important;
+    }
+    .h1-small-19 {
+        font-size: 19px !important;
+    }
+    .h1-small-23 {
+        font-size: 23.5px !important;
+    }
+    .my-custom-3 {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
     }
 
 }
@@ -61,5 +73,8 @@
       }
       .h1-smaller-13 {
         font-size: 13.8px !important;
+      }
+      .df-smaller {
+        display: inline-block !important;
+      }
     }
-}
