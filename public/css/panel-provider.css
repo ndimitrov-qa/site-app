@@ -3,10 +3,25 @@
     padding-bottom: 60px;
   }
 
+  .pl-85 {
+    padding-left: 85px;
+  }
+
+  .pl-90 {
+    padding-left: 90px;
+  }
+  .wh-36 {
+    width: 36px;
+    height: 36px;
+  }
+
 @media (max-width: 768px) {
     .my-custom {
         padding-top: 10px;
         padding-bottom: 30px;
+      }
+      .pl-m-10 {
+        padding-left: 10px !important;
       }
 }
 

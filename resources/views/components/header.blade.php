@@ -39,9 +39,9 @@
                         <li class="py-2"><a href="/european-breakdown-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover</a></li>
                         <li><a href="/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <!-- <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -57,10 +57,10 @@
                         </li>
                         <li class="py-2"><a href="/home-emergency-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Home Emergency Cover</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Insurance
+                        <!-- <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Insurance
                         </a></li>
                         <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li>
+                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
                         <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
@@ -79,9 +79,9 @@
                               class="bi bi-caret-right-fill pe-2"></i>Static Caravan Insurance</a></li>
                         <li><a href="/touring-caravan-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Touring Caravan Insurance
                         </a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <!-- <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -97,9 +97,9 @@
                               class="bi bi-caret-right-fill pe-2"></i>Drone Insurance</a></li>
                         <li><a href="/camera-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Camera Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
+                        <!-- <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li class="py-2"><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -301,7 +301,7 @@
             </li>
           </ul>
 
-          <ul class="navbar-nav">
+          <!-- <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
@@ -395,7 +395,7 @@
                 </div>
               </div>
             </li>
-          </ul>
+          </ul> -->
 
           <div class="vr d-none d-lg-block" style="margin-bottom:6px;"></div>
           <!-- removed margin-top value or vr -->

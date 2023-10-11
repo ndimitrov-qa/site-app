@@ -239,6 +239,12 @@
       </div>
     </div>
 
+    <!-- <div class="container-lg pb-4">
+        <a href="/contact-us" class="link">
+            <h6>Want to be the sponsored panel provider?</h6>
+        </a>
+    </div> -->
+
   </section>
   <!-- Important to Know Ends-->
 
