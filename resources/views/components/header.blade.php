@@ -1,15 +1,17 @@
   <!-- Navbar Starts -->
-  <div class="container-lg pb-2 pt-1">
+  <div class="container-xxl pb-2 pt-1">
     <nav class="navbar navbar-expand-lg pb-md-0">
       <div class="container-fluid ps-0 ms-0">
         <a class="navbar-brand" href="/">
           <img src="{{ asset('img/btq-web-logo.png') }}" alt="Logo of Beat That Quotes" class="logo-responsive">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#main_nav"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-md-end gap-xxl-4" id="main_nav">
+
+        <div class="collapse navbar-collapse justify-content-md-end gap-md-4" id="main_nav">
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu bordered-menu-item">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>

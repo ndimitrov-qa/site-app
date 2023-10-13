@@ -3,9 +3,9 @@
   @section('content')
   <!-- Hero Section -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg" style="padding-top: 30px;">
+    <div class="container-xxl" style="padding-top: 30px;">
       <div>
-        <h1 style="font-size: 38px;">Let's beat your insurance quote</h1>
+        <h1 class="fs-22-376" style="font-size: 38px;">Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
@@ -48,7 +48,7 @@
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more.png') }}" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
-          <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium">More</a></small>
+          <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</a></small>
           <!-- Add custom css tooltip end -->
         </div>
       </div>
@@ -58,11 +58,11 @@
         </div>
       @endif
       <!-- tab list end -->
-      <div class="container-lg mt-4 position-relative z-2 tab-content w-sm-res w-smaller-res" id="pills-tabContent">
+      <div class="container-xxl mt-4 position-relative z-2 tab-content w-sm-res w-smaller-res" id="pills-tabContent">
         <!-- tab content for fleet start -->
         <div class="tab-pane fade show active" id="pills-feet" role="tabpanel" aria-labelledby="pills-feet-tab"
           tabindex="0">
-          <form class="row needs-validation mt-1" action="{{ route('save.quote') }}" method="POST" style="max-width: 955px;width: 100%;">
+          <form class="row needs-validation mt-1 width-custom-form" action="{{ route('save.quote') }}" method="POST">
           @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
               <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
@@ -123,9 +123,9 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-7">I agree to the
+                  <small class="fs-7 link">I agree to the
                     <span class="text-blue">
-                    <a href="/privacy-policy" target="_blank" style="text-decoration: none;font-size: 18px;">
+                    <a href="/privacy-policy" target="_blank" class="a-privacy">
                         Privacy Policy
                     </a>
                     </span>
@@ -139,7 +139,7 @@
                   <div class="row d-lg-none mt-2">
                     <div class="col-sm-5">
                       <button class="btn btn-danger" type="submit">Quote
-                        <i class="bi bi-arrow-right-circle ps-sm-4 ps-small-235 ps-smaller-200"></i>
+                        <i class="bi bi-arrow-right-circle ps-sm-4 ps-small-235 ps-small-258 ps-smaller-200"></i>
                       </button>
                     </div>
                   </div>
@@ -330,8 +330,8 @@
 
   <!-- Cards Icons Starts -->
   <section style="margin-top: 40px; margin-bottom: 20px">
-    <div class="container-lg">
-      <h2 class="text-lg-center h2-md-24 h2-sm-22 h2-smaller-14" style="font-size: 36px; margin-bottom: 30px">
+    <div class="container-xxl">
+      <h2 class="text-lg-center h2-md-24 h2-sm-22 h2-smaller-14 h2-23" style="font-size: 36px; margin-bottom: 30px">
         Lets help you <span class="text-red">Beat</span> <span class="text-blue">That Quotes</span>
       </h2>
       <ul class="nav nav-tabs mb-2" id="myTab" role="tablist">
@@ -451,7 +451,7 @@
       </div>
     </div>
 
-    <div class="container-lg my-5">
+    <div class="container-xxl my-5">
       <ul class="nav nav-tabs text-blue mb-2" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active text-primary fw-medium fs-7 insurance-responsive pe-none" id="home-tab"
@@ -569,8 +569,8 @@
         </p>
       </div>
     </div>
-    <div class="container-lg d-sm-flex justify-content-center justify-content-sm-between position-relative open-sans">
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-2 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller">
+    <div class="container-xxl d-sm-flex justify-content-center justify-content-sm-between position-relative open-sans">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-2 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller testimonials-card-391">
         <div class="d-sm-flex flex-wrap text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -600,7 +600,7 @@
           <p class="fw-bold fs-8 responsive-text-small">Glen Hughes</p>
         </div>
       </div>
-      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller">
+      <div class="bg-white pt-3 pe-5 pb-1 ps-4 shadow border border-1 border-secondary-subtle mb-3 testimonials-card testimonials-card-small testimonials-card-smaller testimonials-card-391">
         <div class="d-flex text-warning gap-2 pb-2">
           <i class="bi bi-star-fill"></i>
           <i class="bi bi-star-fill"></i>
@@ -621,7 +621,7 @@
 
   <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
+    <div class="container-xxl border border-body-secondary pt-3">
       <h2 class="text-blue">Compare Insurance Heading</h2>
       <h6>Sub heading for content example</h6>
       <hr>
@@ -645,7 +645,7 @@
         quod!
       </p>
     </div>
-    <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
+    <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
@@ -672,9 +672,9 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
@@ -682,7 +682,7 @@
             <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
             <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
@@ -690,7 +690,7 @@
             <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
@@ -698,7 +698,7 @@
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
             <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>

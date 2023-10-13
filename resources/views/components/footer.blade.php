@@ -1,6 +1,6 @@
 <!-- Footer Starts -->
 <section class="bg-body-tertiary pt-4 responsive-footer">
-    <div class="container-lg">
+    <div class="container-xxl">
       <div class="row d-flex-row">
         <div class="col-lg-6 col-md-12 col-sm-12 open-sans pe-lg-5 ps-0">
           <p class="text-secondary fs-8">Beat That Quotes offers a range of business focused insurances, products and
@@ -29,11 +29,11 @@
     </div>
 
 
-    <div class="container-lg ps-0">
+    <div class="container-xxl ps-0">
       <hr>
     </div>
 
-    <div class="container-lg d-md-flex justify-content-between align-items-end pt-sm-4 ps-0">
+    <div class="container-xxl d-md-flex justify-content-between align-items-end pt-sm-4 ps-0">
       <div class="text-center-small">
         <a href="/">
           <img src="{{ asset ('img/btq-web-logo.png') }}" alt="Logo of Beat That Quotes" class="img-fluid pb-3 logo-responsive">
