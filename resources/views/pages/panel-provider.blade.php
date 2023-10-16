@@ -3,7 +3,7 @@
   @section('content')
   <!-- Hero Section Starts -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg" style="padding-top: 30px;">
+    <div class="container-xxl" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">gadget insurance</span></h1>
@@ -32,7 +32,7 @@
 
   <!-- Providers Section Starts -->
   <section class="bg-body-tertiary pt-60" id="love-it-cover-it">
-    <div class="container-lg">
+    <div class="container-xxl">
       <div class="border-body-secondary">
         <div class="shadow border-red">
           <span class="badge bg-red position-relative translate-middle top-100 py-2 px-2 pe-2 fs-9 badge-lg badge-md badge-sm">SPONSORED</span>
@@ -57,7 +57,7 @@
 
           <hr class="mx-4">
 
-          <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+          <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
             <div class="medium-text small-text mb-1 fs-9">
               <svg xmlns="http://www.w3.org/2000/svg"
                width="36"
@@ -104,7 +104,7 @@
     </div>
 
     <div class="my-custom-2 bg-body-tertiary">
-      <div class="container-lg fs-7">
+      <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
@@ -128,7 +128,7 @@
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -165,7 +165,7 @@
     </div>
 
     <div class="my-custom-2 bg-body-tertiary pb-medium pb-small">
-      <div class="container-lg fs-7">
+      <div class="container-xxl fs-7">
         <div class="border-body-secondary">
           <div class="shadow border border-1 border-body-secondary">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
@@ -189,7 +189,7 @@
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 flex-wrap ps-small">
+            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -228,7 +228,7 @@
 
     <!-- Important to Know Starts-->
     <div class="pb-3">
-      <div class="container-lg">
+      <div class="container-xxl">
         <h6>It's important to know</h6>
         <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
@@ -239,7 +239,7 @@
       </div>
     </div>
 
-    <!-- <div class="container-lg pb-4">
+    <!-- <div class="container-xxl pb-4">
         <a href="/contact-us" class="link">
             <h6>Want to be the sponsored panel provider?</h6>
         </a>
@@ -250,7 +250,7 @@
 
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
+    <div class="container-xxl border border-body-secondary pt-3">
       <h2 class="text-blue">Generic Content Page</h2>
       <h6>Sub heading for content example</h6>
       <hr>
@@ -277,7 +277,7 @@
 
   <!-- Accordion Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg accordion-custom-widt border border-body-secondary pt-3">
+    <div class="container-xxl accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
       </h2>
@@ -324,7 +324,7 @@
   </section>
   <!-- Accordion Ends -->
 
-  <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
+  <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
@@ -351,7 +351,7 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
           <ul class="list-unstyled">

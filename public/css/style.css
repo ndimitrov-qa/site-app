@@ -256,6 +256,14 @@ section.bg-body-tertiary .card {
     text-decoration: none;
     font-size: 18px;
   }
+  .img-check {
+    width: 36px !important;
+    height: 36px !important;
+}
+    .img-x {
+     width: 38px !important;
+     height: 38px !important;
+}
 
 /* Overwrite border on the quote section */
 @media (max-width: 991.98px) {
@@ -630,7 +638,7 @@ section.bg-body-tertiary .card {
     margin-left: 70.5px;
   }
   .small-text {
-    font-size: 8px;
+    font-size: 9px;
   }
   .small-margin-12 {
     margin-left: 12px;
@@ -639,8 +647,8 @@ section.bg-body-tertiary .card {
     margin-left: 30px;
   }
   .svg-small {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
   .social-icons svg {
     margin-right: 20px;
@@ -860,9 +868,9 @@ section.bg-body-tertiary .card {
     .testimonials-card-smaller {
         width: 292px;
       }
-      .p-res-small {
-        width: 255px;
-      }
+    .p-res-small {
+    width: 255px;
+    }
     .logo-responsive {
       width: 165px;
     }
@@ -897,7 +905,7 @@ section.bg-body-tertiary .card {
       font-size: 8px;
     }
     .responsive-width-smaller {
-      width: 145px;
+      width: 145px !important;
       }
     .responsive-footer-smaller {
       width: 140px;

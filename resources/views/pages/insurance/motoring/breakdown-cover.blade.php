@@ -3,10 +3,10 @@
   @section('content')
   <!-- Hero Section Starts -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg" style="padding-top: 30px;">
+    <div class="container-xxl" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <h1 class="">Let's compare <span class="fw-bold">breakdown cover</span></h1>
+          <h1 class="h1-361 h1-390">Let's compare <span class="fw-bold">breakdown cover</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>
@@ -16,7 +16,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
+            When your car breaks down, it can be a stressful and expensive experience.
+            That's why having breakdown cover is so important. Breakdown cover provides assistance if your vehicle unexpectedly suffers a mechanical or electrical failure, leaving you stranded at the roadside.
+            But not all breakdown cover policies are equal. It's wise to compare breakdown cover to find the best policy for your needs and budget.
+            Key things to compare are the level of cover, additional benefits, annual mileage limits, and excess charges.
+            Taking the time to compare breakdown cover will ensure you get a policy tailored to your specific requirements, with the peace of mind that help is only a phone call away.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -34,7 +38,7 @@
   <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it">
     <!-- Blue Panel -->
     <div class="pt-60 bg-body-tertiary pb-small" id="love-it-cover-it">
-      <div class="container-lg fs-7">
+      <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
@@ -62,9 +66,9 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 d-none d-lg-block">
 
-            <div class="container-lg d-flex mt-2 mb-2 fs-7 custom-small px-custom">
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -102,7 +106,7 @@
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -141,7 +145,7 @@
 
     <!-- Blue Panel -->
     <div class="my-custom-2 bg-body-tertiary">
-      <div class="container-lg fs-7">
+      <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
@@ -169,48 +173,41 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 d-none d-lg-block">
 
-            <div class="container-lg d-flex mt-2 mb-2 fs-7" style="padding-left: 46px; padding-right: 46px;">
-              <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
-                </svg> -->
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27">
+
+              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
+
               <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-30 smaller-margin-0 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-hand-thumbs-up text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
-                </svg> -->
+
+              <div class="medium-text small-text mb-1 fs-9">
+                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
+
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-coin text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
-                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                  <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
-                </svg> -->
+
+              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
+
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/x.png" alt="" class="me-2" style="width: 38px; height: 38px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-                </svg> -->
+                <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
                 European Cover
               </div>
+
             </div>
 
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -247,9 +244,10 @@
     </div>
     <!-- Blue Panel -->
 
+
     <!-- Blue Panel -->
     <div class="my-custom-2 bg-body-tertiary pb-medium pb-small">
-      <div class="container-lg fs-7">
+      <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
@@ -277,47 +275,33 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 d-none d-lg-block">
 
-            <div class="container-lg d-flex mt-2 mb-2 fs-7" style="padding-left: 46px; padding-right: 46px;">
-              <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
-                </svg> -->
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27">
+              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-30 smaller-margin-0 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-hand-thumbs-up text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
-                </svg> -->
+              <div class="medium-text small-text mb-1 fs-9">
+                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2" style="width: 36px; height: 36px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-coin text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
-                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                  <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
-                </svg> -->
+              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
-              <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/x.png" alt="" class="me-2" style="width: 38px; height: 38px;">
-                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
-                  <path d="M13.442 2.558a.625.625 0 0 1 0 .884l-10 10a.625.625 0 1 1-.884-.884l10-10a.625.625 0 0 1 .884 0zM4.5 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm7 6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm0 1a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-                </svg> -->
+              <div class="medium-text small-text mb-1 fs-9">
+                <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
                 European Cover
               </div>
             </div>
 
             <hr class="mx-4">
 
-            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
@@ -358,7 +342,7 @@
 
     <!-- Important to Know Starts-->
     <div class="pb-3">
-      <div class="container-lg">
+      <div class="container-xxl">
         <h6>It's important to know</h6>
         <p class="text-secondary open-sans" style="font-size: 12px;">
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
@@ -374,34 +358,61 @@
 
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+    <div class="container-xxl border border-body-secondary pt-3">
+      <h2 class="text-blue">Breakdown Cover</h2>
+      <h6>The Importance of Breakdown Cover</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Whether you're a frequent driver or only use your car occasionally, breakdown cover is an essential purchase that can give you real peace of mind.
+        When your vehicle suddenly and unexpectedly breaks down at the side of the road, you'll be glad you have a policy in place to get help fast.
+        We'll look at the key benefits of breakdown cover and why it should be a top priority.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Breakdown cover provides roadside assistance if you experience a mechanical or electrical failure while driving.
+        Most policies offer services like breakdown repair at the roadside, towing to a nearby garage if the problem can't be fixed, transportation to continue your journey, overnight accommodation if required, and even repatriation back to your home address.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Having breakdown assistance takes the stress out of what would otherwise be an upsetting, difficult situation.
+        There's no need to try and diagnose the problem or get your car recovered yourself.
+        And you won't be left stranded, missing appointments or having to fork out for expensive one-off call out fees. Simply call your breakdown provider's 24/7 helpline and let them efficiently handle it for you.
+        As well as the peace of mind, an overlooked benefit of breakdown cover is that it helps maintain the value of your vehicle. Having to be recovered and repaired without cover in place can seriously depreciate a car's worth.
+        But with a policy, repairs and recovery are carried out by approved professionals, leaving no lasting damage.
+      </p>
+      <p class="open-sans fs-8">
+        Breakdown cover also safeguards you against hefty one-off costs. For example, being recovered just a few miles by a mechanic without cover could easily cost over £200. Having an annual policy works out much cheaper and ensures you're fully protected all year round.
+      </p>
+      <p class="open-sans fs-8">
+      When choosing breakdown cover, you'll usually find three main levels:
+
+      </p>
+      <ul>
+        <li class="open-sans">
+         Roadside Assistance - Covers call outs for a roadside repair and/or towing to a local garage. Basic but essential cover.
+        </li>
+        <li class="open-sans">
+            Roadside & Recovery - Extends the roadside help to include recovery to anywhere within the UK. Ideal for frequent, long distance drivers.
+        </li>
+        <li class="open-sans">
+            Onward Travel - Adding extras like overnight accommodation, car hire and more.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Whichever policy you select, check that it covers you in the event of punctures, lost or locked in keys, running out of fuel, flat batteries, and other common breakdown causes. Some providers may exclude certain issues as standard.
+      </p>
+      <p class="open-sans fs-8">
+        Additional benefits like car hire and accommodation may seem appealing but come at a premium.  Consider whether you really need these extras or if basic roadside recovery will suffice.
+      </p>
+      <p class="open-sans fs-8">
+        Don't just automatically renew your breakdown cover each year either. It's wise to periodically compare breakdown cover using comparison sites. This takes a little time but can save you substantial money on your renewal premium. You may even find an enhanced policy for less cost.
+      </p>
+      <p class="open-sans fs-8">
+        In summary, breakdown cover gives total reassurance that expert help is on hand if your vehicle lets you down. Don't risk driving without it. Take the time to search for a competitively priced policy offering extensive protection on the roadside, allowing you to continue journeys with minimum disruption. Compare breakdown cover today and stay confident your car is in safe hands.
       </p>
     </div>
 
   <!-- Accordion Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg accordion-custom-widt border border-body-secondary pt-3">
+    <div class="container-xxl accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
       </h2>
@@ -448,7 +459,7 @@
   </section>
   <!-- Accordion Ends -->
 
-  <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
+  <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
@@ -475,17 +486,17 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li><a href="/car-hire-excess-insurance" class="link-offset-2">Car Hire Excess</a></li>
+            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">European Breakdown Cover</a></li>
+            <!-- <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li> -->
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
             <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
@@ -493,7 +504,7 @@
             <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
@@ -501,14 +512,14 @@
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
             <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
             <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
             <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
