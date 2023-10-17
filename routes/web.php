@@ -76,6 +76,21 @@ Route::get('/static-caravan-insurance', function () {
 Route::get('/touring-caravan-insurance', function () {
     return view('pages/insurance/leisure/touring-caravan-insurance');
 });
+Route::get('/musical-instrument-insurance', function () {
+    return view('pages/insurance/leisure/musical-instrument-insurance');
+});
+Route::get('/golf-insurance', function () {
+    return view('pages/insurance/leisure/golf-insurance');
+});
+Route::get('/boat-insurance', function () {
+    return view('pages/insurance/leisure/boat-insurance');
+});
+Route::get('/gun-insurance', function () {
+    return view('pages/insurance/leisure/gun-insurance');
+});
+Route::get('/travel-insurance', function () {
+    return view('pages/insurance/leisure/travel-insurance');
+});
 
 //----------- Insurance/Lifestyle -----------------------------//
 Route::get('/drone-insurance', function () {

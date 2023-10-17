@@ -79,10 +79,16 @@
                         </li>
                         <li class="py-2"><a href="/static-caravan-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Static Caravan Insurance</a></li>
-                        <li><a href="/touring-caravan-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Touring Caravan Insurance
+                        <li><a href="/musical-instrument-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Musical Instrument Insurance
                         </a></li>
-                        <!-- <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li class="py-2"><a href="/golf-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Golf Insurance</a></li>
+                        <li class="py-2"><a href="/boat-insurance" class="nav-link-custom"><i
+                        class="bi bi-caret-right-fill pe-2"></i>Boat Insurance</a></li>
+                        <li class="py-2"><a href="/gun-insurance" class="nav-link-custom"><i
+                        class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
+                        <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
+                        class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                         <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>

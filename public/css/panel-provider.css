@@ -34,6 +34,9 @@
       .display-custom-md {
         display: none !important;
       }
+      .h1-768 {
+        font-size: 32px !important;
+      }
 }
 
 @media (max-width: 576px) {
