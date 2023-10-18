@@ -72,7 +72,7 @@
                 </svg> -->
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-hand-thumbs-up text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -80,7 +80,7 @@
                 </svg> -->
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-coin text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -90,7 +90,7 @@
                 </svg> -->
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 132px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 132px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -178,20 +178,20 @@
                 Home Assistance
               </div>
 
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
@@ -278,17 +278,17 @@
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
                 European Cover
@@ -384,7 +384,7 @@
     </div>
 
   <!-- Accordion Starts -->
-  <section class="pt-lg-5 pb-lg-4">
+  <!-- <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
@@ -429,7 +429,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Accordion Ends -->
 
   <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">

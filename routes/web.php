@@ -55,6 +55,9 @@ Route::get('/european-breakdown-cover', function () {
 Route::get('/car-hire-excess-insurance', function () {
     return view('pages/insurance/motoring/car-hire-excess-insurance');
 });
+Route::get('/gap-insurance', function () {
+    return view('pages/insurance/motoring/gap-insurance');
+});
 //------------------------------------------------------------//
 
 //----------- Insurance/Property -----------------------------//

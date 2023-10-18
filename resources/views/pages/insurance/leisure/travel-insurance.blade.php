@@ -1075,7 +1075,7 @@
     </div>
 
   <!-- Accordion Starts -->
-  <section class="pt-lg-5 pb-lg-4">
+  <!-- <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
@@ -1120,7 +1120,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Accordion Ends -->
 
   <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">

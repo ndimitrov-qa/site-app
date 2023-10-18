@@ -41,8 +41,8 @@
                         <li class="py-2"><a href="/european-breakdown-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover</a></li>
                         <li><a href="/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
-                        <!-- <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li class="py-2"><a href="/gap-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
                         <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
