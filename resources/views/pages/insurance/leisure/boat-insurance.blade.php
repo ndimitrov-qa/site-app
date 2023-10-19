@@ -43,10 +43,10 @@
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
-                    Insure4Boats
+                    Insure4Boats Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Insure4Boats can include and offer the following cover(s)
+                    Boat Insurance from Insure4Boats can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
@@ -366,7 +366,7 @@
     </div>
 
   <!-- Accordion Starts -->
-  <section class="pt-lg-5 pb-lg-4">
+  <!-- <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
@@ -411,7 +411,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Accordion Ends -->
 
   <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">

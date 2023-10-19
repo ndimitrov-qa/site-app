@@ -386,13 +386,13 @@
 
       </p>
       <ul>
-        <li class="open-sans">
+        <li class="open-sans fs-8">
          Roadside Assistance - Covers call outs for a roadside repair and/or towing to a local garage. Basic but essential cover.
         </li>
-        <li class="open-sans">
+        <li class="open-sans fs-8">
             Roadside & Recovery - Extends the roadside help to include recovery to anywhere within the UK. Ideal for frequent, long distance drivers.
         </li>
-        <li class="open-sans">
+        <li class="open-sans fs-8">
             Onward Travel - Adding extras like overnight accommodation, car hire and more.
         </li>
       </ul>

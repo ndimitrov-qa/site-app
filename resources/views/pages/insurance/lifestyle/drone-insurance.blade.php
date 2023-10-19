@@ -30,7 +30,7 @@
   </section>
   <!-- Hero Section Ends -->
 
-  <!-- Providers Section Starts -->
+    <!-- Providers Section Starts -->
     <!-- Blue Panel -->
     <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it">
     <!-- Blue Panel -->
@@ -47,7 +47,7 @@
                     Eversure Drone Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
+                    Drone Insurance from Eversure can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
@@ -61,6 +61,36 @@
                 </button>
                 </a>
               </div>
+            </div>
+
+            <hr class="mx-4 d-none d-lg-block">
+
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
+                <div class="medium-text small-text mb-1 fs-9 small-margin-27">
+
+                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Theft
+                </div>
+
+                <div class="vr d-none d-lg-block" style="margin-left: 164px; margin-right: 60px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9">
+                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Accidental Damage
+                </div>
+                <div class="vr d-none d-lg-block" style="margin-left: 94px; margin-right: 56px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9">
+
+                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Equipment Hire Costs
+                </div>
+                <div class="vr d-none d-lg-block" style="margin-left: 88px; margin-right: 56px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
+                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    Optional covers
+                </div>
             </div>
 
             <hr class="mx-4">
@@ -148,7 +178,7 @@
     </div>
 
   <!-- Accordion Starts -->
-  <section class="pt-lg-5 pb-lg-4">
+  <!-- <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg accordion-custom-widt border border-body-secondary pt-3">
       <h2 class="text-primary pb-2">
         Frequently Asked Questions
@@ -193,7 +223,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Accordion Ends -->
 
   <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between pe-0" style="margin-top: 40px;">
@@ -223,17 +253,17 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li><a href="/car-hire-excess-insurance" class="link-offset-2">Car Hire Excess</a></li>
+            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">European Breakdown Cover</a></li>
+            <!-- <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li> -->
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
             <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
@@ -241,22 +271,22 @@
             <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-insurance" class="link-offset-2">Cheap Breakdown Insurance</a></li>
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
             <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
             <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
             <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
             <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
   </section>
   <!-- Compare Paragraph Ends-->

@@ -660,17 +660,17 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li><a href="/car-hire-excess-insurance" class="link-offset-2">Car Hire Excess</a></li>
+            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">European Breakdown Cover</a></li>
+            <!-- <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li> -->
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <!-- <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
             <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
@@ -678,7 +678,7 @@
             <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
@@ -686,14 +686,14 @@
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-361 responsive-width-390">
           <ul class="list-unstyled">
             <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
             <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
             <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
             <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
-        </div>
+        </div> -->
       </div>
   </section>
   <!-- Compare Paragraph Ends-->

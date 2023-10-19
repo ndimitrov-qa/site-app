@@ -6,7 +6,7 @@
           <img src="{{ asset('img/btq-web-logo.png') }}" alt="Logo of Beat That Quotes" class="logo-responsive">
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#main_nav"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +43,7 @@
                         <li><a href="/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
                         <li class="py-2"><a href="/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
-                        <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -81,15 +81,15 @@
                               class="bi bi-caret-right-fill pe-2"></i>Static Caravan Insurance</a></li>
                         <li><a href="/musical-instrument-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Musical Instrument Insurance
                         </a></li>
-                        <li class="py-2"><a href="/golf-insurance" class="nav-link-custom"><i
+                        <li><a href="/golf-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Golf Insurance</a></li>
                         <li class="py-2"><a href="/boat-insurance" class="nav-link-custom"><i
                         class="bi bi-caret-right-fill pe-2"></i>Boat Insurance</a></li>
-                        <li class="py-2"><a href="/gun-insurance" class="nav-link-custom"><i
+                        <li><a href="/gun-insurance" class="nav-link-custom"><i
                         class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
                         <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
                         class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class="py-2"><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -240,14 +240,14 @@
                       <ul class="list-unstyled">
                         <li><a href="/car-finance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Finance</a></li>
-                        <li class="py-2"><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <!-- <li class="py-2"><a href="/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Finance</a></li>
                         <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Finance
-                        </a></li>
-                        <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Finance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                        </a></li> -->
+                        <!-- <li class="py-2"><a href="/motorbike-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Finance</a></li> -->
+                        <!-- <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
                   </div>
