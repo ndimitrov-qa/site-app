@@ -15,9 +15,9 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu bordered-menu-item">
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
-              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
+              <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-md-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -81,15 +81,18 @@
                               class="bi bi-caret-right-fill pe-2"></i>Static Caravan Insurance</a></li>
                         <li><a href="/musical-instrument-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Musical Instrument Insurance
                         </a></li>
-                        <li><a href="/golf-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Golf Insurance</a></li>
-                        <li class="py-2"><a href="/boat-insurance" class="nav-link-custom"><i
-                        class="bi bi-caret-right-fill pe-2"></i>Boat Insurance</a></li>
-                        <li><a href="/gun-insurance" class="nav-link-custom"><i
-                        class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
-                        <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
-                        class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+
+
+                            <li><a href="/golf-insurance" class="nav-link-custom"><i
+                                class="bi bi-caret-right-fill pe-2"></i>Golf Insurance</a></li>
+                            <li class="py-2"><a href="/boat-insurance" class="nav-link-custom"><i
+                            class="bi bi-caret-right-fill pe-2"></i>Boat Insurance</a></li>
+                            <li><a href="/gun-insurance" class="nav-link-custom"><i
+                            class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
+                            <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
+                            class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
+                            
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -123,7 +126,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -218,7 +221,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-4 col-sm-6 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -453,3 +456,5 @@
     </nav>
   </div>
   <!-- Navbar Ends -->
+
+

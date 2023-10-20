@@ -1,11 +1,11 @@
-@extends('layouts.content')
+@extends('layouts.default')
 
   @section('content')
   <!-- Hero Section -->
   <section class="bg-body-tertiary border-top border-tertiary">
-    <div class="container-lg" style="padding-top: 30px;">
+    <div class="container-xxl" style="padding-top: 30px;">
       <div>
-        <h1 style="font-size: 38px;">Let's beat your insurance quote</h1>
+        <h1 class="fs-22-376" style="font-size: 38px;">Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
@@ -48,26 +48,20 @@
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more.png') }}" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
-          <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium">More</a></small>
-          <!-- Add custom css tooltip end -->
+          <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</a></small>
         </div>
       </div>
-      @if(session('success'))
-        <div class="alert alert-success bg-success text-white" style="width: 430px;" role="alert">
-            {{ session('success') }}
-        </div>
-      @endif
-
     </div>
+
     <div class="mt-n4">
       <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="height: 165px;">
     </div>
   </section>
   <!-- Hero Section Ends-->
 
-  <!-- Compare Paragraph Starts -->
-  <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
+<!-- Compare Paragraph Starts -->
+<section class="pt-lg-5 pb-lg-4">
+    <div class="container-xxl border border-body-secondary pt-3">
       <h2 class="text-blue">Generic Content Page</h2>
       <h6>Sub heading for content example</h6>
       <hr>
@@ -91,7 +85,7 @@
         quod!
       </p>
     </div>
-    <div class="container-lg bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
+    <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
       <div class="text-white fs-7 social-icons pb-1">
         <a href="https://www.facebook.com" target="_blank" class="text-white fs-7 social-icons">
@@ -118,9 +112,9 @@
       </div>
     </div>
 
-    <div class="container-lg ps-0 responsive-links">
+    <div class="container-xxl ps-0 responsive-links">
       <div class="row gx-2">
-        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
@@ -128,7 +122,7 @@
             <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
             <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
@@ -136,7 +130,7 @@
             <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
@@ -144,7 +138,7 @@
             <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
             <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
@@ -155,4 +149,5 @@
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
+
   @endsection

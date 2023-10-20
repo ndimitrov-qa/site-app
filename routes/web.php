@@ -21,6 +21,10 @@ Route::get('/live', function () {
     return view('/home');
 });
 
+Route::get('/contact-us', function () {
+    return view('pages/useful-links/contact-us');
+});
+
 Route::get('/content', function () {
     return view('pages/content');
 });
