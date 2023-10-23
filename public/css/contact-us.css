@@ -1,0 +1,80 @@
+
+@media (min-width: 320px) {
+    .h2-36 {
+        font-size: 16px;
+    }
+    label {
+        font-size: 12px;
+    }
+    a {
+        font-size: 10px;
+    }
+}
+@media (min-width: 320px) {
+    .h2-36 {
+        font-size: 18px;
+    }
+    label {
+        font-size: 14px;
+    }
+    a {
+        font-size: 10px;
+    }
+}
+@media (min-width: 375px) {
+    .h2-36 {
+        font-size: 18px;
+    }
+    label {
+        font-size: 14px;
+    }
+    a {
+        font-size: 10.5px;
+    }
+}
+@media (min-width: 425px) {
+    .h2-36 {
+        font-size: 18px;
+    }
+    label {
+        font-size: 14px;
+    }
+    a {
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) {
+    .h2-36 {
+        font-size: 24px;
+    }
+    label {
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) {
+    .h2-36 {
+        font-size: 36px;
+    }
+    label {
+        font-size: 16px;
+    }
+    a {
+        font-size: 16px;
+    }
+ }
+ @media (min-width: 992px) {
+ }
+
+ @media (min-width: 1200px) {
+
+ }
+ @media (min-width: 1400px) {
+    .h2-36 {
+        font-size: 36px;
+    }
+ }
+ @media (min-width: 2560px) {
+    .h2-36 {
+        font-size: 36px;
+    }
+ }

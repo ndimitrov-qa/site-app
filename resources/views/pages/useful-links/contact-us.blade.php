@@ -1,14 +1,14 @@
 
 <style>
   body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .container {
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     background: #fff;
     padding: 20px;
@@ -16,9 +16,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
+.h2-36 {
     text-align: center;
-    color: #333;
+    font-size: 36px;
+    /* color: #333; */
 }
 
 .form-group {
@@ -42,8 +43,15 @@ textarea {
     border-radius: 3px;
 }
 
-button {
-    background: #333;
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #0264bb;
+    outline: none;
+}
+
+button.btn-submit {
+    background: var(--red-color);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -51,8 +59,8 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background: #444;
+button.btn-submit {
+    background: hsl(358, 58%, 44%);
 }
 
 </style>
@@ -117,9 +125,28 @@ button:hover {
   </section>
   <!-- Hero Section Ends-->
 
-  <div class="container mt-5">
-      <h2 style="font-size: 36px">Contact Us</h2>
-      <form method="POST">
+  <div class="container-xxl mt-5">
+      <h2 class="h2-36">Contact Us</h2>
+
+      <!-- Display success or error messages -->
+      @if(session('success'))
+      <div class="alert alert-success">
+          {{ session('success') }}
+      </div>
+      @endif
+
+      @if ($errors->any())
+      <div class="alert alert-danger">
+          <ul>
+              @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+              @endforeach
+          </ul>
+      </div>
+      @endif
+      <!-- Display success or error messages -->
+
+      <form method="POST" action="{{ route('contact.submit') }}">
         @csrf
         <div class="form-group">
             <label for="name">Name</label>
@@ -146,30 +173,16 @@ button:hover {
             <textarea id="enquiry" name="enquiry" rows="5" required></textarea>
         </div>
 
-        <button class="rounded" type="submit">Submit</button>
+        <div class="form-group">
+            {!! app('captcha')->display() !!}
+        </div>
+
+        <button class="rounded btn-submit" type="submit">Submit</button>
       </form>
     </div>
 
-    <!-- Display success or error messages -->
-    @if(session('success'))
-    <div class="alert alert-success">
-        {{ session('success') }}
-    </div>
-    @endif
-
-    @if ($errors->any())
-    <div class="alert alert-danger">
-        <ul>
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    </div>
-    @endif
-    <!-- Display success or error messages -->
-
-<!-- Compare Paragraph Starts -->
-<section class="pt-lg-5 pb-lg-4">
+  <!-- Compare Paragraph Starts -->
+  <section class="pt-md-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
       <h2 class="text-blue">Generic Content Page</h2>
       <h6>Sub heading for content example</h6>
@@ -258,5 +271,7 @@ button:hover {
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   @endsection

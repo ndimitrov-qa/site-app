@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuoteController;
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,9 +22,9 @@ Route::get('/live', function () {
     return view('/home');
 });
 
-Route::get('/contact-us', function () {
-    return view('pages/useful-links/contact-us');
-});
+// Route::get('/contact-us', function () {
+//     return view('pages/useful-links/contact-us');
+// });
 
 Route::get('/content', function () {
     return view('pages/content');
@@ -243,6 +244,10 @@ Route::get('/quote/fleet/thank-you', function () {
     return view('pages/fleet/thank-you');
 });
 
-
-
+// FLEET FORM QUOTE //
 Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');
+
+                          // CONTACT-US PAGE //
+                        // CONTACT FORM SUBMIT //
+Route::get('/contact-us', [ContactController::class, 'showForm'])->name('contact');
+Route::post('/contact-us', [ContactController::class, 'submitForm'])->name('contact.submit');

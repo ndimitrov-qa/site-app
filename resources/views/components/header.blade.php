@@ -91,7 +91,7 @@
                             class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
                             <li class="py-2"><a href="/travel-insurance" class="nav-link-custom"><i
                             class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                            
+
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
