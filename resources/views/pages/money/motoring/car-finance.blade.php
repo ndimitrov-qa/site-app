@@ -86,7 +86,7 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -187,7 +187,7 @@
             </div>
 
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -281,7 +281,7 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">

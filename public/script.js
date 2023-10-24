@@ -1,6 +1,9 @@
+// ------------- Tooltip Start ------------------------- //
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+// ------------- Tooltip Start ------------------------- //
 
+// ------------- Navigation Menu Start --------------------//
 
 // Function to enable hover behavior on desktop screens
 function enableHoverOnDesktop() {
@@ -47,14 +50,9 @@ function checkScreenSize() {
 // Call the function initially and on window resize
 checkScreenSize();
 window.addEventListener('resize', checkScreenSize);
+// -------------Navigation Menu End ---------------------//
 
-
-// const triggerEl = document.querySelector('#myTab button[data-bs-target="#profile"]')
-// bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-
-// const triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
-// bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
-
+// --------------- Cookies Modal Start ------------------ //
 
 // Cookies Consent Modal
 const cookieBox = document.querySelector(".wrapper"),
@@ -80,6 +78,8 @@ const executeCodes = () => {
 
 //executeCodes function will be called on webpage load
 window.addEventListener("load", executeCodes);
+
+// --------------- Cookies Modal End ------------------ //
 
 
 

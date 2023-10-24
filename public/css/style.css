@@ -497,7 +497,13 @@ section.bg-body-tertiary .card {
     border-radius: px; /* Add border-radius for rounded borders */
     margin-bottom: px; /* Add spacing between menu items */
   }
-
+  .nav-link-custom {
+    text-decoration: none;
+    position: relative;
+    color: var(--blue-color);
+    font-size: 8.5px;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 576px) {
@@ -713,7 +719,7 @@ section.bg-body-tertiary .card {
   .a-privacy {
     text-decoration: none;
     font-size: 14px;
-}
+  }
 }
 
 @media (max-width: 991px) {

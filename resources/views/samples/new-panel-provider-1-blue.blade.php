@@ -16,7 +16,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
+            When your car breaks down, it can be a stressful and expensive experience.
+            That's why having breakdown cover is so important. Breakdown cover provides assistance if your vehicle unexpectedly suffers a mechanical or electrical failure, leaving you stranded at the roadside.
+            But not all breakdown cover policies are equal. It's wise to compare breakdown cover to find the best policy for your needs and budget.
+            Key things to compare are the level of cover, additional benefits, annual mileage limits, and excess charges.
+            Taking the time to compare breakdown cover will ensure you get a policy tailored to your specific requirements, with the peace of mind that help is only a phone call away.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -72,7 +76,7 @@
                 </svg> -->
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-hand-thumbs-up text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -80,7 +84,7 @@
                 </svg> -->
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-112"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-coin text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -90,7 +94,7 @@
                 </svg> -->
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 132px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-132"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -100,7 +104,7 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -178,20 +182,20 @@
                 Home Assistance
               </div>
 
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-90"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-140"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
@@ -201,7 +205,7 @@
             </div>
 
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -278,24 +282,24 @@
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78-62"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-90-58"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-140-54"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
                 European Cover
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -355,31 +359,54 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Breakdown Cover</h2>
+      <h6>The Importance of Breakdown Cover</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Whether you're a frequent driver or only use your car occasionally, breakdown cover is an essential purchase that can give you real peace of mind.
+        When your vehicle suddenly and unexpectedly breaks down at the side of the road, you'll be glad you have a policy in place to get help fast.
+        We'll look at the key benefits of breakdown cover and why it should be a top priority.
       </p>
       <p class="open-sans fs-8">
         Breakdown cover provides roadside assistance if you experience a mechanical or electrical failure while driving.
         Most policies offer services like breakdown repair at the roadside, towing to a nearby garage if the problem can't be fixed, transportation to continue your journey, overnight accommodation if required, and even repatriation back to your home address.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Having breakdown assistance takes the stress out of what would otherwise be an upsetting, difficult situation.
+        There's no need to try and diagnose the problem or get your car recovered yourself.
+        And you won't be left stranded, missing appointments or having to fork out for expensive one-off call out fees. Simply call your breakdown provider's 24/7 helpline and let them efficiently handle it for you.
+        As well as the peace of mind, an overlooked benefit of breakdown cover is that it helps maintain the value of your vehicle. Having to be recovered and repaired without cover in place can seriously depreciate a car's worth.
+        But with a policy, repairs and recovery are carried out by approved professionals, leaving no lasting damage.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Breakdown cover also safeguards you against hefty one-off costs. For example, being recovered just a few miles by a mechanic without cover could easily cost over £200. Having an annual policy works out much cheaper and ensures you're fully protected all year round.
+      </p>
+      <p class="open-sans fs-8">
+      When choosing breakdown cover, you'll usually find three main levels:
+
+      </p>
+      <ul>
+        <li class="open-sans fs-8">
+         Roadside Assistance - Covers call outs for a roadside repair and/or towing to a local garage. Basic but essential cover.
+        </li>
+        <li class="open-sans fs-8">
+            Roadside & Recovery - Extends the roadside help to include recovery to anywhere within the UK. Ideal for frequent, long distance drivers.
+        </li>
+        <li class="open-sans fs-8">
+            Onward Travel - Adding extras like overnight accommodation, car hire and more.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Whichever policy you select, check that it covers you in the event of punctures, lost or locked in keys, running out of fuel, flat batteries, and other common breakdown causes. Some providers may exclude certain issues as standard.
+      </p>
+      <p class="open-sans fs-8">
+        Additional benefits like car hire and accommodation may seem appealing but come at a premium.  Consider whether you really need these extras or if basic roadside recovery will suffice.
+      </p>
+      <p class="open-sans fs-8">
+        Don't just automatically renew your breakdown cover each year either. It's wise to periodically compare breakdown cover using comparison sites. This takes a little time but can save you substantial money on your renewal premium. You may even find an enhanced policy for less cost.
+      </p>
+      <p class="open-sans fs-8">
+        In summary, breakdown cover gives total reassurance that expert help is on hand if your vehicle lets you down. Don't risk driving without it. Take the time to search for a competitively priced policy offering extensive protection on the roadside, allowing you to continue journeys with minimum disruption. Compare breakdown cover today and stay confident your car is in safe hands.
       </p>
     </div>
 

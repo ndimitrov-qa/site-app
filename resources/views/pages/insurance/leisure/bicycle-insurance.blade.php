@@ -16,7 +16,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -93,7 +93,7 @@
 
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -190,7 +190,7 @@
                 </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -287,7 +287,7 @@
                 </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -384,7 +384,7 @@
                 </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">

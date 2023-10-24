@@ -76,7 +76,7 @@
                 </svg> -->
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-hand-thumbs-up text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -84,7 +84,7 @@
                 </svg> -->
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-112"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-coin text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -94,7 +94,7 @@
                 </svg> -->
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 132px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-132"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 <!-- <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-percent text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
@@ -104,7 +104,7 @@
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -182,20 +182,20 @@
                 Home Assistance
               </div>
 
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-90"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-140"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
@@ -205,7 +205,7 @@
             </div>
 
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
@@ -282,24 +282,24 @@
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-78-62"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-90-58"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block mx-custom-provider-140-54"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="img/x.png" alt="" class="me-2 img-x img-x-small">
                 European Cover
               </div>
             </div>
 
-            <hr class="mx-4">
+            <hr class="mx-4 mt-0">
 
             <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
