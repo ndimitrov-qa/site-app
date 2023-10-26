@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-caravan-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@
               <div class="col-2">
                 <img src="img/logos/eversure.png" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7">
+              <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
                     Eversure Static Caravan Insurance
                 </h4>

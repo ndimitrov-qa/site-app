@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
                     Reduce My Excess Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Car Hire Excess Insurance from Emergency Assist can include and offer the following cover(s)
+                    Car Hire Excess Insurance from Reduce My Excess can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">

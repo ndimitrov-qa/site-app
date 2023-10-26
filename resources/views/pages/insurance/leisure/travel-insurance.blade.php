@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-plane-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
         </div>
       </div>
     </div>

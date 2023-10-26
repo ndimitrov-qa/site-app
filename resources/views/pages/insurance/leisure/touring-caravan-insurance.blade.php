@@ -6,7 +6,7 @@
     <div class="container-lg" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <h1 class="h1-small-18 h1-smaller-13" >Let's compare <span class="fw-bold">touring caravan insurance</span></h1>
+          <h1 class="h1-small-18 h1-smaller-13">Let's compare <span class="fw-bold">touring caravan insurance</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>
@@ -16,11 +16,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-caravan-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -42,12 +42,12 @@
               <div class="col-2">
                 <img src="img/logos/eversure.png" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7">
+              <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
                     Eversure Touring Caravan Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, veritatis non vel eveniet harum dolorum ex quibusdam, illo suscipit maiores reiciendis laboriosam aliquam, velit eaque molestias? Asperiores quasi dicta laudantium.
+                    Touring Caravan Insurance from Eversure can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
@@ -61,6 +61,37 @@
                 </button>
                 </a>
               </div>
+            </div>
+
+            <hr class="mx-4 d-none d-lg-block">
+
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
+                <div class="medium-text small-text mb-1 fs-9 small-margin-27">
+
+                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Accidental Damage
+                </div>
+
+                <div class="vr d-none d-lg-block" style="margin-left: 65px; margin-right: 54px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9">
+                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Malicious Damage
+                </div>
+
+                <div class="vr d-none d-lg-block" style="margin-left: 108px; margin-right: 54px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9">
+                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    Storm, Fire and Flood
+                </div>
+
+                <div class="vr d-none d-lg-block" style="margin-left: 91px; margin-right: 54px"></div>
+
+                <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
+                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    Theft
+                </div>
             </div>
 
             <hr class="mx-4 mt-0">

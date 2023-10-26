@@ -14,9 +14,9 @@
         <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
           type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
           <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
-            <img src="{{ asset('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
+            <img src="{{ asset('BTQ - Type Icons/icon-type-fleet-2.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
 
           </div>
           <div class="link-custom fs-md-6 text-center">Fleet</div>
@@ -24,7 +24,7 @@
         <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
           role="tab" aria-controls="pills-hgv" aria-selected="false">
           <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
             <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
 
@@ -33,7 +33,7 @@
         </div>
         <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
           role="tab" aria-controls="pills-truck" aria-selected="false">
-          <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
+          <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
             <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive">
 
@@ -44,8 +44,8 @@
         <div class="text-center">
           <!-- Add custom css tooltip -->
           <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller" style="margin-bottom: 10px;">
-            <img src="{{ asset ('BTQ - Type Icons/icon-type-more.png') }}" alt="More icon" class="img-fluid image-responsive">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10">
+            <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
           <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</a></small>
@@ -115,7 +115,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
-                <small class="fs-7">
+                <small class="fs-9">
                   Your data is 100% safe
                 </small>
               </div>
@@ -123,7 +123,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-7 link">I agree to the
+                  <small class="fs-9 link">I agree to the
                     <span class="text-blue">
                     <a href="/privacy-policy" target="_blank" class="a-privacy">
                         Privacy Policy
@@ -201,7 +201,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
-                <small class="fs-7">
+                <small class="fs-9">
                   Your data is 100% safe
                 </small>
               </div>
@@ -209,7 +209,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
+                  <small class="fs-9">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
                 <div class="quote-btn-xs">
@@ -281,7 +281,7 @@
               <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
                 <img src="{{ asset ('img/icon-greenshield.png') }}" alt="image of a greenshield">
-                <small class="fs-7">
+                <small class="fs-9">
                   Your data is 100% safe
                 </small>
               </div>
@@ -289,7 +289,7 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-7">I agree to the <span class="text-blue">Privacy Policy</span></small>
+                  <small class="fs-9">I agree to the <span class="text-blue">Privacy Policy</span></small>
                 </label>
                 </div>
                 <div class="quote-btn-xs">
@@ -357,7 +357,7 @@
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
               <a href="/fleet-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-fleet-2.png') }}" alt="Fleet icon" class="img-fluid mx-auto d-block image-width"
                   >
                 <div class="mt-2 mt-small-0 mt-small-0">
                   Fleet
@@ -417,7 +417,7 @@
               <span
                 class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9">NEW</span>
               <a href="/breakdown-cover" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown.png') }}" alt="Breakdown icon"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown-2.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
                 <div class="mt-2 mt-small-0">
                   Breakdown
@@ -492,8 +492,8 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/caravan-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan.png') }}" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/touring-caravan-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan-2.png') }}" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Caravan
@@ -505,7 +505,7 @@
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
                 style="margin-left: 34px;">POPULAR</span>
               <a href="/travel-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-plane.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-plane-2.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Travel
@@ -515,7 +515,7 @@
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
               <a href="/health-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-health.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-health-2.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Health
@@ -525,7 +525,7 @@
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
               <a href="/bicycle-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle-2.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Bicycle
@@ -535,7 +535,7 @@
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
               <a href="/golf-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-golf.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-golf-2.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Golf
@@ -695,7 +695,7 @@
             <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
             <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
             <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
-            <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
+            <li class="py-2"><a href="/static-caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">

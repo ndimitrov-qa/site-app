@@ -20,7 +20,7 @@
         <div class="col-lg-3 col-md-6 col-sm-6 ps-0 responsive-footer-small responsive-footer-smaller">
           <ul class="list-unstyled">
             <p><a href="#" class="link text-secondary fw-medium pe-none">Terms & Legals</a></p>
-            <li><a href="/terms-and-conditions" class="link">Terms & Conditions</a></li>
+            <li><a href="/terms-conditions" class="link">Terms & Conditions</a></li>
             <li class="py-2"><a href="/privacy-policy" class="link">Privacy Policy</a></li>
             <li><a href="/marketing-preferences" class="link">Marketing Preferences</a></li>
           </ul>

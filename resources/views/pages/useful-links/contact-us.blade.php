@@ -125,8 +125,68 @@ button.btn-submit {
   </section>
   <!-- Hero Section Ends-->
 
-  <div class="container-xxl mt-5">
+  <!-- <div class="container-xxl mt-5">
       <h2 class="h2-36">Contact Us</h2>
+
+      <!-- Display success or error messages
+      @if(session('success'))
+      <div class="alert alert-success">
+          {{ session('success') }}
+      </div>
+      @endif
+
+      @if ($errors->any())
+      <div class="alert alert-danger">
+          <ul>
+              @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+              @endforeach
+          </ul>
+      </div>
+      @endif
+      <!-- Display success or error messages -->
+      <!--
+      <form method="POST" action="{{ route('contact.submit') }}">
+        @csrf
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+            <label for="enquiry">Enquiry</label>
+            <textarea id="enquiry" name="enquiry" rows="5" required></textarea>
+        </div>
+
+        <div class="form-group">
+            {!! app('captcha')->display() !!}
+        </div>
+
+        <button class="rounded btn-submit" type="submit">Submit</button>
+      </form>
+    </div> -->
+
+
+  <!-- Compare Paragraph Starts -->
+  <section class="pt-md-5 pb-lg-4">
+    <div class="container-xxl">
+    <h2 class="text-blue">Contact Us</h2>
+    <div class="container-xxl border border-body-secondary pt-3 pb-3">
 
       <!-- Display success or error messages -->
       @if(session('success'))
@@ -144,8 +204,8 @@ button.btn-submit {
           </ul>
       </div>
       @endif
-      <!-- Display success or error messages -->
 
+      <!-- Display success or error messages -->
       <form method="POST" action="{{ route('contact.submit') }}">
         @csrf
         <div class="form-group">
@@ -180,32 +240,6 @@ button.btn-submit {
         <button class="rounded btn-submit" type="submit">Submit</button>
       </form>
     </div>
-
-  <!-- Compare Paragraph Starts -->
-  <section class="pt-md-5 pb-lg-4">
-    <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
-      <hr>
-      <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
-      </p>
-      <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
-      </p>
-      <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
-      </p>
     </div>
     <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
       <p class="text-white m-0">Follow. Watch. Like. Share</p>
@@ -268,6 +302,7 @@ button.btn-submit {
             <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
           </ul>
         </div>
+      </div>
       </div>
   </section>
   <!-- Compare Paragraph Ends-->

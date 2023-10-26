@@ -22,20 +22,12 @@ Route::get('/live', function () {
     return view('/home');
 });
 
-// Route::get('/contact-us', function () {
-//     return view('pages/useful-links/contact-us');
-// });
-
 Route::get('/content', function () {
     return view('pages/content');
 });
 
 Route::get('/panel-provider', function () {
     return view('pages/panel-provider');
-});
-
-Route::get('/privacy-policy', function () {
-    return view('pages/privacy-policy');
 });
 
 Route::get('/ttq5pz2x', function () {
@@ -247,7 +239,33 @@ Route::get('/quote/fleet/thank-you', function () {
 // FLEET FORM QUOTE //
 Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');
 
-                          // CONTACT-US PAGE //
-                        // CONTACT FORM SUBMIT //
+                            // USEFUL LINKS //
+// --------------------------------------------------------------------------------------- //
+                    // CONTACT-US PAGE AND FORM SUBMIT //
 Route::get('/contact-us', [ContactController::class, 'showForm'])->name('contact');
 Route::post('/contact-us', [ContactController::class, 'submitForm'])->name('contact.submit');
+
+Route::get('/affiliate-program', function () {
+    return view('pages/useful-links/affiliate-program');
+});
+
+Route::get('/about-us', function () {
+    return view('pages/useful-links/about-us');
+});
+// -------------------------------------------------------------------------------------- //
+
+                            // TERMS & LEGALS //
+// --------------------------------------------------------------------------------------- //
+Route::get('/terms-conditions', function () {
+    return view('pages/terms-legals/terms-conditions');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('pages/terms-legals/privacy-policy');
+});
+
+Route::get('/marketing-preferences', function () {
+    return view('pages/terms-legals/marketing-preferences');
+});
+// --------------------------------------------------------------------------------------- //
+

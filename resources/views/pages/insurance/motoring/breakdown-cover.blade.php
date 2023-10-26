@@ -24,7 +24,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
                     Eversure Breakdown Cover
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Emergency Assist can include and offer the following cover(s)
+                    Breakdown cover from Eversure can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
@@ -259,7 +259,7 @@
                     Nova Direct Breakdown Cover
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Emergency Assist can include and offer the following cover(s)
+                    Breakdown cover from Nova Direct can include and offer the following cover(s)
                 </p>
               </div>
               <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
