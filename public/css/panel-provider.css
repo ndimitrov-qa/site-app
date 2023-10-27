@@ -112,6 +112,9 @@
       .h1-768 {
         font-size: 32px !important;
       }
+      .mb-576-15 {
+        margin-bottom: 15px !important;
+      }
 }
 
 @media (max-width: 576px) {

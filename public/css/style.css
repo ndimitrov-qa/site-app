@@ -86,7 +86,6 @@ small {
   margin-left: 4px;
  }
 
-
 .nav-link-custom:hover::before {
   width: 98%; /* Expand the underline width to 100% on hover */
 }
@@ -132,9 +131,14 @@ section.bg-body-tertiary .card {
     height: 120px;
   }
 
-  .mb-10 {
+.mb-10 {
     margin-bottom: 10px;
-  }
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
 
 /* added blue 3 tabs items border color on active state */
 .card-hover-round:hover,
@@ -266,8 +270,8 @@ section.bg-body-tertiary .card {
     height: 36px !important;
 }
     .img-x {
-     width: 38px !important;
-     height: 38px !important;
+        width: 38px !important;
+        height: 38px !important;
 }
 
 /* Overwrite border on the quote section */
@@ -703,9 +707,9 @@ section.bg-body-tertiary .card {
   .ps-small-235 {
     padding-left: 278px;
   }
-  .w-sm-res {
+  /* .w-sm-res {
     width: 411px !important;
-  }
+  } */
   .card-body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -846,7 +850,7 @@ section.bg-body-tertiary .card {
         width: 170px;
       }
       .responsive-footer-small {
-        width: 170px;
+        width: 162px;
       }
       .p-res-small {
         width: 295px;

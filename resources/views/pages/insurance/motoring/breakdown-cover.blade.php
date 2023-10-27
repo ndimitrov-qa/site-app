@@ -5,7 +5,7 @@
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-8">
+        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
           <h1 class="h1-361 h1-390">Let's compare <span class="fw-bold">breakdown cover</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
@@ -23,7 +23,7 @@
             Taking the time to compare breakdown cover will ensure you get a policy tailored to your specific requirements, with the peace of mind that help is only a phone call away.
           </p>
         </div>
-        <div class="col-lg-auto">
+        <div class="col-lg-4 col-md-auto">
           <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
         </div>
       </div>
@@ -53,7 +53,7 @@
                     Breakdown cover from Emergency Assist can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.tagserve.com/clickServlet?AID=3031&MID=276&PID=389&SID=3737&CID=1403&LID=674&SUBID=" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"
@@ -160,7 +160,7 @@
                     Breakdown cover from Eversure can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://eversurecc.co.uk/sbl4l" target="_blank" style="text-decoration: none;">
                  <button
                   type="button"
@@ -262,7 +262,7 @@
                     Breakdown cover from Nova Direct can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.paidonresults.net/c/57719/1/2175/0/products/breakdown/new-quote/" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"

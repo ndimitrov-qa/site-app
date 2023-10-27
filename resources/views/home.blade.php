@@ -10,7 +10,7 @@
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
       <!-- tab list start -->
-      <div class="d-flex gap-sm-4" style="margin-top: 50px;" role="tablist">
+      <div class="d-flex gap-sm-4 mt-50" role="tablist">
         <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
           type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
           <div
