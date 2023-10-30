@@ -184,6 +184,11 @@
     .ps-small-100 {
         padding-left: 210px;
     }
+    /* Reduce the width of each column to fit two columns on smaller screens */
+    .col-sm-3 {
+        flex: 0 0 calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+      }
 }
 
 @media (max-width: 413px) {
@@ -199,6 +204,10 @@
     .small-margin-30 {
         margin-left: 32px;
     }
+    .col-sm-3 {
+        flex: 0 0 calc(50% - 0.1rem);
+        max-width: calc(50% - 0.1rem);
+      }
 }
 
 
@@ -278,6 +287,10 @@
     .small-margin-27 {
         margin-left: 0px;
     }
+    .col-sm-3 {
+        flex: 0 0 calc(50% - rem);
+        max-width: calc(50% - rem);
+      }
 }
 
 @media (max-width: 320px) {

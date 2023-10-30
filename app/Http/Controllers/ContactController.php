@@ -29,7 +29,7 @@ public function submitForm(Request $request)
         Mail::to($request->email)->send(new ContactSubmitted($request));
 
         // Send an email to your admin with all the details
-        Mail::to('donotreply@beatthatquotes.com')->send(new ContactAdminNotification($request));
+        Mail::to('grant.joiner@nova-insurance.com')->send(new ContactAdminNotification($request));
 
         return redirect()->route('contact')->with('success', 'Your message has been sent successfully.');
     }

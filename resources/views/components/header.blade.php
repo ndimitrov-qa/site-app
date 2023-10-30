@@ -23,7 +23,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Insurance</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 hide">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -39,7 +39,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
@@ -55,7 +55,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
@@ -75,7 +75,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Leisure</h6>
                       <ul class="list-unstyled">
@@ -110,7 +110,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
@@ -138,7 +138,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Business</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 hide">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -154,7 +154,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
@@ -171,7 +171,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
@@ -189,7 +189,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
@@ -206,7 +206,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
@@ -233,7 +233,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Money</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 hide">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 hide">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -249,7 +249,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
@@ -266,7 +266,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
@@ -285,7 +285,7 @@
                   </div>
 
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
@@ -302,7 +302,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
@@ -329,7 +329,7 @@
               <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
@@ -345,7 +345,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
@@ -363,7 +363,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
@@ -381,7 +381,7 @@
                     </div>
                   </div>
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
@@ -398,7 +398,7 @@
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-2">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
