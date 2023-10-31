@@ -5,7 +5,7 @@
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
-        <div class="col-lg-8">
+        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
           <h1 class="h1-361 h1-390">Let's compare <span class="fw-bold">breakdown cover</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
@@ -23,8 +23,8 @@
             Taking the time to compare breakdown cover will ensure you get a policy tailored to your specific requirements, with the peace of mind that help is only a phone call away.
           </p>
         </div>
-        <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+        <div class="col-lg-4 col-md-auto">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -53,7 +53,7 @@
                     Breakdown cover from Emergency Assist can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.tagserve.com/clickServlet?AID=3031&MID=276&PID=389&SID=3737&CID=1403&LID=674&SUBID=" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"
@@ -66,7 +66,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
@@ -157,10 +157,10 @@
                     Eversure Breakdown Cover
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Emergency Assist can include and offer the following cover(s)
+                    Breakdown cover from Eversure can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://eversurecc.co.uk/sbl4l" target="_blank" style="text-decoration: none;">
                  <button
                   type="button"
@@ -173,7 +173,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -259,10 +259,10 @@
                     Nova Direct Breakdown Cover
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Emergency Assist can include and offer the following cover(s)
+                    Breakdown cover from Nova Direct can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.paidonresults.net/c/57719/1/2175/0/products/breakdown/new-quote/" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"
@@ -275,7 +275,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -337,6 +337,68 @@
       </div>
     </div>
     <!-- Blue Panel-->
+
+    <!-- Blue Panel-->
+    <!-- <div class="container-xxl shadow border-blue">
+        <div class="container-xxl">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-2">
+                    <img src="img/logos/nova-direct.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6">
+                    <h4>
+                        Nova Direct Breakdown Cover
+                    </h4>
+                    <p>
+                        Breakdown cover from Nova Direct can include and offer the following cover(s)
+                    </p>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-success" style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: 1rem;">
+                        Quote
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mx-4 d-none d-lg-block">
+
+        <div class="container">
+
+            <div class="row px-2">
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="mx-4 d-none d-lg-block">
+
+        <div class="container">
+
+        </div>
+    </div> -->
+    <!-- Blue Panel-->
+
 
     <!-- Providers Section Ends-->
 

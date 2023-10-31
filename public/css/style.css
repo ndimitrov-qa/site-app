@@ -1,3 +1,4 @@
+/* Main Style Start*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
@@ -139,6 +140,10 @@ section.bg-body-tertiary .card {
     margin-top: 50px;
 }
 
+.pt-30 {
+    padding-top: 30px;
+}
+
 
 /* added blue 3 tabs items border color on active state */
 .card-hover-round:hover,
@@ -274,6 +279,8 @@ section.bg-body-tertiary .card {
         height: 38px !important;
 }
 
+/* Main Style Ends*/
+
 /* Overwrite border on the quote section */
 @media (max-width: 991.98px) {
     .quote-btn-xs{
@@ -351,6 +358,9 @@ section.bg-body-tertiary .card {
     margin-left: 105px;
     margin-right: 115px;
   }
+
+/* Main Style Ends*/
+
 /* === Responsive Designs === */
 @media (max-width: 1279px) {
 
@@ -573,6 +583,7 @@ section.bg-body-tertiary .card {
   .pt-60 {
     padding-top: 25px;
   }
+
   .ps-small {
     padding-left: 25px;
   }
@@ -727,7 +738,7 @@ section.bg-body-tertiary .card {
   }
   .a-privacy {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
@@ -832,7 +843,7 @@ section.bg-body-tertiary .card {
       }
     .a-privacy {
         text-decoration: none;
-        font-size: 14px;
+        font-size: 10px;
     }
     .h2-23 {
         font-size: 23px !important;

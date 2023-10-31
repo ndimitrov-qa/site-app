@@ -144,11 +144,11 @@
     <p class="open-sans fs-8">We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:</p>
     <ul>
     <li>
-    <p class="fs-8">
+    <p class="open-sans fs-8">
         <strong>Cookies or Browser Cookies.</strong> A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.</li>
     </p>
     <li>
-        <p class="fs-8">
+        <p class="open-sans fs-8">
             <strong>Web Beacons.</strong> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).
         </p>
     </li>
@@ -207,24 +207,24 @@
     <p class="open-sans fs-8">We may share Your personal information in the following situations:</p>
     <ul>
     <li>
-        <p class="fs-8">
+        <p class="open-sans fs-8">
             <strong>With Service Providers:</strong> We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.
         </p>
     </li>
     <p>
-        <li class="fs-8"><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
+        <li class="open-sans fs-8"><strong>For business transfers:</strong> We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
     </p>
     <p>
-        <li class="fs-8"><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
+        <li class="open-sans fs-8"><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
     </p>
     <p>
-        <li class="fs-8"><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
+        <li class="open-sans fs-8"><strong>With business partners:</strong> We may share Your information with Our business partners to offer You certain products, services or promotions.</li>
     </p>
     <p>
-        <li class="fs-8"><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
+        <li class="open-sans fs-8"><strong>With other users:</strong> when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
     </p>
     <p>
-        <li class="fs-8"><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
+        <li class="open-sans fs-8"><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your consent.</li>
     </p>
     </ul>
 

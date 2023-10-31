@@ -66,7 +66,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
@@ -173,7 +173,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -275,7 +275,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -337,6 +337,69 @@
       </div>
     </div>
     <!-- Blue Panel-->
+
+
+    <!-- Blue Panel-->
+    <!-- <div class="container-xxl shadow border-blue">
+        <div class="container-xxl">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-2">
+                    <img src="img/logos/nova-direct.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-6">
+                    <h4>
+                        Nova Direct Breakdown Cover
+                    </h4>
+                    <p>
+                        Breakdown cover from Nova Direct can include and offer the following cover(s)
+                    </p>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btn-success" style="--bs-btn-padding-y: 1rem; --bs-btn-padding-x: 4rem; --bs-btn-font-size: 1rem;">
+                        Quote
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mx-4 d-none d-lg-block">
+
+        <div class="container">
+
+            <div class="row px-2">
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+                <div class="col-3">
+                    <img src="img/check.png" alt="" class="img-fluid me-2 img-check img-check-small">
+                    Home Assistance
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="mx-4 d-none d-lg-block">
+
+        <div class="container">
+
+        </div>
+    </div> -->
+    <!-- Blue Panel-->
+
 
     <!-- Providers Section Ends-->
 

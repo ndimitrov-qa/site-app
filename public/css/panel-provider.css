@@ -59,6 +59,12 @@
     margin-right: 54px;
 }
 
+@media (max-width: 1400px) {
+    .display-custom-md {
+        display: none !important;
+        }
+}
+
 @media (max-width: 1280px) {
     .mx-custom-provider-78 {
         margin-left: 69px;
@@ -106,9 +112,9 @@
       .pl-m-10 {
         padding-left: 10px !important;
       }
-      .display-custom-md {
+      /* .display-custom-md {
         display: none !important;
-      }
+      } */
       .h1-768 {
         font-size: 32px !important;
       }
@@ -321,10 +327,10 @@
         font-size: 14px;
         background-color: #198754;
         padding: 6px 14px;
-        width: 245px;
+        width: 232px;
     }
     .ps-small-100 {
-        padding-left: 120px;
+        padding-left: 111px;
     }
     .h1-361 {
         font-size: 14px !important;
