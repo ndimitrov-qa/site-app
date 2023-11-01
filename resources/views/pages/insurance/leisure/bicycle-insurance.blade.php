@@ -6,7 +6,7 @@
     <div class="container-lg" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <h1 class="h1-smaller-13" >Let's compare <span class="fw-bold">bicycle insurance</span></h1>
+          <h1 class="h1-smaller-13">Let's compare <span class="fw-bold">bicycle insurance</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>
@@ -20,7 +20,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-bicycle-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14em; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-bicycle-3.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14em; margin-left: 115px;">
         </div>
       </div>
     </div>

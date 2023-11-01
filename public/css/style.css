@@ -28,7 +28,8 @@ a {
 }
 
 h1 {
-  font-size: 38px;
+  /* font-size: 38px; 01.11.23*/
+  font-size: clamp(17px, 5vw, 38px);
 }
 
 h2 {
@@ -383,7 +384,8 @@ section.bg-body-tertiary .card {
     height: 7;
   }
   h1 {
-    font-size: 26px;
+    /* font-size: 26px; */
+    /* font-size: calc(1.625rem + 1.5vw); */
   }
   h2 {
     font-size: 24px;
@@ -545,7 +547,8 @@ section.bg-body-tertiary .card {
   }
 
   h1 {
-    font-size: 22.9px !important;
+    /* font-size: 22.9px !important; 01/11/23 */
+    /* font-size: calc(1.431rem + 1.5vw) !important; */
   }
   h2 {
     font-size: 20px;
@@ -873,9 +876,9 @@ section.bg-body-tertiary .card {
     .responsive-width-391 {
         width: 185px;
     }
-    .fs-22-376 {
+    /* .fs-22-376 {
         font-size: 22px !important;
-    }
+    } */
     .h2-23 {
         font-size: 22px !important;
     }
@@ -911,7 +914,8 @@ section.bg-body-tertiary .card {
       width: 165px;
     }
     h1 {
-      font-size: 17px !important;
+      /* font-size: 17px !important; 01/11/23 */
+      /* font-size: calc(1.063rem + 1.5vw) !important; */
     }
     .fs-22-376 {
         font-size: 18px !important;

@@ -391,11 +391,11 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <a href="/car-insurance" class="link">
+              <a href="/gap-insurance" class="link">
                 <img src="{{ asset('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Car
+                  Gap
                 </div>
               </a>
             </div>
@@ -462,7 +462,7 @@
         <li class="nav-item fs-7" role="presentation">
           <button class="nav-link disabled text-primary lifestyle-responsive" id="profile-tab" data-bs-toggle="tab"
             data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
-            aria-selected="false">Lifestyle
+            aria-selected="false">Leisure
           </button>
         </li>
       </ul>
@@ -472,21 +472,21 @@
           <div class="card-body d-flex flex-wrap justify-content-sm-between">
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/gadget-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-gadgets.png') }}" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/bicycle-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle-3.png') }}" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Gadget
+                    Bicycle
                 </div>
               </a>
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/pet-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-pet.png') }}" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/static-caravan-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan-2.png') }}" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Pet
+                  Static
                 </div>
               </a>
             </div>
@@ -496,7 +496,7 @@
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan-2.png') }}" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Caravan
+                    Touring
                 </div>
               </a>
             </div>
@@ -504,38 +504,18 @@
             >
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
                 style="margin-left: 34px;">POPULAR</span>
-              <a href="/travel-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-plane-2.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/musical-instrument-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-musical-instrument-insurance.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Travel
-                </div>
-              </a>
-            </div>
-            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
-            >
-              <a href="/health-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-health-2.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
-                >
-                <div class="mt-2 mt-small-0">
-                  Health
-                </div>
-              </a>
-            </div>
-            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
-            >
-              <a href="/bicycle-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle-2.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
-                >
-                <div class="mt-2 mt-small-0">
-                  Bicycle
+                  Instrument
                 </div>
               </a>
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
               <a href="/golf-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-golf-2.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-golf-3.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Golf
@@ -544,11 +524,31 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/over-50s-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Over 50s icon"
+              <a href="/boat-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-boat-insurance.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
+                >
+                <div class="mt-2 mt-small-0">
+                  Boat
+                </div>
+              </a>
+            </div>
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/gun-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-gun.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
+                >
+                <div class="mt-2 mt-small-0">
+                  Gun
+                </div>
+              </a>
+            </div>
+            <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+            >
+              <a href="/travel-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-plane-3.png') }}" alt="Boat"
                   class="img-fluid mx-auto d-block card-hover-square image-width">
                 <div class="mt-2 mt-small-0">
-                  Over 50's
+                  Travel
                 </div>
               </a>
             </div>
@@ -679,31 +679,31 @@
             <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
-            <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
-            <li><a href="/van-insurance" class="link-offset-2">Cheap Van Insurance</a></li>
-            <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
-          </ul>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
-          <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
-            <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
-            <li class="py-2"><a href="/static-caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
-          </ul>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
-          <ul class="list-unstyled">
-            <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
-            <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
+            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
             <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
+            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
+          <ul class="list-unstyled">
+            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
+          <ul class="list-unstyled">
+            <li><a href="/car-hire-excess-insurance" class="link-offset-2">Cheap Car Hire Excess Insurance</a></li>
+            <li class="py-2"><a href="/musical-instrument-insurance" class="link-offset-2">Cheap Musical Instrument Insurance</a></li>
+            <li><a href="/static-caravan-insurance" class="link-offset-2">Cheap Static Caravan Insurance</a></li>
+            <li class="py-2 &nbsp"><a href="/touring-caravan-insurance" class="link-offset-2">Cheap Touring Caravan Insurance</a></li>
           </ul>
         </div>
       </div>

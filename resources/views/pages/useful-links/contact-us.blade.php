@@ -209,12 +209,12 @@ button.btn-submit {
       <form method="POST" action="{{ route('contact.submit') }}">
         @csrf
         <div class="form-group">
-            <label for="name">Name</label>
+            <label for="name">First Name</label>
             <input type="text" id="name" name="name" required>
         </div>
 
         <div class="form-group">
-            <label for="surname">Surname</label>
+            <label for="surname">Last Name</label>
             <input type="text" id="surname" name="surname" required>
         </div>
 
