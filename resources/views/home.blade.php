@@ -5,7 +5,7 @@
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl pt-30">
       <div>
-        <h1 class="fs-22-376" style="font-size: 38px;">Let's beat your insurance quote</h1>
+        <h1 class="fs-22-376">Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
@@ -525,7 +525,7 @@
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
               <a href="/boat-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-boat-insurance.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-boat.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
                   Boat

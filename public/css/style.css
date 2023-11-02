@@ -253,7 +253,7 @@ section.bg-body-tertiary .card {
     position: absolute;
     background: transparent;
     width: 100px;
-    height: 10px;
+    height: 15px;
     bottom: -10px;
     z-index: 2000;
 }
@@ -383,10 +383,9 @@ section.bg-body-tertiary .card {
     width: 7;
     height: 7;
   }
-  h1 {
-    /* font-size: 26px; */
-    /* font-size: calc(1.625rem + 1.5vw); */
-  }
+  /* h1 {
+    font-size: 26px; 01/11/23
+  } */
   h2 {
     font-size: 24px;
   }
@@ -545,11 +544,10 @@ section.bg-body-tertiary .card {
     padding-left: 36px;
     padding-right: 36px;
   }
-
+/*
   h1 {
-    /* font-size: 22.9px !important; 01/11/23 */
-    /* font-size: calc(1.431rem + 1.5vw) !important; */
-  }
+    font-size: 22.9px !important; 01/11/23
+  } */
   h2 {
     font-size: 20px;
   }
@@ -877,7 +875,7 @@ section.bg-body-tertiary .card {
         width: 185px;
     }
     /* .fs-22-376 {
-        font-size: 22px !important;
+        font-size: 22px !important; 01/11/23
     } */
     .h2-23 {
         font-size: 22px !important;
@@ -892,9 +890,9 @@ section.bg-body-tertiary .card {
       .responsive-width-391 {
         width: 178px;
     }
-    .fs-22-376 {
-        font-size: 21px !important;
-    }
+    /* .fs-22-376 {
+        font-size: 21px !important; 01/11/23
+    } */
     .h2-23 {
         font-size: 21px !important;
     }
@@ -913,13 +911,12 @@ section.bg-body-tertiary .card {
     .logo-responsive {
       width: 165px;
     }
-    h1 {
-      /* font-size: 17px !important; 01/11/23 */
-      /* font-size: calc(1.063rem + 1.5vw) !important; */
-    }
-    .fs-22-376 {
-        font-size: 18px !important;
-    }
+    /* h1 {
+      font-size: 17px !important; 01/11/23
+    } */
+    /* .fs-22-376 {
+        font-size: 18px !important; 01/11/23
+    } */
     h2 {
       font-size: 16px;
     }
