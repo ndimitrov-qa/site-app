@@ -18,7 +18,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="{{ ('css/style.css') }}">
   <link rel="stylesheet" href="{{ ('css/panel-provider.css') }}">
-  <link rel="stylesheet" href="{{ ('css/contact-us.css') }}">
+  <link rel="stylesheet" href="{{ ('css/footer-content-links.css') }}">
 </head>
 
 <body>

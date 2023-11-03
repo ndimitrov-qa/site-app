@@ -1,4 +1,3 @@
-
 <style>
   body {
     /* font-family: Arial, sans-serif; */
@@ -6,7 +5,6 @@
     /* margin: 0;
     padding: 0; */
 }
-
 .container {
     max-width: 650px;
     margin: 0 auto;
@@ -15,23 +13,19 @@
     /* border-radius: 5px; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 .h2-36 {
     text-align: center;
     font-size: 36px;
     /* color: #333; */
 }
-
 .form-group {
     margin-bottom: 20px;
 }
-
 label {
     display: block;
     font-weight: bold;
     color: #555;
 }
-
 input[type="text"],
 input[type="email"],
 textarea {
@@ -42,14 +36,20 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-
+select[name="subject"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #0264bb;
+    border-color: #ccc;
     outline: none;
 }
-
 button.btn-submit {
     background: var(--red-color);
     color: #fff;
@@ -58,11 +58,9 @@ button.btn-submit {
     border-radius: 3px;
     cursor: pointer;
 }
-
 button.btn-submit {
     background: hsl(358, 58%, 44%);
 }
-
 </style>
 
 @extends('layouts.default')
@@ -71,7 +69,8 @@ button.btn-submit {
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl" style="padding-top: 30px;">
       <div>
-        <h1 class="fs-22-376" style="font-size: 38px;">Let's beat your insurance quote</h1>
+        <h1>Let's beat your insurance quote</h1>
+        <!-- <h1 class="fs-22-376" style="font-size: 38px;">Let's beat your insurance quote</h1> -->
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->
@@ -125,65 +124,8 @@ button.btn-submit {
   </section>
   <!-- Hero Section Ends-->
 
-  <!-- <div class="container-xxl mt-5">
-      <h2 class="h2-36">Contact Us</h2>
-
-      <!-- Display success or error messages
-      @if(session('success'))
-      <div class="alert alert-success">
-          {{ session('success') }}
-      </div>
-      @endif
-
-      @if ($errors->any())
-      <div class="alert alert-danger">
-          <ul>
-              @foreach ($errors->all() as $error)
-                  <li>{{ $error }}</li>
-              @endforeach
-          </ul>
-      </div>
-      @endif
-      <!-- Display success or error messages -->
-      <!--
-      <form method="POST" action="{{ route('contact.submit') }}">
-        @csrf
-        <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-
-        <div class="form-group">
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" required>
-        </div>
-
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" required>
-        </div>
-
-        <div class="form-group">
-            <label for="enquiry">Enquiry</label>
-            <textarea id="enquiry" name="enquiry" rows="5" required></textarea>
-        </div>
-
-        <div class="form-group">
-            {!! app('captcha')->display() !!}
-        </div>
-
-        <button class="rounded btn-submit" type="submit">Submit</button>
-      </form>
-    </div> -->
-
-
   <!-- Compare Paragraph Starts -->
-  <section class="pt-md-5 pb-lg-4">
+  <section class="pt-5 pb-lg-4">
     <div class="container-xxl">
     <h2 class="text-blue">Contact Us</h2>
     <div class="container-xxl border border-body-secondary pt-3 pb-3">
@@ -208,32 +150,38 @@ button.btn-submit {
       <!-- Display success or error messages -->
       <form method="POST" action="{{ route('contact.submit') }}">
         @csrf
-        <div class="form-group">
-            <label for="name">First Name</label>
-            <input type="text" id="name" name="name" required>
+        <div class="mb-3">
+            <label for="name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="name" name="name" required value="{{ old('name') }}">
         </div>
 
-        <div class="form-group">
-            <label for="surname">Last Name</label>
-            <input type="text" id="surname" name="surname" required>
+        <div class="mb-3">
+            <label for="surname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="surname" name="surname" required value="{{ old('surname') }}">
         </div>
 
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required value="{{ old('email') }}">
         </div>
 
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" required>
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <select class="form-select" id="subject" name="subject" required>
+                <option value="General Inquiry" {{ old('subject') === 'General Inquiry' ? 'selected' : '' }}>General Inquiry</option>
+                <option value="Billing Issue" {{ old('subject') === 'Billing Issue' ? 'selected' : '' }}>Billing Issue</option>
+                <option value="Technical Support" {{ old('subject') === 'Technical Support' ? 'selected' : '' }}>Technical Support</option>
+                <option value="Feedback" {{ old('subject') === 'Feedback' ? 'selected' : '' }}>Feedback</option>
+                <option value="Other" {{ old('subject') === 'Other' ? 'selected' : '' }}>Other</option>
+            </select>
         </div>
 
-        <div class="form-group">
-            <label for="enquiry">Enquiry</label>
-            <textarea id="enquiry" name="enquiry" rows="5" required></textarea>
+        <div class="mb-3">
+            <label for="enquiry" class="form-label">Enquiry</label>
+            <textarea id="enquiry" class="form-control" name="enquiry" rows="5" required>{{ old('enquiry') }}</textarea>
         </div>
 
-        <div class="form-group">
+        <div class="mb-3">
             {!! app('captcha')->display() !!}
         </div>
 
@@ -275,38 +223,37 @@ button.btn-submit {
             <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/lorry-insurance" class="link-offset-2">Cheap Lorry Insurance</a></li>
+            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/car-insurance" class="link-offset-2">Cheap Car Insurance</a></li>
-            <li class="py-2"><a href="/home-insurance" class="link-offset-2">Cheap Home Insurance</a></li>
-            <li><a href="/van-insurance" class="link-offset-2">Cheap Van Insurance</a></li>
-            <li class="py-2"><a href="/motorbike-insurance" class="link-offset-2">Cheap Motorbike Insurance</a></li>
-          </ul>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
-          <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Insurance</a></li>
-            <li class="py-2"><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li><a href="/pet-insurance" class="link-offset-2">Cheap Pet Insurance</a></li>
-            <li class="py-2"><a href="/caravan-insurance" class="link-offset-2">Cheap Caravan Insurance</a></li>
-          </ul>
-        </div>
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
-          <ul class="list-unstyled">
-            <li><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
-            <li class="py-2"><a href="/health-insurance" class="link-offset-2">Cheap Health Insurance</a></li>
+            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
             <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2 &nbsp"><a href="/over-50s-insurance" class="link-offset-2">Cheap Over 50's Insurance</a></li>
+            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
-      </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
+          <ul class="list-unstyled">
+            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
+          <ul class="list-unstyled">
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+          </ul>
+        </div>
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
-
+  
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   @endsection

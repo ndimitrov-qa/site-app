@@ -367,7 +367,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
+              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-sm-block"
                 style="margin-left:34px;">POPULAR</span>
               <a href="/hgv-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid mx-auto d-block image-width"
@@ -415,7 +415,7 @@
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
               <span
-                class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9">NEW</span>
+                class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9 d-none d-sm-block">NEW</span>
               <a href="/breakdown-cover" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown-2.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
@@ -502,7 +502,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9"
+              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-sm-block"
                 style="margin-left: 34px;">POPULAR</span>
               <a href="/musical-instrument-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-musical-instrument-insurance.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
@@ -700,10 +700,10 @@
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/car-hire-excess-insurance" class="link-offset-2">Cheap Car Hire Excess Insurance</a></li>
-            <li class="py-2"><a href="/musical-instrument-insurance" class="link-offset-2">Cheap Musical Instrument Insurance</a></li>
-            <li><a href="/static-caravan-insurance" class="link-offset-2">Cheap Static Caravan Insurance</a></li>
-            <li class="py-2 &nbsp"><a href="/touring-caravan-insurance" class="link-offset-2">Cheap Touring Caravan Insurance</a></li>
+            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

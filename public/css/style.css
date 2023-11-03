@@ -492,9 +492,9 @@ section.bg-body-tertiary .card {
   .mt-n3 {
     margin-top: 0rem !important;
   }
-  .mt-n4 {
-    margin-top: 0rem !important;
-  }
+  /* .mt-n4 {
+    margin-top: 0rem !important; 03/11/23 Find it in footer-content-links.css/@MQ 992
+  } */
   .providers-i {
     font-size: 20px;
   }
@@ -719,9 +719,9 @@ section.bg-body-tertiary .card {
   .ps-small-235 {
     padding-left: 278px;
   }
-  /* .w-sm-res {
+  .w-sm-res {
     width: 411px !important;
-  } */
+  }
   .card-body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -827,6 +827,12 @@ section.bg-body-tertiary .card {
   }
 }
 /* =========== mobile view end ========= */
+
+@media (max-width: 431px) {
+    .responsive-footer-small {
+        width: 188px;
+    }
+}
 
 @media (max-width: 413px) {
     .width-custom-form {
