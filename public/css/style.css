@@ -142,7 +142,8 @@ section.bg-body-tertiary .card {
 }
 
 .pt-30 {
-    padding-top: 30px;
+    /* padding-top: 30px; */
+    padding-top: 1.875rem;
 }
 
 
@@ -524,6 +525,17 @@ section.bg-body-tertiary .card {
     font-size: 8.5px;
     overflow: hidden;
   }
+    .nav-link-custom::before {
+        content: none;
+        position: none;
+        width: 0;
+        height: 0;
+        bottom: none;
+        left: none;
+        background: none;
+        transition: none;
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 576px) {
@@ -645,7 +657,7 @@ section.bg-body-tertiary .card {
   }
   .button-small-blue {
     font-size: 14px;
-    background-color: #0264bb;
+    background-color: var(--blue-color);
     padding: 6px 14px;
     width: 329px;
   }
