@@ -1,60 +1,86 @@
 .my-custom {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    /* padding-top: 60px;
+    padding-bottom: 60px; 08/11/23 */
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
   }
   .pl-85 {
-    padding-left: 85px;
+    /* padding-left: 85px; 08/11/23 */
+    padding-left: 5.313rem;
   }
   .pl-90 {
-    padding-left: 90px;
+    /* padding-left: 90px; 08/11/23 */
+    padding-left: 5.625rem;
   }
   .wh-36 {
     width: 36px;
     height: 36px;
   }
   .px-custom {
-    padding-left: 42px !important;
-    padding-right: 42px !important;
+    /* padding-left: 42px !important;
+    padding-right: 42px !important; 08/11/23 */
+    padding-left: 2.625rem !important;
+    padding-right: 2.625rem !important;
   }
   .px-custom-images {
-    padding-left: 46px !important;
-    padding-right: 46px !important;
+    /* padding-left: 46px !important;
+    padding-right: 46px !important; 08/11/23*/
+    padding-left: 2.875rem !important;
+    padding-right: 2.875rem !important;
   }
   .mx-custom-provider-78 {
-    margin-left: 78px;
-    margin-right: 58px;
+    /* margin-left: 78px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 4.875rem;
+    margin-right: 3.625rem;
   }
   .mx-custom-provider-112 {
-    margin-left: 108px;
-    margin-right: 58px;
+    /* margin-left: 108px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 6.75rem;
+    margin-right: 3.625rem;
   }
   .mx-custom-provider-132 {
-    margin-left: 132px;
-    margin-right: 54px;
+    /* margin-left: 132px;
+    margin-right: 54px; 08/11/23 */
+    margin-left: 8.25rem;
+    margin-right: 3.375rem;
 }
   .mx-custom-provider-78 {
-    margin-left: 78px;
-    margin-right: 62px;
+    /* margin-left: 78px;
+    margin-right: 62px; 08/11/23 */
+    margin-left: 4.875rem;
+    margin-right: 3.875rem;
 }
   .mx-custom-provider-90 {
-    margin-left: 90px;
-    margin-right: 58px;
+    /* margin-left: 90px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 5.625rem;
+    margin-right: 3.625rem;
 }
   .mx-custom-provider-140 {
-    margin-left: 140px;
-    margin-right: 54px;
+    /* margin-left: 140px;
+    margin-right: 54px; 08/11/23 */
+    margin-left: 8.75rem;
+    margin-right: 3.375rem;
 }
   .mx-custom-provider-78-62 {
-    margin-left: 78px;
-    margin-right: 62px;
+    /* margin-left: 78px;
+    margin-right: 62px; 08/11/23 */
+    margin-left: 4.875rem;
+    margin-right: 3.875rem;
 }
   .mx-custom-provider-90-58 {
-    margin-left: 90px;
-    margin-right: 58px;
+    /* margin-left: 90px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 5.625rem;
+    margin-right: 3.625rem;
 }
   .mx-custom-provider-140-54 {
-    margin-left: 140px;
-    margin-right: 54px;
+    /* margin-left: 140px;
+    margin-right: 54px; 08/11/23 */
+    margin-left: 8.75rem;
+    margin-right: 3.375rem;
 }
 
 @media (max-width: 1400px) {
@@ -65,40 +91,58 @@
 
 @media (max-width: 1280px) {
     .mx-custom-provider-78 {
-        margin-left: 69px;
-        margin-right: 58px;
+        /* margin-left: 69px;
+        margin-right: 58px; 08/11/23 */
+        margin-left: 4.313rem;
+        margin-right: 3.625rem;
     }
     .mx-custom-provider-112 {
-        margin-left: 96px;
-        margin-right: 58px;
+        /* margin-left: 96px;
+        margin-right: 58px; 08/11/23 */
+        margin-left: 6rem;
+        margin-right: 3.625rem;
       }
     .mx-custom-provider-132 {
-        margin-left: 119px;
-        margin-right: 54px;
+        /* margin-left: 119px;
+        margin-right: 54px; 08/11/23 */
+        margin-left: 7.438rem;
+        margin-right: 3.375rem;
     }
     .mx-custom-provider-78 {
-        margin-left: 70px;
-        margin-right: 62px;
+        /* margin-left: 70px;
+        margin-right: 62px; 08/11/23 */
+        margin-left: 4.375rem;
+        margin-right: 3.875rem;
     }
     .mx-custom-provider-90 {
-        margin-left: 78px;
-        margin-right: 58px;
+        /* margin-left: 78px;
+        margin-right: 58px; 08/11/23 */
+        margin-left: 4.875rem;
+        margin-right: 3.625rem;
     }
     .mx-custom-provider-140 {
-        margin-left: 128px;
-        margin-right: 54px;
+        /* margin-left: 128px;
+        margin-right: 54px; 08/11/23 */
+        margin-left: 8rem;
+        margin-right: 3.375rem;
     }
     .mx-custom-provider-78-62 {
-        margin-left: 71px;
-        margin-right: 62px;
+        /* margin-left: 71px;
+        margin-right: 62px; */
+        margin-left: 4.438rem;
+        margin-right: 3.875rem;
     }
     .mx-custom-provider-90-58 {
-        margin-left: 78px;
-        margin-right: 58px;
+        /* margin-left: 78px;
+        margin-right: 58px; 08/11/23 */
+        margin-left: 4.875rem;
+        margin-right: 3.625rem;
     }
     .mx-custom-provider-140-54 {
-        margin-left: 127px;
-        margin-right: 54px;
+        /* margin-left: 127px;
+        margin-right: 54px; 08/11/23 */
+        margin-left: 7.938rem;
+        margin-right: 3.375rem;
     }
     .pl-85 {
         padding-left: 1.5rem !important;
@@ -107,20 +151,24 @@
 
 @media (max-width: 768px) {
     .my-custom {
-        padding-top: 10px;
-        padding-bottom: 30px;
+        /* padding-top: 10px;
+        padding-bottom: 30px; 08/11/23 */
+        padding-top: 0.625rem;
+        padding-bottom: 1.875rem;
       }
       .pl-m-10 {
-        padding-left: 10px !important;
+        padding-left: 0.625rem !important;
       }
       .display-custom-md {
         display: none !important;
       }
       .h1-768 {
-        font-size: 32px !important;
+        /* font-size: 32px !important; 08/11/23 */
+        font-size: 2rem !important;
       }
       .mb-576-15 {
-        margin-bottom: 15px !important;
+        /* margin-bottom: 15px !important; 08/11/23 */
+        margin-bottom: 0.938rem !important;
       }
 }
 
@@ -132,23 +180,30 @@
         font-size: 16px !important;
     }
     .my-custom {
-        padding-top: 25px;
-        padding-bottom: 40px;
+        /* padding-top: 25px;
+        padding-bottom: 40px; 08/11/23 */
+        padding-top: 1.563rem;
+        padding-bottom: 2.5rem;
       }
     .small-margin-60 {
-        margin-left: 60px;
+        /* margin-left: 60px; 08/11/23 */
+        margin-left: 3.75rem;
     }
     .small-margin-30 {
-        margin-left: 48px;
+        /* margin-left: 48px; 08/11/23 */
+        margin-left: 3rem;
     }
     .small-margin-28 {
-        margin-left: 28px;
+        /* margin-left: 28px; 08/11/23 */
+        margin-left: 1.75rem;
     }
     .small-margin-27 {
-        margin-left: 27px;
+        /* margin-left: 27px; 08/11/23 */
+        margin-left: 1.688rem;
     }
     .small-margin-25 {
-        margin-left: 25px;
+        /* margin-left: 25px; 08/11/23 */
+        margin-left: 1.563rem;
     }
     .h1-small-18 {
         font-size: 18px !important;
@@ -160,8 +215,10 @@
         font-size: 23.5px !important;
     }
     .my-custom-3 {
-        margin-top: 50px !important;
-        margin-bottom: 50px !important;
+        /* margin-top: 50px !important;
+        margin-bottom: 50px !important; 08/11/23 */
+        margin-top: 3.125rem !important;
+        margin-bottom: 3.125rem !important;
     }
     .px-custom {
         padding-left: 0px !important;
@@ -186,7 +243,8 @@
         width: 340px;
     }
     .ps-small-100 {
-        padding-left: 210px;
+        /* padding-left: 210px; 08/11/23 */
+        padding-left: 13.125rem;
     }
     /* Reduce the width of each column to fit two columns on smaller screens */
     .col-sm-3 {
@@ -203,10 +261,12 @@
         width: 189px !important;
     }
     .small-margin-27 {
-        margin-left: 12px;
+        /* margin-left: 12px; */
+        margin-left: 0.75rem;
     }
     .small-margin-30 {
-        margin-left: 32px;
+        /* margin-left: 32px; 08/11/23 */
+        margin-left: 2rem;
     }
     .col-sm-3 {
         flex: 0 0 calc(50% - 0.1rem);
@@ -217,10 +277,12 @@
 
 @media (max-width: 393px) {
     .small-margin-30 {
-        margin-left: 32px;
+        /* margin-left: 32px; 08/11/23 */
+        margin-left: 2rem;
     }
     .small-margin-27 {
-        margin-left: 12px;
+        /* margin-left: 12px; */
+        margin-left: 0.75rem;
     }
     .button-small-green {
         font-size: 14px;
@@ -229,7 +291,8 @@
         width: 318px;
     }
     .ps-small-100 {
-        padding-left: 190px;
+        /* padding-left: 190px; 08/11/23 */
+        padding-left: 11.875rem;
     }
     /* .h1-390 {
         font-size: 20px !important; 01.11.23
@@ -238,10 +301,12 @@
 
 @media (max-width: 376px) {
     .small-margin-30 {
-        margin-left: 28px;
+        /* margin-left: 28px; 08/11/23 */
+        margin-left: 1.75rem;
     }
     .small-margin-27 {
-        margin-left: 8px;
+        /* margin-left: 8px; 08/11/23 */
+        margin-left: 0.5rem;
     }
     .button-small-green {
         font-size: 14px;
@@ -250,7 +315,8 @@
         width: 305px;
     }
     .ps-small-100 {
-        padding-left: 175px;
+        /* padding-left: 175px; 08/11/23 */
+        padding-left: 10.938rem;
     }
     /* .h1-390 {
         font-size: 20.4px !important; 01/11/23
@@ -262,7 +328,8 @@
     font-size: 20px !important; 01/11/23
    } */
    .responsive-width-361 {
-    width: 174px !important;
+    /* width: 174px !important; 08/11/23 */
+    width: 10.875rem !important;
    }
    /* .h1-361 {
     font-size: 17px !important; 01/11/23
@@ -280,7 +347,8 @@
     width: 250px;
     }
     .ps-small-100 {
-        padding-left: 135px;
+        /* padding-left: 135px; 08/11/23 */
+        padding-left: 8.438rem;
     }
     .providers-i {
         font-size: 16px;
@@ -299,21 +367,21 @@
 
 @media (max-width: 320px) {
     .h1-he-17 {
-        font-size: 13px !important;
+        font-size: 0.813rem !important;
     }
 
     .h4-he-16 {
-        font-size: 11px !important;
+        font-size: 0.688rem !important;
     }
     .my-custom {
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 1.25rem;
       }
       .smaller-margin {
         margin-left: 0px !important;
       }
       .h1-smaller-13 {
-        font-size: 13.8px !important;
+        font-size: 0.863rem !important;
       }
       .df-smaller {
         display: inline-block !important;
@@ -322,13 +390,14 @@
         width: 158px !important;
       }
       .button-small-green {
-        font-size: 14px;
+        font-size: 0.875rem;
         background-color: #198754;
         padding: 6px 14px;
         width: 232px;
     }
     .ps-small-100 {
-        padding-left: 111px;
+        /* padding-left: 111px; 08/11/23 */
+        padding-left: 6.938rem;
     }
     /* .h1-361 {
         font-size: 14px !important; 01/11/23

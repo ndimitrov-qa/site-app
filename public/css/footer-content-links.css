@@ -1,65 +1,65 @@
 
 @media (min-width: 320px) {
     .h2-36 {
-        font-size: 16px;
+        font-size: 1rem;
     }
     label {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
     a {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 }
 @media (min-width: 320px) {
     .h2-36 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     label {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     a {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 }
 @media (min-width: 375px) {
     .h2-36 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     label {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     a {
-        font-size: 10.5px;
+        font-size: 0.656rem;
     }
 }
 @media (min-width: 425px) {
     .h2-36 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
     label {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
     a {
-        font-size: 16px;
+        font-size: 1rem;
     }
 }
 @media (min-width: 576px) {
     .h2-36 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     label {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }
 @media (min-width: 768px) {
     .h2-36 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
     label {
-        font-size: 16px;
+        font-size: 1rem;
     }
     a {
-        font-size: 16px;
+        font-size: 1rem;
     }
  }
 
@@ -74,11 +74,11 @@
  }
  @media (min-width: 1400px) {
     .h2-36 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
  }
  @media (min-width: 2560px) {
     .h2-36 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
  }

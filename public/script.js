@@ -35,6 +35,16 @@ function enableClickOnMobile() {
         dropdownMenu.style.display = 'block';
       }
     });
+
+    // Add a click event listener to links inside the dropdown menu
+    const dropdownLinks = dropdownMenu.querySelectorAll('a');
+    dropdownLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+        // Prevent the click event on links from propagating to the parent item
+        event.stopPropagation();
+      });
+    });
+
   });
 }
 
@@ -81,17 +91,4 @@ window.addEventListener("load", executeCodes);
 
 // --------------- Cookies Modal End ------------------ //
 
-
-// $('.dropdown-toggle').click(function(e) {
-//     if ($(document).width() > 768) {
-//       e.preventDefault();
-
-//       var url = $(this).attr('href');
-
-//       if (url !== '#') {
-//         window.location.href = url;
-//       }
-
-//     }
-//   });
 

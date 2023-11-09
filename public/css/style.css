@@ -18,6 +18,7 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
+  font-size: 16px;
   /* height: 100% !important;
   font-size: 100% !important; */
 }
@@ -33,31 +34,39 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  /* font-size: 26px; 09/11/23 */
+  font-size: 1.625rem;
 }
 
 h3 {
-  font-size: 22px;
+  /* font-size: 22px; 09/11/23 */
+  font-size: 1.375rem;
 }
 
 h4 {
-  font-size: 24px;
+  /* font-size: 24px; 09/11/23 */
+  font-size: 1.5rem;
 }
 
 h5 {
-  font-size: 22px;
+  /* font-size: 22px; 09/11/23 */
+  font-size: 1.375rem;
 }
 
 h6 {
-  font-size: 18px;
+  /* font-size: 18px; 09/11/23 */
+  font-size: 1.125rem;
 }
 
 p {
-  font-size: 18px;
+  /* font-size: 18px; 09/11/23 */
+  /* font-size: 1.125rem; 09/11/23 */
+  font-size: clamp(9px, 2vw, 18px);
 }
 
 small {
-  font-size: 12px;
+  /* font-size: 12px; 09/11/23 */
+  font-size: 0.75rem;
 }
 
 .open-sans {
@@ -72,7 +81,8 @@ small {
   text-decoration: none;
   position: relative;
   color: var(--blue-color);
-  font-size: 13px;
+  /* font-size: 13px; 09/11/23 */
+  font-size: 0.813rem;
   overflow: hidden; /* Hide overflow to prevent jitters */
 }
 
@@ -96,7 +106,8 @@ small {
 .link-custom {
   text-decoration: none;
   color: inherit;
-  font-size: 20px;
+  /* font-size: 20px; 09/11/23 */
+  font-size: 1.25rem;
 }
 /* added blue color on active state on 3 tabs items index header */
 [type="button"]:not(:disabled):hover .link-custom,
@@ -106,12 +117,14 @@ small {
 
 .form-select {
   color: #6c757d;
-  font-size: 22px;
+  /* font-size: 22px; 09/11/23 */
+  font-size: 1.375rem;
 }
 
 .form-control {
   color: #6c757d;
-  font-size: 22px;
+  /* font-size: 22px; 09/11/23 */
+  font-size: 1.375rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -134,11 +147,13 @@ section.bg-body-tertiary .card {
   }
 
 .mb-10 {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; 08/11/23 */
+    margin-bottom: 0.625rem;
 }
 
 .mt-50 {
-    margin-top: 50px;
+    /* margin-top: 50px; 08/11/23 */
+    margin-top: 3.125rem;
 }
 
 .pt-30 {
@@ -207,22 +222,27 @@ section.bg-body-tertiary .card {
 }
 
 .fs-7 {
-  font-size: 18px;
+  /* font-size: 18px; 09/11/23 */
+  font-size: 1.125rem;
 }
 
 .fs-8 {
-  font-size: 16px;
+  /* font-size: 16px; 09/11/23 */
+  font-size: 1rem;
 }
 
 .fs-9 {
-  font-size: 14px;
+  /* font-size: 14px; 09/11/23 */
+  font-size: 0.875rem;
 }
 
 .fs-10 {
-  font-size: 12px;
+  /* font-size: 12px; 09/11/23 */
+  font-size: 0.75rem;
 }
 .pt-60 {
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  padding-top: 3.75rem;
 }
 
 .transition {
@@ -238,11 +258,13 @@ section.bg-body-tertiary .card {
 }
 
 .badge-lg {
-  margin-left: 90px;
+  /* margin-left: 90px; 08/11/23 */
+  margin-left: 5.625rem;
 }
 
 .social-icons svg {
-  margin-right: 20px;
+  /* margin-right: 20px; 08/11/23 */
+  margin-right: 1.25rem;
 }
 
 .text-white.fs-7.social-icons a {
@@ -260,8 +282,10 @@ section.bg-body-tertiary .card {
 }
 
 .my-custom-2 {
-    margin-top: 60px !important;
-    margin-bottom: 60px !important;
+    /* margin-top: 60px !important;
+    margin-bottom: 60px !important; */
+    margin-top: 3.75rem !important;
+    margin-bottom: 3.75rem !important;
   }
 
   .width-custom-form {
@@ -270,7 +294,8 @@ section.bg-body-tertiary .card {
   }
   .a-privacy {
     text-decoration: none;
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
   }
   .img-check {
     width: 36px !important;
@@ -317,7 +342,8 @@ section.bg-body-tertiary .card {
   bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
-  font-size: 13px;
+  /* font-size: 13px; 09/11/23 */
+  font-size: 0.813rem;
 }
 
 .css-tooltip .tooltiptext::after {
@@ -348,17 +374,21 @@ section.bg-body-tertiary .card {
     margin-bottom: 32px;
   }
   .section-providers {
-    margin-top: 40px;
+    /* margin-top: 40px; 08/11/23 */
+    margin-top: 2.5rem;
   }
   .providers-i {
-    font-size: 25px;
+    /* font-size: 25px; 09/11/23 */
+    font-size: 1.563rem;
   }
   .image-width {
     width: 50px;
   }
   .accordion-custom-width {
-    margin-left: 105px;
-    margin-right: 115px;
+    /* margin-left: 105px;
+    margin-right: 115px; 08/11/23 */
+    margin-left: 6.563rem;
+    margin-right: 7.188rem;
   }
 
 /* Main Style Ends*/
@@ -371,8 +401,10 @@ section.bg-body-tertiary .card {
 @media (max-width: 768px) {
   .insurance-responsive {
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
   }
   .card-body {
     display: grid;
@@ -388,38 +420,51 @@ section.bg-body-tertiary .card {
     font-size: 26px; 01/11/23
   } */
   h2 {
-    font-size: 24px;
+    /* font-size: 24px; 09/11/23 */
+    font-size: 1.5rem;
   }
   h4 {
-    font-size: 22px;
+    /* font-size: 22px; 09/11/23 */
+    font-size: 1.375rem;
   }
   h6 {
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
   }
   a {
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
   }
-  p {
-    margin-bottom: 20px;
-  }
+
+  /* p { */
+    /* margin-bottom: 20px; 08/11/23 */
+    /* margin-bottom: 1.25rem; 09/11/23*/
+  /* } */
+
   /* .fs-7 {
     font-size: 16px;
   } */
   .fs-8 {
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
   }
   .fs-9 {
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
   }
   .pt-60 {
-    padding-top: 10px;
+    /* padding-top: 10px; 08/11/23 */
+    padding-top: 0.625rem;
   }
   .my-custom-2 {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    /* margin-top: 10px !important;
+    margin-bottom: 10px !important; 08/11/23 */
+    margin-top: 0.625rem !important;
+    margin-bottom: 0.625rem !important;
   }
   .pb-medium {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; 08/11/23 */
+    padding-bottom: 1.25rem;
   }
   .gap-3 {
     gap: 10px;
@@ -428,7 +473,8 @@ section.bg-body-tertiary .card {
     gap: 20px;
   }
   .link-custom {
-    font-size: 18px;
+    /* font-size: 18px; 09/11/23 */
+    font-size: 1.125rem;
   }
   .card {
     width: 80;
@@ -444,7 +490,8 @@ section.bg-body-tertiary .card {
     text-align: right;
   }
   .copy-padding {
-    margin-right: 50px;
+    /* margin-right: 50px; 08/11/23 */
+    margin-right: 3.125rem;
   }
   /* .form-select {
     color: #6c757d;
@@ -455,37 +502,45 @@ section.bg-body-tertiary .card {
     font-size: 18px;
   } */
   .row-medium-responsive {
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; 08/11/23 */
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
   }
   .badge-md {
-    margin-left: 77px;
+    /* margin-left: 77px; 08/11/23 */
+    margin-left: 4.813rem;
   }
   .svg-medium {
     width: 34px;
     height: 34px;
   }
   .medium-text {
-    font-size: 9px;
+    /* font-size: 9px; 09/11/23 */
+    font-size: 0.563rem;
   }
   .button-medium-red {
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
     background-color: #c5343a;
     padding: 8px 16px;
   }
   .button-medium-green {
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
     background-color: #198754;
     padding: 8px 16px;
   }
   .button-medium-blue {
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
     background-color: #0264BB;
     padding: 8px 16px;
     margin-left: 0px !important;
   }
   .btn-danger {
-    font-size: 25px;
+    /* font-size: 25px; 09/11/23 */
+    font-size: 1.563rem;
     padding: 8px 16px;
     text-align: left;
     width: px;
@@ -497,15 +552,19 @@ section.bg-body-tertiary .card {
     margin-top: 0rem !important; 03/11/23 Find it in footer-content-links.css/@MQ 992
   } */
   .providers-i {
-    font-size: 20px;
+    /* font-size: 20px; 09/11/23 */
+    font-size: 1.25rem;
   }
   .accordion-custom-width {
-    margin-left: 5px;
+    /* margin-left: 5px; 09/11/23 */
+    margin-left: 0.313rem;
     margin-right: 0px;
   }
   .h2-md-24 {
-    margin-bottom: 100px !important;
-    margin-top: 90px !important;
+    /* margin-bottom: 100px !important;
+    margin-top: 90px !important; 08/11/23 */
+    margin-bottom: 6.25rem !important;
+    margin-top: 5.625rem !important;
   }
   .bi-phone {
     display: none;
@@ -522,7 +581,8 @@ section.bg-body-tertiary .card {
     text-decoration: none;
     position: relative;
     color: var(--blue-color);
-    font-size: 8.5px;
+    /* font-size: 8.5px; 09/11/23 */
+    font-size: 0.531rem;
     overflow: hidden;
   }
     .nav-link-custom::before {
@@ -553,56 +613,74 @@ section.bg-body-tertiary .card {
   }
   .insurance-responsive {
     text-align: center;
-    padding-left: 36px;
-    padding-right: 36px;
+    /* padding-left: 36px;
+    padding-right: 36px; 08/11/23 */
+    padding-left: 2.25rem;
+    padding-right: 2.25rem;
   }
 /*
   h1 {
     font-size: 22.9px !important; 01/11/23
   } */
   h2 {
-    font-size: 20px;
+    /* font-size: 20px; 09/11/23 */
+    font-size: 1.25rem;
   }
   h4 {
-    font-size: 18px;
+    /* font-size: 18px; 09/11/23 */
+    font-size: 1.125rem;
   }
   h6 {
-    font-size: 14px;
-  }
-  p {
-    font-size: 14px;
-  }
-  a {
-    font-size: 12px;
-  }
-  .link-custom {
-    font-size: 16px;
-  }
-  .btn {
-    font-size: 16px;
-  }
-  .fs-4 {
-    font-size: 26px !important;
-  }
-  .fs-7 {
-    font-size: 14px;
-  }
-  .fs-8 {
-    font-size: 12px;
-  }
-  .fs-9 {
-    font-size: 10px;
-  }
-  .pt-60 {
-    padding-top: 25px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
   }
 
+  /* p { */
+    /* font-size: 14px; 09/11/23 */
+    /* font-size: 0.875rem; 09/11/23 */
+  /* } */
+
+  a {
+    /* font-size: 12px; 09/11/23 09/11/23 */
+    font-size: 0.75rem;
+  }
+  .link-custom {
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
+  }
+  .btn {
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
+  }
+  .fs-4 {
+    /* font-size: 26px !important; 09/11/23 */
+    font-size: 1.625rem !important;
+  }
+  .fs-7 {
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
+  }
+  .fs-8 {
+    /* font-size: 12px; 09/11/23 */
+    font-size: 0.75rem;
+  }
+  .fs-9 {
+    /* font-size: 10px; 09/11/23 */
+    font-size: 0.625rem;
+  }
+  .pt-60 {
+    /* padding-top: 25px; 08/11/23 */
+    padding-top: 1.563rem;
+  }
   .ps-small {
-    padding-left: 25px;
+    /* padding-left: 25px; 08/11/23 */
+    padding-left: 1.563rem;
   }
   .my-custom-2 {
-    margin-top: 50px !important;
-    margin-bottom: 50px !important;
+    /* margin-top: 50px !important;
+    margin-bottom: 50px !important; 08/11/23 */
+    margin-top: 3.125rem !important;
+    margin-bottom: 3.125rem !important;
   }
   .responsive-footer-small {
     width: 197px;
@@ -617,7 +695,8 @@ section.bg-body-tertiary .card {
     display: inline-flex;
   }
   .copy-padding {
-    margin-right: 50px;
+    /* margin-right: 50px; 08/11/23 */
+    margin-right: 3.125rem;
   }
   .padding-small {
     margin-left: 2.5px;
@@ -638,31 +717,36 @@ section.bg-body-tertiary .card {
   }
   .form-select {
     color: #6c757d;
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
   }
   .form-control::placeholder {
     color: #6c757d;
-    font-size: 16px;
+    /* font-size: 16px; 09/11/23 */
+    font-size: 1rem;
   }
   .button-small-red {
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
     background-color: #c5343a;
     padding: 6px 14px;
   }
   .button-small-green {
-    font-size: 14px;
+    /* font-size: 14px; 09/11/23 */
+    font-size: 0.875rem;
     background-color: #198754;
     padding: 6px 14px;
     width: 329px;
   }
   .button-small-blue {
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 0.875rem;
     background-color: var(--blue-color);
     padding: 6px 14px;
     width: 329px;
   }
   .btn-danger {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 14px 10px;
     text-align: left;
     width: 362px;
@@ -674,16 +758,19 @@ section.bg-body-tertiary .card {
     justify-items: center;
   }
   .badge-sm {
-    margin-left: 70.5px;
+    /* margin-left: 70.5px; 08/11/23 */
+    margin-left: 4.406rem;
   }
   .small-text {
-    font-size: 9px;
+    font-size: 0.563rem;
   }
   .small-margin-12 {
-    margin-left: 12px;
+    /* margin-left: 12px; 08/11/23 */
+    margin-left: 0.75rem;
   }
   .small-margin-30 {
-    margin-left: 30px;
+    /* margin-left: 30px; 08/11/23 */
+    margin-left: 1.875rem;
   }
   .svg-small {
     width: 25px;
@@ -693,13 +780,14 @@ section.bg-body-tertiary .card {
     margin-right: 20px;
     width: 20px;
     height: 20px;
-    font-size: 9px;
+    font-size: 0.563rem;
   }
   .text-white.fs-7.social-icons a {
     text-decoration: none;
   }
   .container-small-responsive {
-    margin-right: 20px;
+    /* margin-right: 20px; 08/11/23 */
+    margin-right: 1.25rem;
   }
   .card-width-small {
     width: 110px;
@@ -709,7 +797,7 @@ section.bg-body-tertiary .card {
     width: 50px;
   }
   .providers-i {
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-left: 5px;
   }
   .mb-sm-50 {
@@ -721,15 +809,17 @@ section.bg-body-tertiary .card {
     padding-bottom: 20px;
   }
   .h2-sm-22 {
-    font-size: 24px !important;
+    font-size: 1.5rem !important;
     margin-top: 30px !important;
     margin-bottom: 20px !important;
   }
   .ps-small-100 {
-    padding-left: 200px;
+    /* padding-left: 200px; 08/11/23 */
+    padding-left: 12.5rem;
   }
   .ps-small-235 {
-    padding-left: 278px;
+    /* padding-left: 278px; 08/11/23 */
+    padding-left: 17.375rem;
   }
   .w-sm-res {
     width: 411px !important;
@@ -744,26 +834,30 @@ section.bg-body-tertiary .card {
     display: none !important;
   }
   .mt-custom {
-    margin-top: 20px;
+    /* margin-top: 20px; 08/11/23 */
+    margin-top: 1.25rem;
   }
   .pb-medium {
     padding-bottom: 0px;
   }
   .a-privacy {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 0.625rem;
   }
 }
 
 @media (max-width: 991px) {
   .responsive-links {
-    margin-left: 20px;
+    /* margin-left: 20px; 08/11/23 */
+    margin-left: 1.25rem;
   }
   .responsive-footer {
-    padding-left: 20px;
+    /* padding-left: 20px; 08/11/23 */
+    padding-left: 1.25rem;
   }
   .responsive-card {
-    margin-top: 50px;
+    /* margin-top: 50px; 08/11/23 */
+    margin-top: 3.125rem;
   }
   .button-hidden {
     display: none;
@@ -852,20 +946,21 @@ section.bg-body-tertiary .card {
         width: 100% !important;
       }
     .btn-danger {
-        font-size: 14px;
+        font-size: 0.875rem;
         padding: 14px 10px;
         text-align: left;
         width: 310px;
     }
     .ps-small-258 {
-        padding-left: 225px;
+        /* padding-left: 225px; */
+        padding-left: 14.063rem;
       }
     .a-privacy {
         text-decoration: none;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     .h2-23 {
-        font-size: 23px !important;
+        font-size: 1.438rem !important;
     }
     .card-body {
         display: grid;
@@ -896,7 +991,7 @@ section.bg-body-tertiary .card {
         font-size: 22px !important; 01/11/23
     } */
     .h2-23 {
-        font-size: 22px !important;
+        font-size: 1.375rem !important;
     }
 }
 
@@ -912,10 +1007,10 @@ section.bg-body-tertiary .card {
         font-size: 21px !important; 01/11/23
     } */
     .h2-23 {
-        font-size: 21px !important;
+        font-size: 1.313rem !important;
     }
     .fs-4 {
-        font-size: 25px !important;
+        font-size: 1.563rem !important;
     }
 }
 
@@ -936,28 +1031,30 @@ section.bg-body-tertiary .card {
         font-size: 18px !important; 01/11/23
     } */
     h2 {
-      font-size: 16px;
+      font-size: 1rem;
     }
     h4 {
-        font-size: 14px;
+        font-size: 0.875rem;
       }
     h6 {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
     .fs-8 {
-      font-size: 9px;
+      font-size: 0.563rem;
     }
     .fs-4 {
-      font-size: 16px !important;
+      font-size: 1rem !important;
     }
-    p {
-      font-size: 9px;
-    }
+
+    /* p {
+      font-size: 0.563rem; 09/11/23
+    } */
+    
     a {
-      font-size: 9px;
+      font-size: 0.563rem;
     }
     small {
-      font-size: 8px;
+      font-size: 0.5rem;
     }
     .responsive-width-smaller {
       width: 145px !important;
@@ -968,7 +1065,7 @@ section.bg-body-tertiary .card {
     .social-icons svg {
       width: 20px;
       height: 20px;
-      font-size: 9px;
+      font-size: 0.563rem;
     }
     .card-res-smaller {
       width: 50px !important;
@@ -976,20 +1073,20 @@ section.bg-body-tertiary .card {
       margin-right: 6px;
     }
     .h2-smaller-14 {
-      font-size: 18px !important;
+      font-size: 1.125rem !important;
       padding-bottom: 6px;
     }
     .smaller-margin-0 {
         margin-left: 0px !important;
     }
     .button-smaller-green {
-        font-size: 14px;
+        font-size: 0.875rem;
         background-color: #198754;
         padding: 6px 14px;
         width: 229px;
       }
       .button-smaller-blue {
-        font-size: 14px;
+        font-size: 0.875rem;
         background-color: var(--blue-color);
         padding: 6px 14px;
         width: 229px;
@@ -998,13 +1095,14 @@ section.bg-body-tertiary .card {
         padding-left: 100px;
       }
       .btn-danger {
-        font-size: 14px;
+        font-size: 0.875rem;
         padding: 14px 10px;
         text-align: left;
         width: 260px;
       }
       .ps-smaller-200 {
-        padding-left: 170px;
+        /* padding-left: 170px; */
+        padding-left: 10.625rem;
       }
       .w-smaller-res {
         width: 320px !important;
@@ -1026,19 +1124,22 @@ section.bg-body-tertiary .card {
         display: none;
       }
       .pt-smaller {
-        padding-top: 25px;
+        /* padding-top: 25px; 08/11/23 */
+        padding-top: 1.563rem;
       }
       .pt-60 {
         padding-top: 0px;
       }
       .my-custom-2 {
-        margin-top: 20px !important;
-        margin-bottom: 20px !important;
+        /* margin-top: 20px !important;
+        margin-bottom: 20px !important; 08/11/23 */
+        margin-top: 1.25rem !important;
+        margin-bottom: 1.25rem !important;
       }
       .social-icons svg {
         margin-right: 14px;
         width: 20px;
         height: 20px;
-        font-size: 9px;
+        font-size: 0.563rem;
       }
   }
