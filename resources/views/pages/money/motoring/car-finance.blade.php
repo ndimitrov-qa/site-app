@@ -6,7 +6,7 @@
     <div class="container-xxl" style="padding-top: 30px;">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <h1 class="h1-361 h1-390">Let's compare <span class="fw-bold">car finance</span></h1>
+          <h1>Let's compare <span class="fw-bold">car finance</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>

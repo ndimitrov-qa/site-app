@@ -6,7 +6,7 @@
     <div class="container-lg pt-30">
       <div class="row d-flex align-items-center">
         <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
-          <h1 class="h1-361 h1-390">Let's compare <span class="fw-bold">breakdown cover</span></h1>
+          <h1>Let's compare <span class="fw-bold">breakdown cover</span></h1>
             <p class="text-primary pt-2">
             <a class="link" href="#love-it-cover-it">
               <i class="bi bi-arrow-down-circle pe-1"></i>

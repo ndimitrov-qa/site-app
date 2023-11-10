@@ -5,7 +5,7 @@
   <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl pt-30">
       <div>
-        <h1 class="fs-22-376">Let's beat your insurance quote</h1>
+        <h1>Let's beat your insurance quote</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
       <!-- bootstrap tabs for 3 circle items in header -->

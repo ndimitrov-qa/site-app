@@ -3,6 +3,11 @@
       display: none;
     }
   </style> -->
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
 
   <!-- Navbar Starts -->
   <div class="container-xxl pb-2 pt-1">
@@ -49,7 +54,7 @@
                         <li><a href="/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
                         <li><a href="/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -69,7 +74,7 @@
                         </a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -122,7 +127,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Camera Insurance</a></li>
                         <!-- <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
-                        <li><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -165,7 +170,7 @@
                             Insurance</a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -183,7 +188,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -201,7 +206,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
                         <li><a href="/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/business-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -218,7 +223,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
                         <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
+                        <li class=""><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -261,8 +266,8 @@
                         </a></li> -->
                         <!-- <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Finance</a></li> -->
-                        <!-- <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
+                         <li><a class="fw-bold nav-link-custom" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
                   </div>
@@ -278,7 +283,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -297,7 +302,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
                         <li><a href="/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/business-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -314,7 +319,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
                         <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -357,7 +362,7 @@
                             Insurance</a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -375,7 +380,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
                         <li><a href="/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/motoring-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -393,7 +398,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
                         <li><a href="/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="/business-insurance"><i
+                        <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -410,7 +415,7 @@
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
                         <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
-                        <li class=""><a class="fw-bold nav-link-custom" href="/lifestyle-insurance"><i
+                        <li class=""><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
@@ -470,34 +475,27 @@
   <!-- Navbar Ends -->
 
 
-<!-- <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const showAllLinks = document.querySelectorAll(".show-all");
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const showAllButton = document.querySelector('.show-all');
+    const hiddenItems = document.querySelectorAll('.hidden');
 
-    showAllLinks.forEach(link => {
-      link.addEventListener("click", function(event) {
-        event.preventDefault();
-        const parentUl = this.parentNode.parentNode;
-        const hiddenItems = parentUl.querySelectorAll(".hidden");
-
-        if (hiddenItems.length > 0) {
-          hiddenItems.forEach(item => {
-            item.style.display = "list-item";
-          });
-          this.innerHTML = '<i class="bi bi-caret-right-fill pe-2"></i>Show less';
-        } else {
-          hiddenItems.forEach(item => {
-            item.style.display = "none";
-          });
-          this.innerHTML = '<i class="bi bi-caret-right-fill pe-2"></i>Show all';
-        }
+    showAllButton.addEventListener('click', function () {
+      hiddenItems.forEach(item => {
+        item.classList.toggle('hidden');
       });
+
+      // Toggle the text and caret icon of the button after a delay
+      setTimeout(() => {
+        if (showAllButton.textContent.includes('Show all')) {
+          showAllButton.innerHTML = '<i class="bi bi-caret-up-fill pe-2"></i>Show less';
+        } else {
+          showAllButton.innerHTML = '<i class="bi bi-caret-down-fill pe-2"></i>Show all';
+        }
+      }, 0);
     });
   });
-</script> -->
-
-
-
+</script>
 
 
 
