@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Sample | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->

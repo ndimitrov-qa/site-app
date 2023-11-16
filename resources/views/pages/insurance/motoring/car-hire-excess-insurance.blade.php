@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Car Hire Excess | Insurance | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -16,11 +17,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Renting a car abroad often requires paying an excess if the vehicle gets damaged. This excess can be hundreds of euros that come out of your own pocket. Protect yourself by getting car hire excess insurance before picking up your rental. It covers the excess charged by the rental company in case of theft, damage, or accidents. For a small daily fee, car hire excess insurance gives peace of mind that you won't face expensive fees. Compare policies online to find the right protection level and price for your trip. Then drive worry-free knowing a reputable provider has you covered if the unfortunate happens.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -62,7 +63,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -441,27 +442,110 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Car Hire Excess Insurance</h2>
+      <h6>The Benefits of Car Hire Excess Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Renting a car makes traveling in a new place more convenient and flexible. But before driving off, it’s important to understand the rental agreement. Most contracts require paying an excess, which is a large fee that comes out of your own pocket if the vehicle gets damaged or stolen. Excess fees often range from £500 to over £1,000 - enough to put a huge damper on your trip budget. Thankfully, you can protect yourself by getting car hire excess insurance. Here’s what to know about this valuable type of coverage.
       </p>
+      <h6>
+        What is Car Hire Excess Insurance?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Car hire excess insurance is supplemental coverage that pays the excess charged by the rental company if your rented vehicle sustains damage in an accident, theft, or act of vandalism. Without it, you are liable for covering the entire excess cost yourself according to the terms and conditions of the rental agreement. This excess fee is charged on top of any repair or replacement costs that will be covered by the rental company's standard insurance. Car hire excess insurance steps in to cover your portion of the responsibility so you don’t take a big financial hit.
       </p>
+      <h6>
+        Key Benefits of Excess Insurance
+      </h6>
+      <ul class="open-sans fs-8">
+        <li>
+            Covers the excess you would owe -Policies typically cover excesses up to £2,000 or more
+        </li>
+        <li>
+            Provides peace of mind when driving an unfamiliar rental car in a foreign location
+        </li>
+        <li>
+            Lets you avoid paying surprise fees that can drain your vacation budget
+        </li>
+        <li>
+            Premiums are affordable compared to paying a large excess charge
+        </li>
+        <li>
+            Gives you flexibility to choose any rental company and vehicle type
+        </li>
+        <li>
+            Easy claims process pays the rental company directly
+        </li>
+        <li>
+            Additional cover options like tires, windows, undercarriage, lost keys, etc.
+        </li>
+      </ul>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        By protecting yourself from expensive excess charges, you can drive your rental car freely without worrying about every scratch or fender bender. Car hire excess insurance gives the freedom to adventure confidently.
+      </p>
+      <h6>
+        When Do You Need Excess Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Any time you rent a car, you should consider purchasing standalone excess insurance:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Traveling internationally - Excess fees tend to be highest for rentals abroad
+        </li>
+        <li>
+            Renting an expensive or luxury vehicle - Higher replacement costs mean larger excesses
+        </li>
+        <li>
+            Young or elderly drivers - Rental companies often impose age-related excesses
+        </li>
+        <li>
+            Driving in challenging conditions - Greater accident risk merits extra coverage
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Even renting domestically for a road trip can expose you to excess fees from £200 up to over £1,000. Unless paying several hundred pounds out of pocket is feasible for your budget, excess insurance is recommended to avoid the worst case scenario. The small investment brings big peace of mind.
+      </p>
+      <h6>
+        What to Look for in a Policy
+      </h6>
+      <p class="open-sans fs-8">
+        When choosing an excess insurance provider, keep the following factors in mind:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Coverage amount - Match the policy limit to the excess you are liable for
+        </li>
+        <li>
+            Worldwide or regional cover - Some policies only cover certain countries
+        </li>
+        <li>
+            Reputable provider - Check reviews and financial strength ratings
+        </li>
+        <li>
+            Ease of use - Choose a simple process to show proof of insurance
+        </li>
+        <li>
+            Claims process - Should be straightforward and hassle-free
+        </li>
+        <li>
+            Price - Compare premium costs across multiple providers
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        By evaluating these key considerations, you can select a reliable policy that reduces risks and fits your travel plans.
+      </p>
+      <h6>
+        How Excess Insurance Works with Rental Cars
+      </h6>
+      <p class="open-sans fs-8">
+        During online checkout or when picking up your rental car, you will be offered basic coverage through the rental company, often called Collision Damage Waiver. This covers damage to the vehicle itself along with theft or loss. However, it does not cover your responsibility for the excess. This is where independent excess insurance comes in, protecting you for your portion of damages or loss assessed by the rental company. You can now rent any vehicle knowing your personal assets are safeguarded.
+      </p>
+      <h6>
+        The Next Step
+      </h6>
+      <p class="open-sans fs-8">
+        Overall, car hire excess insurance is a small price to pay for peace of mind when renting abroad. Drivers of all ages and experience levels can benefit from this supplemental coverage. Be sure to secure a policy promptly after booking your rental car for full protection. Then you can hit the open road stress-free knowing you are fully covered from excessive charges. Drive safely and enjoy the journey!
       </p>
     </div>
 

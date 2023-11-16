@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'European Breakdown | Insurance | Beat That Quotes')
 
   @section('content')
   <style>
@@ -24,15 +25,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati.
-            Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum!
-            Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Getting European Breakdown Cover before driving abroad provides peace of mind in case your vehicle breaks down. With coverage across over 40 European countries, you'll have access to roadside assistance no matter where you are. Experts can fix minor issues like flat tyres or dead batteries. For major repairs, your vehicle can be towed to a local garage. Then you'll be provided alternate transportation and overnight accommodation if needed. Most policies include cover for you and your passengers too. So don't risk getting stranded without European Breakdown Cover. For comprehensive protection at an affordable price, compare providers online today.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -74,7 +71,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -161,27 +158,87 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">European Breakdown Cover</h2>
+      <h6>The Importance of European Breakdown Cover</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Planning a driving holiday across Europe can be an exciting adventure. With so many countries to explore and scenic routes to traverse, the open road invites discovery. However, things don't always go smoothly when traveling abroad. Vehicle breakdowns and accidents can happen anywhere at any time. Being stranded in a foreign country without assistance can quickly turn a dream vacation into a nightmare. That's why having a European Breakdown Cover policy is so important before setting off on a continental road trip.
+      </p>
+      <h6>
+        What is Included in European Breakdown Cover?
+      </h6>
+      <p class="open-sans fs-8">
+        European Breakdown Cover provides roadside assistance and emergency repairs throughout most of Europe. It gives you peace of mind that expert help is only a phone call away if your vehicle breaks down far from home. Most policies include the following key benefits:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Roadside Repairs: If you experience a minor mechanical issue like a flat tire, dead battery, or lockout, technicians can perform repairs at the scene of the breakdown to get your vehicle up and running again. This covers labor costs and call out fees.
+        </li>
+        <li>
+            Towing: For major breakdowns that cannot be fixed at the roadside, your vehicle can be transported to a local repair shop. Towing up to around 20 miles is generally included.
+        </li>
+        <li>
+            Replacement Transportation: If your vehicle needs extensive repairs, you may be provided with a rental car or alternate means of transportation so you can continue your journey.
+        </li>
+        <li>
+            Overnight Accommodation: In the event repairs cannot be completed the same day as the breakdown, coverage for hotel rooms may be provided for you and your passengers.
+        </li>
+        <li>
+            Repatriation: If your vehicle cannot be fixed abroad, it can be transported back home once repaired. Your policy may also cover transportation costs for you and your passengers to return home.
+        </li>
+        <li>
+            24/7 Emergency Assistance: Multilingual agents are available day and night to handle breakdown calls and dispatch help quickly.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        When you have European Breakdown Cover, roadside assistance is only a phone call away across most of Europe. Technicians can troubleshoot issues and attempt to get your vehicle up and running again. If major repairs are needed, the next steps are coordinated for you so you don't have to worry about finding a reputable shop or paying hefty towing fees out of pocket.
+      </p>
+      <h6>
+        Why You Need It for a European Road Trip
+      </h6>
+      <p class="open-sans fs-8">
+        Driving around Europe allows you to travel at your own pace, wander off the beaten path, and discover hidden gems. But it also leaves you more vulnerable to breakdowns and accidents versus traveling by train or plane. Without European Breakdown Cover, a mechanical issue or fender bender can become a major hassle and lead to unexpected costs.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        If your car won't start in a remote area abroad, how will you get help? Even if you speak the local language, finding and vetting auto shops in an unfamiliar place takes time and effort. You may have to pay out of pocket and submit claims after the fact. The last thing you want is to drain your vacation fund on unanticipated vehicle repairs. With breakdown coverage, you have direct access to an established network of technicians and repair facilities across Europe.
+      </p>
+      <h6>
+        Key Factors to Consider When Choosing a Policy
+      </h6>
+      <p class="open-sans fs-8">
+        To get the right protection for your needs, keep the following factors in mind when selecting a European Breakdown Cover provider:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Geographical Coverage: Make sure countries you plan to visit are included. Some policies may exclude remote areas.
+        </li>
+        <li>
+            Vehicle Type: Coverage may vary for cars, motorcycles, RVs, or vintage vehicles. Choose a policy that covers your specific vehicle.
+        </li>
+        <li>
+            Level of Cover: Higher tiers offer more extensive benefits like overnight hotel stays and car replacement. Choose the level that fits your budget.
+        </li>
+        <li>
+            Trip Duration: Policies can cover single trips up to 90 days or provide annual coverage for frequent travelers.
+        </li>
+        <li>
+            Additional Services: Look for extra perks like GPS tracking, key replacement, or travel delay reimbursement.
+        </li>
+        <li>
+            Call Out Fees: Some companies charge a call out fee per breakdown while others provide unlimited call outs.
+        </li>
+        <li>
+            Customer Service: Check reviews and ratings for the provider's roadside assistance and claims handling.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        By evaluating these key factors, you can select European Breakdown Cover that provides suitable protection for your trip at a competitive price.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Don't Chance It - Get Covered Before Your Trip
+      </p>
+      <p class="open-sans fs-8">
+        The last thing you want on a European road trip is the stress and cost of a breakdown in an unfamiliar place. With comprehensive European Breakdown Cover, roadside assistance is just a phone call away across most of Europe. Take time to compare providers and select a policy tailored for your specific trip. Then you can relax knowing emergency auto services are available if trouble strikes abroad. Enjoy the journey and don't chance it - get covered before you go!
       </p>
     </div>
 

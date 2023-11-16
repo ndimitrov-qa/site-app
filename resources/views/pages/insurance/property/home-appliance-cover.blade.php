@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Home Appliance | Property | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -16,11 +17,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Home appliance insurance provides coverage in case your major household appliances break down or need repairs. Policies cover against mechanical failure and accidental damage for items like refrigerators, ovens, washing machines, dishwashers and hobs. Repairs or replacements up to the coverage limit are paid for covered claims so you avoid unpredictable appliance repair bills. For a low monthly premium, home appliance insurance gives peace of mind knowing you are protected from expensive fixes. Compare plans to find ample coverage for the appliances that keep your home running smoothly day to day.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-home-appliance-cover.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-home-appliance-cover.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -63,7 +64,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -155,27 +156,142 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Home Appliance Insurance</h2>
+      <h6>The Benefits of Home Appliance Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Your home appliances play an indispensable role in daily life. From cooking and cleaning to climate control, these machines save you time and effort. But when a key appliance unexpectedly breaks down, it can derail everything. Costly repairs or replacements can also wreak havoc on your budget. Thankfully, home appliance insurance provides affordable protection against these hassles and expenses.
       </p>
+      <h6>
+        What Does Home Appliance Insurance Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Home appliance insurance covers repairs or replacements for your major home systems and electronics that break down due to mechanical failure or accidental damage. Policies can cover:
       </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Refrigerators, freezers and wine coolers
+        </li>
+        <li>
+            Ovens, ranges, cooktops, microwaves
+        </li>
+        <li>
+            Dishwashers
+        </li>
+        <li>
+            Clothes washers and dryers
+        </li>
+        <li>
+            Water heaters
+        </li>
+        <li>
+            Televisions
+        </li>
+        <li>
+            Home audio equipment
+        </li>
+      </ul>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Coverage provides protection beyond your standard manufacturer warranties which tend to expire after 1-2 years. With a home appliance policy, you can get unforeseen breakdowns repaired for covered appliances, often with no deductible or very low fees like £50 per claim.
+      </p>
+      <h6>
+        Key Benefits of Home Appliance Insurance
+      </h6>
+      <ul class="open-sans fs-8">
+        <li>
+            Protects against unpredictable and costly repairs
+        </li>
+        <li>
+            Covers full unit replacement if repair costs exceed value
+        </li>
+        <li>
+            No out of pocket costs for covered claims after small service fee
+        </li>
+        <li>
+            Provides peace of mind knowing you're protected against breakdowns
+        </li>
+        <li>
+            Optional temporary replacement equipment available
+        </li>
+        <li>
+            Specialised network of certified technicians perform repairs
+        </li>
+        <li>
+            No unnecessary repair costs - technicians diagnose problems
+        </li>
+        <li>
+            Easy claims process with fast turnaround times
+        </li>
+        <li>
+            Starts around £10-15 monthly with budget-friendly premiums
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        For a small monthly investment, you can safeguard your budget from the hundreds or even thousands an appliance repair or replacement could cost.
+      </p>
+      <h6>
+        What's Typically Covered?
+      </h6>
+      <p class="open-sans fs-8">
+        Most home appliance insurance plans cover:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            New appliances still under manufacturer warranties
+        </li>
+        <li>
+            Existing appliances up to 10 years old or more
+        </li>
+        <li>
+            Replacement cost - no depreciation deductions
+        </li>
+        <li>
+            Unlimited claims up to your coverage limit
+        </li>
+        <li>
+            Accidental damage from falls, spills, power surges, etc.
+        </li>
+        <li>
+            Global coverage even if you move residences
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Review policy details carefully as some exclusions may apply. For example, commercial appliances, pre-existing conditions, cosmetic damage, and lack of maintenance may not be covered. Purchase ample coverage limits to replace your most vital appliances.
+      </p>
+      <h6>
+        Securing the Right Plan
+      </h6>
+      <p class="open-sans fs-8">
+        When choosing home appliance insurance, look for:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Itemised or blanket coverage with sufficient limits
+        </li>
+        <li>
+            High reliability ratings and transparency
+        </li>
+        <li>
+            Reasonable premiums for your budget
+        </li>
+        <li>
+            Experienced claims staff for quick resolution
+        </li>
+        <li>
+            Optional extras like temporary replacements
+        </li>
+        <li>
+            Easy claims process with direct payment to technicians
+        </li>
+        <li>
+            No pre-inspections required to qualify
+        </li>
+      </ul>
+      <h6>
+        Gain Valuable Protection
+      </h6>
+      <p class="open-sans fs-8">
+        Don't wait until an expensive appliance breakdown to realise coverage would have given you peace of mind. The small investment in home appliance insurance can prevent hefty bills down the road. With appliances protected, you can focus on enjoying them rather than worrying about repairs. Research plans today so you're equipped to handle unexpected appliance issues.
       </p>
     </div>
 

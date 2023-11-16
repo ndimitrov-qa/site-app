@@ -30,7 +30,7 @@ a {
 
 h1 {
   /* font-size: 38px; 01.11.23*/
-  font-size: clamp(17px, 5vw, 38px);
+  font-size: clamp(14px, 5vw, 38px);
 }
 
 h2 {
@@ -106,7 +106,8 @@ small {
   text-decoration: none;
   color: inherit;
   /* font-size: 20px; 09/11/23 */
-  font-size: 1.25rem;
+  /* font-size: 1.25rem; 13/11/23 */
+  font-size: clamp(10px, 2vw, 20px);
 }
 /* added blue color on active state on 3 tabs items index header */
 [type="button"]:not(:disabled):hover .link-custom,
@@ -474,10 +475,10 @@ section.bg-body-tertiary .card {
   .gap-lg-5 {
     gap: 20px;
   }
-  .link-custom {
+  /* .link-custom { */
     /* font-size: 18px; 09/11/23 */
-    font-size: 1.125rem;
-  }
+    /* font-size: 1.125rem; 13/11/23
+  } */
   .card {
     width: 80;
     height: 80;
@@ -528,8 +529,7 @@ section.bg-body-tertiary .card {
     padding: 8px 16px;
   }
   .button-medium-green {
-    /* font-size: 16px; 09/11/23 */
-    font-size: 1rem;
+    font-size: 16px;
     background-color: #198754;
     padding: 8px 16px;
   }
@@ -556,6 +556,7 @@ section.bg-body-tertiary .card {
   .providers-i {
     /* font-size: 20px; 09/11/23 */
     font-size: 1.25rem;
+    padding-left: 5px;
   }
   .accordion-custom-width {
     /* margin-left: 5px; 09/11/23 */
@@ -646,10 +647,10 @@ section.bg-body-tertiary .card {
     /* font-size: 12px; 09/11/23 09/11/23 */
     font-size: 0.75rem;
   }
-  .link-custom {
+  /* .link-custom { */
     /* font-size: 16px; 09/11/23 */
-    font-size: 1rem;
-  }
+    /* font-size: 1rem; 13/11/23
+  } */
   .btn {
     /* font-size: 16px; 09/11/23 */
     font-size: 1rem;
@@ -740,7 +741,8 @@ section.bg-body-tertiary .card {
     font-size: 0.875rem;
     background-color: #198754;
     padding: 6px 14px;
-    width: 329px;
+    /* width: 329px; */
+    width: clamp(300px, 1vw, 329px);
   }
   .button-small-blue {
     /* font-size: 14px; */

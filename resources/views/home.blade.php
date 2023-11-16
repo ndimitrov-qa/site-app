@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', 'Home | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section -->
@@ -48,7 +49,7 @@
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive">
             <span class="tooltiptext">Coming Soon</span>
           </div>
-          <small><a href="#" class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</a></small>
+          <div class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</div>
           <!-- Add custom css tooltip end -->
         </div>
       </div>

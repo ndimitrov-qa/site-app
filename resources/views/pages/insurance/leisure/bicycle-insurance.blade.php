@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Bicycle Insurance | Leisure | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -20,7 +21,7 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-bicycle-3.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14em; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-bicycle-3.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11em; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -62,7 +63,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -162,7 +163,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -259,7 +260,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -356,7 +357,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">

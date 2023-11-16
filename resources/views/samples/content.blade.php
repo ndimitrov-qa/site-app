@@ -1,4 +1,5 @@
 @extends('layouts.default')
+@section('title', 'Sample | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section -->

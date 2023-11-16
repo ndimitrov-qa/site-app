@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Home Emergency | Property | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -16,11 +17,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Home emergency insurance provides fast help for urgent household issues like burst pipes, electrical failures or pest infestations. Policies cover call-out fees, labor, parts and materials to make emergency repairs up to an annual limit. Rather than panic over a flooded basement or broken heating system, you can dispatch licensed technicians for timely repairs day or night. For about £10 per month, home emergency insurance brings peace of mind knowing you have 24/7 assistance for catastrophes big and small. Safeguard your property and avoid stress by getting covered today.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-home-emergency-cover.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 12rem; height: 12rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-home-emergency-cover.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -62,7 +63,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
@@ -560,28 +561,147 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Home Emergency Insurance</h2>
+      <h6>The Importance of Home Emergency Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Dealing with a home emergency like a flooded basement or broken heating system can be extremely stressful. Finding a reputable repair person to respond quickly day or night adds to the challenge. Before an urgent disaster strikes your property, make sure you have home emergency insurance. This affordable coverage provides fast access to emergency repairs whenever catastrophe hits.
       </p>
+      <h6>
+        What is Covered Under Home Emergency Insurance?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Home emergency insurance provides prompt assistance for urgent household repairs needed to protect your property from further damage. Common covered events include:
       </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Burst pipes or water leaks
+        </li>
+        <li>
+            Broken heating systems
+        </li>
+        <li>
+            Electrical failures
+        </li>
+        <li>
+            Roof damage
+        </li>
+        <li>
+            Locked out of property
+        </li>
+        <li>
+            Pest infestations
+        </li>
+        <li>
+            Boiler breakdowns
+        </li>
+        <li>
+            Gas supply interruptions
+        </li>
+        <li>
+            Broken windows and doors
+        </li>
+      </ul>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        When you experience a covered emergency, the insurer will dispatch licensed technicians to your home to make repairs. This includes call-out fees, labor, and the cost of parts and materials up to your policy limit, often £500-£1000 annually. Coverage is available 24/7 for immediate assistance day or night.
       </p>
+      <h6>
+        Key Benefits of Home Emergency Insurance
+      </h6>
+      <ul class="open-sans fs-8">
+        <li>
+            Fast access to approved repair technicians 24/7
+        </li>
+        <li>
+            No hunting for a reputable contractor in an emergency
+        </li>
+        <li>
+            Repairs made quickly to prevent further property damage
+        </li>
+        <li>
+            Useful for both homeowners and renters
+        </li>
+        <li>
+            Affordable premiums around £10/month
+        </li>
+        <li>
+            Coverage for sudden, unexpected events
+        </li>
+        <li>
+            Shared pipes and drains often covered for flats
+        </li>
+        <li>
+            Provides peace of mind and reduces stress
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        With responsive repairs, home emergency insurance helps minimize damage and disruption to your daily routine.
+      </p>
+      <h6>
+        What is Excluded from Policies?
+      </h6>
+      <p class="open-sans fs-8">
+        While home emergency insurance covers urgent repairs, some conditions are typically excluded:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Pre-existing issues present before the policy effective date
+        </li>
+        <li>
+            Burst pipes or flooding due to negligence and lack of maintenance
+        </li>
+        <li>
+            Upgrading dated electrical and plumbing systems
+        </li>
+        <li>
+            Pest infestations in unoccupied properties
+        </li>
+        <li>
+            Damage caused by severe weather, fires or flooding
+        </li>
+        <li>
+            Cosmetic defects and wear-and-tear
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Homeowners insurance and building insurance may provide protection for some of these non-covered events. Read policies closely to understand exclusions.
+      </p>
+      <h6>
+        Finding the Best Home Emergency Insurance
+      </h6>
+      <p class="open-sans fs-8">
+        When choosing a provider, look for:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            A household name provider with strong financial backing
+        </li>
+        <li>
+            Experience handling home emergency claims
+        </li>
+        <li>
+            A network of fully vetted repair technicians
+        </li>
+        <li>
+            High coverage limits to match repair costs in your area
+        </li>
+        <li>
+            Low wait times for dispatching technicians
+        </li>
+        <li>
+            Positive customer service reviews
+        </li>
+        <li>
+            Clear policy documentation and easy claims process
+        </li>
+      </ul>
+      <h6>
+        Peace of Mind for Homeowners
+      </h6>
+      <p class="open-sans fs-8">
+        Dealing with urgent household emergencies at all hours can be immensely stressful. Having a home emergency policy provides comfort knowing reputable help is one call away when calamity strikes. For maximum protection, pair emergency cover with robust homeowners or landlord insurance too. Invest in safeguarding your property so you can rest assured knowing professionals can be onsite quickly for emergency repairs.
+      </p>
+
     </div>
 
   <!-- Accordion Starts -->

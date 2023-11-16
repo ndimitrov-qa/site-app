@@ -46,9 +46,11 @@ Route::get('/quote/fleet', function () {
 Route::get('/breakdown-cover', function () {
     return view('pages/insurance/motoring/breakdown-cover');
 });
+
 Route::get('/european-breakdown-cover', function () {
     return view('pages/insurance/motoring/european-breakdown-cover');
 });
+
 Route::get('/car-hire-excess-insurance', function () {
     return view('pages/insurance/motoring/car-hire-excess-insurance');
 });

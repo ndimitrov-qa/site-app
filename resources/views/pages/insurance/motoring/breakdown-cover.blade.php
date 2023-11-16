@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Breakdown | Insurance | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -24,7 +25,7 @@
           </p>
         </div>
         <div class="col-lg-4 col-md-auto">
-          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -42,10 +43,10 @@
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
-              <div class="col-2">
-                <img src="img/logos/emergency-assist-ltd.jpg" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
+              <div class="col-2 col-lg-2 col-md-2">
+                <img src="img/logos/emergency-assist-ltd.jpg" alt="" class="img-fluid pt-2 ps-4 d-none d-sm-block">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
+              <div class="col-lg-7 col-md-7 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
                     Emergency Assist Cover
                 </h4>
@@ -53,7 +54,7 @@
                     Breakdown cover from Emergency Assist can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
+              <div class="col-lg-3 col-md-3 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.tagserve.com/clickServlet?AID=3031&MID=276&PID=389&SID=3737&CID=1403&LID=674&SUBID=" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"

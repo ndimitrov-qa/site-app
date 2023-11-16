@@ -1,4 +1,5 @@
 @extends('layouts.panel-provider')
+@section('title', 'Gap | Insurance | Beat That Quotes')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -16,11 +17,11 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            GAP insurance protects car owners by covering the gap between the value of a vehicle and the amount still owed on its financing if it gets totaled or stolen. Most standard auto policies only pay the depreciated market value, which may not cover the full loan amount. GAP insurance steps in to pay the difference so you don’t end up making payments on a car you no longer own. It provides important financial protection that gives peace of mind. GAP insurance is affordable and can be added to your existing auto policy. Make sure you have this valuable coverage before driving a new vehicle off the lot.
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-car.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 14rem; height: 14rem; margin-left: 115px;">
+          <img src="BTQ - Type Icons/icon-type-car.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -62,7 +63,7 @@
               </div>
             </div>
 
-            <hr class="mx-4 d-none d-lg-block">
+            <hr class="mx-4 d-none d-xxl-block">
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
@@ -247,27 +248,127 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">GAP Insurance</h2>
+      <h6>Understanding GAP Insurance: What it Covers and Why it Matters</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Drivers obsessed with safety may still worry about accidents or vehicle theft leaving them stuck with auto loan debt. If your car gets totalled shortly after purchase, its depreciated value may not cover what you still owe the lender. Fortunately, GAP insurance can protect car owners from this financial loss. Here’s an in-depth look at how GAP coverage works and why it’s worth considering.
+      </p>
+      <h6>
+        What is GAP Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        GAP stands for “guaranteed asset protection”. It covers the gap between what your vehicle insurance pays out for a total loss and the remaining balance on your auto financing.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        For example, say you buy a new car for £25,000. A year later it gets stolen and your insurance company determines the current value is only £15,000. But you still owe £20,000 on your loan. GAP insurance would pay the £5,000 difference so you don’t end up making payments for a car you no longer have.
+      </p>
+      <p class="open-sans fs-8 m-1">
+        GAP insurance provides protection against:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Theft - If your vehicle gets stolen and not recovered
+        </li>
+        <li>
+            Total loss - If your vehicle is deemed a total loss after an accident
+        </li>
+        <li>
+            Some policies also cover financial shortfalls in cases of extreme damage
+        </li>
+      </ul>
+      <h6>
+        Key Benefits of GAP Insurance
+      </h6>
+      <ul class="open-sans fs-8">
+        <li>
+            Covers the “gap” between insurance payout and remaining loan balance
+        </li>
+        <li>
+            Protects your finances from taking a major hit
+        </li>
+        <li>
+            Provides peace of mind when driving a new or financed vehicle
+        </li>
+        <li>
+            Typically less expensive than excessive loan losses
+        </li>
+        <li>
+            Pays the lender directly and may also cover your deductible
+        </li>
+        <li>
+            Allows for a replacement vehicle without negative equity
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        GAP insurance gives car owners financial security, protecting assets and credit scores when the unexpected happens.
+      </p>
+      <h6>
+        When Do You Need GAP Coverage?
+      </h6>
+      <p class="open-sans fs-8">
+        Here are common scenarios when GAP insurance provides important protection:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Leased Cars – Required by most leasing companies since you don’t own the vehicle
+        </li>
+        <li>
+            New or Expensive Cars – Depreciation is highest in early years
+        </li>
+        <li>
+            Longer Loans – The longer the term, the higher the risk of depreciation
+        </li>
+        <li>
+            Low Down Payments – Less equity means you’re more “upside-down”
+        </li>
+        <li>
+            First-time Buyers – Typically have higher interest rates on loans
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Even used car owners can benefit, especially if you stretched your budget or have high-interest financing. Review your coverage risks any time you purchase a vehicle.
+      </p>
+      <h6>
+        What to Look for in a Policy
+      </h6>
+      <p class="open-sans fs-8">
+        The best GAP coverage for your needs will offer:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Primary coverage that pays first, before your auto policy
+        </li>
+        <li>
+            Direct payments to the lender, plus your deductible
+        </li>
+        <li>
+            Flexible limits to match your loan amount and terms
+        </li>
+        <li>
+            Ability to cancel when your loan balance gets low
+        </li>
+        <li>
+            Clear policy language regarding total losses
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Read the fine print to ensure you understand exactly what triggers payment and any exclusions or limitations. Reputable insurers make the claims process smooth in the event you need to use the coverage.
+      </p>
+      <h6>
+        Weighing the Costs and Benefits
+      </h6>
+      <p class="open-sans fs-8">
+        GAP insurance costs a fraction of the financial loss it protects against. Expect to pay £300-£500 over the loan term for coverage. Compare this to thousands you could owe without it. The relatively small investment brings big peace of mind.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        For some buyers, rolling the price into your auto loan keeps the upfront cost low. Even if your driving skills are pristine, GAP coverage can save you from the actions of other motorists. It’s ideal for protecting your assets and credit score when you have the most to lose.
+      </p>
+      <h6>
+        Gain Financial Protection
+      </h6>
+      <p class="open-sans fs-8">
+        While no one expects vehicle theft or a total loss, these events can happen in an instant. GAP insurance fills a key coverage gap that softens the financial blow. Now you can drive with confidence knowing potential losses are reduced. So whether you’re purchasing or leasing, review your risks and consider GAP for financial security.
       </p>
     </div>
 

@@ -64,6 +64,8 @@ button.btn-submit {
 </style>
 
 @extends('layouts.default')
+@section('title', 'Contact Us | Beat That Quotes')
+
   @section('content')
   <!-- Hero Section -->
   <section class="bg-body-tertiary border-top border-tertiary">
