@@ -9,16 +9,15 @@
   <title>@yield('title')</title>
 
   <!-- Favicon -->
-  <link rel="icon" href="{{ asset('BTQ - Type icons/icon-type-car.png') }}" type="image/x-icon">
-  <link rel="shortcut icon" href="{{ asset('BTQ - Type icons/icon-type-car.png') }}" type="image/x-icon">
+  <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <!-- Styles -->
-  <link rel="stylesheet" href="{{ ('css/style.css') }}">
-  <link rel="stylesheet" href="{{ ('css/panel-provider.css') }}">
-  <link rel="stylesheet" href="{{ ('css/footer-content-links.css') }}">
+  <link rel="stylesheet" href="{{ asset ('css/style.css') }}">
+  <link rel="stylesheet" href="{{ asset ('css/panel-provider.css') }}">
+  <link rel="stylesheet" href="{{ asset ('css/footer-content-links.css') }}">
 </head>
 
 <body>

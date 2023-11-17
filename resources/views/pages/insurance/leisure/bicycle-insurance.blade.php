@@ -21,12 +21,12 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-bicycle-3.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11em; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle-3.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11em; margin-left: 115px;">
         </div>
       </div>
     </div>
     <div>
-      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->
@@ -40,7 +40,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/eversure.png" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -68,27 +68,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Theft
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 166px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Accidental Damage
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 98px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Multi-Bicycle
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 150px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Worldwide Cover
               </div>
 
@@ -140,7 +140,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/nova-direct.png" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
+                <img src="{{ asset ('img/logos/nova-direct.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -167,26 +167,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Theft
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 166px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Accidental Damage
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 98px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Multi-Bicycle
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 150px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     Worldwide Cover
                 </div>
             </div>
@@ -237,7 +237,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/pedalsure.png" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
+                <img src="{{ asset ('img/logos/pedalsure.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -264,26 +264,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Theft
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 161px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Accidental Damage
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 116px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal injury
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 129px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     Public liability
                 </div>
             </div>
@@ -334,7 +334,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/cycleplan.png" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
+                <img src="{{ asset ('img/logos/cycleplan.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -361,26 +361,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Theft
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 154px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Accidental Damage
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal injury
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 129px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     Public liability
                 </div>
             </div>

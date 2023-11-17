@@ -38,70 +38,72 @@ Route::get('/quote/fleet', function () {
     return view('pages/fleet');
 });
 
+Route::get('/quotation', function () {
+    return view('/quotation');
+});
+
                 // MENU/INSURANCE //
 //----------- Insurance/What's Popular ------------------------//
 //------------------------------------------------------------//
 
 //----------- Insurance/Motoring ------------------------------//
-Route::get('/breakdown-cover', function () {
+Route::get('/insurance/breakdown-cover', function () {
     return view('pages/insurance/motoring/breakdown-cover');
 });
-
-Route::get('/european-breakdown-cover', function () {
+Route::get('/insurance/european-breakdown-cover', function () {
     return view('pages/insurance/motoring/european-breakdown-cover');
 });
-
-Route::get('/car-hire-excess-insurance', function () {
+Route::get('/insurance/car-hire-excess-insurance', function () {
     return view('pages/insurance/motoring/car-hire-excess-insurance');
 });
-Route::get('/gap-insurance', function () {
+Route::get('/insurance/gap-insurance', function () {
     return view('pages/insurance/motoring/gap-insurance');
 });
 //------------------------------------------------------------//
 
 //----------- Insurance/Property -----------------------------//
-Route::get('/home-appliance-cover', function () {
+Route::get('/insurance/home-appliance-cover', function () {
     return view('pages/insurance/property/home-appliance-cover');
 });
-Route::get('/home-emergency-cover', function () {
+Route::get('/insurance/home-emergency-cover', function () {
     return view('pages/insurance/property/home-emergency-cover');
 });
 //------------------------------------------------------------//
 
 //----------- Insurance/Leisure -----------------------------//
-Route::get('/bicycle-insurance', function () {
+Route::get('/insurance/bicycle-insurance', function () {
     return view('pages/insurance/leisure/bicycle-insurance');
 });
-Route::get('/static-caravan-insurance', function () {
+Route::get('/insurance/static-caravan-insurance', function () {
     return view('pages/insurance/leisure/static-caravan-insurance');
 });
-Route::get('/touring-caravan-insurance', function () {
+Route::get('/insurance/touring-caravan-insurance', function () {
     return view('pages/insurance/leisure/touring-caravan-insurance');
 });
-Route::get('/musical-instrument-insurance', function () {
+Route::get('/insurance/musical-instrument-insurance', function () {
     return view('pages/insurance/leisure/musical-instrument-insurance');
 });
-Route::get('/golf-insurance', function () {
+Route::get('/insurance/golf-insurance', function () {
     return view('pages/insurance/leisure/golf-insurance');
 });
-Route::get('/boat-insurance', function () {
+Route::get('/insurance/boat-insurance', function () {
     return view('pages/insurance/leisure/boat-insurance');
 });
-Route::get('/gun-insurance', function () {
+Route::get('/insurance/gun-insurance', function () {
     return view('pages/insurance/leisure/gun-insurance');
 });
-Route::get('/travel-insurance', function () {
+Route::get('/insurance/travel-insurance', function () {
     return view('pages/insurance/leisure/travel-insurance');
 });
 
 //----------- Insurance/Lifestyle -----------------------------//
-Route::get('/drone-insurance', function () {
+Route::get('/insurance/drone-insurance', function () {
     return view('pages/insurance/lifestyle/drone-insurance');
 });
-Route::get('/camera-insurance', function () {
+Route::get('/insurance/camera-insurance', function () {
     return view('pages/insurance/lifestyle/camera-insurance');
 });
-Route::get('/gadget-insurance', function () {
+Route::get('/insurance/gadget-insurance', function () {
     return view('pages/insurance/lifestyle/gadget-insurance');
 });
 //------------------------------------------------------------//
@@ -131,7 +133,7 @@ Route::get('/gadget-insurance', function () {
 //------------------------------------------------------------//
 
 //-------------- Business/Motoring ----------------------------//
-Route::get('/car-finance', function () {
+Route::get('/money/car-finance', function () {
     return view('pages/money/motoring/car-finance');
 });
 //------------------------------------------------------------//

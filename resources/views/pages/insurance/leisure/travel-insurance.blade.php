@@ -21,12 +21,12 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-plane-3.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-plane-3.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
     <div>
-      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->
@@ -40,7 +40,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/travel4medical.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/travel4medical.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -67,22 +67,22 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
               Single Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 121px; margin-right: 57px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 137px; margin-right: 55px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
               Backpacker
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 153px; margin-right: 54px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
                 Winter Sports
               </div>
             </div>
@@ -133,7 +133,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/traveltime.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/traveltime.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -161,27 +161,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 124px; margin-right: 63px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 108px; margin-right: 60px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Backpacker
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 158px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Winter Sports
               </div>
 
@@ -234,7 +234,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/cedartree.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/cedartree.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -262,27 +262,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 57px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 135px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Backpacker
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 153px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Cruise Cover
               </div>
 
@@ -336,7 +336,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/mti.png" alt="" class="img-fluid ps-4 mb-2 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/mti.png') }}" alt="" class="img-fluid ps-4 mb-2 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -364,27 +364,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 57px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 135px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Winter Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 153px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Cruise Cover
               </div>
 
@@ -437,7 +437,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/outbacker.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/outbacker.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -465,27 +465,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Working holiday cover
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 35px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Medical expenses cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 93px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 100+ Activities
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 135px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Airline Failure Cover
               </div>
 
@@ -538,7 +538,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/bettersafe.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/bettersafe.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -566,27 +566,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 138px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Backpacker
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 152px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Medical+ Cover
               </div>
 
@@ -639,7 +639,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/asda.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/asda.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -667,27 +667,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 UK Travel Insurance
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 54px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Family Travel Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 123px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi-Trip Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 70px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Single Trip Cover
               </div>
 
@@ -740,7 +740,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/explorer.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/explorer.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -768,27 +768,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip Insurance
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 46px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 133px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Winter Sports
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Cruise
               </div>
 
@@ -841,7 +841,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/coverwise.jpg" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/coverwise.jpg') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -869,27 +869,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi-Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                Annual Car Hire Excess
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 75px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Ski insurance
               </div>
 
@@ -944,7 +944,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/nova-direct.png" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
+                <img src="{{ asset ('img/logos/nova-direct.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-90 pl-m-10">
                 <h4 class="text-primary">
@@ -971,17 +971,17 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Home Assistance
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 78px; margin-right: 62px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Roadside Assistance
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 90px; margin-right: 58px"></div>
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Onward Travel
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 140px; margin-right: 54px"></div>

@@ -32,13 +32,13 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li><a href="/" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
+                        <li><a href="/insurance/fleet-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
                             Insurance</a></li>
-                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/insurance/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -48,11 +48,11 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
-                        <li><a href="/european-breakdown-cover" class="nav-link-custom"><i
+                        <li><a href="/insurance/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
+                        <li><a href="/insurance/european-breakdown-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover</a></li>
-                        <li><a href="/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
-                        <li><a href="/gap-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
+                        <li><a href="/insurance/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -65,14 +65,14 @@
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
                         <li>
-                            <a href="/home-appliance-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home Appliance Cover
+                            <a href="/insurance/home-appliance-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home Appliance Cover
                             </a>
                         </li>
-                        <li><a href="/home-emergency-cover" class="nav-link-custom"><i
+                        <li><a href="/insurance/home-emergency-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Home Emergency Cover</a></li>
-                        <!-- <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Insurance
+                        <!-- <li><a href="/insurance/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Insurance
                         </a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -85,28 +85,28 @@
                       <h6 class="title pb-2">Leisure</h6>
                       <ul class="list-unstyled">
                         <li class="show">
-                            <a href="/bicycle-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Bicycle Insurance
+                            <a href="/insurance/bicycle-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Bicycle Insurance
                             </a>
                         </li>
-                        <li class="show"><a href="/static-caravan-insurance" class="nav-link-custom"><i
+                        <li class="show"><a href="/insurance/static-caravan-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Static Caravan Insurance</a></li>
-                        <li class="show"><a href="/touring-caravan-insurance" class="nav-link-custom"><i
+                        <li class="show"><a href="/insurance/touring-caravan-insurance" class="nav-link-custom"><i
                         class="bi bi-caret-right-fill pe-2"></i>Touring Caravan Insurance</a></li>
 
                         <li class="show">
-                            <a href="/musical-instrument-insurance" class="nav-link-custom">
+                            <a href="/insurance/musical-instrument-insurance" class="nav-link-custom">
                                 <i class="bi bi-caret-right-fill pe-2"></i>Musical Instrument
                             </a>
                         </li>
 
 
-                            <li class="hidden"><a href="/golf-insurance" class="nav-link-custom"><i
+                            <li class="hidden"><a href="/insurance/golf-insurance" class="nav-link-custom"><i
                                 class="bi bi-caret-right-fill pe-2"></i>Golf Insurance</a></li>
-                            <li class="hidden"><a href="/boat-insurance" class="nav-link-custom"><i
+                            <li class="hidden"><a href="/insurance/boat-insurance" class="nav-link-custom"><i
                             class="bi bi-caret-right-fill pe-2"></i>Boat Insurance</a></li>
-                            <li class="hidden"><a href="/gun-insurance" class="nav-link-custom"><i
+                            <li class="hidden"><a href="/insurance/gun-insurance" class="nav-link-custom"><i
                             class="bi bi-caret-right-fill pe-2"></i>Gun Insurance</a></li>
-                            <li class="hidden"><a href="/travel-insurance" class="nav-link-custom"><i
+                            <li class="hidden"><a href="/insurance/travel-insurance" class="nav-link-custom"><i
                             class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
 
                         <li><a class="fw-bold nav-link-custom show-all" href="#"><i
@@ -119,11 +119,11 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/gadget-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li><a href="/drone-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/drone-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Drone Insurance</a></li>
-                        <li><a href="/camera-insurance" class="nav-link-custom"><i
+                        <li><a href="/insurance/camera-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Camera Insurance</a></li>
                         <!-- <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
@@ -147,13 +147,13 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li class="fs-7"><a href="/business/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/business/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -163,12 +163,12 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Insurance</a></li>
-                        <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Insurance</a></li>
+                        <li><a href="/business/multi-car-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/business/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -180,13 +180,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/home-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Home Insurance</a></li>
-                        <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/van-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -198,13 +198,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/business-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li><a href="/public-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/public-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/tradesman-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li><a href="/shop-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -215,13 +215,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/gadget-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li><a href="/pet-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/pet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/health-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/business/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                         <li class=""><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -242,13 +242,13 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li class="fs-7"><a href="/money/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/money/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -258,13 +258,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-finance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/money/car-finance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Finance</a></li>
-                        <!-- <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <!-- <li><a href="/money/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Finance</a></li>
                         <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Finance
                         </a></li> -->
-                        <!-- <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <!-- <li><a href="/money/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Finance</a></li> -->
                          <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -275,13 +275,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home
+                        <li><a href="/money/home-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home
                             Insurance</a></li>
-                        <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/landlord-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/commercial-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/holiday-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -294,13 +294,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/business-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li><a href="/public-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/public-liability" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/tradesman-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li><a href="/shop-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -311,13 +311,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/gadget-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li><a href="/pet-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/pet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/health-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/money/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -338,13 +338,13 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li class="fs-7"><a href="/services/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/services/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                       </ul>
                     </div>
@@ -354,13 +354,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car
+                        <li><a href="/services/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car
                             Insurance</a></li>
-                        <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Multi-Car Insurance</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Van
+                        <li><a href="/services/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Van
                             Insurance</a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -372,13 +372,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home
+                        <li><a href="/services/car-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home
                             Insurance</a></li>
-                        <li><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
-                        <li><a href="/van-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/van-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
-                        <li><a href="/motorbike-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -390,13 +390,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/business-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/business-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li><a href="/public-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/public-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
-                        <li><a href="/tradesman-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/tradesman-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
-                        <li><a href="/shop-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
@@ -407,13 +407,13 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/gadget-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/gadget-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li><a href="/pet-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/pet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
-                        <li><a href="/health-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/health-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
-                        <li><a href="/travel-insurance" class="nav-link-custom"><i
+                        <li><a href="/services/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                         <li class=""><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>

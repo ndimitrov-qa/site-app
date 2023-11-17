@@ -21,12 +21,12 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-gadgets.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-gadgets.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
     <div>
-      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->
@@ -39,7 +39,7 @@
           <span class="badge bg-red position-relative translate-middle top-100 py-2 px-2 pe-2 fs-9 badge-lg badge-md badge-sm">SPONSORED</span>
           <div class="row justify-content-center align-items-center row-medium-responsive">
             <div class="col-2">
-              <img src="img/logos/nova-direct.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+              <img src="{{ asset ('img/logos/nova-direct.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
             </div>
             <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
               <h4 class="text-primary pt-smaller">
@@ -63,27 +63,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Single Trip
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Annual Multi-Trip
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                Annual Car Hire Excess
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 82px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Ski insurance
               </div>
             </div>

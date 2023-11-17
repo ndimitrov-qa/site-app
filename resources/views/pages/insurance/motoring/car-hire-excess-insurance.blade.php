@@ -21,12 +21,12 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-breakdown-2.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown-2.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
     <div>
-      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->
@@ -40,7 +40,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/rme.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/rme.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -67,26 +67,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     No Excess
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal Possessions
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 109px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Additional Drivers
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 106px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     UK or Worldwide
                 </div>
             </div>
@@ -137,7 +137,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/eversure.png" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -164,26 +164,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     No Excess
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 133px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal Possessions
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 89px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Additional Drivers
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 115px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     UK or Worldwide
                 </div>
             </div>
@@ -234,7 +234,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/bettersafe.png" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/bettersafe.png') }}" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -261,26 +261,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     No Excess
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal Possessions
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Additional Drivers
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 109px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     UK or Worldwide
                 </div>
             </div>
@@ -331,7 +331,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/insurefor.png" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/insurefor.png') }}" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -358,26 +358,26 @@
 
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     No Excess
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 63px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
-                    <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Personal Possessions
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 80px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                     Additional Drivers
                 </div>
                 <div class="vr d-none d-lg-block" style="margin-left: 119px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                    <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                    <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                     UK or Worldwide
                 </div>
             </div>

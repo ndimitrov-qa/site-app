@@ -21,12 +21,12 @@
           </p>
         </div>
         <div class="col-lg-auto">
-          <img src="BTQ - Type Icons/icon-type-home-emergency-cover.png" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-home-emergency-cover.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
     <div>
-      <img src="img/city-skyline2.png" alt="city skyline image" class="d-none d-lg-block">
+      <img src="{{ asset ('img/city-skyline2.png') }}" alt="city skyline image" class="d-none d-lg-block">
     </div>
   </section>
   <!-- Hero Section Ends -->
@@ -40,7 +40,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/smart-cover.jpg" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/smart-cover.jpg') }}" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -68,27 +68,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Electrical
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 132px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Drains and Waste Pipes
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 91px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                Boiler
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 191px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Lost Keys
               </div>
 
@@ -142,7 +142,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/prominence.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/prominence.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -170,27 +170,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Repair
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 147px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Replacement
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 158px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Care
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 204px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 24/7/365
               </div>
 
@@ -243,7 +243,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/hometree.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/hometree.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -271,27 +271,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Boiler Cover
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Heating Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 155px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Advanced Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 24/7 UK helpline
               </div>
 
@@ -344,7 +344,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/yourrepair.png" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/yourrepair.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -372,27 +372,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Boiler Cover
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Advanced Boiler Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 77px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Landlord Boiler Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 89px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Book a Repair 24/7
               </div>
 
@@ -445,7 +445,7 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="img/logos/home-rescue.webp" alt="" class="img-fluid ps-4 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/home-rescue.webp') }}" alt="" class="img-fluid ps-4 d-none d-lg-block">
               </div>
               <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
@@ -473,27 +473,27 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Boiler Basic Cover
               </div>
 
               <div class="vr d-none d-lg-block" style="margin-left: 66px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Boiler Care Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 138px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
-              <img src="img/check.png" alt="" class="me-2 img-check img-check-small">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
                 Heating Care Cover
               </div>
               <div class="vr d-none d-lg-block" style="margin-left: 99px; margin-right: 56px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
-                <img src="img/check.png" alt="" class="me-2 img-x img-x-small">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
                 Home Complete Care
               </div>
 

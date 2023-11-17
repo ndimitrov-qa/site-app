@@ -1,0 +1,30 @@
+# Disable directory browsing
+Options All -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite engine
+# ----------------------------------------------------------------------
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine on  
+	RewriteBase /btq/fleet/
+
+	RewriteCond %{THE_REQUEST} (.*)\.php  
+	RewriteRule ^(.*)\.php $1.html [R=301,L]  
+
+	RewriteCond %{THE_REQUEST} (.*)\.html  
+	RewriteRule ^(.*)\.html $1.php [L]  
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # If we don't have mod_rewrite installed, all 404's
+    # can be sent to index.php, and everything works as normal.
+    ErrorDocument 404 index.php
+</IfModule>
+
+# Disable server signature start
+    ServerSignature Off
+# Disable server signature end
