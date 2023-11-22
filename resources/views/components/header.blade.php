@@ -54,8 +54,8 @@
                         <li><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
                         <li><a href="/insurance/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
-                        <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                        <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -74,8 +74,8 @@
                         </a></li>
                         <li><a href="/insurance/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
-                        <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                        <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -127,8 +127,8 @@
                               class="bi bi-caret-right-fill pe-2"></i>Camera Insurance</a></li>
                         <!-- <li><a href="/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
-                        <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                        <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -266,12 +266,13 @@
                         </a></li> -->
                         <!-- <li><a href="/money/motorbike-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Finance</a></li> -->
-                         <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                         <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
                   </div>
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
+
+                  <!-- <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Property</h6>
                       <ul class="list-unstyled">
@@ -287,10 +288,10 @@
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
-                  </div>
+                  </div> -->
 
 
-                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
+                  <!-- <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Business</h6>
                       <ul class="list-unstyled">
@@ -306,7 +307,8 @@
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
-                  </div>
+                  </div> -->
+<!--
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
@@ -323,7 +325,8 @@
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
-                  </div>
+                  </div> -->
+
                 </div>
               </div>
             </li>

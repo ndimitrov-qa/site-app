@@ -47,10 +47,10 @@
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
-              <div class="col-2">
-                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid pt-2 ps-4 d-none d-lg-block">
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid pt-2 ps-4 d-none d-sm-block">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7">
+              <div class="col-lg-7 col-md-7 col-sm-7">
                 <h4 class="text-primary">
                     Eversure Breakdown Cover (European)
                 </h4>
@@ -58,7 +58,7 @@
                     European Breakdown Cover from Eversure can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2">
+              <div class="col-lg-3 col-md-3 col-sm-3 mt-2">
                 <a href="https://eversurecc.co.uk/eaEO6" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"

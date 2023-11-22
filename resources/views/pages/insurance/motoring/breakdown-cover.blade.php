@@ -151,9 +151,9 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid ps-4 pt-2 d-none d-lg-block">
+                <img src="{{ asset ('img/logos/eversure.png') }}" alt="" class="img-fluid ps-4 pt-2 d-none d-sm-block">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7 pl-85 pl-m-10">
+              <div class="col-lg-7 col-md-7 col-sm-7 pl-85 pl-m-10">
                 <h4 class="text-primary">
                     Eversure Breakdown Cover
                 </h4>
@@ -161,7 +161,7 @@
                     Breakdown cover from Eversure can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
+              <div class="col-lg-3 col-md-3 col-sm-3 mt-2 mb-576-15">
                 <a href="https://eversurecc.co.uk/sbl4l" target="_blank" style="text-decoration: none;">
                  <button
                   type="button"
@@ -253,9 +253,9 @@
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
               <div class="col-2">
-                <img src="{{ asset ('img/logos/nova-direct.png') }}" alt="" class="img-fluid ps-4 d-none d-lg-block align-self-center">
+                <img src="{{ asset ('img/logos/nova-direct.png') }}" alt="" class="img-fluid ps-4 d-none d-sm-block align-self-center">
               </div>
-              <div class="col-lg-7 col-md-12 col-sm-7 pl-90 pl-m-10">
+              <div class="col-lg-7 col-md-7 col-sm-7 pl-90 pl-m-10">
                 <h4 class="text-primary">
                     Nova Direct Breakdown Cover
                 </h4>
@@ -263,7 +263,7 @@
                     Breakdown cover from Nova Direct can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-12 col-sm-3 mt-2 mb-576-15">
+              <div class="col-lg-3 col-md-3 col-sm-3 mt-2 mb-576-15">
                 <a href="https://www.paidonresults.net/c/57719/1/2175/0/products/breakdown/new-quote/" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"

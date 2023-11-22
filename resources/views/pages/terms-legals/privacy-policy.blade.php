@@ -64,7 +64,7 @@
 <section class="pt-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
       <h2 class="text-blue">Privacy Policy</h2>
-      <h6>Last updated: October 02, 2023</h6>
+      <h6>Last updated: 02 October, 2023</h6>
       <hr>
       <p class="open-sans fs-8">
         This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.

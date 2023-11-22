@@ -210,7 +210,13 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-9">I agree to the <span class="text-blue">Privacy Policy</span></small>
+                    <small class="fs-9 link">I agree to the
+                        <span class="text-blue">
+                            <a href="/privacy-policy" target="_blank" class="a-privacy">
+                                Privacy Policy
+                            </a>
+                        </span>
+                    </small>
                 </label>
                 </div>
                 <div class="quote-btn-xs">
@@ -290,7 +296,13 @@
                 <div class="d-flex align-items-center gap-2">
                   <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
-                  <small class="fs-9">I agree to the <span class="text-blue">Privacy Policy</span></small>
+                  <small class="fs-9 link">I agree to the
+                    <span class="text-blue">
+                        <a href="/privacy-policy" target="_blank" class="a-privacy">
+                            Privacy Policy
+                        </a>
+                    </span>
+                  </small>
                 </label>
                 </div>
                 <div class="quote-btn-xs">
@@ -368,7 +380,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-sm-block"
+              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-lg-block"
                 style="margin-left:34px;">POPULAR</span>
               <a href="/hgv-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid mx-auto d-block image-width"
@@ -416,7 +428,7 @@
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
               <span
-                class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9 d-none d-sm-block">NEW</span>
+                class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9 d-none d-lg-block">NEW</span>
               <a href="/breakdown-cover" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown-2.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
@@ -503,7 +515,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-sm-block"
+              <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-lg-block"
                 style="margin-left: 34px;">POPULAR</span>
               <a href="/musical-instrument-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-musical-instrument-insurance.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
@@ -678,33 +690,33 @@
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/" class="link-offset-2">Cheap HGV Insurance</a></li>
+            <li><a href="/" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>
