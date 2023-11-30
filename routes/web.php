@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\QuoteController;
+use App\Http\Controllers\QuoteFleetController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\QuoteHgvController;
+use App\Http\Controllers\QuoteTruckController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,8 +24,16 @@ Route::get('/live', function () {
     return view('/home');
 });
 
-Route::get('/content', function () {
-    return view('pages/content');
+Route::get('/fleet-insurance', function () {
+    return view('/fleet-insurance');
+});
+
+Route::get('/hgv-insurance', function () {
+    return view('/hgv-insurance');
+});
+
+Route::get('/truck-insurance', function () {
+    return view('/truck-insurance');
 });
 
 Route::get('/panel-provider', function () {
@@ -58,6 +68,15 @@ Route::get('/insurance/car-hire-excess-insurance', function () {
 });
 Route::get('/insurance/gap-insurance', function () {
     return view('pages/insurance/motoring/gap-insurance');
+});
+Route::get('/insurance/van-insurance', function () {
+    return view('pages/insurance/motoring/van-insurance');
+});
+Route::get('/insurance/motorbike-insurance', function () {
+    return view('pages/insurance/motoring/motorbike-insurance');
+});
+Route::get('/insurance/learner-insurance', function () {
+    return view('pages/insurance/motoring/learner-insurance');
 });
 //------------------------------------------------------------//
 
@@ -240,10 +259,14 @@ Route::get('/quote/fleet/thank-you', function () {
     return view('pages/fleet/thank-you');
 });
 
-// FLEET FORM QUOTE //
-Route::post('/save-quote', [QuoteController::class, 'store'])->name('save.quote');
+                          // FLEET FORM QUOTE //
+Route::post('/save-quote', [QuoteFleetController::class, 'store'])->name('save.quote');
+                          // HGV FORM QUOTE //
+Route::post('/save-hgv-quote', [QuoteHgvController::class, 'store'])->name('save.hgv.quote');
+                          // TRUCK FORM QUOTE //
+Route::post('/save-truck-quote', [QuoteTruckController::class, 'store'])->name('save.truck.quote');
 
-                            // USEFUL LINKS //
+                          // USEFUL LINKS //
 // --------------------------------------------------------------------------------------- //
                     // CONTACT-US PAGE AND FORM SUBMIT //
 Route::get('/contact-us', [ContactController::class, 'showForm'])->name('contact');

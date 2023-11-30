@@ -12,34 +12,44 @@
       <!-- bootstrap tabs for 3 circle items in header -->
       <!-- tab list start -->
       <div class="d-flex gap-sm-4" style="margin-top: 50px;" role="tablist">
-        <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
-          type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
-          <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
+        <div
+            class="text-center active"
+            id="pills-feet-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-feet"
+            type="button"
+            role="tab"
+            aria-controls="pills-feet"
+            aria-selected="true"
+        >
+            <div
+                class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
-            <img src="{{ asset('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
+                <img src="{{ asset('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
 
-          </div>
-          <div class="link-custom fs-md-6 text-center">Fleet</div>
+            </div>
+          <a href="/fleet-insurance" class="link-custom fs-md-6 text-center position-relative">Fleet</a>
         </div>
         <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
           role="tab" aria-controls="pills-hgv" aria-selected="false">
-          <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
+            <div
+                class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
-            <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
+                <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
 
-          </div>
-          <div class="link-custom fs-md-6 text-center text-responsive-medium">HGV</div>
+            </div>
+          <a href="/hgv-insurance" class="link-custom fs-md-6 text-center text-responsive-medium position-relative">HGV</a>
         </div>
         <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
           role="tab" aria-controls="pills-truck" aria-selected="false">
+
           <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller" style="margin-bottom: 10px;">
 
             <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive">
 
           </div>
-          <div class="link-custom fs-md-6 text-center text-responsive-medium">Truck</div>
+
+          <a href="/truck-insurance" class="link-custom fs-md-6 text-center text-responsive-medium position-relative">Truck</a>
         </div>
 
         <div class="text-center">
@@ -117,34 +127,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

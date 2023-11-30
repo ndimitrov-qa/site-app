@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+          Securing coverage for your stationary vacation retreat can ensure that your home-away-from-home investment doesn’t go down the drain. Static caravan insurance provides protection for these land-anchored recreational vehicles, shielding owners from the financial impacts of damage, theft, or liability issues that may arise. Comprehensive policies safeguard the structure itself along with accessories, furnishings, and even decking, delivering peace of mind no matter how much time you spend on-site. Assess risks like flooding, vandalism, and storm impacts when choosing protection for your immobile home to gain the security to fully enjoy trips for years to come.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -155,27 +155,63 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Static Caravan Insurance</h2>
+      <h6>The Importance of Static Caravan Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Owning a static caravan allows families to create lasting vacation memories while providing a cozy home-away-from-home. But like any property filled with treasured possessions and legacy investment value, protecting your stationary retreat should be a top priority. That's where specialized static caravan insurance comes in.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Tailored static caravan coverage shields your vacation asset from financial loss, no matter how often you hit the road to unwind on-site. Comprehensive insurance safeguards the physical structure itself as well as interiors, furnishings, equipment, and decking against both small mishaps and catastrophic incidents.
       </p>
+      <h6>
+        What Does Static Caravan Insurance Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Robust policies deliver protection by bundling some or all of these essential coverage types:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Caravan Structure - Guards against physical damage or total loss arising from incidents like flooding, storms, fallen trees, explosions, and even weight of snow.
+        </li>
+        <li>
+            Contents - Provides coverage for the value of contents housed inside like furnishings, bedding, kitchenware, appliances, entertainment systems, and other possessions.
+        </li>
+        <li>
+            Liability Coverage - Shields owners in the event a visitor suffers an injury by slipping on your static caravan site. Pays legal expenses to protect you from expensive lawsuits.
+        </li>
+        <li>
+            Additional Benefits - Some insurers offer coverage add-ons like emergency accommodation, frozen food spoilage, and recovery of keys locked inside.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        By securing comprehensive insurance tailored specifically to guard stationary vacation homes, owners gain confidence that their special escape hasn’t disappeared after returning home from magical getaways.
+      </p>
+      <h6>
+        Why Invest in Static Caravan Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Beyond safeguarding your financial investment, static caravan coverage provides other advantages:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Protects Items With Sentimental Value - Many caravan owners fill their vans with one-of-a-kind keepsakes that would be impossible to replace if damaged or stolen. Water-resistant policies prevent these precious possessions from getting soaked.
+        </li>
+        <li>
+            Saves Money Over the Long Run - For just a few hundred pounds yearly, owners mitigate potential out-of-pocket costs down the road that could reach thousands if disaster strikes an uncovered caravan.
+        </li>
+        <li>
+            Delivers Added Security During Vacancy - Stationary caravans often sit vacant for long spells while not in use. Insurance keeps them protected even when owners can’t keep a watchful eye during months-long absences.
+        </li>
+        <li>
+            Allows Families to Fully Enjoy Trips - Comprehensive coverage grants true peace of mind so owners don’t have nagging worries about their unoccupied vans back home.
+        </li>
+      </ul>
+      <h6>
+        Who Should Consider Static Caravan Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Protection makes sense for owners who frequently weekend at their vacation properties or park vans for extended seasonal stays. Land-locked leisure vans containing owners’ prized memories and possessions deserve safeguarding for continued joy.
       </p>
     </div>
 
@@ -259,34 +295,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

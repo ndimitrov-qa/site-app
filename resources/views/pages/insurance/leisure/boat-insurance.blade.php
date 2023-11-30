@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Hitting the open waters on a prized vessel lets maritime fans enjoy ocean breezes and scenic horizons. But protecting your buoyant investment with boat insurance delivers smooth sailing in case of storms, collisions, theft, or accidents out at sea. Policies shield the boat itself along with accessories like trailers, fishing gear and electronics against physical damage or loss. Skippers also gain liability coverage and on-water assistance like towing, fuel delivery and jump starts. Custom coverage keeps your craft secured so you can set sail to blissful weekends anchored in coves without worrying over what-ifs washing your tranquility overboard.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -342,27 +342,37 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Boat Insurance</h2>
+      <h6>The Importance of Boat Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Feeling the motion of the ocean provides the perfect natural elixir for maritime enthusiasts seeking escape. Safeguarding your prized yacht, fishing boat, jet ski or sailboat delivers smooth sailing in case of storms, collisions, theft, accidents, or even rampant wildlife out at sea. That’s where boat insurance provides customized protection to captains and crew who live for aquatic adventures.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Policies shield the maritime vessel itself—whether an agile speedboat or floating luxury cruiser—along with boating accessories, fishing gear, electronics and personal watercraft toys from physical damage or loss arising from covered incidents. Boat insurance also includes liability coverage to protect owners from expensive legal issues if someone gets injured while onboard or water skiing. Skippers even gain on-water perks like towing, fuel delivery and jump starts for stress-free days anchored in coves.
       </p>
+      <h6>
+        What Does Boat Insurance Typically Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Robust boat policies bundle some or all of these key protections:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Physical Damage - Safeguards your boat itself including fixtures like cabins and trolling motors against collisions, capsizing, lightning strikes, fires or wildlife impacts.
+        </li>
+        <li>
+            Personal Property - Covers loss of possessions brought onboard like fishing rods, water toys, electronics, clothing and safety equipment if items get swiped or soaked.
+        </li>
+        <li>
+            Boating Liability - Shields owners if a boating accident involving their insured vessel causes bodily injury, death or property damage to others within policy limits. Protects from pricey lawsuits.
+        </li>
+        <li>
+            On-Water Assistance - Perks like towing to nearest harbors, delivery of emergency fuel/supplies and battery jump starts provide added benefits for stress-free days at sea.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Insuring your buoyant baby delivers smooth sailing fun because you can stop worrying about potential mishaps lurking over the horizon. Protect the floating freedom machine that brings you pure happiness before casting off on your next aquatic adventure.
       </p>
     </div>
 
@@ -446,34 +456,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Our prized smartphones, laptops, tablets and wearables hold immense personal and professional value as constant companions. When expensive electronics face cracked screens, water damage, or theft, gadget insurance delivers protection for pocket-sized essentials against life’s inevitable accidents. Customizable coverage shields everything from iPhones to gaming PCs, mitigating costly device replacements. Comprehensive policies allow users to stay connected, productive, and entertained without potential fractures to screens or finances slowing enjoyment of life’s adventures wired or cloud-based.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -155,27 +155,63 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Gadget Insurance</h2>
+      <h6>The Importance of Gadget Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Our prized smartphones, laptops, tablets and wearables hold immense personal and professional value as constant companions. These pocket-sized gadgets keep us connected, productive, and entertained whenever inspiration strikes. So when expensive electronics face cracked screens, water damage, or theft, specialized gadget insurance delivers welcome protection for life’s inevitable accidents.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Customizable coverage shields everything from iPhones and AirPods to Surface laptops and iPad Pros. Plans mitigate costly device replacements from both complete losses as well as component-level repairs like shattered screens or malfunctioning batteries. Some insurers even cover wearable fitness trackers and smart watches to keep you wired without disruption.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Gadget insurance allows users to pursue passions and productivity to the max without potential fractures to screens or finances slowing enjoyment of life’s adventures digitally or out in the real world.
+      </p>
+      <h6>
+        What Does Gadget Insurance Typically Include?
+      </h6>
+      <p class="open-sans fs-8">
+        Robust gadget plans bundle some or all of these protections:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Damage coverage - Safeguards against cracked screens, water damage, dropped devices, electrical failures and other physical device issues. Often includes component repairs.
+        </li>
+        <li>
+            Theft protection - Provides coverage against device theft as well as pickpocketing or bag snatching. Includes device replacement up to coverage limits.
+        </li>
+        <li>
+            Accidental loss - For times when phones slip out of pockets obliviously, coverage reimburses lost gadget replacement costs.
+        </li>
+        <li>
+            Malfunction protection - If an electrical gadget simply stops functioning, insurance may provide some level of automatic replacement.
+        </li>
+      </ul>
+      <h6>
+        Who Needs Gadget Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        With hefty price tags and immense value potential, coverage makes smart sense for:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Anyone who uses electronics constantly for work and personal pursuits
+        </li>
+        <li>
+            Owners of the latest iPhones, iPads and MacBooks
+        </li>
+        <li>
+            Families equipping kids with tablets and phones
+        </li>
+        <li>
+            Travelers crossing hot sandy beaches and cold snowy slopes
+        </li>
+        <li>
+            Individuals prone to cracking screens or soaking devices
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Insure your tech - protection keeps the adventures flowing!
       </p>
     </div>
 
@@ -259,34 +295,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

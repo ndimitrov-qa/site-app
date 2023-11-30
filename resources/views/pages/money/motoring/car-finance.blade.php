@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora.
+            Driving off the lot in your dream vehicle requires navigating financing options to make ownership attainable. Car finance provides lending solutions allowing buyers to fund new or used autos so you can cruise customized rides tailored to needs and budgets. Specialized auto loans feature extended repayment terms over traditional lending while lease packages deliver flexibility to members seeking lower monthly payments. Connecting with knowledgeable finance professionals ensures you find the right funding fit to responsibly accelerate purchasing power on the road ahead.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -342,31 +342,77 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Car Finance</h2>
+      <h6>The Importance of Car Finance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Driving off the lot in your dream vehicle requires navigating financing options to make ownership attainable. Car finance provides specialized lending solutions allowing buyers to fund new or used autos responsibly so you can cruise customized rides tailored to needs and budgets.
       </p>
       <p class="open-sans fs-8">
-        Breakdown cover provides roadside assistance if you experience a mechanical or electrical failure while driving.
-        Most policies offer services like breakdown repair at the roadside, towing to a nearby garage if the problem can't be fixed, transportation to continue your journey, overnight accommodation if required, and even repatriation back to your home address.
+        Connecting with knowledgeable finance professionals ensures you find the right funding mix to accelerate your purchasing power on the road ahead.
       </p>
+      <h6>
+        Navigating Auto Financing Solutions
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        When shopping for vehicles, dealers and lenders offer a range of financing solutions to fund purchases including:
       </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Auto Loans - Extended repayment loans that provide required cash upfront while allowing buyers to pay over time. Financing can extend 72-84 months across newer models to lower monthly costs. Down payments help reduce interest over lengthy terms.
+        </li>
+        <li>
+            Leasing - Flexible rental contracts where dealers retain ownership and leaseholders make lower monthly payments over typically 2-4 year terms before swapping vehicles. Great for matching irregular income streams.
+        </li>
+        <li>
+            Dealer Financing - Many dealers offer special rates and tailored repayment terms through manufacturing partnerships when you opt into their lending, often with purchase incentives.
+        </li>
+      </ul>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Mapping the optimal funding mix requires weighing factors like future trade-in plans, ownership goals, driving usage, advanced features, contract terms, and acquisition fees. Test driving financing options ensures you cruise off the lot safely on your terms.
+      </p>
+      <h6>
+        Why Opt for Car Finance?
+      </h6>
+      <p class="open-sans fs-8">
+        Funding purchases via lending enables flexible ownership by:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Lowering Monthly Costs - Stretching financing timelines spreads repayment over years tailored to match income constraints. Makes ownership attainable.
+        </li>
+        <li>
+            Building Equity - Vehicle equity accumulates for buyers paying down financed autos over time which can assist future trade-in valuations.
+        </li>
+        <li>
+            Budget Alignment - Leasing matches irregular income by keeping payments lower compared to large purchase sums. Swap vehicles easily.
+        </li>
+        <li>
+            Bundling Products - Opt into additional warranty, maintenance, and protection packages available through dealers to be rolled into loan terms.
+        </li>
+      </ul>
+      <h6>
+        Who Should Consider Car Financing?
+      </h6>
+      <p class="open-sans fs-8">
+        Vehicle financing makes sense for individuals like:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            First time buyers needing reliable transportation but facing budget limitations
+        </li>
+        <li>
+            Commuters requiring cars where large down payments may be prohibitive
+        </li>
+        <li>
+            Businesses acquiring essential fleet vehicles while avoiding major capital investments
+        </li>
+        <li>
+            Anyone wanting access to advanced safety tech only offered on newer model years
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Accelerate your auto purchasing power responsibly! Connecting with the right finance pro navigates the optimal road ahead.
       </p>
     </div>
 

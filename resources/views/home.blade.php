@@ -58,6 +58,16 @@
             {{ session('success') }}
         </div>
       @endif
+
+      @if($errors->any())
+        <div class="alert alert-danger bg-danger text-white" style="width: 450px;" role="alert">
+            <ul>
+                @foreach($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+      @endif
       <!-- tab list end -->
       <div class="container-xxl mt-4 position-relative z-2 tab-content w-sm-res w-smaller-res" id="pills-tabContent">
         <!-- tab content for fleet start -->
@@ -69,8 +79,8 @@
               <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Number Of Vehicles
               </label>
-              <select name="number_of_vehicles" class="form-select border-0 ps-0" id="validationDefault04" required>
-                <option selected disabled value="" class="form-custom">Number Of vehicles</option>
+              <select name="number_of_vehicles_fleet" class="form-select border-0 ps-0" id="validationDefault04" required>
+                <option selected disabled value="" class="form-custom">Number Of Vehicles</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
@@ -78,7 +88,7 @@
                 <option>6</option>
                 <option>7</option>
                 <option>8</option>
-                <option>9+</option>
+                <option>9</option>
                 <option>10+</option>
               </select>
               <div class="invalid-feedback">
@@ -95,7 +105,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="text" name="mobile_number" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="text" name="mobile_number_fleet" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>
@@ -122,7 +132,7 @@
               </div>
               <div class="col-auto">
                 <div class="d-flex align-items-center gap-2">
-                  <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
+                  <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required>
                 <label class="form-check-label lh-1" for="invalidCheck">
                   <small class="fs-9 link">I agree to the
                     <span class="text-blue">
@@ -153,12 +163,13 @@
         <!-- tab content for fleet End -->
         <!-- tab content for hgv start -->
         <div class="tab-pane fade" id="pills-hgv" role="tabpanel" aria-labelledby="pills-hgv-tab" tabindex="0">
-          <form class="row needs-validation mt-1" style="max-width: 955px; width: 100%;">
+          <form class="row needs-validation mt-1" style="max-width: 955px; width: 100%;" action="{{ route('save.hgv.quote') }}" method="POST">
+          @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
               <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Type Of Vehicle
               </label>
-              <select class="form-select border-0 ps-0" id="validationDefault04" required>
+              <select name="type_of_vehicle_hgv" class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of HGV</option>
                 <option>Articulated (2 separate sections)</option>
                 <option>Rigid (Vehicle in 1 unit)</option>
@@ -180,7 +191,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="text" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="text" name="mobile_number_hgv" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>
@@ -237,14 +248,16 @@
           </form>
         </div>
         <!-- tab content for hgv end -->
+
         <!-- tab content for truck start -->
         <div class="tab-pane fade" id="pills-truck" role="tabpanel" aria-labelledby="pills-truck-tab" tabindex="0">
-          <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;">
+          <form class="row needs-validation mt-1" style="max-width: 955px;width: 100%;" action="{{ route('save.truck.quote') }}" method="POST">
+          @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
               <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
                Type Of Vehicle
               </label>
-              <select class="form-select border-0 ps-0" id="validationDefault04" required>
+              <select name="type_of_vehicle_truck" class="form-select border-0 ps-0" id="validationDefault04" required>
                 <option selected disabled value="" class="form-custom">Type Of Truck</option>
                 <option>Pick Up Truck</option>
                 <option>Recycling</option>
@@ -267,7 +280,7 @@
                         <i class="bi bi-phone pe-2" style="font-size: 25px;"></i>
                       </div>
                       <div>
-                        <input type="text" class="form-control border-0 ps-0" id="validationDefault05"
+                        <input type="text" name="mobile_number_truck" class="form-control border-0 ps-0" id="validationDefault05"
                           placeholder="Your number" required>
                       </div>
                     </div>
@@ -404,7 +417,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <a href="/gap-insurance" class="link">
+              <a href="/insurance/gap-insurance" class="link">
                 <img src="{{ asset('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -416,7 +429,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <a href="/van-insurance" class="link">
+              <a href="/insurance/van-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-van.png') }}" alt="Van icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -429,7 +442,7 @@
               >
               <span
                 class="badge bg-blue position-absolute top-0 start-50 translate-middle ms-5 py-2 px-2 pe-2 fs-9 d-none d-lg-block">NEW</span>
-              <a href="/breakdown-cover" class="link">
+              <a href="/insurance/breakdown-cover" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-breakdown-2.png') }}" alt="Breakdown icon"
                   class="img-fluid mx-auto d-block image-width">
                 <div class="mt-2 mt-small-0">
@@ -440,7 +453,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <a href="/motorbike-insurance" class="link">
+              <a href="/insurance/motorbike-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-motorbike.png') }}" alt="Motorbike icon"
                   class="img-fluid mx-auto d-block" style="width: 50px;">
                 <div class="mt-2 mt-small-0">
@@ -451,7 +464,7 @@
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
-              <a href="/car-insurance" class="link">
+              <a href="/insurance/learner-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block"
                   style="width: 50px;">
                 <div class="mt-2 mt-small-0">
@@ -485,7 +498,7 @@
           <div class="card-body d-flex flex-wrap justify-content-sm-between">
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/bicycle-insurance" class="link">
+              <a href="/insurance/bicycle-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-bicycle-3.png') }}" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -495,7 +508,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/static-caravan-insurance" class="link">
+              <a href="/insurance/static-caravan-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan-2.png') }}" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -505,7 +518,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/touring-caravan-insurance" class="link">
+              <a href="/insurance/touring-caravan-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-caravan-2.png') }}" alt="Caravan icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -517,7 +530,7 @@
             >
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-lg-block"
                 style="margin-left: 34px;">POPULAR</span>
-              <a href="/musical-instrument-insurance" class="link">
+              <a href="/insurance/musical-instrument-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-musical-instrument-insurance.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -527,7 +540,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/golf-insurance" class="link">
+              <a href="/insurance/golf-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-golf-3.png') }}" alt="Health icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -537,7 +550,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/boat-insurance" class="link">
+              <a href="/insurance/boat-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-boat.png') }}" alt="Bicycle icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -547,7 +560,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/gun-insurance" class="link">
+              <a href="/insurance/gun-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-gun.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
@@ -557,7 +570,7 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/travel-insurance" class="link">
+              <a href="/insurance/travel-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-plane-3.png') }}" alt="Boat"
                   class="img-fluid mx-auto d-block card-hover-square image-width">
                 <div class="mt-2 mt-small-0">
@@ -689,34 +702,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/" class="link-offset-2">Cheap Truck Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
+            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
             <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
             <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

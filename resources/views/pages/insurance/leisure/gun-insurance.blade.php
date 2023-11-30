@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Responsible firearms ownership involves protecting prized guns and gear from unexpected damage or theft. That’s where firearm insurance delivers welcome peace of mind to marksmen. Custom policies fit both individual owners securing personal weapons or retailers running profitable gun shops. Coverage shields expensive rifles, collectible revolvers, scopes, suppressors and storage safes whether on-site or in transit. The right protection plan allows enthusiasts to pursue sport shooting, hunting trips, self-defense training, or collecting interests without worrying over potential mishaps or liability gaps that could otherwise silence your firearms passion.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -342,27 +342,60 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Gun Insurance</h2>
+      <h6>The Importance of Gun Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Responsible firearms ownership involves more than securing weapons safely - it requires protecting pricey guns and gear from unexpected damage or theft as well. That’s where tailored firearm insurance delivers welcome peace of mind to marksmen and gun retailers alike.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Specialized coverage shields everything from collectible antique pistols to high-powered tactical rifles so owners can pursue sporting interests without financial fears holding them back. Custom policies also protect profitable shops,ranges and manufacturers, covering entire firearm inventories in case disaster strikes.
       </p>
+      <h6>
+        What Does Firearm Insurance Typically Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Robust gun insurance bundles some or all of these key protections:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Gun Collections – Covers loss or damage to personal gun collections resulting from incidents like fires, natural disasters or theft, both on premises or in locked vehicles.
+        </li>
+        <li>
+            Business Inventory – Protects complete firearm inventories of gun shops, shooting ranges and manufacturers in cases of large-scale catastrophes.
+        </li>
+        <li>
+            Accessories – Shields scopes, cases, gun safes, suppressors,grips and other accessories vulnerable to breakage during use or transport.
+        </li>
+        <li>
+            Liability Coverage – Shields policy holders in case an accident involving insured guns causes property damage or injuries others.
+        </li>
+        <p class="open-sans fs-8">
+            Specialized coverage allows sport shooters,hunters, collectors and firearms retailers alike to pursue their passion free from financial fears.
+        </p>
+      </ul>
+      <h6>
+            Why Consider Gun Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Firearms coverage delivers advantages like:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Protecting Costly Investments - Modern rifles and collectible weapons often come with multi-thousand dollar price tags vulnerable to damage or theft risks.
+        </li>
+        <li>
+            Business Asset Protection - Shop owners invest huge sums into firearm inventories - insurance keeps those assets secured in case disaster like fires strike unexpectedly.
+        </li>
+        <li>
+            Peace of Mind During Transport - Airlines routinely lose checked luggage - robust policies have owners covered if weapons get misplaced or broken while traveling.
+        </li>
+        <li>
+            Accessory and Upgrade Insurance - Protect addons like scopes, cases and custom finishes that enhance functionality and increase weapon values.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Premium protection lets gun enthusiasts stay focused on skills rather than get distracted worrying over potential mishaps on the horizon. Consider coverage that keeps your passion secured!
       </p>
     </div>
 
@@ -446,34 +479,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

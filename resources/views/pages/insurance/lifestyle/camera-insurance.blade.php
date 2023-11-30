@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Capturing life’s special moments and epic adventures requires camera equipment up for any shoot. When expensive gear like DSLR bodies, specialty lenses, flashes, and laptops face damage or theft, camera insurance delivers protection. Customizable coverage shields both personal and professional photographers’ beloved kits tailored to needs whether on location shoots or working weddings. Water-resistant bag tags prevent soggy scenarios so image-makers stay focused on creativity not fractures to cameras or finances. Comprehensive policies ensure photospreads shine as insurance keeps the cameras rolling.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -154,27 +154,60 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Camera Insurance</h2>
+      <h6>The Importance of Camera Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Capturing life’s special moments and epic adventures requires camera equipment up for any shoot. But protecting thousands invested in delicate gear against damage or theft is essential for image-makers. That’s where tailored camera insurance delivers specialized protection for photographers’ beloved kits.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Customizable coverage shields expensive camera bodies, specialty lenses, lighting rigs, editing laptops and other photography tools whether working weddings, creative shoots, or embedded with extreme athletes. Water-resistant bag tags prevent soggy scenarios from ruining gear too. Plans tailored to needs keep creative juices freely flowing allowing photographers to stay focused on perfecting their craft - not fractures to cameras or finances.
       </p>
+      <h6>
+        What Does Camera Insurance Typically Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Robust camera insurance often includes:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Camera/Lens Damage - Protects against drops, spills, collisions and other incidents that could break fragile equipment used to document life’s moments.
+        </li>
+        <li>
+            Theft - Provides coverage when gear gets stolen whether forcefully swiped on shoots or forgotten while packing up.
+        </li>
+        <li>
+            Business Equipment - Shields complete kits utilized by professional photographers to operate studios and work events like weddings or team sports.
+        </li>
+        <li>
+            Accessories - Extends protection to key accessories like memory cards, cases, laptops, lighting and battery packs.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        With thousands invested in beloved camera collections, getting covered just makes sense.
+      </p>
+      <h6>
+        Why Consider Camera Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Because photographers constantly put delicate electronics in harm’s way to get the epic shots, coverage provides:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Peace of Mind During Extreme Shoots - Don't hold back while chasing the action. Let insurance cover potential gear casualties.
+        </li>
+        <li>
+            Protection for Costly Investment - Pro camera bodies and specialty lenses often cost thousands of dollars each even before extras.
+        </li>
+        <li>
+            Safe Shipping for Gear - Checking camera bags on flights means leaving them vulnerable to rough airline handling.
+        </li>
+        <li>
+            Coverage for Rented Equipment - Event shoot gear often gets rented and deserves protection too.
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Photographers stay focused on skills not worrying over damages! Insure the kit before planning lens purchases based purely on creative passion, not potential risk.
       </p>
     </div>
 
@@ -258,34 +291,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

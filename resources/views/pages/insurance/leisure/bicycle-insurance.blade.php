@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            When it comes to protecting your bike investment, bicycle insurance can provide welcome peace of mind. Getting coverage for your two-wheeled friend guards against theft, accidental damage, and even injury liability stemming from a cycling mishap. Although not always mandatory, bike insurance allows riders to cruise local roads and trails without having to foot the bill for random acts of clumsiness or crime. Customizable policies fit different lifestyles, so mountain bikers, commuters, and recreational riders alike can dial in plans shielding their beloved sets of wheels. For only minor monthly fees, cyclists gain the security to fully enjoy hitting the open road on their chosen steeds.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -447,28 +447,91 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Bicycle Insurance</h2>
+      <h6>The Importance of Bicycle Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        For avid cyclists, our two-wheeled friends are more than just a mode of transportation or a piece of sports equipment―they're an investment. And as with any major investment, protecting your bicycle against theft, damage, and liability should be a priority for riders. That's where bicycle insurance comes in.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Bike insurance provides coverage for your bicycle and cycling activities, giving you peace of mind while out on the roads and trails. While not mandatory, getting insured can save you significant money if the unthinkable happens to your beloved ride.
+      </p>
+      <h6>
+        What Does Bicycle Insurance Cover?
+      </h6>
+      <p class="open-sans fs-8">
+        Bicycle insurance generally includes three core types of coverage to shield your bike from risk:
+      </p>
+      <ol class="open-sans fs-8">
+        <li>
+            Theft
+        </li>
+        <li>
+          Accidental Damage
+        </li>
+        <li>
+          Public liability
+        </li>
+      </ol>
+      <p class="open-sans fs-8">
+        Additional coverage like multi-bicycle and worldwide cover may also be available. Policies can be customized based on your coverage needs and budget.
+      </p>
+      <h6>
+        Why Get Bicycle Insurance?
+      </h6>
+      <ul class="open-sans fs-8">
+        <li>
+            Protects your bike investment - New bikes often cost over $1,000 these days, not including accessories. Makes sure this investment doesn't disappear.
+        </li>
+        <li>
+            Saves you money in the event of theft/damage - Out-of-pocket costs to repair or replace your bike can really add up, especially if it's destroyed.
+        </li>
+        <li>
+            Provides peace of mind while riding - Lets you confidently zip around town knowing you have insurance coverage on your side.
+        </li>
+        <li>
+            Offers liability protection - Shields you from expensive legal issues if you cause cycling accidents resulting in harm to others.
+        </li>
+      </ul>
+      <h6>
+        Who Needs Coverage?
+      </h6>
+      <p class="open-sans fs-8">
+        Nearly all types of riders can benefit from bicycle insurance:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Urban commuters who rely on their bikes to get to work
+        </li>
+        <li>
+            Competitive cyclists with very expensive bikes and components
+        </li>
+        <li>
+            Mountain bikers taking their knobby-tired steeds on wild trails
+        </li>
+        <li>
+            Parents with kids learning to ride on new bicycles
+        </li>
+        <li>
+            Casual recreational riders tooling around town
+        </li>
+        <li>
+            College students zipping between classes on campus
+        </li>
+        <li>
+            Touring cyclists embarking on long-distance expeditions
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        If your two-wheeled vehicle gives you freedom and joy out on the open roads, protecting it with insurance just makes sense.
+      </p>
+      <!-- <h6>Comparing Bike Insurance Providers</h6>
+      <p class="open-sans fs-8">
+        When shopping for the best bicycle insurance, be sure to check out specialty insurers alongside standard home/renters insurance companies. Ask about any discounts available to members of cycling clubs and leagues.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
-      </p>
+        Key considerations include coverage offered, deductibles, premium costs, customer service reputation, and ease of the claims process. Consulting online reviews can provide additional insight into customers' experiences with different bike insurance providers.
+      </p> -->
     </div>
 
   <!-- Accordion Starts -->
@@ -551,34 +614,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

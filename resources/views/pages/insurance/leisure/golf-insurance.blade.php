@@ -17,7 +17,7 @@
             </a>
           </p>
           <p class="open-sans fs-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi suscipit ducimus explicabo quasi qui exercitationem dignissimos voluptates unde in at natus vel hic non odit veniam, ex possimus consectetur rem accusamus recusandae doloremque obcaecati. Quos praesentium laborum nemo impedit nobis voluptas, ex, voluptate nihil fugit non pariatur quam rerum! Accusantium corporis aliquid obcaecati. Quae nostrum deleniti illum aperiam, id dolores impedit ab quibusdam consectetur accusantium iste itaque sed at tempora. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit dolor quaerat nemo rem magnam! Ea voluptates accusamus dolore sint.
+            Hitting the links lets golf enthusiasts enjoy competitive rounds with pals while making lasting memories chasing birdies. But protecting prized clubs, golf equipment, and liability exposure requires foresight before teeing off. Golf insurance delivers customized protection for enthusiasts' unique needs on and off the course. Policies safeguard coveted clubs, bags, and carts from theft or damage while also shielding against property damage or personal injury to others arising from errant shots. Premium coverage allows golfers to enjoy friendly matches, driving range sessions, or weekend tournaments with true peace of mind so they can focus on fun rather than financial “what-ifs” that may materialize.
           </p>
         </div>
         <div class="col-lg-auto">
@@ -342,28 +342,81 @@
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Generic Content Page</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Golf Insurance</h2>
+      <h6>The importance of Golf Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+        Hitting the links lets golf enthusiasts enjoy competitive rounds with pals while making lasting memories chasing birdies. But protecting prized equipment and mitigating liability requires foresight before teeing off. That’s where golf insurance delivers customized protection tailored to players’ unique needs on and off the course.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        Robust policies safeguard coveted clubs, bags, and carts from theft or damage while shielding against property damage or injury claims arising from errant shots. Water-resistant bag tags even protect gear investments when storms roll in. Comprehensive coverage allows amateurs and pros alike to swing for success without worrying over potential financial impacts of accidents or lawsuits.
       </p>
+      <h6>
+        What Does Golf Insurance Typically Cover?
+      </h6>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        Bundled golf protection commonly includes:
       </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Clubs & Equipment - Covers loss or physical damage to golf clubs, bags, push/pull carts, specialty attire, rangefinders, and other gear resulting from incidents like theft, vandalism or airline damage.
+        </li>
+        <li>
+            Liability Insurance - Shields golfers who cause injury to others or damage property like homes or vehicles when shots go awry. Pays legal fees and court costs.
+        </li>
+        <li>
+            Hole-in-One - Optional coverage pays out cash to golfers upon hitting this epic feat during tournament play. Celebrate in style!
+        </li>
+      </ul>
+      <p class="open-sans fs-8">
+        Some insurers even offer add-ons like event cancellation protection in case weather disrupts your much-anticipated golf vacation.
+      </p>
+      <h6>
+        Why Consider Golf Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Specialty policies designed for tee time provide advantages like:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Protecting Costly Equipment Investments - From custom fitted clubs to high-tech swing analyzers, cover gear that often costs thousands against loss.
+        </li>
+        <li>
+            Peace of Mind During Tourneys - Perform your best during club competitions and pro events knowing insurance has you covered in case the unlikely occurs.
+        </li>
+        <li>
+            Shielding Course Liability - Policies add a layer of protection on top of restrictions usually included in club disclaimers for damage to property or injury caused unintentionally on courses.
+        </li>
+        <li>
+            Confidence During Instruction - Coaches safely provide lessons without worrying over potential liability arising from students' errant balls.
+        </li>
+      </ul>
+      <h6>
+        Who Needs Golf Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Coverage makes smart sense for:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Amateurs playing competitive club tournaments
+        </li>
+        <li>
+            Golf pros and instructors teaching lessons
+        </li>
+        <li>
+            Enthusiasts with expensive or specialty gear
+        </li>
+        <li>
+            Clubs renting out equipment to visitors
+        </li>
+        <li>
+            Anyone investing serious cash into the sport
+        </li>
+        <li>
+            Club up your insurance portfolio before hitting the green!
+        </li>
+      </ul>
     </div>
 
   <!-- Accordion Starts -->
@@ -446,34 +499,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/" class="link-offset-2">Cheap Fleet Insurance</a></li>
+            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
             <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
             <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

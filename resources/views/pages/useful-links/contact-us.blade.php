@@ -86,7 +86,7 @@ button.btn-submit {
             <img src="{{ asset('BTQ - Type Icons/icon-type-fleet.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
 
           </div>
-          <div class="link-custom fs-md-6 text-center">Fleet</div>
+          <a href="/fleet-insurance" class="link-custom fs-md-6 text-center position-relative">Fleet</a>
         </div>
         <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
           role="tab" aria-controls="pills-hgv" aria-selected="false">
@@ -96,7 +96,7 @@ button.btn-submit {
             <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
 
           </div>
-          <div class="link-custom fs-md-6 text-center text-responsive-medium">HGV</div>
+          <a href="/hgv-insurance" class="link-custom fs-md-6 text-center text-responsive-medium position-relative">HGV</a>
         </div>
         <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
           role="tab" aria-controls="pills-truck" aria-selected="false">
@@ -105,7 +105,7 @@ button.btn-submit {
             <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive">
 
           </div>
-          <div class="link-custom fs-md-6 text-center text-responsive-medium">Truck</div>
+          <a href="/truck-insurance" class="link-custom fs-md-6 text-center text-responsive-medium position-relative">Truck</a>
         </div>
 
         <div class="text-center">

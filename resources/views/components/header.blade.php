@@ -32,11 +32,11 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li><a href="/insurance/fleet-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
+                        <li><a href="/fleet-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Fleet
                             Insurance</a></li>
-                        <li><a href="/insurance/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/insurance/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
                         <li><a href="/insurance/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
@@ -48,14 +48,20 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/insurance/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
-                        <li><a href="/insurance/european-breakdown-cover" class="nav-link-custom"><i
+                        <li class="show-motoring"><a href="/insurance/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
+                        <li class="show-motoring"><a href="/insurance/european-breakdown-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover</a></li>
-                        <li><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
-                        <li><a href="/insurance/gap-insurance" class="nav-link-custom"><i
+                        <li class="show-motoring"><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
+                        <li class="show-motoring"><a href="/insurance/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
-                        <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
+                        <li class="hidden-motoring"><a href="/insurance/van-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Van Insurance</a></li>
+                        <li class="hidden-motoring"><a href="/insurance/motorbike-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Motorbike Insurance</a></li>
+                        <li class="hidden-motoring"><a href="/insurance/learner-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Learner Insurance</a></li>
+                        <li><a class="fw-bold nav-link-custom show-all-motoring" href="#"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
                       </ul>
                     </div>
                   </div>
@@ -242,14 +248,14 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/money/fleet-insurance" class="nav-link-custom"><i
+                        <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
-                        <li><a href="/money/hgv-insurance" class="nav-link-custom"><i
+                        <li><a href="/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
-                        <li><a href="/money/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
+                        <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
                             Insurance</a></li>
-                        <li><a href="/money/travel-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
+                        <li><a href="/money/car-finance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Car Finance</a></li>
                       </ul>
                     </div>
                   </div>
@@ -499,6 +505,7 @@
     });
   });
 </script>
+
 
 
 
