@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Marketing preferences | Beat That Quotes')
+@section('canonical', route('marketing-preferences'))
+@section('description', 'Beat That Quotes. Marketing preferences')
 
   @section('content')
   <!-- Hero Section -->

@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Affiliate Program | Beat That Quotes')
+@section('canonical', route('affiliate-program'))
+@section('description', 'Beat That Quotes. Affiliate Program')
 
   @section('content')
   <!-- Hero Section -->

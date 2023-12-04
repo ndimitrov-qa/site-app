@@ -1,5 +1,6 @@
 @extends('layouts.default')
 @section('title', 'Home | Beat That Quotes')
+@section('canonical', 'https://beatthatquotes.com/')
 
   @section('content')
   <!-- Hero Section -->
@@ -343,7 +344,7 @@
 
     </div>
     <div class="mt-n4">
-      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="height: 165px;">
+      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="max-width: 2560px; height: 165px;">
     </div>
     <div class="position-relative z-1">
         <picture>

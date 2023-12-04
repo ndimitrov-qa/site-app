@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Camera Insurance | Lifestyle | Beat That Quotes')
+@section('canonical', route('camera-insurance'))
+@section('description', 'Beat That Quotes. Camera Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

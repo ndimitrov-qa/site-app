@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'About Us | Beat That Quotes')
+@section('canonical', route('about-us'))
+@section('description', 'Beat That Quotes. About Us')
 
   @section('content')
   <!-- Hero Section -->

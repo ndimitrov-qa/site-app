@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Terms & Conditions | Beat That Quotes')
+@section('canonical', route('terms-conditions'))
+@section('description', 'Beat That Quotes. Terms & Conditions')
 
   @section('content')
   <!-- Hero Section -->

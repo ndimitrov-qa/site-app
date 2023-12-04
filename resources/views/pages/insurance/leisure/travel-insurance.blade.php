@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Travel Insurance | Leisure | Beat That Quotes')
+@section('canonical', route('travel-insurance'))
+@section('description', 'Beat That Quotes. Travel Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Privacy Policy | Beat That Quotes')
+@section('canonical', route('privacy-policy'))
+@section('description', 'Beat That Quotes. Privacy Policy')
 
   @section('content')
   <!-- Hero Section -->

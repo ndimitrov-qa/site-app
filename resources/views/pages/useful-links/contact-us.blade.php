@@ -65,6 +65,8 @@ button.btn-submit {
 
 @extends('layouts.default')
 @section('title', 'Contact Us | Beat That Quotes')
+@section('canonical', route('contact'))
+@section('description', 'Beat That Quotes. Contact Us')
 
   @section('content')
   <!-- Hero Section -->

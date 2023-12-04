@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Drone Insurance | Lifestyle | Beat That Quotes')
+@section('canonical', route('drone-insurance'))
+@section('description', 'Beat That Quotes. Drone Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

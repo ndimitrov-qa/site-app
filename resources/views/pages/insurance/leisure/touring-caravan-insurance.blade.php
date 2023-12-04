@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Touring Caravan Insurance | Leisure | Beat That Quotes')
+@section('canonical', route('static-caravan-insurance'))
+@section('description', 'Beat That Quotes. Static Caravan Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

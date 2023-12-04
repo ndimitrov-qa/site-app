@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Bicycle Insurance | Leisure | Beat That Quotes')
+@section('canonical', route('bicycle-insurance'))
+@section('description', 'Beat That Quotes. Bicycle Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

@@ -1,5 +1,7 @@
 @extends('layouts.default')
 @section('title', 'Fleet Insurance | Beat That Quotes')
+@section('canonical', route('fleet-insurance'))
+@section('description', 'Beat That Quotes. Fleet Insurance')
 
   @section('content')
   <!-- Hero Section -->

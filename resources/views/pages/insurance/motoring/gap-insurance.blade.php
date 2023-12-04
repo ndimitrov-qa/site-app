@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Gap | Insurance | Beat That Quotes')
+@section('canonical', route('gap-insurance'))
+@section('description', 'Beat That Quotes. Gap Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

@@ -7,6 +7,9 @@
     .hidden {
       display: none;
     }
+    .hidden-motoring {
+      display: none;
+    }
   </style>
 
   <!-- Navbar Starts -->
@@ -48,11 +51,11 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Motoring</h6>
                       <ul class="list-unstyled">
-                        <li class="show-motoring"><a href="/insurance/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
-                        <li class="show-motoring"><a href="/insurance/european-breakdown-cover" class="nav-link-custom"><i
+                        <li class="show"><a href="/insurance/breakdown-cover" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Breakdown Cover</a></li>
+                        <li class="show"><a href="/insurance/european-breakdown-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover</a></li>
-                        <li class="show-motoring"><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
-                        <li class="show-motoring"><a href="/insurance/gap-insurance" class="nav-link-custom"><i
+                        <li class="show"><a href="/insurance/car-hire-excess-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Car Hire Excess Insurance</a></li>
+                        <li class="show"><a href="/insurance/gap-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Gap Insurance</a></li>
                         <li class="hidden-motoring"><a href="/insurance/van-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Van Insurance</a></li>
@@ -439,7 +442,7 @@
 
           <ul class="navbar-nav hide">
             <li class="nav-item dropdown has-megamenu" style="padding-bottom: 6px;">
-              <a class="nav-link dropdown-toggle text-body-tertiary me-3 fs-8" href="#">English
+              <a class="nav-link dropdown-toggle text-body-tertiary fw-semibold me-3 fs-8" href="#">English
                 <img src="{{ asset ('img/uk.png') }}" alt="uk flag" class="img-fluid ps-xl-2 pe-xl-1 d-none d-xl-inline"
                   style="width: 40px;"><!-- changed width 45px to 40px -->
               </a>
@@ -492,6 +495,28 @@
     showAllButton.addEventListener('click', function () {
       hiddenItems.forEach(item => {
         item.classList.toggle('hidden');
+      });
+
+      // Toggle the text and caret icon of the button after a delay
+      setTimeout(() => {
+        if (showAllButton.textContent.includes('Show all')) {
+          showAllButton.innerHTML = '<i class="bi bi-caret-up-fill pe-2"></i>Show less';
+        } else {
+          showAllButton.innerHTML = '<i class="bi bi-caret-down-fill pe-2"></i>Show all';
+        }
+      }, 0);
+    });
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const showAllButton = document.querySelector('.show-all-motoring');
+    const hiddenItems = document.querySelectorAll('.hidden-motoring');
+
+    showAllButton.addEventListener('click', function () {
+      hiddenItems.forEach(item => {
+        item.classList.toggle('hidden-motoring');
       });
 
       // Toggle the text and caret icon of the button after a delay

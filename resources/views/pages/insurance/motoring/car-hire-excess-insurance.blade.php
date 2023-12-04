@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Car Hire Excess | Insurance | Beat That Quotes')
+@section('canonical', route('car-hire-excess-insurance'))
+@section('description', 'Beat That Quotes. Car Hire Excess')
 
   @section('content')
   <!-- Hero Section Starts -->

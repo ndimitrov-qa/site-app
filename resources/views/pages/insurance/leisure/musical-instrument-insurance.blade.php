@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Musical Instrument Insurance | Leisure | Beat That Quotes')
+@section('canonical', route('musical-instrument-insurance'))
+@section('description', 'Beat That Quotes. Musical Instrument Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->

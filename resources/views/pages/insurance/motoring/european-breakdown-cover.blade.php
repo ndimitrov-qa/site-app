@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'European Breakdown | Insurance | Beat That Quotes')
+@section('canonical', route('european-breakdown-cover'))
+@section('description', 'Beat That Quotes. European Breakdown')
 
   @section('content')
   <style>

@@ -1,5 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Gun Insurance | Leisure | Beat That Quotes')
+@section('canonical', route('gun-insurance'))
+@section('description', 'Beat That Quotes. Gun Insurance')
 
   @section('content')
   <!-- Hero Section Starts -->
