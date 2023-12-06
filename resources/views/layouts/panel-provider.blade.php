@@ -8,6 +8,20 @@
 
   <title>@yield('title')</title>
 
+  @php $description = "Beat That Quotes is the best Insurance website in UK. Best Insurance Polices. Best Customer Service. Fast, Easy and Cheap."; @endphp
+  <meta name="description" content="@yield('description', $description)" />
+  <link rel="canonical" href="@yield('canonical')" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="@yield('title')" />
+  <meta property="og:description" content="@yield('description', $description)" />
+  <meta property="og:url" content="@yield('canonical')" />
+  <meta property="og:site_name" content="Beat That Quotes" />
+  <meta property="article:publisher" content="https://www.facebook.com/BeatThatQuotes/" />
+  <meta property="article:modified_time" content="2023-12-04T10:40:10+00:00" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@BeatThatQuotes" />
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" type="image/x-icon">
   <!-- Bootstrap -->

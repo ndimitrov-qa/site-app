@@ -70,26 +70,26 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    No Excess
+                    Single Trip
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 124px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Personal Possessions
+                    Annual Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 109px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 162px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Additional Drivers
+                    Van Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 106px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 162px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                    UK or Worldwide
+                    Worldwide Cover
                 </div>
             </div>
 
@@ -167,26 +167,26 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    No Excess
+                    Single Trip
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 133px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 129px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Personal Possessions
+                    Annual Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 89px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 144px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Additional Drivers
+                    Van Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 115px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 170px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                    UK or Worldwide
+                    Worldwide Cover
                 </div>
             </div>
 
@@ -264,26 +264,26 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    No Excess
+                    Single Trip
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 120px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Personal Possessions
+                    Annual Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 112px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 165px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Additional Drivers
+                    Van Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 109px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 165px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                    UK or Worldwide
+                    Worldwide Cover
                 </div>
             </div>
 
@@ -361,26 +361,26 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    No Excess
+                    Single Trip
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 63px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 124px; margin-right: 63px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Personal Possessions
+                    Annual Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 80px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 135px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9">
 
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                    Additional Drivers
+                    Van Cover
                 </div>
-                <div class="vr d-none d-lg-block" style="margin-left: 119px; margin-right: 56px"></div>
+                <div class="vr d-none d-lg-block" style="margin-left: 174px; margin-right: 56px"></div>
 
                 <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                     <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                    UK or Worldwide
+                    Worldwide Cover
                 </div>
             </div>
 

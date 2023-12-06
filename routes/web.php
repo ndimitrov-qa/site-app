@@ -22,7 +22,7 @@ Route::get('/', function () {
 
 Route::get('/live', function () {
     return view('/home');
-})->name('home');
+})->name('live');
 
 Route::get('/fleet-insurance', function () {
     return view('/fleet-insurance');

@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('title', 'Home | Beat That Quotes')
-@section('canonical', 'https://beatthatquotes.com/')
+@section('canonical', route('live'))
 
   @section('content')
   <!-- Hero Section -->
@@ -18,7 +18,7 @@
           <div
             class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
-            <img src="{{ asset('BTQ - Type Icons/icon-type-fleet-2.png') }}" alt="Fleet icon" class="img-fluid image-responsive">
+            <img src="{{ asset('BTQ - Type Icons/icon-type-fleet-2.png') }}" alt="Fleet icon" class="img-fluid image-responsive" width="50" height="50">
 
           </div>
           <div class="link-custom fs-md-6 text-center">Fleet</div>
@@ -29,7 +29,7 @@
           <div
             class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
-            <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive">
+            <img src="{{ asset('BTQ - Type Icons/icon-type-lorry.png') }}" alt="HGV icon" class="img-fluid image-responsive" width="50" height="50">
 
           </div>
           <div class="link-custom fs-md-6 text-center text-responsive-medium">HGV</div>
@@ -38,7 +38,7 @@
           role="tab" aria-controls="pills-truck" aria-selected="false">
           <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
-            <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive">
+            <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive" width="50" height="50">
 
           </div>
           <div class="link-custom fs-md-6 text-center text-responsive-medium">Truck</div>
@@ -48,7 +48,7 @@
           <!-- Add custom css tooltip -->
           <div
             class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10">
-            <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive">
+            <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive" width="50" height="50">
             <span class="tooltiptext">Coming Soon</span>
           </div>
           <div class="link-custom fs-md-6 text-center disabled text-responsive-medium" style="text-decoration: none; color: #212529">More</div>
@@ -127,7 +127,7 @@
             <div class="col-12 col-lg-7 px-lg-0 border border-top-0 bg-white">
               <div class="d-lg-flex gap-lg-3 px-xl-3 align-items-center" style="padding-top: 10px; padding-bottom: 10px;">
               <div class="d-flex align-items-center gap-1 col-auto" style="margin-left: -3px;">
-                <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield">
+                <img src="{{ asset('img/icon-greenshield.png') }}" alt="image of a greenshield" width="25" height="25">
                 <small class="fs-9">
                   Your data is 100% safe
                 </small>
@@ -344,12 +344,12 @@
 
     </div>
     <div class="mt-n4">
-      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="max-width: 2560px; height: 165px;">
+      <img src="{{ asset ('img/city-skyline.png') }}" alt="image of city-skyline" class="d-none d-lg-block" style="width: 2200px; height: 165px;">
     </div>
     <div class="position-relative z-1">
         <picture>
       <img src="{{ asset ('img/hero1.webp') }}" alt="image of a woman"
-        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 840px">
+        class="img-fluid position-absolute bottom-100 end-0 d-none d-lg-block" style="width: 840px; height: 560px">
         </picture>
     </div>
   </section>
@@ -457,7 +457,7 @@
               >
               <a href="/insurance/motorbike-insurance" class="link">
                 <img src="{{ asset ('BTQ - Type Icons/icon-type-motorbike.png') }}" alt="Motorbike icon"
-                  class="img-fluid mx-auto d-block" style="width: 50px;">
+                  class="img-fluid mx-auto d-block" width="50" height="50">
                 <div class="mt-2 mt-small-0">
                   Motorbike
                 </div>
@@ -467,8 +467,7 @@
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
               <a href="/insurance/learner-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block"
-                  style="width: 50px;">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block" width="50" height="50">
                 <div class="mt-2 mt-small-0">
                   Learner
                 </div>

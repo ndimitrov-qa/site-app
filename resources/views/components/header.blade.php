@@ -444,7 +444,7 @@
             <li class="nav-item dropdown has-megamenu" style="padding-bottom: 6px;">
               <a class="nav-link dropdown-toggle text-body-tertiary fw-semibold me-3 fs-8" href="#">English
                 <img src="{{ asset ('img/uk.png') }}" alt="uk flag" class="img-fluid ps-xl-2 pe-xl-1 d-none d-xl-inline"
-                  style="width: 40px;"><!-- changed width 45px to 40px -->
+                  width="40px;" height="28px;"><!-- changed width 45px to 40px -->
               </a>
 
               <div class="dropdown-menu dropdown-menu-lg-end rounded-0 rounded-bottom mt-2" role="menu" style="top: 100%; min-width: 194px;margin-top: 0;">

@@ -66,27 +66,27 @@
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                Single Trip
+                Accidental Damage
               </div>
 
-              <div class="vr d-none d-lg-block" style="margin-left: 127px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 62px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                Annual Multi-Trip
+                Mechanical Breakdown
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 117px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 75px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-               Annual Car Hire Excess
+                Theft & Loss
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 82px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 159px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                Ski insurance
+                Worldwide Cover
               </div>
             </div>
 

@@ -70,22 +70,22 @@
             <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
               <div class="medium-text small-text mb-1 fs-9">
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Theft
+                Finance GAP
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 159px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 105px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Accidental damage
+                Return To Invoice
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 121px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 136px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Fire damage
+                Lease/Contract Hire
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 145px; margin-right: 56px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 98px; margin-right: 56px"></div>
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Water damage
+                Agreed Value
               </div>
             </div>
 
@@ -164,27 +164,27 @@
               <div class="medium-text small-text mb-1 fs-9 small-margin-27">
 
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                Combined GAP
+                Finance GAP
               </div>
 
-              <div class="vr d-none d-lg-block" style="margin-left: 82px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 101px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-                Lease GAP
+                Return To Invoice
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 186px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 138px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9">
 
               <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
-               Covering up to £250 excess fee
+                Lease/Contract Hire
               </div>
-              <div class="vr d-none d-lg-block" style="margin-left: 22px; margin-right: 54px"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 100px; margin-right: 54px"></div>
 
               <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
                 <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-x img-x-small">
-                Low Cost
+                Agreed Value
               </div>
 
             </div>
