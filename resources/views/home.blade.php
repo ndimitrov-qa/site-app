@@ -47,7 +47,7 @@
         <div class="text-center">
           <!-- Add custom css tooltip -->
           <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10" role="tab">
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive" width="50" height="50">
             <span class="tooltiptext">Coming Soon</span>
           </div>

@@ -192,72 +192,72 @@ Route::get('/money/car-finance', function () {
 // HGV QUOTE//
 Route::get('/quote/hgv', function () {
     return view('pages/hgv/index');
-})->name('index');
+});
 Route::get('/quote/hgv/step-1', function () {
     return view('pages/hgv/step-1');
-})->name('step-1');
+});
 Route::get('/quote/hgv/step-2', function () {
     return view('pages/hgv/step-2');
-})->name('step-2');
+});
 Route::get('/quote/hgv/step-3', function () {
     return view('pages/hgv/step-3');
-})->name('step-3');
+});
 Route::get('/quote/hgv/step-4', function () {
     return view('pages/hgv/step-4');
-})->name('step-4');
+});
 Route::get('/quote/hgv/step-5', function () {
     return view('pages/hgv/step-5');
-})->name('step-5');
+});
 Route::get('/quote/hgv/step-6', function () {
     return view('pages/hgv/step-6');
-})->name('step-6');
+});
 Route::get('/quote/hgv/step-7', function () {
     return view('pages/hgv/step-7');
-})->name('step-7');
+});
 Route::get('/quote/hgv/step-8', function () {
     return view('pages/hgv/step-8');
-})->name('step-8');
+});
 Route::get('/quote/hgv/step-9', function () {
     return view('pages/hgv/step-9');
-})->name('step-9');
+});
 Route::get('/quote/hgv/thank-you', function () {
     return view('pages/hgv/thank-you');
-})->name('thank-you');
+});
 
 // FLEET QUOTE //
 Route::get('/quote/fleet', function () {
     return view('pages/fleet/index');
-})->name('index');
+});
 Route::get('/quote/fleet/step-1', function () {
     return view('pages/fleet/step-1');
-})->name('step-1');
+});
 Route::get('/quote/fleet/step-2', function () {
     return view('pages/fleet/step-2');
-})->name('step-2');
+});
 Route::get('/quote/fleet/step-3', function () {
     return view('pages/fleet/step-3');
-})->name('step-3');
+});
 Route::get('/quote/fleet/step-4', function () {
     return view('pages/fleet/step-4');
-})->name('step-4');
+});
 Route::get('/quote/fleet/step-5', function () {
     return view('pages/fleet/step-5');
-})->name('step-5');
+});
 Route::get('/quote/fleet/step-6', function () {
     return view('pages/fleet/step-6');
-})->name('step-6');
+});
 Route::get('/quote/fleet/step-7', function () {
     return view('pages/fleet/step-7');
-})->name('step-7');
+});
 Route::get('/quote/fleet/step-8', function () {
     return view('pages/fleet/step-8');
-})->name('step-8');
+});
 Route::get('/quote/fleet/step-9', function () {
     return view('pages/fleet/step-9');
-})->name('step-9');
+});
 Route::get('/quote/fleet/thank-you', function () {
     return view('pages/fleet/thank-you');
-})->name('thank-you');
+});
 
                           // FLEET FORM QUOTE //
 Route::post('/save-quote', [QuoteFleetController::class, 'store'])->name('save.quote');
