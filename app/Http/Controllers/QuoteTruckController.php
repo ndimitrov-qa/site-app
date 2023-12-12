@@ -24,6 +24,10 @@ class QuoteTruckController extends Controller
         $quoteRequest->save();
 
         // Return a response here
-        return redirect()->back()->with('success', 'Quote request submitted successfully');
-        }
+        // return redirect()->back()->with('success', 'Quote request submitted successfully');
+        // }
+
+        // Return a response here
+        return redirect('https://quote.beatthatquotes.com/insurance/hgv');
+    }
 }

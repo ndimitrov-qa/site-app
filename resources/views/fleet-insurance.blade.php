@@ -91,7 +91,7 @@
               </div>
               <div class="col-auto">
                 <div class="d-flex align-items-center gap-2">
-                  <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required>
+                  <input class="form-check-input bg-blue col-auto" type="checkbox" value="" id="invalidCheck" required checked>
                 <label class="form-check-label lh-1" for="invalidCheck">
                   <small class="fs-9 link">I agree to the
                     <span class="text-blue">
