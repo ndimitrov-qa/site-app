@@ -61,6 +61,9 @@ button.btn-submit {
 button.btn-submit {
     background: hsl(358, 58%, 44%);
 }
+button.btn-submit:hover {
+    background: hsl(358, 58%, 42%);
+}
 </style>
 
 @extends('layouts.default')

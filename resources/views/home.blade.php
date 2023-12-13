@@ -13,8 +13,14 @@
       <!-- bootstrap tabs for 3 circle items in header -->
       <!-- tab list start -->
       <div class="d-flex gap-sm-4 mt-50" role="tablist">
-        <div class="text-center active" id="pills-feet-tab" data-bs-toggle="pill" data-bs-target="#pills-feet"
-          type="button" role="tab" aria-controls="pills-feet" aria-selected="true">
+        <div
+            class="text-center active"
+            id="pills-feet-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-feet"
+            role="tab"
+            aria-controls="pills-feet"
+            aria-selected="true">
           <div
             class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
@@ -24,8 +30,14 @@
           <div class="link-custom fs-md-6 text-center">Fleet</div>
         </div>
 
-        <div class="text-center" id="pills-hgv-tab" data-bs-toggle="pill" data-bs-target="#pills-hgv" type="button"
-          role="tab" aria-controls="pills-hgv" aria-selected="false">
+        <div
+            class="text-center"
+            id="pills-hgv-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-hgv"
+            role="tab"
+            aria-controls="pills-hgv"
+            aria-selected="false">
           <div
             class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
@@ -34,8 +46,14 @@
           </div>
           <div class="link-custom fs-md-6 text-center text-responsive-medium">HGV</div>
         </div>
-        <div class="text-center" id="pills-truck-tab" data-bs-toggle="pill" data-bs-target="#pills-truck" type="button"
-          role="tab" aria-controls="pills-truck" aria-selected="false">
+        <div
+            class="text-center"
+            id="pills-truck-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-truck"
+            role="tab"
+            aria-controls="pills-truck"
+            aria-selected="false">
           <div class="card shadow rounded-circle d-flex justify-content-center align-items-center transition card-hover-round card-res-small card-res-smaller mb-10">
 
             <img src="{{ asset ('BTQ - Type Icons/icon-type-truck.png') }}" alt="Truck icon" class="img-fluid image-responsive" width="50" height="50">
@@ -47,7 +65,8 @@
         <div class="text-center">
           <!-- Add custom css tooltip -->
           <div
-            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10" role="tab">
+            class="card shadow rounded-circle d-flex justify-content-center align-items-center transition css-tooltip card-res-small card-res-smaller mb-10"
+            role="tab">
             <img src="{{ asset ('BTQ - Type Icons/icon-type-more-2.png') }}" alt="More icon" class="img-fluid image-responsive" width="50" height="50">
             <span class="tooltiptext">Coming Soon</span>
           </div>
@@ -649,27 +668,17 @@
   <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
     <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Compare Insurance Heading</h2>
-      <h6>Sub heading for content example</h6>
+      <h2 class="text-blue">Beat That Quotes</h2>
+      <h6>Beat That Quotes Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quod quibusdam consequuntur vel dicta? Ab dolore,
-        atque inventore suscipit rerum autem praesentium odio cupiditate impedit magni nostrum ipsam consequatur?
-        Reiciendis odio praesentium, accusamus nostrum maiores rem voluptatibus beatae ex labore quis quod consectetur
-        fuga sequi ut aperiam blanditiis harum earum et tempore consequatur enim! Laudantium, nostrum eveniet.
-        Temporibus labore dignissimos numquam dicta ducimus, omnis, quidem laborum harum, cumque sequi quis cum atque
-        assumenda quas nihil.
+      Here at Beat That Quotes, we specialise in tracking down the most competitive insurance quotes to try and beat any insurance quote you've gotten before. Whether you run a restaurant, drive a cab, take a holiday or rent out property, we'll find coverage that fits your business at a price that fits your budget.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magni aliquam cum sit, itaque quod consequuntur
-        dolores nostrum dolorum. Incidunt molestiae harum illum dicta earum culpa exercitationem magnam doloribus
-        placeat animi. Temporibus dolor quasi repellat corporis nam minima minus dignissimos odit, aliquam, ullam
-        provident quo fuga! Dolorum cum consequatur possimus!
+        For businesses, we understand every insurance has its own unique risks and needs. That's why we offer tailored policies from top providers for everything from food trucks to B&Bs and beyond. No business is too big or too small - we've helped lone entrepreneurs and national franchises access the niche protection they require.
       </p>
       <p class="open-sans fs-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus molestias, veritatis doloribus minima
-        exercitationem quisquam quae provident assumenda dolorum reprehenderit sapiente necessitatibus aspernatur iste
-        quod!
+        We know you don't have time to fill out forms from ten different insurers or broker. At Beat That Quotes, just complete one quick online application and our team immediately goes matches you with an appropriate broker or insurer. We'll tap into our extensive broker network to get quotes other companies may miss.
       </p>
     </div>
     <div class="container-xxl bg-blue mb-4 py-3 rounded-1 d-flex justify-content-between align-items-center pe-0" style="margin-top: 40px;">
