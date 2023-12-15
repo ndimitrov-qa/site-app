@@ -389,8 +389,8 @@
           </button>
         </li>
         <li class="nav-item fs-7" role="presentation">
-          <button class="nav-link disabled text-primary" id="profile-tab" data-bs-toggle="tab"
-            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+          <button class="nav-link disabled text-primary" id="motoring-tab" data-bs-toggle="tab"
+            data-bs-target="#motoring-tab-pane" type="button" role="tab" aria-controls="motoring-tab-pane"
             aria-selected="false">Motoring
           </button>
         </li>
@@ -506,8 +506,8 @@
           </button>
         </li>
         <li class="nav-item fs-7" role="presentation">
-          <button class="nav-link disabled text-primary lifestyle-responsive" id="profile-tab" data-bs-toggle="tab"
-            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+          <button class="nav-link disabled text-primary lifestyle-responsive" id="leisure-tab" data-bs-toggle="tab"
+            data-bs-target="#leisure-tab-pane" type="button" role="tab" aria-controls="leisure-tab-pane"
             aria-selected="false">Leisure
           </button>
         </li>

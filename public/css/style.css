@@ -76,6 +76,11 @@ small {
   text-decoration: none;
 }
 
+p.text-secondary.open-sans.important-to-know {
+    /* font-size: 12px !important; */
+    font-size: clamp(9px, 2vw, 12px);
+}
+
 .nav-link-custom {
   text-decoration: none;
   position: relative;

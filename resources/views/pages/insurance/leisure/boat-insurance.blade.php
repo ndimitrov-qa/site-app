@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Boat Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('boat-insurance'))
-@section('description', 'Beat That Quotes. Boat Insurance')
+@section('description', 'Smooth sailing starts with protection! Beat That Quotes helps captains compare boat insurance rates to find affordable coverage for vessels of all sizes.')
 
   @section('content')
   <!-- Hero Section Starts -->

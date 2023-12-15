@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Bicycle Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('bicycle-insurance'))
-@section('description', 'Beat That Quotes. Bicycle Insurance')
+@section('description', 'Keep riding safely without financial worries! Beat That Quotes compares bicycle insurance rates to find riders affordable protection for their two-wheeled adventures.')
 
   @section('content')
   <!-- Hero Section Starts -->

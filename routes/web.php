@@ -70,6 +70,9 @@ Route::get('/insurance/motorbike-insurance', function () {
 Route::get('/insurance/learner-insurance', function () {
     return view('pages/insurance/motoring/learner-insurance');
 })->name('learner-insurance');
+Route::get('/insurance/life-insurance', function () {
+    return view('pages/insurance/motoring/life-insurance');
+})->name('life-insurance');
 //------------------------------------------------------------//
 
 //----------- Insurance/Property -----------------------------//

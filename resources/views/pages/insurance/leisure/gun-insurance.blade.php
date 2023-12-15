@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Gun Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('gun-insurance'))
-@section('description', 'Beat That Quotes. Gun Insurance')
+@section('description', 'Protect your firearms with reliable Gun Insurance from Beat That Quotes. Safeguard your investments and ensure peace of mind. Get a quote today!')
 
   @section('content')
   <!-- Hero Section Starts -->
