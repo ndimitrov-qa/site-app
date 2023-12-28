@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\QuoteTruck;
+use Illuminate\Http\Request;
+use App\Mail\QuoteAdminNotification;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class QuoteTruckController extends Controller
 {
@@ -23,11 +26,18 @@ class QuoteTruckController extends Controller
         $quoteRequest->mobile_number_truck = $validatedData['mobile_number_truck'];
         $quoteRequest->save();
 
-        // Return a response here
-        // return redirect()->back()->with('success', 'Quote request submitted successfully');
-        // }
+        // Send an email to admin with all the details
+        Mail::to('nikolay@nova-connect.com')->send(
+            new QuoteAdminNotification(
+                $quoteRequest->type_of_vehicle_truck,
+                $quoteRequest->mobile_number_truck,
+                'trucks'
+            )
+        );
+
+        Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/hgv');
 
         // Return a response here
-        return redirect('https://quote.beatthatquotes.com/insurance/hgv');
+        return back();
     }
 }

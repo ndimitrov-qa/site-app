@@ -94,7 +94,7 @@
         <!-- tab content for fleet start -->
         <div class="tab-pane fade show active" id="pills-feet" role="tabpanel" aria-labelledby="pills-feet-tab"
           tabindex="0">
-          <form class="row needs-validation mt-1 width-custom-form" action="{{ route('save.quote') }}" method="POST">
+          <form id="" class="fleet-form-open-new-tab row needs-validation mt-1 width-custom-form" action="{{ route('save.quote') }}" method="POST">
           @csrf
             <div class="col-lg-5 border border-end-0 xs-border-end-1 bg-white" style="padding-bottom: 10px;">
               <label for="validationDefault04" class="form-label fw-bold fs-9 text-responsive-medium" style="padding-top: 10px;">
@@ -745,5 +745,15 @@
       </div>
   </section>
   <!-- Compare Paragraph Ends-->
+
+  @if (Session::has('openFleetInsurancePage'))
+  @push('js')
+    <!-- Not sure if you already have jQuery in your code, but I think you need if you're using bootstrap js scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        window.open('{{ session('openFleetInsurancePage') }}', '_blank');
+    </script>
+  @endpush
+  @endif
 
   @endsection

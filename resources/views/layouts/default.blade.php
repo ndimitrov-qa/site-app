@@ -52,6 +52,7 @@
   </script>
   <!-- Custom JavaScript -->
     <script src="{{ asset ('script.js') }}"></script>
+    @stack('js')
 </body>
 
 </html>

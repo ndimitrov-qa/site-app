@@ -2,8 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\QuoteFleet;
+use Illuminate\Http\Request;
+use App\Mail\ContactSubmitted;
+use App\Mail\QuoteAdminNotification;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 
 class QuoteFleetController extends Controller
 {
@@ -23,12 +27,22 @@ class QuoteFleetController extends Controller
         $quoteRequest->mobile_number_fleet = $validatedData['mobile_number_fleet'];
         $quoteRequest->save();
 
+        // Send an email to admin with all the details
+        Mail::to('nikolay@nova-connect.com')->send(
+            new QuoteAdminNotification(
+                $quoteRequest->number_of_vehicles_fleet,
+                $quoteRequest->mobile_number_fleet
+            )
+        );
+
         // Return a response here
         // return redirect()->back()->with('success', 'Quote request submitted successfully');
         // }
 
+        Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/fleet');
+
         // Return a response here
-        return redirect('https://quote.beatthatquotes.com/insurance/fleet');
+        return back();
 
     }
 }
