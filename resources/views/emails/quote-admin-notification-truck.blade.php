@@ -1,4 +1,6 @@
 <p>You have received a new quote form submission with the following details:</p>
 
-<p><strong>Number Of Vehicles Truck:</strong> {{ $totalVehicles }}</p>
-<p><strong>Mobile Number Truck:</strong> {{ $mobileNumber }}</p>
+<p><strong>Quote Truck</strong></p>
+
+<p><strong>Type Of Vehicle:</strong> {{ $totalVehicles }}</p>
+<p><strong>Mobile Number:</strong> {{ $mobileNumber }}</p>

@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Home Appliance | Property | Beat That Quotes')
 @section('canonical', route('home-appliance-cover'))
-@section('description', 'Beat That Quotes. Home Appliance')
+@section('description', 'Protect your peace of mind with top-notch Home Appliance Cover. Get unbeatable quotes at Beat That Quotes and shield your appliances with confidence!')
 
   @section('content')
   <!-- Hero Section Starts -->

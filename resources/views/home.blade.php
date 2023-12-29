@@ -746,14 +746,13 @@
   </section>
   <!-- Compare Paragraph Ends-->
 
-  @if (Session::has('openFleetInsurancePage'))
+  <!-- @if (Session::has('openFleetInsurancePage'))
   @push('js')
-    <!-- Not sure if you already have jQuery in your code, but I think you need if you're using bootstrap js scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script>
         window.open('{{ session('openFleetInsurancePage') }}', '_blank');
     </script>
   @endpush
-  @endif
+  @endif -->
 
   @endsection

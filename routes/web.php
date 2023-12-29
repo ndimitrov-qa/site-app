@@ -16,6 +16,10 @@ use App\Http\Controllers\QuoteTruckController;
 |
 */
 
+Route::get('/loading', function () {
+    return view('/loading');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });

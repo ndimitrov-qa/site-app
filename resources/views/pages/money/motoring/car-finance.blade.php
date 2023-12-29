@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Car Finance | Money | Beat That Quotes')
 @section('canonical', route('car-finance'))
-@section('description', 'Beat That Quotes. Car Finance')
+@section('description', 'Drive your dreams with unbeatable car finance rates at Beat That Quotes. Secure the best deals and cruise into financial empowerment today!')
 
   @section('content')
   <!-- Hero Section Starts -->

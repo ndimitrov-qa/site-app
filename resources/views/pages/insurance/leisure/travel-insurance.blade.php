@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Travel Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('travel-insurance'))
-@section('description', 'Beat That Quotes. Travel Insurance')
+@section('description', 'Travel protected when adventure calls! Beat That Quotes helps globetrotters compare travel insurance rates to find comprehensive coverage for their next journey.')
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -635,7 +635,7 @@
     <!-- Blue Panel -->
 
     <!-- Blue Panel -->
-    <div class="my-custom-2 bg-body-tertiary">
+    <!-- <div class="my-custom-2 bg-body-tertiary">
       <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">
@@ -732,7 +732,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Blue Panel -->
 
     <!-- Blue Panel -->

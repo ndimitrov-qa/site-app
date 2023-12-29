@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Drone Insurance | Lifestyle | Beat That Quotes')
 @section('canonical', route('drone-insurance'))
-@section('description', 'Beat That Quotes. Drone Insurance')
+@section('description', 'Soar safely knowing you’re covered! Beat That Quotes helps drone pilots compare customized drone insurance rates for protection from take-off to landing.')
 
   @section('content')
   <!-- Hero Section Starts -->

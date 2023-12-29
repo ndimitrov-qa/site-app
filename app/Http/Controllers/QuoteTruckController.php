@@ -35,9 +35,10 @@ class QuoteTruckController extends Controller
             )
         );
 
-        Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/hgv');
+        // Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/hgv');
 
         // Return a response here
-        return back();
+        // return back();
+        return redirect('https://quote.beatthatquotes.com/insurance/hgv');
     }
 }

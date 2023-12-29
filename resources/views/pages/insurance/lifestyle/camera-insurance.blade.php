@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Camera Insurance | Lifestyle | Beat That Quotes')
 @section('canonical', route('camera-insurance'))
-@section('description', 'Beat That Quotes. Camera Insurance')
+@section('description', 'Capture brilliance without financial fret! Beat That Quotes helps photographers compare camera equipment insurance rates for customized coverage that won't distort budgets.')
 
   @section('content')
   <!-- Hero Section Starts -->

@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Musical Instrument Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('musical-instrument-insurance'))
-@section('description', '')
+@section('description', 'Keep the music playing without financial fret! Beat That Quotes compares musical instrument insurance rates so musicians can cover priceless gear affordably.')
 
   @section('content')
   <!-- Hero Section Starts -->

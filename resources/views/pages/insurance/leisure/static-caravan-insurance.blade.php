@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Static Caravan Insurance | Leisure | Beat That Quotes')
 @section('canonical', route('static-caravan-insurance'))
-@section('description', 'Beat That Quotes. Static Caravan Insurance')
+@section('description', 'Shield your home-away-from-home! Beat That Quotes helps compare static caravan insurance rates to find customizable protection for your vacation asset.')
 
   @section('content')
   <!-- Hero Section Starts -->

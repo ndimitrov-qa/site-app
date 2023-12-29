@@ -39,10 +39,11 @@ class QuoteFleetController extends Controller
         // return redirect()->back()->with('success', 'Quote request submitted successfully');
         // }
 
-        Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/fleet');
+        // Session::flash('openFleetInsurancePage', 'https://quote.beatthatquotes.com/insurance/fleet');
 
         // Return a response here
-        return back();
+        // return back();
+        return redirect('https://quote.beatthatquotes.com/insurance/fleet');
 
     }
 }
