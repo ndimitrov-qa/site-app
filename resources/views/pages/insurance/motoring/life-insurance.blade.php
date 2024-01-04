@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Life | Insurance | Beat That Quotes')
 @section('canonical', route('life-insurance'))
-@section('description', 'Protect your family's future! Beat That Quotes helps you compare UK life insurance rates to find an affordable policy that secured your loved ones.')
+@section('description', "Protect your family's future! Beat That Quotes helps you compare UK life insurance rates to find an affordable policy that secured your loved ones.")
 
   @section('content')
   <!-- Hero Section Starts -->

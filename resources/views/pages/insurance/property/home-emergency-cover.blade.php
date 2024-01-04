@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Home Emergency | Property | Beat That Quotes')
 @section('canonical', route('home-emergency-cover'))
-@section('description', 'Stay secure with Home Emergency Cover from Beat That Quotes. Quick quotes, unbeatable protection – because emergencies won't wait!')
+@section('description', 'Stay secure with Home Emergency Cover from Beat That Quotes. Quick quotes, unbeatable protection – because emergencies will not wait!')
 
   @section('content')
   <!-- Hero Section Starts -->

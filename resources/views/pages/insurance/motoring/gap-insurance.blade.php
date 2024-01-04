@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Gap | Insurance | Beat That Quotes')
 @section('canonical', route('gap-insurance'))
-@section('description', 'Don't get caught without total loss protection! Beat That Quotes helps drivers compare gap insurance rates to ensure complete cover when you need it most.')
+@section('description', 'Do not get caught without total loss protection! Beat That Quotes helps drivers compare gap insurance rates to ensure complete cover when you need it most.')
 
   @section('content')
   <!-- Hero Section Starts -->

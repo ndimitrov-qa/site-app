@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
 @section('title', 'Gadget Insurance | Lifestyle | Beat That Quotes')
 @section('canonical', route('gadget-insurance'))
-@section('description', 'Protect beloved devices life throws around! Beat That Quotes helps you compare gadget insurance rates to cover smartphones, laptops and tablets from life's inevitable oopsies.')
+@section('description', "Protect beloved devices life throws around! Beat That Quotes helps you compare gadget insurance rates to cover smartphones, laptops and tablets from life's inevitable oopsies.")
 
   @section('content')
  <!-- Hero Section Starts -->

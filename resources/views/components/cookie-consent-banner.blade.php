@@ -114,7 +114,7 @@ header h2 {
 
     <div class="data">
         <p class="text-secondary fs-8 open-sans" >This website use cookies to help you have a superior and more relevant browsing experience on the website.
-            <a href="#"> Read more...</a>
+            <a href="https://beatthatquotes.com/privacy-policy" target="_blank"> Read more...</a>
         </p>
     </div>
 

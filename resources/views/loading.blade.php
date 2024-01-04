@@ -10,9 +10,9 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-      <link href="../assets/dist/css/select2.css" rel="stylesheet">
-      <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link href="pricing.css" rel="stylesheet">
+      <link href="css/loading/select2.css" rel="stylesheet">
+      <link href="css/loading/bootstrap.min.css" rel="stylesheet">
+      <link href="css/loading/pricing.css" rel="stylesheet">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -20,7 +20,7 @@
       <script src="../assets/dist/date-picker/jquery-ui.js"></script>
       <script src="../assets/dist/date-picker/date-picker.js"></script>
 
-              <script type="text/javascript" src="https://webservices.data-8.co.uk/javascript/loader.ashx?key=I8X6-X4HH-MU2M-PMSA&load=PhoneValidation,EmailValidation"></script>
+        <script type="text/javascript" src="https://webservices.data-8.co.uk/javascript/loader.ashx?key=I8X6-X4HH-MU2M-PMSA&load=PhoneValidation,EmailValidation"></script>
         <!-- <script type="text/javascript" src="https://webservices.data-8.co.uk/javascript/jqueryvalidation_min.js"></script> -->
 
       <style>
@@ -31,6 +31,16 @@
         -moz-user-select: none;
         user-select: none;
       }
+
+      @keyframes progressAnimation {
+        from {
+            width: 0%;
+        }
+        to {
+            width: 100%;
+        }
+        }
+
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -50,6 +60,7 @@
 
     .container {
         max-width: 960px;
+        height: 100vh;
     }
 
     </style>
@@ -67,10 +78,18 @@
       </nav>
     </div>
 
-    <div class="d-flex align-items-center">
-        <strong role="status">Looking for Quotes ...</strong>
-        <div class="spinner-border ms-auto" aria-hidden="true"></div>
+
+    <div class="d-flex align-items-center justify-content-center" style="margin-top: 50px; margin-bottom: 50px;">
+
+    <h2>
+        <strong role="status">We are matching you with a provider ...</strong>
+    </h2>
     </div>
+
+    <div class="progress" style="height: 60px">
+        <div class="progress-bar bg-purple" style="width: 0%; height: 60px; animation: progressAnimation 6s linear forwards;"></div>
+    </div>
+
 
   </header>
 
@@ -229,3 +248,18 @@ function IsValidPhone(telephoneNumber, defaultCountry="GB") {
     });
 
     </script>
+
+<script>
+    $(document).ready(function() {
+        // Function to redirect to www.test.com
+        function redirectToTest() {
+            window.location.href = "https://quote.beatthatquotes.com/insurance/thank-you";
+        }
+
+        // CSS animation
+        $(".progress-bar").on("animationend", function() {
+            // When the animation is complete, trigger the redirect
+            redirectToTest();
+        });
+    });
+</script>
