@@ -16,9 +16,9 @@ use App\Http\Controllers\QuoteTruckController;
 |
 */
 
-Route::get('/loading', function () {
-    return view('/loading');
-});
+// Route::get('/loading', function () {
+//     return view('/loading');
+// });
 
 Route::get('/', function () {
     return view('welcome');
@@ -43,6 +43,15 @@ Route::get('/truck-insurance', function () {
 Route::get('/ttq5pz2x', function () {
     return view('ttq5pz2x');
 })->name('ttq5pz2x');
+
+//--------------------- Guides ------------------------------//
+Route::get('/guides', function () {
+    return view('/guides');
+})->name('guides');
+
+Route::get('/guides/car-insurance', function () {
+    return view('/pages/guides/car-insurance');
+})->name('guides-car-insurance');
 
 // Route::get('/panel-provider', function () {
 //     return view('pages/panel-provider');
