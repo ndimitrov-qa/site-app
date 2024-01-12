@@ -11,7 +11,7 @@
         <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
           <h1>Let's compare <span class="fw-bold">motorbike insurance</span></h1>
             <p class="text-primary pt-2">
-            <a class="link" href="#love-it-cover-it">
+            <a class="link" href="#compare-motorbike-insurance">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
               <span class="fw-bold">motorbike insurance</span>
@@ -38,9 +38,9 @@
   </div>
 
   <!-- Providers Section Starts -->
-  <!-- <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it"> -->
+  <!-- <section class="bg-body-tertiary pt-lg-2" id="compare-motorbike-insurance"> -->
     <!-- Blue Panel -->
-    <!-- <div class="pt-60 bg-body-tertiary pb-small" id="love-it-cover-it">
+    <!-- <div class="pt-60 bg-body-tertiary pb-small">
       <div class="container-xxl fs-7">
         <div>
           <div class="shadow border-blue">

@@ -1,7 +1,7 @@
 @extends('layouts.default')
-@section('title', 'Guides | Car Insurance | Beat That Quotes')
-@section('canonical', route('guides-car-insurance'))
-@section('description', 'Beat That Quotes. Guides. Car Insurance')
+@section('title', 'Guides | Breakdown Cover | Beat That Quotes')
+@section('canonical', route('guides-breakdown-cover'))
+@section('description', 'Beat That Quotes. Guides. Breakdown Cover')
 
   @section('content')
 

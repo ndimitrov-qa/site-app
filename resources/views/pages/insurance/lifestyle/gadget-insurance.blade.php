@@ -11,7 +11,7 @@
         <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">gadget insurance</span></h1>
             <p class="text-primary pt-2">
-            <a class="link" href="#love-it-cover-it">
+            <a class="link" href="#compare-gadget-insurance">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
               <span class="fw-bold">gadget insurance</span>
@@ -34,7 +34,7 @@
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-  <section class="bg-body-tertiary my-custom" id="love-it-cover-it">
+  <section class="bg-body-tertiary my-custom" id="compare-gadget-insurance">
     <div class="border-body-secondary">
       <div class="container-lg">
         <div class="shadow border-red">

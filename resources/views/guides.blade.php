@@ -17,27 +17,58 @@
         <section class="border-top border-tertiary">
             <div class="container mt-4 mb-2">
                <h1 class="fw-bold">Guides</h1>
-                <div class="row">
+                <div class="row h-50">
                     <div class="col-3">
 
                         <aside>
                             <a class="btn block text-center bg-transparent border border-primary text-blue w-100 text-blue fw-bold mt-1 mb-2 show-all-guides" href="/guides">Show All Guides</a>
-                            <hr class="my-8" />
-                            <h2 class="fw-bold fs-4">Motoring</h2>
+                            <hr class="my-8"/>
+                            <!-- <h2 class="fw-bold fs-4">Motoring</h2> -->
                             <ul class="list-unstyled">
-                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Breakdown Cover</a></li>
+                                <li><a class="link" href="/guides/breakdown-cover" data-insurance-type="breakdown">Breakdown Cover</a></li>
                                 <li><a class="link" href="/home-insurance/guides" data-insurance-type="home">Car Hire Excess Insurance</a></li>
                                 <li><a class="link" href="/van-insurance/guides" data-insurance-type="van">European Breakdown Cover</a></li>
                                 <li><a class="link" href="/motorbike-insurance/guides" data-insurance-type="motorbike">Gap Insurance</a></li>
                                 <li><a class="link" href="/travel-insurance/guides" data-insurance-type="travel">Learner insurance</a></li>
                                 <li><a class="link" href="/pet-insurance/guides" data-insurance-type="pet">Motorbike Insurance</a></li>
                                 <li><a class="link" href="/breakdown-insurance/guides" data-insurance-type="breakdown">Van Insurance</a></li>
+                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Bicycle Insurance</a></li>
+                                <li><a class="link" href="/home-insurance/guides" data-insurance-type="home">Boat Insurance</a></li>
+                                <li><a class="link" href="/van-insurance/guides" data-insurance-type="van">Golf insurance</a></li>
+                                <li><a class="link" href="/motorbike-insurance/guides" data-insurance-type="motorbike">Gun Insurance</a></li>
+                                <li><a class="link" href="/travel-insurance/guides" data-insurance-type="travel">Musical Instrument Insurance</a></li>
+                                <li><a class="link" href="/pet-insurance/guides" data-insurance-type="pet">Static Caravan Insurance</a></li>
+                                <li><a class="link" href="/breakdown-insurance/guides" data-insurance-type="breakdown">Touring Caravan Insurance</a></li>
+                                <li><a class="link" href="/breakdown-insurance/guides" data-insurance-type="breakdown">Travel Insurance</a></li>
+                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Home Appliance Cover</a></li>
                             </ul>
-                            <h2 class="fw-bold fs-4">Property</h2>
+                            <!-- <h2 class="fw-bold fs-4">Property</h2>
                             <ul class="list-unstyled">
                                 <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Home Appliance Cover</a></li>
                                 <li><a class="link" href="/home-insurance/guides" data-insurance-type="home">Home Emergency Cover</a></li>
                             </ul>
+                            <h2 class="fw-bold fs-4">Leisure</h2>
+                            <ul class="list-unstyled">
+                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Bicycle Insurance</a></li>
+                                <li><a class="link" href="/home-insurance/guides" data-insurance-type="home">Boat Insurance</a></li>
+                                <li><a class="link" href="/van-insurance/guides" data-insurance-type="van">Golf insurance</a></li>
+                                <li><a class="link" href="/motorbike-insurance/guides" data-insurance-type="motorbike">Gun Insurance</a></li>
+                                <li><a class="link" href="/travel-insurance/guides" data-insurance-type="travel">Musical Instrument Insurance</a></li>
+                                <li><a class="link" href="/pet-insurance/guides" data-insurance-type="pet">Static Caravan Insurance</a></li>
+                                <li><a class="link" href="/breakdown-insurance/guides" data-insurance-type="breakdown">Touring Caravan Insurance</a></li>
+                                <li><a class="link" href="/breakdown-insurance/guides" data-insurance-type="breakdown">Travel Caravan Insurance</a></li>
+                            </ul>
+                            <h2 class="fw-bold fs-4">Lifestyle</h2>
+                            <ul class="list-unstyled">
+                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Camera Insurance</a></li>
+                                <li><a class="link" href="/home-insurance/guides" data-insurance-type="home">Drone Insurance</a></li>
+                                <li><a class="link" href="/van-insurance/guides" data-insurance-type="van">Gadget insurance</a></li>
+                            </ul>
+                            <hr class="my-8"/>
+                            <h2 class="fw-bold fs-4">Money</h2>
+                            <ul class="list-unstyled">
+                                <li><a class="link insurance-link" href="/car-insurance/guides" data-insurance-type="car">Car Finance</a></li>
+                            </ul> -->
                         </aside>
 
                     </div>
@@ -48,11 +79,11 @@
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Breakdown Cover</a>
+                                <a href="/guides/breakdown-cover" class="btn btn-primary">Breakdown Cover</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
@@ -98,28 +129,78 @@
 
                 </div>
             </div>
+        </section>
 
+        <section>
+            <div class="container">
+                <div class="row h-50 my-5">
+                    <div class="col-3">
+
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="/guides/car-insurance">
+                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
+                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
+                                <a href="#" class="btn btn-primary">Gap Insurance</a>
+                                <p class="pt-3">
+                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="/guides/car-insurance">
+                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                            <a href="/guides/car-insurance" class="card-body-link">
+                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                            <a>
+                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
+                                <a href="#" class="btn btn-primary">Learner Insurance</a>
+                                <p class="pt-3">
+                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                            <a href="/guides/car-insurance">
+                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                            <a href="/guides/car-insurance" class="card-body-link">
+                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                            <a>
+                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
+                                <a href="#" class="btn btn-primary">Motorbike Insurance</a>
+                                <p class="pt-3">
+                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
             <div class="container my-5">
-                <div class="row">
-
-                    <div class="col-3"></div>
-
+                <div class="row h-50">
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Gap Insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
+
                     </div>
 
                     <div class="col-3">
@@ -128,110 +209,9 @@
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Learner insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Motorbike Insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container my-5">
-                <div class="row">
-
-                    <div class="col-3"></div>
-
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Gap Insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Learner insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Motorbike Insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container my-5">
-                <div class="row">
-
-                    <div class="col-3"></div>
-
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
                                 <a href="#" class="btn btn-primary">Van Insurance</a>
                                 <p class="pt-3">
@@ -251,15 +231,16 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Home appliance cover</a>
+                                <a href="#" class="btn btn-primary">Bicycle Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;">
                             <a href="/guides/car-insurance">
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
@@ -268,36 +249,23 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Home emergency cover</a>
+                                <a href="#" class="btn btn-primary">Boat Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
+            </div>
+        </section>
 
-                <div class="container my-5">
-                <div class="row">
-
-                    <div class="col-3"></div>
-
+        <section>
+            <div class="container my-5">
+                <div class="row h-50">
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Bicycle insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
+
                     </div>
 
                     <div class="col-3">
@@ -306,26 +274,9 @@
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Boat insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
                                 <a href="#" class="btn btn-primary">Golf Insurance</a>
                                 <p class="pt-3">
@@ -334,12 +285,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="container my-5">
-                <div class="row">
-
-                    <div class="col-3"></div>
 
                     <div class="col-3">
                         <div class="card" style="width: 18rem;">
@@ -360,7 +305,7 @@
                     </div>
 
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;">
                             <a href="/guides/car-insurance">
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
@@ -369,36 +314,24 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Musical instrument insurance</a>
+                                <a href="#" class="btn btn-primary">Musical Instrument</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Static caravan insurance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
+            </div>
+        </section>
 
-                <div class="container my-5">
-                <div class="row">
+        <section>
+            <div class="container my-5">
+                <div class="row h-50">
+                    <div class="col-3">
 
-                    <div class="col-3"></div>
+                    </div>
 
                     <div class="col-3">
                         <div class="card" style="width: 18rem;">
@@ -406,11 +339,11 @@
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
                             <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Touring caravan insurance</a>
+                                <a href="#" class="btn btn-primary">Static Caravan Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
@@ -428,15 +361,16 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Travel insurance</a>
+                                <a href="#" class="btn btn-primary">Touring Caravan Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-3">
-                        <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;">
                             <a href="/guides/car-insurance">
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
@@ -445,21 +379,44 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Camera Insurance</a>
+                                <a href="#" class="btn btn-primary">Travel Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
                     </div>
+
                 </div>
+            </div>
+        </section>
 
-                <div class="container my-5">
-                <div class="row">
+        <section>
+            <div class="container my-5">
+                <div class="row h-50">
+                    <div class="col-3">
 
-                    <div class="col-3"></div>
+                    </div>
 
                     <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <a href="/guides/car-insurance">
+                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
+                            </a>
+                            <div class="card-body">
+                                <a href="/guides/car-insurance" class="card-body-link">
+                                    <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
+                                <a>
+                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
+                                <a href="#" class="btn btn-primary">Home Appliance Cover</a>
+                                <p class="pt-3">
+                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-3">
                         <div class="card" style="width: 18rem;">
                             <a href="/guides/car-insurance">
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
@@ -469,16 +426,16 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Drone Insurance</a>
+                                <a href="#" class="btn btn-primary">Home Emergency Cover</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
+                    <!-- <div class="col-3">
+                    <div class="card" style="width: 18rem;">
                             <a href="/guides/car-insurance">
                                 <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
                             </a>
@@ -487,32 +444,16 @@
                                 <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
                             <a>
                                 <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Gadget insurance</a>
+                                <a href="#" class="btn btn-primary">Bicycle Insurance</a>
                                 <p class="pt-3">
                                     When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card" style="width: 18rem;">
-                            <a href="/guides/car-insurance">
-                                <img src="/img/guides/iStock-1.jpg" class="card-img-top" alt="...">
-                            </a>
-                            <div class="card-body">
-                            <a href="/guides/car-insurance" class="card-body-link">
-                                <h3 class="card-title fw-bold">My driving licence has expired – now what?</h3>
-                            <a>
-                                <p class="text-sm opacity-75 fs-9">05/01/2023</p>
-                                <a href="#" class="btn btn-primary">Car Finance</a>
-                                <p class="pt-3">
-                                    When your driving licence has expired, you’ll need to renew it as soon as possible in order to continue to...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
+
                 </div>
-
+            </div>
         </section>
     </main>
 
@@ -583,7 +524,7 @@
         </div>
       </div>
   </section>
-  <!-- Compare Paragraph Ends-->
+
 
   <!-- <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -615,34 +556,6 @@
     });
 </script> -->
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Get all guide cards and the insurance links
-            var guideCards = document.querySelectorAll('.card');
-            var insuranceLinks = document.querySelectorAll('.insurance-link');
 
-            // Add a click event listener to each insurance link
-            insuranceLinks.forEach(function (insuranceLink) {
-                insuranceLink.addEventListener('click', function (event) {
-                    event.preventDefault();
-
-                    // Get the selected insurance type from the clicked link
-                    var selectedInsuranceType = insuranceLink.getAttribute('data-insurance-type');
-
-                    // Loop through all guide cards and toggle visibility based on the selected insurance type
-                    guideCards.forEach(function (card) {
-                        var cardInsuranceType = card.getAttribute('data-insurance-type');
-
-                        // If the card's insurance type matches the selected type or it's 'all', show it; otherwise, hide it
-                        if (cardInsuranceType === selectedInsuranceType || selectedInsuranceType === 'all') {
-                            card.style.display = 'block';
-                        } else {
-                            card.style.display = 'none';
-                        }
-                    });
-                });
-            });
-        });
-    </script>
 
   @endsection

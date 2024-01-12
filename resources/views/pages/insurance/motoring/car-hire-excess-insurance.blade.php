@@ -11,7 +11,7 @@
         <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">car hire excess insurance</span></h1>
             <p class="text-primary pt-2">
-            <a class="link" href="#love-it-cover-it">
+            <a class="link" href="#compare-car-hire-excess-insurance">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
               <span class="fw-bold">car hire excess insurance</span>
@@ -34,9 +34,9 @@
   <!-- Hero Section Ends -->
 
   <!-- Providers Section Starts -->
-  <section class="bg-body-tertiary pt-2" id="love-it-cover-it">
+  <section class="bg-body-tertiary pt-2" id="compare-car-hire-excess-insurance">
     <!-- Blue Panel -->
-    <div class="pt-60 bg-body-tertiary pb-small" id="love-it-cover-it">
+    <div class="pt-60 bg-body-tertiary pb-small">
       <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">

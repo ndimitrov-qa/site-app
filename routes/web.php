@@ -49,9 +49,9 @@ Route::get('/guides', function () {
     return view('/guides');
 })->name('guides');
 
-Route::get('/guides/car-insurance', function () {
-    return view('/pages/guides/car-insurance');
-})->name('guides-car-insurance');
+Route::get('/guides/breakdown-cover', function () {
+    return view('/pages/guides/breakdown-cover');
+})->name('guides-breakdown-cover');
 
 // Route::get('/panel-provider', function () {
 //     return view('pages/panel-provider');

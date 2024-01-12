@@ -338,60 +338,60 @@
                     </div>
                   </div>
 
-                  <!-- <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
+                  <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Property</h6>
+                      <h6 class="title pb-2">Borrowing</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/money/home-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Home
-                            Insurance</a></li>
-                        <li><a href="/money/landlord-insurance" class="nav-link-custom"><i
+                        <li><a href="#" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Coming
+                            Soon</a></li>
+                        <!-- <li><a href="/money/landlord-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
                         <li><a href="/money/commercial-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Commercial Insurance</a></li>
                         <li><a href="/money/holiday-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Holiday Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
-                  </div> -->
+                  </div>
 
 
-                  <!-- <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
+                   <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3 border-end border-end-hide border-lg-0">
                     <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Business</h6>
+                      <h6 class="title pb-2">Spending</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/money/business-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Business Insurance</a></li>
-                        <li><a href="/money/public-liability" class="nav-link-custom"><i
+                        <li><a href="#" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Coming Soon</a></li>
+                        <!-- <li><a href="/money/public-liability" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Public Liability</a></li>
                         <li><a href="/money/tradesman-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Tradesman Insurance</a></li>
                         <li><a href="/money/shop-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Shop Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
-                  </div> -->
-<!--
+                  </div>
+
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
                     <div class="py-3 ps-2 pb-3 rounded">
-                      <h6 class="title pb-2">Lifestyle</h6>
+                      <h6 class="title pb-2">Saving</h6>
                       <ul class="list-unstyled">
-                        <li><a href="/money/gadget-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance</a></li>
-                        <li><a href="/money/pet-insurance" class="nav-link-custom"><i
+                        <li><a href="#" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Coming Soon</a></li>
+                        <!-- <li><a href="/money/pet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Pet Insurance</a></li>
                         <li><a href="/money/health-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Health Insurance</a></li>
                         <li><a href="/money/travel-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Travel Insurance</a></li>
                         <li><a class="fw-bold nav-link-custom" href="#"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li>
+                              class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
                     </div>
-                  </div> -->
+                  </div>
 
                 </div>
               </div>
@@ -400,7 +400,7 @@
 
           <!-- <ul class="navbar-nav">
             <li class="nav-item dropdown has-megamenu">
-              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Services</a>
+              <a class="nav-link dropdown-toggle fw-bolder fs-8" href="#">Saving</a>
               <div class="dropdown-menu megamenu transition rounded-0 rounded-bottom mt-2" style="max-width: 1285px;" role="menu">
                 <div class="row">
                   <div class="col-xxl col-xl-4 col-lg-4 col-md-3 col-sm-3">
@@ -513,7 +513,7 @@
           </ul>
 
 
-          <!-- <ul class="navbar-nav hide">
+          <ul class="navbar-nav hide">
             <li class="nav-item dropdown has-megamenu">
               <a class="nav-link dropdown-toggle border border-1 border-tertiary fw-bolder ps-lg-3 fs-8 border-end-hide"
                 href="#"><span class="pe-lg-3">Questions?</span></a>
@@ -521,22 +521,24 @@
                 <div class="fs-9 d-flex justify-content-center align-content-center py-1">
                   <ul class="list-unstyled">
                     <li class="fw-bold">
-                      Contact number:
+                        Got a question?
                     </li>
                     <li>
-                      00 11 22 33 44
+                      <a href="/contact-us">
+                        Contact Us
+                      </a>
                     </li>
-                    <li class="fw-bold">
+                    <!-- <li class="fw-bold">
                       Email:
                     </li>
                     <li>
                       sample@email.com
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
               </div>
             </li>
-          </ul> -->
+          </ul>
 
         </div>
       </div>

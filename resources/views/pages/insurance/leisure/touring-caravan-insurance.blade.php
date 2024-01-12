@@ -11,7 +11,7 @@
         <div class="col-lg-8">
           <h1>Let's compare <span class="fw-bold">touring caravan insurance</span></h1>
             <p class="text-primary pt-2">
-            <a class="link" href="#love-it-cover-it">
+            <a class="link" href="#compare-touring-caravan-insurance">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
               <span class="fw-bold">touring caravan insurance</span>
@@ -35,9 +35,9 @@
 
   <!-- Providers Section Starts -->
     <!-- Blue Panel -->
-    <section class="bg-body-tertiary pt-lg-2" id="love-it-cover-it">
+    <section class="bg-body-tertiary pt-lg-2" id="compare-touring-caravan-insurance">
     <!-- Blue Panel -->
-    <div class="my-custom-2 bg-body-tertiary pb-medium pb-small" id="love-it-cover-it">
+    <div class="my-custom-2 bg-body-tertiary pb-medium pb-small">
       <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">
