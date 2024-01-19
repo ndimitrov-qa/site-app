@@ -146,7 +146,7 @@
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
           The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
-          Please contact the gadget insurance provider directly for discount related issues.
+          Please contact the static caravan insurance provider directly for discount related issues.
         </p>
       </div>
     </div>
@@ -156,8 +156,8 @@
 
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Static Caravan Insurance</h2>
+    <div class="container-lg border border-body-secondary py-4 px-4">
+      <h2 class="text-blue pb-2">Static Caravan Insurance</h2>
       <h6>The Importance of Static Caravan Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
@@ -297,34 +297,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li><a href="/fleet-insurance" title="Compare Fleet Insurance" class="link-offset-2">Compare Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" title="Compare HGV Insurance" class="link-offset-2">Compare HGV Insurance</a></li>
+            <li><a href="/truck-insurance" title="Compare Truck Insurance" class="link-offset-2">Compare Truck Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" title="Compare GAP Insurance" class="link-offset-2">Compare Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" title="Compare Bicycle Insurance" class="link-offset-2">Compare Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" title="Compare Boat Insurance" class="link-offset-2">Compare Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" title="Compare Golf Insurance" class="link-offset-2">Compare Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" title="Compare Travel Insurance" class="link-offset-2">Compare Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" title="Compare Camera Insurance" class="link-offset-2">Compare Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" title="Compare Drone Insurance" class="link-offset-2">Compare Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" title="Compare Gadget Insurance" class="link-offset-2">Compare Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" title="Compare Gun Insurance" class="link-offset-2">Compare Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" title="Compare Breakdown Cover" class="link-offset-2">Compare Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" title="Compare European Breakdown Cover" class="link-offset-2">Compare EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" title="Compare Home Appliance Cover" class="link-offset-2">Compare Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" title="Compare Home Emergency Cover" class="link-offset-2">Compare Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

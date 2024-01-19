@@ -83,9 +83,9 @@ Route::get('/insurance/motorbike-insurance', function () {
 Route::get('/insurance/learner-insurance', function () {
     return view('pages/insurance/motoring/learner-insurance');
 })->name('learner-insurance');
-Route::get('/insurance/life-insurance', function () {
-    return view('pages/insurance/motoring/life-insurance');
-})->name('life-insurance');
+Route::get('/insurance/car-insurance', function () {
+    return view('pages/insurance/motoring/car-insurance');
+})->name('car-insurance');
 //------------------------------------------------------------//
 
 //----------- Insurance/Property -----------------------------//
@@ -95,6 +95,12 @@ Route::get('/insurance/home-appliance-cover', function () {
 Route::get('/insurance/home-emergency-cover', function () {
     return view('pages/insurance/property/home-emergency-cover');
 })->name('home-emergency-cover');
+Route::get('/insurance/home-insurance', function () {
+    return view('pages/insurance/property/home-insurance');
+})->name('home-insurance');
+Route::get('/insurance/landlord-insurance', function () {
+    return view('pages/insurance/property/landlord-insurance');
+})->name('landlord-insurance');
 //------------------------------------------------------------//
 
 //----------- Insurance/Leisure -----------------------------//
@@ -122,6 +128,9 @@ Route::get('/insurance/gun-insurance', function () {
 Route::get('/insurance/travel-insurance', function () {
     return view('pages/insurance/leisure/travel-insurance');
 })->name('travel-insurance');
+Route::get('/insurance/pet-insurance', function () {
+    return view('pages/insurance/leisure/pet-insurance');
+})->name('pet-insurance');
 
 //----------- Insurance/Lifestyle -----------------------------//
 Route::get('/insurance/drone-insurance', function () {
@@ -133,6 +142,15 @@ Route::get('/insurance/camera-insurance', function () {
 Route::get('/insurance/gadget-insurance', function () {
     return view('pages/insurance/lifestyle/gadget-insurance');
 })->name('gadget-insurance');
+Route::get('/insurance/life-insurance', function () {
+    return view('pages/insurance/lifestyle/life-insurance');
+})->name('life-insurance');
+Route::get('/insurance/jewellery-insurance', function () {
+    return view('pages/insurance/lifestyle/jewellery-insurance');
+})->name('jewellery-insurance');
+Route::get('/insurance/watch-insurance', function () {
+    return view('pages/insurance/lifestyle/watch-insurance');
+})->name('watch-insurance');
 //------------------------------------------------------------//
 
                 // MENU/BUSINESS //

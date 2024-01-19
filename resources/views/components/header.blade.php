@@ -10,6 +10,9 @@
     .hidden-motoring {
       display: none;
     }
+    .hidden-lifestyle {
+      display: none;
+    }
   </style>
 
   <!-- Navbar Starts -->
@@ -65,23 +68,23 @@
                             </a>
                         </li>
                         <li class="show">
+                            <a href="/insurance/car-insurance" class="nav-link-custom">
+                                <i class="bi bi-caret-right-fill pe-2"></i>Car Insurance
+                            </a>
+                        </li>
+                        <li class="show">
                             <a href="/insurance/european-breakdown-cover" class="nav-link-custom">
                                 <i class="bi bi-caret-right-fill pe-2"></i>European Breakdown Cover
                             </a>
                         </li>
-                        <li class="show">
+                        <li class="hidden-motoring">
                             <a href="/insurance/gap-insurance" class="nav-link-custom">
-                                <i class="bi bi-caret-right-fill pe-2"></i>Gap Insurance
+                                <i class="bi bi-caret-right-fill pe-2"></i>GAP Insurance
                             </a>
                         </li>
                         <li class="hidden-motoring">
                             <a href="/insurance/learner-insurance" class="nav-link-custom">
                                 <i class="bi bi-caret-right-fill pe-2"></i>Learner Insurance
-                            </a>
-                        </li>
-                        <li class="hidden-motoring">
-                            <a href="/insurance/life-insurance" class="nav-link-custom">
-                                <i class="bi bi-caret-right-fill pe-2"></i>Life Insurance
                             </a>
                         </li>
                         <li class="hidden-motoring">
@@ -110,10 +113,10 @@
                         </li>
                         <li><a href="/insurance/home-emergency-cover" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Home Emergency Cover</a></li>
-                        <!-- <li><a href="/insurance/van-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Insurance
-                        </a></li>
-                        <li><a href="/insurance/motorbike-insurance" class="nav-link-custom"><i
-                              class="bi bi-caret-right-fill pe-2"></i>Insurance</a></li> -->
+                        <li><a href="/insurance/home-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Home Insurance</a></li>
+                        <li><a href="/insurance/landlord-insurance" class="nav-link-custom"><i
+                              class="bi bi-caret-right-fill pe-2"></i>Landlord Insurance</a></li>
                         <!-- <li><a class="fw-bold nav-link-custom" href="#"><i
                               class="bi bi-caret-right-fill pe-2"></i>Show all</a></li> -->
                       </ul>
@@ -163,6 +166,11 @@
                                 <i class="bi bi-caret-right-fill pe-2"></i>Travel Insurance
                             </a>
                         </li>
+                        <li class="hidden">
+                          <a href="/insurance/pet-insurance" class="nav-link-custom">
+                            <i class="bi bi-caret-right-fill pe-2"></i>Pet Insurance
+                          </a>
+                        </li>
                         <li>
                             <a class="fw-bold nav-link-custom show-all" href="#">
                                 <i class="bi bi-caret-right-fill pe-2"></i>Show all
@@ -176,19 +184,39 @@
                     <div class="py-3 ps-2 pb-3 rounded">
                       <h6 class="title pb-2">Lifestyle</h6>
                       <ul class="list-unstyled">
-                      <li>
+                      <li class="show">
                         <a href="/insurance/camera-insurance" class="nav-link-custom">
                             <i class="bi bi-caret-right-fill pe-2"></i>Camera Insurance
                         </a>
                       </li>
-                      <li>
+                      <li class="show">
                         <a href="/insurance/drone-insurance" class="nav-link-custom">
                             <i class="bi bi-caret-right-fill pe-2"></i>Drone Insurance
                         </a>
                       </li>
-                        <li>
+                        <li class="show">
                             <a href="/insurance/gadget-insurance" class="nav-link-custom">
                                 <i class="bi bi-caret-right-fill pe-2"></i>Gadget Insurance
+                            </a>
+                        </li>
+                        <li class="show">
+                            <a href="/insurance/jewellery-insurance" class="nav-link-custom">
+                                <i class="bi bi-caret-right-fill pe-2"></i>Jewellery Insurance
+                            </a>
+                        </li>
+                        <li class="hidden-lifestyle">
+                            <a href="/insurance/life-insurance" class="nav-link-custom">
+                                <i class="bi bi-caret-right-fill pe-2"></i>Life Insurance
+                            </a>
+                        </li>
+                        <li class="hidden-lifestyle">
+                            <a href="/insurance/watch-insurance" class="nav-link-custom">
+                                <i class="bi bi-caret-right-fill pe-2"></i>Watch Insurance
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fw-bold nav-link-custom show-all-lifestyle" href="#">
+                                <i class="bi bi-caret-right-fill pe-2"></i>Show all
                             </a>
                         </li>
                         <!-- <li><a href="/travel-insurance" class="nav-link-custom"><i
@@ -308,12 +336,12 @@
                     <div class="ps-4 pt-3 pb-5 border border-1 bg-body-tertiary">
                       <h6 class="title fw-bold pb-2">What's popular</h6>
                       <ul class="list-unstyled transition">
-                        <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
+                        <!-- <li class="fs-7"><a href="/fleet-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Fleet Insurance</a></li>
                         <li><a href="/hgv-insurance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>HGV Insurance</a></li>
                         <li><a href="/truck-insurance" class="nav-link-custom"><i class="bi bi-caret-right-fill pe-2"></i>Truck
-                            Insurance</a></li>
+                            Insurance</a></li> -->
                         <li><a href="/money/car-finance" class="nav-link-custom"><i
                               class="bi bi-caret-right-fill pe-2"></i>Car Finance</a></li>
                       </ul>
@@ -524,7 +552,7 @@
                         Got a question?
                     </li>
                     <li>
-                      <a href="/contact-us">
+                      <a href="/contact-us" class="link-offset-2">
                         Contact Us
                       </a>
                     </li>
@@ -577,6 +605,28 @@
     showAllButton.addEventListener('click', function () {
       hiddenItems.forEach(item => {
         item.classList.toggle('hidden-motoring');
+      });
+
+      // Toggle the text and caret icon of the button after a delay
+      setTimeout(() => {
+        if (showAllButton.textContent.includes('Show all')) {
+          showAllButton.innerHTML = '<i class="bi bi-caret-up-fill pe-2"></i>Show less';
+        } else {
+          showAllButton.innerHTML = '<i class="bi bi-caret-down-fill pe-2"></i>Show all';
+        }
+      }, 0);
+    });
+  });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    const showAllButton = document.querySelector('.show-all-lifestyle');
+    const hiddenItems = document.querySelectorAll('.hidden-lifestyle');
+
+    showAllButton.addEventListener('click', function () {
+      hiddenItems.forEach(item => {
+        item.classList.toggle('hidden-lifestyle');
       });
 
       // Toggle the text and caret icon of the button after a delay

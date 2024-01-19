@@ -8,7 +8,7 @@
     <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl pt-30">
       <div>
-        <h1>Let's beat your hgv insurance</h1>
+        <h1>Let's beat your HGV insurance</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
 
@@ -308,8 +308,8 @@
 
 <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
-    <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">HGV Insurance</h2>
+    <div class="container-xxl border border-body-secondary py-4 px-4">
+      <h2 class="text-blue pb-2">HGV Insurance</h2>
       <h6>The Importance of HGV Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
@@ -361,6 +361,28 @@
             Businesses operating small fleets of cranes or tipper trucks
         </li>
       </ul>
+      <h6>
+        What are the requirements for HGV Insurance ?
+      </h6>
+      <p class="open-sans fs-8">
+        Obtaining HGV insurance requires meeting a few key requirements. Most importantly, confirm all employed drivers have valid licenses for operating heavy goods vehicles. Haulage companies must ensure operators have the proper credentials for driving trucks transporting commercial freight.
+      </p>
+      <p class="open-sans fs-8">
+        Possessing the mandatory operator's license is a prerequisite for procuring insurance coverage from providers.
+      </p>
+      <p class="open-sans fs-8">
+        Additional details on securing this mandatory credential are available at:
+        <a href="https://www.gov.uk/being-a-goods-vehicle-operator" target="_blank" class="link-offset-2">
+            https://www.gov.uk/being-a-goods-vehicle-operator.
+        </a>
+      </p>
+      <h6>
+        Do I need HGV Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Truck insurance is an essential requirement for all operators, from single owner-drivers to large fleet companies. More than just a legal mandate, insurance protects your valuable investments in trucks and assets. Comprehensive policies safeguard against liability for injuries or damage caused by your vehicles, as well as loss of or damage to the trucks themselves. No matter the size of your trucking operation, insurance coverage delivers critical financial protection.
+      </p>
+
       <p class="open-sans fs-8">
         Compare premiums but don’t skimp on protection. Robust HGV insurance keeps your vehicles, cargo and company secured so trucks stay rolling. Consider added coverage like break down assistance and replacement vehicle benefits to limit disruptions for round-the-clock transport reliability.
       </p>
@@ -432,3 +454,4 @@
   <!-- Compare Paragraph Ends-->
 
   @endsection
+

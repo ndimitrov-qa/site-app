@@ -1,7 +1,7 @@
 @extends('layouts.panel-provider')
-@section('title', 'Life | Insurance | Beat That Quotes')
-@section('canonical', route('life-insurance'))
-@section('description', "Protect your family's future! Beat That Quotes helps you compare UK life insurance rates to find an affordable policy that secured your loved ones.")
+@section('title', 'Watch | Insurance | Beat That Quotes')
+@section('canonical', route('watch-insurance'))
+@section('description', "Protect precious wristwear! Beat That Quotes helps compare custom watch insurance rates so collectors can cover expensive timepieces without breaking the bank.")
 
   @section('content')
   <!-- Hero Section Starts -->
@@ -9,21 +9,21 @@
     <div class="container-lg pt-30">
       <div class="row d-flex align-items-center">
         <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
-          <h1>Let's compare <span class="fw-bold">life insurance</span></h1>
+          <h1>Let's compare <span class="fw-bold">watch insurance</span></h1>
             <p class="text-primary pt-2">
-            <a class="link" href="#compare-life-insurance">
+            <a class="link" href="#compare-jewellery-insurance">
               <i class="bi bi-arrow-down-circle pe-1"></i>
               Check out our
-              <span class="fw-bold">life insurance</span>
+              <span class="fw-bold">watch insurance</span>
               providers
             </a>
           </p>
           <p class="open-sans fs-8">
-            Securing lasting legacy for loved ones requires proactive preparation accounting for life’s uncertainties. Life insurance delivers customizable financial safety nets protecting families from income loss stemming from tragic events. Policy payouts provide stability when dependents face grief, covering expenses from final affairs to maintaining daily basics. Connecting with knowledgeable agents ensures tailoring the right plan to responsibly shield incomes and lifestyles if the unthinkable unfolds.
+            Cherishing expensive and collectible timepieces as investments or sentimental keepsakes warrants protections shielding delicate mechanics from life's bumps and spills. Watch insurance delivers customizable policies covering costly repairs or full replacement stemming from accidental damage, theft, or routine wear-and-tear over time. Comprehensive coverage grants peace of mind so collectors and enthusiasts alike may transport and enjoy fine chronometers without potential financial turmoil disrupting treasured horology.
           </p>
         </div>
         <div class="col-lg-4 col-md-auto">
-          <img src="{{ asset ('BTQ - Type Icons/icon-type-life-256.png') }}" alt="gadgets icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
+          <img src="{{ asset ('BTQ - Type Icons/icon-type-watch.png') }}" alt="jewellery icon" class="img-fluid d-none d-lg-block mt-4" style="width: 11rem; height: 11rem; margin-left: 115px;">
         </div>
       </div>
     </div>
@@ -33,31 +33,27 @@
   </section>
   <!-- Hero Section Ends -->
 
-  <div class="container my-5 py-5 bg-blue">
-    <h3 class="text-center text-white">Coming Soon</h3>
-  </div>
-
   <!-- Providers Section Starts -->
-  <!-- <section class="bg-body-tertiary pt-lg-2" id="compare-life-insurance"> -->
+  <section class="bg-body-tertiary pt-lg-2" id="compare-jewellery-insurance">
     <!-- Blue Panel -->
-    <!-- <div class="pt-60 bg-body-tertiary pb-small">
-      <div class="container-xxl fs-7">
+    <div class="my-custom-2 bg-body-tertiary pb-medium pb-small">
+      <div class="container-lg fs-7">
         <div>
           <div class="shadow border-blue">
             <div class="row justify-content-sm-center align-items-sm-center pt-4 row-medium-responsive">
-              <div class="col-2 col-lg-2 col-md-2">
-                <img src="{{ asset ('img/logos/emergency-assist-ltd.jpg') }}" alt="" class="img-fluid pt-2 ps-4 d-none d-sm-block">
+              <div class="col-lg-2 col-md-2 col-sm-2">
+                <img src="{{ asset ('img/logos/ripe.svg') }}" alt="logo" class="img-fluid pt-2 ps-4 d-none d-sm-block">
               </div>
-              <div class="col-lg-7 col-md-7 col-sm-7 pl-85 pl-m-10">
+              <div class="col-lg-7 col-md-7 col-sm-7">
                 <h4 class="text-primary">
-                    Emergency Assist Cover
+                    Ripe Insurance
                 </h4>
                 <p class="mb-0 open-sans fs-9">
-                    Breakdown cover from Emergency Assist can include and offer the following cover(s)
+                    Watch Insurance from Ripe Insurance can include and offer the following cover(s)
                 </p>
               </div>
-              <div class="col-lg-3 col-md-3 col-sm-3 mt-2 mb-576-15">
-                <a href="https://www.tagserve.com/clickServlet?AID=3031&MID=276&PID=389&SID=3737&CID=1403&LID=674&SUBID=" target="_blank" style="text-decoration: none;">
+              <div class="col-lg-3 col-md-3 col-sm-3 mt-2">
+                <a href="https://www.awin1.com/cread.php?s=3381072&v=10000&q=463722&r=726917" target="_blank" style="text-decoration: none;">
                 <button
                  type="button"
                  class="btn btn-success btn button-medium-green button-small-green button-smaller-green ps-3 py-2 fw-medium d-flex align-items-center"
@@ -71,36 +67,40 @@
 
             <hr class="mx-4 d-none d-xxl-block">
 
-            <div class="container-xxl d-flex mt-2 mb-2 fs-7 custom-small px-custom display-custom-md">
-              <div class="medium-text small-text mb-1 fs-9">
-              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Home Assistance
+            <div class="container-xxl d-flex mt-2 mb-2 fs-7 px-custom-images display-custom-md">
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27">
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
+                Accidental damage
               </div>
-              <div class="vr d-none d-lg-block mx-custom-provider-78"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 60px; margin-right: 54px"></div>
+
               <div class="medium-text small-text mb-1 fs-9">
-                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Roadside Assistance
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
+                Theft
               </div>
-              <div class="vr d-none d-lg-block mx-custom-provider-112"></div>
+              <div class="vr d-none d-lg-block" style="margin-left: 223px; margin-right: 54px"></div>
+
               <div class="medium-text small-text mb-1 fs-9">
-              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                Onward Travel
+
+              <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
+                Loss
               </div>
-              <div class="vr d-none d-lg-block mx-custom-provider-132"></div>
-              <div class="medium-text small-text mb-1 fs-9">
-                <img src="{{ asset ('img/x.png') }}" alt="" class="me-2 wh-36 svg-medium svg-small small-custom">
-                European Cover
+              <div class="vr d-none d-lg-block" style="margin-left: 204px; margin-right: 54px"></div>
+
+              <div class="medium-text small-text mb-1 fs-9 small-margin-27 smaller-margin-0">
+                <img src="{{ asset ('img/check.png') }}" alt="" class="me-2 img-check img-check-small">
+                Worldwide
               </div>
             </div>
 
             <hr class="mx-4 mt-0">
 
-            <div class="container-xxl d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
+            <div class="container-lg d-flex justify-content-sm-around align-items-sm-center mt-2 mb-2 fs-7 flex-wrap ps-small">
               <div class="medium-text small-text mb-1 fs-9">
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
                 </svg>
-                from <span class="fw-bold">£12.00</span> per year
+                from <span class="fw-bold">£0.00</span> per year
               </div>
               <div class="vr d-none d-lg-block"></div>
               <div class="medium-text small-text mb-1 fs-9 small-margin-30 smaller-margin-0 smaller-margin-0">
@@ -129,7 +129,7 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- Blue Panel -->
 
     <!-- Blue Panel -->
@@ -400,7 +400,7 @@
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
           The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
-          Please contact the gadget insurance provider directly for discount related issues.
+          Please contact the watch insurance provider directly for discount related issues.
         </p>
       </div>
     </div>
@@ -410,75 +410,78 @@
 
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Life Insurance</h2>
-      <h6>The Importance of Life Insurance</h6>
+    <div class="container-xxl border border-body-secondary py-4 px-4">
+      <h2 class="text-blue pb-2">Watch Insurance</h2>
+      <h6>The Importance of Watch Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
-        Securing lasting stability and legacy for loved ones requires proactive financial preparation accounting for life’s unforeseen events. Life insurance delivers customizable protection plans shielding families from income loss stemming from tragic accidents or illnesses. Tax-free payouts provide stability when dependents suddenly face grief, covering final affairs plus maintaining daily basics from housing to education.
+        Cherishing expensive or collectible timepieces as investments or sentimental keepsakes warrants financial protections shielding delicate mechanics from life's bumps and spills. Watch insurance delivers customizable policies covering costly repairs or full replacement stemming from accidental damage, theft, or even routine wear-and-tear over time.
       </p>
       <p class="open-sans fs-8">
-        Connecting with knowledgeable agents ensures tailoring the right term length, payout value and policy type to responsibly shield incomes and lifestyles if the unthinkable unfolds prematurely. Navigating coverage trade-offs enables striking balance between protecting incomes, budget priorities and cash outlays over multi-decade horizons.
+        Comprehensive coverage grants peace of mind so collectors and enthusiasts alike may transport and enjoy fine chronometers without potential financial turmoil disrupting treasured horology pursuits or necessitating costly appraisal gaps. Specialty protection prevents having to reluctantly lock away strapped treasures, allowing cherished wristwear to seamlessly accompany adventures near and far.
       </p>
       <h6>
-        What Does Life Insurance Typically Cover?
+        What Does Watch Insurance Typically Cover?
       </h6>
       <p class="open-sans fs-8">
-        Life insurance safeguards through either:
+        Robust watch policies bundle protections respond to:
       </p>
       <ul class="open-sans fs-8">
         <li>
-            Term Life - Affordable policies providing coverage for set 10-30 year periods. Ideal for younger earners needing income protection.
+            Accidental damage - From hairline cracks to scratched crystal faces and water infiltration from submersion events.
         </li>
         <li>
-            Whole Life - Lifelong coverage as long as premiums paid. Features cash value savings fund accumulating over decades.
-        </li>
-      </ul>
-      <p class="open-sans fs-8">
-        Payout amounts tie to incomes requiring replacement to maintain family living standards in absence of earners. Covering mortgage balances, healthcare and daily costs provides reassurance.
-      </p>
-      <h6>
-        Why Purchase Life Insurance?
-      </h6>
-      <p class="open-sans fs-8">
-        Financial protection brings peace of mind by:
-      </p>
-      <ul class="open-sans fs-8">
-        <li>
-            Shielding Families From Unforeseen Events - Tragedies cutting incomes prematurely could otherwise lead to severe lifestyle disruption without savings buffers.
+            Theft & mysterious disappearance - Shields against overt theft along with the subtle loss of treasured pieces misplaced mysteriously.
         </li>
         <li>
-            Enabling Focus on Recovery - Removes money worries amplifying grief so families can focus on healing together. Cash payouts prevent panic financial decisions.
+            Mechanical breakdown - More than just defects, some plans cover general servicing needs like routine battery replacement and worn strap adjustments over time.
         </li>
         <li>
-            Funding Key Commitments - Keeps dependents housed, fed, insured and educated without strains following loss of income earners.
-        </li>
-        <li>
-            Building Wealth - Certain policies allow growing cash value funds later used to invest, fund college or retire early.
+            Worldwide coverage - All-encompassing plans follow timepieces across the globe so vacations and travel don’t require anxiously double-locking pieces left behind.
         </li>
       </ul>
       <h6>
-        Who Needs Life Insurance?
+        Securing specialty coverage helps balance collecting with peace of mind.
       </h6>
       <p class="open-sans fs-8">
-        Coverage makes sense for:
+        Why Invest in Watch Insurance?
+      </p>
+      <p class="open-sans fs-8">
+        Because fine chronometers warrant protection too, policies deliver:
       </p>
       <ul class="open-sans fs-8">
         <li>
-            Parents supporting children below 18
+            Rapid claim settlement - Insurers specialized in watches speed assessment and settlements getting cherished pieces restored or replaced ASAP.
         </li>
         <li>
-            Households carrying significant mortgage balances
+            Extended valuations - Guaranteed replacement policies tied to current appraisals mean covered payouts scale alongside considerable appreciation on key pieces.
         </li>
         <li>
-            Sole business owners providing family incomes
+            No deductibles - All-risk protection offerings eliminate out-of-pocket repair deductions that could otherwise still create financial sticker shock.
+        </li>
+      </ul>
+      <h6>
+        Who Should Consider Watch Insurance?
+      </h6>
+      <p class="open-sans fs-8">
+        Coverage makes perfect sense for:
+      </p>
+      <ul class="open-sans fs-8">
+        <li>
+            Owners enjoying luxury Swiss timepieces like coveted Rolexes
         </li>
         <li>
-            Anyone leaving dependents struggling managing daily costs
+            Collectors continually expanding assembled collections
+        </li>
+        <li>
+            Investors purchasing valuables at estate sales & auctions
+        </li>
+        <li>
+            Anyone wanting peace of mind about protecting cherished wristwear
         </li>
       </ul>
       <p class="open-sans fs-8">
-        Shop policies protecting families before the unthinkable strikes!
+        Insure specialty assets for confidence in collectors’ cherished investments!
       </p>
     </div>
 
@@ -562,34 +565,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li><a href="/fleet-insurance" title="Compare Fleet Insurance" class="link-offset-2">Compare Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" title="Compare HGV Insurance" class="link-offset-2">Compare HGV Insurance</a></li>
+            <li><a href="/truck-insurance" title="Compare Truck Insurance" class="link-offset-2">Compare Truck Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" title="Compare GAP Insurance" class="link-offset-2">Compare Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" title="Compare Bicycle Insurance" class="link-offset-2">Compare Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" title="Compare Boat Insurance" class="link-offset-2">Compare Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" title="Compare Golf Insurance" class="link-offset-2">Compare Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" title="Compare Travel Insurance" class="link-offset-2">Compare Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" title="Compare Camera Insurance" class="link-offset-2">Compare Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" title="Compare Drone Insurance" class="link-offset-2">Compare Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" title="Compare Gadget Insurance" class="link-offset-2">Compare Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" title="Compare Gun Insurance" class="link-offset-2">Compare Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" title="Compare Breakdown Cover" class="link-offset-2">Compare Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" title="Compare European Breakdown Cover" class="link-offset-2">Compare EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" title="Compare Home Appliance Cover" class="link-offset-2">Compare Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" title="Compare Home Emergency Cover" class="link-offset-2">Compare Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

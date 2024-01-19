@@ -28,12 +28,26 @@
     padding-left: 2.875rem !important;
     padding-right: 2.875rem !important;
   }
+  .mx-custom-provider-25 {
+    /* margin-left: 78px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 1.6rem;
+    margin-right: 3.625rem;
+  }
+  .mx-custom-provider-68 {
+    /* margin-left: 78px;
+    margin-right: 58px; 08/11/23 */
+    margin-left: 4.3rem;
+    margin-right: 3.625rem;
+  }
+
   .mx-custom-provider-78 {
     /* margin-left: 78px;
     margin-right: 58px; 08/11/23 */
     margin-left: 4.875rem;
     margin-right: 3.625rem;
   }
+
   .mx-custom-provider-112 {
     /* margin-left: 108px;
     margin-right: 58px; 08/11/23 */

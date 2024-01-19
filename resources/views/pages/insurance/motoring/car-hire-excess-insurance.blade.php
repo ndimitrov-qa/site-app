@@ -294,7 +294,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
                 </svg>
-                from <span class="fw-bold">£0.00</span> per year
+                from <span class="fw-bold">£22.50</span> per year
               </div>
               <div class="vr d-none d-lg-block"></div>
               <div class="medium-text small-text mb-1 fs-9 small-margin-30 smaller-margin-0 smaller-margin">
@@ -391,7 +391,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-currency-pound text-primary border border-primary rounded-circle px-2 py-2 me-2 svg-medium svg-small" viewBox="0 0 16 16">
                   <path d="M4 8.585h1.969c.115.465.186.939.186 1.43 0 1.385-.736 2.496-2.075 2.771V14H12v-1.24H6.492v-.129c.825-.525 1.135-1.446 1.135-2.694 0-.465-.07-.913-.168-1.352h3.29v-.972H7.22c-.186-.723-.372-1.455-.372-2.247 0-1.274 1.047-2.066 2.58-2.066a5.32 5.32 0 0 1 2.103.465V2.456A5.629 5.629 0 0 0 9.348 2C6.865 2 5.322 3.291 5.322 5.366c0 .775.195 1.515.399 2.247H4v.972z"/>
                 </svg>
-                from <span class="fw-bold">£0.00</span> per year
+                from <span class="fw-bold">£8.99</span> per year
               </div>
               <div class="vr d-none d-lg-block"></div>
               <div class="medium-text small-text mb-1 fs-9 small-margin-30 smaller-margin-0 smaller-margin">
@@ -433,7 +433,7 @@
           Beat That Quotes cannot and do not accept liability for the content displayed on external links.
           We may receive a comission from the sale of any policy for those providers with a green style "Get Quote" button.
           The panel information above is checked and updated every 3 months (90 days) and therefore may be slightly out of date.
-          Please contact the gadget insurance provider directly for discount related issues.
+          Please contact the car hire excess insurance provider directly for discount related issues.
         </p>
       </div>
     </div>
@@ -443,8 +443,8 @@
 
   <!-- Compare Paragraph Starts -->
   <section class="pt-lg-5 pb-lg-4">
-    <div class="container-lg border border-body-secondary pt-3">
-      <h2 class="text-blue">Car Hire Excess Insurance</h2>
+    <div class="container-lg border border-body-secondary py-4 px-4">
+      <h2 class="text-blue pb-2">Car Hire Excess Insurance</h2>
       <h6>The Benefits of Car Hire Excess Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
@@ -631,34 +631,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li><a href="/fleet-insurance" title="Compare Fleet Insurance" class="link-offset-2">Compare Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" title="Compare HGV Insurance" class="link-offset-2">Compare HGV Insurance</a></li>
+            <li><a href="/truck-insurance" title="Compare Truck Insurance" class="link-offset-2">Compare Truck Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" title="Compare GAP Insurance" class="link-offset-2">Compare Gap Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" title="Compare Bicycle Insurance" class="link-offset-2">Compare Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" title="Compare Boat Insurance" class="link-offset-2">Compare Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" title="Compare Golf Insurance" class="link-offset-2">Compare Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" title="Compare Travel Insurance" class="link-offset-2">Compare Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" title="Compare Camera Insurance" class="link-offset-2">Compare Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" title="Compare Drone Insurance" class="link-offset-2">Compare Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" title="Compare Gadget Insurance" class="link-offset-2">Compare Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" title="Compare Gun Insurance" class="link-offset-2">Compare Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" title="Compare Breakdown Cover" class="link-offset-2">Compare Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" title="Compare European Breakdown Cover" class="link-offset-2">Compare EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" title="Compare Home Appliance Cover" class="link-offset-2">Compare Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" title="Compare Home Emergency Cover" class="link-offset-2">Compare Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

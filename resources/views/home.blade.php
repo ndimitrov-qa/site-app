@@ -400,6 +400,16 @@
           tabindex="0">
 
           <div class="card-body d-flex flex-wrap justify-content-sm-between">
+          <div
+              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
+              >
+              <a href="/insurance/car-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block" width="50" height="50">
+                <div class="mt-2 mt-small-0">
+                  Car
+                </div>
+              </a>
+            </div>
             <div
               class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
               >
@@ -482,16 +492,6 @@
                 </div>
               </a>
             </div>
-            <div
-              class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
-              >
-              <a href="/insurance/learner-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-car.png') }}" alt="Car icon" class="img-fluid mx-auto d-block" width="50" height="50">
-                <div class="mt-2 mt-small-0">
-                  Learner
-                </div>
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -550,11 +550,11 @@
             >
               <span class="badge bg-red position-absolute top-0 start-50 translate-middle py-2 px-2 pe-2 fs-9 d-none d-lg-block"
                 style="margin-left: 34px;">POPULAR</span>
-              <a href="/insurance/musical-instrument-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-musical-instrument-insurance.png') }}" alt="Plane icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/insurance/gadget-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-gadgets.png') }}" alt="Gadget icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Instrument
+                  Gadget
                 </div>
               </a>
             </div>
@@ -580,11 +580,11 @@
             </div>
             <div class="card shadow mt-sm-3 text-center pt-3 card-hover-square transition padding-small card-width card-width-small card-width-smaller"
             >
-              <a href="/insurance/gun-insurance" class="link">
-                <img src="{{ asset ('BTQ - Type Icons/icon-type-gun.png') }}" alt="Golf icon" class="img-fluid mx-auto d-block image-width"
+              <a href="/insurance/pet-insurance" class="link">
+                <img src="{{ asset ('BTQ - Type Icons/icon-type-pet.png') }}" alt="Pet icon" class="img-fluid mx-auto d-block image-width"
                 >
                 <div class="mt-2 mt-small-0">
-                  Gun
+                  Pet
                 </div>
               </a>
             </div>
@@ -712,34 +712,34 @@
       <div class="row gx-2">
         <div class="col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/fleet-insurance" class="link-offset-2">Cheap Fleet Insurance</a></li>
-            <li class="py-2"><a href="/hgv-insurance" class="link-offset-2">Cheap HGV Insurance</a></li>
-            <li><a href="/truck-insurance" class="link-offset-2">Cheap Truck Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gap-insurance" class="link-offset-2">Cheap Gap Insurance</a></li>
+            <li><a href="/fleet-insurance" title="Compare Fleet Insurance" class="link-offset-2">Compare Fleet Insurance</a></li>
+            <li class="py-2"><a href="/hgv-insurance" title="Compare HGV Insurance" class="link-offset-2">Compare HGV Insurance</a></li>
+            <li><a href="/truck-insurance" title="Compare Truck Insurance" class="link-offset-2">Compare Truck Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gap-insurance" title="Compare GAP Insurance" class="link-offset-2">Compare GAP Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/bicycle-insurance" class="link-offset-2">Cheap Bicycle Insurance</a></li>
-            <li class="py-2"><a href="/insurance/boat-insurance" class="link-offset-2">Cheap Boat Insurance</a></li>
-            <li><a href="/insurance/golf-insurance" class="link-offset-2">Cheap Golf Insurance</a></li>
-            <li class="py-2"><a href="/insurance/travel-insurance" class="link-offset-2">Cheap Travel Insurance</a></li>
+            <li><a href="/insurance/bicycle-insurance" title="Compare Bicycle Insurance" class="link-offset-2">Compare Bicycle Insurance</a></li>
+            <li class="py-2"><a href="/insurance/boat-insurance" title="Compare Boat Insurance" class="link-offset-2">Compare Boat Insurance</a></li>
+            <li><a href="/insurance/golf-insurance" title="Compare Golf Insurance" class="link-offset-2">Compare Golf Insurance</a></li>
+            <li class="py-2"><a href="/insurance/travel-insurance" title="Compare Travel Insurance" class="link-offset-2">Compare Travel Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/camera-insurance" class="link-offset-2">Cheap Camera Insurance</a></li>
-            <li class="py-2"><a href="/insurance/drone-insurance" class="link-offset-2">Cheap Drone Insurance</a></li>
-            <li><a href="/insurance/gadget-insurance" class="link-offset-2">Cheap Gadget Insurance</a></li>
-            <li class="py-2"><a href="/insurance/gun-insurance" class="link-offset-2">Cheap Gun Insurance</a></li>
+            <li><a href="/insurance/camera-insurance" title="Compare Camera Insurance" class="link-offset-2">Compare Camera Insurance</a></li>
+            <li class="py-2"><a href="/insurance/drone-insurance" title="Compare Drone Insurance" class="link-offset-2">Compare Drone Insurance</a></li>
+            <li><a href="/insurance/gadget-insurance" title="Compare Gadget Insurance" class="link-offset-2">Compare Gadget Insurance</a></li>
+            <li class="py-2"><a href="/insurance/gun-insurance" title="Compare Gun Insurance" class="link-offset-2">Compare Gun Insurance</a></li>
           </ul>
         </div>
         <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 responsive-width responsive-width-smaller responsive-width-391">
           <ul class="list-unstyled">
-            <li><a href="/insurance/breakdown-cover" class="link-offset-2">Cheap Breakdown Cover</a></li>
-            <li class="py-2"><a href="/insurance/european-breakdown-cover" class="link-offset-2">Cheap EU Breakdown Cover</a></li>
-            <li><a href="/insurance/home-appliance-cover" class="link-offset-2">Cheap Home Appliance Cover</a></li>
-            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" class="link-offset-2">Cheap Home Emergency Cover</a></li>
+            <li><a href="/insurance/breakdown-cover" title="Compare Breakdown Cover" class="link-offset-2">Compare Breakdown Cover</a></li>
+            <li class="py-2"><a href="/insurance/european-breakdown-cover" title="Compare European Breakdown Cover" class="link-offset-2">Compare EU Breakdown Cover</a></li>
+            <li><a href="/insurance/home-appliance-cover" title="Compare Home Appliance Cover" class="link-offset-2">Compare Home Appliance Cover</a></li>
+            <li class="py-2 &nbsp"><a href="/insurance/home-emergency-cover" title="Compare Home Emergency Cover" class="link-offset-2">Compare Home Emergency Cover</a></li>
           </ul>
         </div>
       </div>

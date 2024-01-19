@@ -8,7 +8,7 @@
     <section class="bg-body-tertiary border-top border-tertiary">
     <div class="container-xxl pt-30">
       <div>
-        <h1>Let's beat your truck insurance</h1>
+        <h1>Let's beat your Truck Insurance</h1>
         <p>Completing a simple form could save you £££'s</p>
       </div>
 
@@ -308,8 +308,8 @@
 
 <!-- Compare Paragraph Starts -->
 <section class="pt-lg-5 pb-lg-4">
-    <div class="container-xxl border border-body-secondary pt-3">
-      <h2 class="text-blue">Truck Insurance</h2>
+    <div class="container-xxl border border-body-secondary py-4 px-4">
+      <h2 class="text-blue pb-2">Truck Insurance</h2>
       <h6>The Importance of Truck Insurance</h6>
       <hr>
       <p class="open-sans fs-8">
